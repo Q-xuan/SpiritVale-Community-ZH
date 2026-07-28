@@ -9,6 +9,7 @@ $RepositoryRoot = (Resolve-Path -LiteralPath $RepositoryRoot).Path
 $loopPath = Join-Path $RepositoryRoot '.codex-localization-tools\skills\update-spiritvale-localization\scripts\Invoke-SpiritValeLocalizationLoop.ps1'
 $payloadPath = Join-Path $RepositoryRoot '.codex-localization-tools\installer\Build-Payload.ps1'
 $patchServicePath = Join-Path $RepositoryRoot '.codex-localization-tools\installer\PatchService.cs'
+$pluginProjectPath = Join-Path $RepositoryRoot '.codex-localization-tools\SpiritVale.RuntimeLocalization\SpiritVale.RuntimeLocalization.csproj'
 $failures = New-Object 'System.Collections.Generic.List[string]'
 
 $tokens = $null
@@ -127,6 +128,15 @@ if (-not $compactModeContractMatches) {
     $failures.Add('Installer compact-surface manifest default, payload probe, and active-manifest check must all require Chinese.')
 }
 
+$debugTypeOutput = & dotnet msbuild $pluginProjectPath -nologo -p:Configuration=Release -getProperty:DebugType 2>&1 | Out-String
+if ($LASTEXITCODE -ne 0) {
+    throw "Failed to evaluate the release plugin DebugType: $debugTypeOutput"
+}
+$debugType = $debugTypeOutput.Trim()
+if ($debugType -cne 'none') {
+    $failures.Add('Release plugin DebugType must be none so identical sources hash equally across runner workspaces.')
+}
+
 if ($failures.Count -gt 0) {
     foreach ($failure in $failures) {
         Write-Output "FAIL: $failure"
@@ -134,4 +144,4 @@ if ($failures.Count -gt 0) {
     throw "Agent loop safety tests failed: $($failures.Count)"
 }
 
-Write-Output 'Agent loop safety tests passed: 3'
+Write-Output 'Agent loop safety tests passed: 4'
