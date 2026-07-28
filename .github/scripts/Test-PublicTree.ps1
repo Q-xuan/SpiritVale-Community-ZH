@@ -46,7 +46,7 @@ foreach ($relativePath in $paths) {
     if ($relativePath -match $secretNamePattern) { throw "Secret-like public filename: $relativePath" }
     $fullPath = Join-Path $RepositoryRoot $relativePath
     if (-not (Test-Path -LiteralPath $fullPath -PathType Leaf)) { throw "Tracked public file is missing: $relativePath" }
-    $item = Get-Item -LiteralPath $fullPath
+    $item = Get-Item -LiteralPath $fullPath -Force
     if (($item.Attributes -band [System.IO.FileAttributes]::ReparsePoint) -ne 0) { throw "Public tree contains a reparse point: $relativePath" }
     if ($item.Length -gt $MaxFileBytes) { throw "Oversized public file: $relativePath ($($item.Length) bytes)" }
     $totalBytes += $item.Length

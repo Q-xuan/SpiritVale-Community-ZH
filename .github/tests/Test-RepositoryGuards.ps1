@@ -64,6 +64,16 @@ try {
     $safe = New-Fixture 'safe'
     Assert-Pass 'safe tree' $safe
 
+    $hiddenRequired = New-Fixture 'hidden-required'
+    $isWindows = [System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform(
+        [System.Runtime.InteropServices.OSPlatform]::Windows)
+    if ($isWindows) {
+        $hiddenPath = Join-Path $hiddenRequired '.gitattributes'
+        $hiddenItem = Get-Item -LiteralPath $hiddenPath -Force
+        $hiddenItem.Attributes = $hiddenItem.Attributes -bor [System.IO.FileAttributes]::Hidden
+    }
+    Assert-Pass 'hidden required file' $hiddenRequired
+
     $binary = New-Fixture 'binary'
     Write-Text (Join-Path $binary 'GameAssembly.dll') 'not a real binary'
     & git -c core.excludesFile= -C $binary add -f -- GameAssembly.dll
