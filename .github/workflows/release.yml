@@ -1,0 +1,153 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: spiritvale-release
+  cancel-in-progress: false
+
+jobs:
+  package:
+    runs-on: [self-hosted, Windows, X64, spiritvale-release]
+    timeout-minutes: 120
+    steps:
+      - name: Check out release tag
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: ${{ github.ref }}
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Set up .NET 9
+        uses: actions/setup-dotnet@67a3573c9a986a3f9c594539f4ab511d57bb3ce9 # v4
+        with:
+          dotnet-version: 9.0.x
+      - name: Verify SpiritVale installation
+        shell: pwsh
+        run: |
+          if ([string]::IsNullOrWhiteSpace($env:SPIRITVALE_ROOT)) {
+              throw 'SPIRITVALE_ROOT is not configured on the release runner.'
+          }
+          if (-not (Test-Path -LiteralPath $env:SPIRITVALE_ROOT -PathType Container)) {
+              throw "SPIRITVALE_ROOT does not exist: $env:SPIRITVALE_ROOT"
+          }
+      - name: Validate release metadata
+        shell: pwsh
+        run: |
+          & ./.codex-localization-tools/skills/update-spiritvale-localization/scripts/Test-SpiritValeReleaseMetadata.ps1 `
+              -RepositoryRoot . `
+              -Tag $env:GITHUB_REF_NAME
+      - name: Package frozen release candidate
+        shell: pwsh
+        run: |
+          $toolRoot = Join-Path $env:GITHUB_WORKSPACE '.codex-localization-tools'
+          & ./.codex-localization-tools/skills/update-spiritvale-localization/scripts/Invoke-SpiritValeLocalizationLoop.ps1 `
+              -Stage Package `
+              -GameRoot $env:SPIRITVALE_ROOT `
+              -ToolRoot $toolRoot
+      - name: Verify packaged release candidate
+        shell: pwsh
+        run: |
+          $artifactsDirectory = Join-Path $env:GITHUB_WORKSPACE '.codex-localization-tools/installer/dist'
+          & ./.codex-localization-tools/skills/update-spiritvale-localization/scripts/Test-SpiritValeReleaseMetadata.ps1 `
+              -RepositoryRoot . `
+              -Tag $env:GITHUB_REF_NAME `
+              -RequireLiveVerification `
+              -ArtifactsDirectory $artifactsDirectory
+
+          $tag = $env:GITHUB_REF_NAME
+          $expectedFiles = @(
+              "SpiritVale_Chinese_Patch_${tag}.exe"
+              "SpiritVale_Chinese_Patch_${tag}.exe.sha256.txt"
+              "SpiritVale_Chinese_Patch_${tag}_Compatibility_x64.zip"
+              "SpiritVale_Chinese_Patch_${tag}_Compatibility_x64.zip.sha256.txt"
+              "release-${tag}.json"
+          )
+          foreach ($file in $expectedFiles) {
+              $path = Join-Path $artifactsDirectory $file
+              if (-not (Test-Path -LiteralPath $path -PathType Leaf)) {
+                  throw "Required release candidate is missing: $file"
+              }
+          }
+
+          git diff --exit-code -- .
+      - name: Upload frozen release candidate
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: spiritvale-release-${{ github.ref_name }}
+          if-no-files-found: error
+          retention-days: 7
+          compression-level: 0
+          path: |
+            .codex-localization-tools/installer/dist/SpiritVale_Chinese_Patch_${{ github.ref_name }}.exe
+            .codex-localization-tools/installer/dist/SpiritVale_Chinese_Patch_${{ github.ref_name }}.exe.sha256.txt
+            .codex-localization-tools/installer/dist/SpiritVale_Chinese_Patch_${{ github.ref_name }}_Compatibility_x64.zip
+            .codex-localization-tools/installer/dist/SpiritVale_Chinese_Patch_${{ github.ref_name }}_Compatibility_x64.zip.sha256.txt
+            .codex-localization-tools/installer/dist/release-${{ github.ref_name }}.json
+
+  publish:
+    needs: package
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - name: Check out release commit
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Download frozen release candidate
+        uses: actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0 # v5
+        with:
+          name: spiritvale-release-${{ github.ref_name }}
+          path: ${{ runner.temp }}/spiritvale-release
+      - name: Revalidate frozen release candidate
+        shell: pwsh
+        run: |
+          $artifactsDirectory = Join-Path $env:RUNNER_TEMP 'spiritvale-release'
+          $releaseNotesPath = Join-Path $env:GITHUB_WORKSPACE 'release-notes.md'
+          & ./.codex-localization-tools/skills/update-spiritvale-localization/scripts/Test-SpiritValeReleaseMetadata.ps1 `
+              -RepositoryRoot . `
+              -Tag $env:GITHUB_REF_NAME `
+              -ArtifactsDirectory $artifactsDirectory `
+              -ReleaseNotesPath $releaseNotesPath
+
+          $tag = $env:GITHUB_REF_NAME
+          $expectedFiles = @(
+              "SpiritVale_Chinese_Patch_${tag}.exe"
+              "SpiritVale_Chinese_Patch_${tag}.exe.sha256.txt"
+              "SpiritVale_Chinese_Patch_${tag}_Compatibility_x64.zip"
+              "SpiritVale_Chinese_Patch_${tag}_Compatibility_x64.zip.sha256.txt"
+              "release-${tag}.json"
+          )
+          $actualFiles = @(Get-ChildItem -LiteralPath $artifactsDirectory -File | Select-Object -ExpandProperty Name)
+          $difference = @(Compare-Object -ReferenceObject $expectedFiles -DifferenceObject $actualFiles)
+          if ($difference.Count -ne 0) {
+              throw "Downloaded release candidate does not contain exactly the expected files: $($difference.InputObject -join ', ')"
+          }
+      - name: Publish GitHub Release
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $artifactsDirectory = Join-Path $env:RUNNER_TEMP 'spiritvale-release'
+          $tag = $env:GITHUB_REF_NAME
+          gh release create "$tag" `
+              (Join-Path $artifactsDirectory "SpiritVale_Chinese_Patch_${tag}.exe") `
+              (Join-Path $artifactsDirectory "SpiritVale_Chinese_Patch_${tag}.exe.sha256.txt") `
+              (Join-Path $artifactsDirectory "SpiritVale_Chinese_Patch_${tag}_Compatibility_x64.zip") `
+              (Join-Path $artifactsDirectory "SpiritVale_Chinese_Patch_${tag}_Compatibility_x64.zip.sha256.txt") `
+              (Join-Path $artifactsDirectory "release-${tag}.json") `
+              --verify-tag `
+              --title "$tag" `
+              --notes-file (Join-Path $env:GITHUB_WORKSPACE 'release-notes.md')
+          if ($LASTEXITCODE -ne 0) {
+              throw "gh release create failed with exit code $LASTEXITCODE."
+          }

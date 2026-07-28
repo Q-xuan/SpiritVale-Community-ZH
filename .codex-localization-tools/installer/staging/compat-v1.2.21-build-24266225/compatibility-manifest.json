@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "releaseChannel": "compatibility",
+  "releaseKind": "new-version-installer-compatibility",
+  "patchVersion": "1.2.21",
+  "createdAt": "2026-07-18T09:55:57.0286811+08:00",
+  "steam": {
+    "appId": "3767850",
+    "buildId": "24266225",
+    "installDir": "SpiritVale"
+  },
+  "game": {
+    "spiritValeExeSha256": "E2C8E55FB082CAAC56C6145C3BB52FAA7CF611E683EA26F4FB011754DD714AA6",
+    "gameAssemblySha256": "D4442C72CC52C02A749CEFBCDFFC5502639E773C7C38783647E544BAC6A51E06",
+    "globalMetadataSha256": "066AB69DE6FF1CF73FFFCE2B370B77276ACA0899CE6DE62258324E4107DD9A35"
+  },
+  "candidate": {
+    "source": "deployed-read-only-snapshot",
+    "liveStatus": "previously-verified-on-build-24266225",
+    "formalLiveVerificationModified": false,
+    "staticTestsPassed": 3581,
+    "staticTestsUncovered": 0,
+    "staticTestsConflicts": 0,
+    "files": [
+      {
+        "path": "payload/BepInEx/plugins/SpiritVale.RuntimeLocalization/SpiritVale.RuntimeLocalization.dll",
+        "size": 33792,
+        "sha256": "35B4400FDAFBEC423BDE9D02CF8FCA7BB21E6DD629A6BBD56ACE2C6BF26868D2"
+      },
+      {
+        "path": "payload/BepInEx/plugins/SpiritVale.RuntimeLocalization/translations.tsv",
+        "size": 149535,
+        "entryCount": 3949,
+        "sha256": "41ED91111833FD24E148530F2F42CE3F5A51A2D353160AC1218BBD9545BD35DF"
+      }
+    ]
+  }
+}

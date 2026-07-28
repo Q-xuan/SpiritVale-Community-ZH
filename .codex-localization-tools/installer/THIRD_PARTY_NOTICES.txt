@@ -1,0 +1,27 @@
+SpiritVale Simplified Chinese Patch - Third-Party Notices
+========================================================
+
+This patch redistributes the BepInEx IL2CPP runtime and its bundled runtime
+dependencies. The patch-specific localization dictionary and plugin are not
+part of the original SpiritVale game and the game itself is not distributed.
+
+BepInEx 6.0.0-be.785
+Source: https://github.com/BepInEx/BepInEx
+License: GNU Lesser General Public License v2.1
+
+Unity Doorstop
+Source: https://github.com/NeighTools/UnityDoorstop
+License: GNU Lesser General Public License v2.1
+
+HarmonyX
+Source: https://github.com/BepInEx/HarmonyX
+License: MIT
+
+IL2CPP interop components, Cpp2IL, AsmResolver, MonoMod and other dependencies
+are distributed as part of the official BepInEx build. Their source and
+license information are available from the BepInEx repository and release
+package above. No warranty is provided by the upstream projects or patch
+authors. SpiritVale is the property of its respective developer and publisher.
+
+The complete corresponding source for this patch-specific installer and
+runtime localization plugin should accompany public releases of this binary.

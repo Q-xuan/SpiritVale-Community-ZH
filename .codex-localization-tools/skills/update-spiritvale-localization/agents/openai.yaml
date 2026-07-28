@@ -1,0 +1,4 @@
+interface:
+  display_name: "SpiritVale 汉化维护"
+  short_description: "按 Luna/Terra 流程维护、校验版本与 CHANGELOG 并实机验收汉化"
+  default_prompt: "使用 $update-spiritvale-localization 按 Luna/Terra Agent Loop 更新版本与 CHANGELOG，并实机验证 SpiritVale 简体中文汉化。"

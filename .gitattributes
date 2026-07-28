@@ -1,0 +1,13 @@
+* text=auto
+
+*.cs text eol=crlf
+*.csproj text eol=crlf
+*.ps1 text eol=crlf
+*.py text eol=lf
+*.json text eol=lf
+*.md text eol=lf whitespace=-blank-at-eol
+*.tsv text eol=lf whitespace=-blank-at-eol
+*.yaml text eol=lf
+*.yml text eol=lf
+
+.codex-localization-tools/installer/licenses/*.txt whitespace=-blank-at-eol

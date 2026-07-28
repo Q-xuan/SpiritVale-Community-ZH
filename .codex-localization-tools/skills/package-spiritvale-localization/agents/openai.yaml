@@ -1,0 +1,4 @@
+interface:
+  display_name: "SpiritVale 汉化发布"
+  short_description: "冻结、核验并发布可安全恢复的 SpiritVale 单文件汉化安装器"
+  default_prompt: "Use $package-spiritvale-localization to verify and package the current tested SpiritVale Chinese patch release."

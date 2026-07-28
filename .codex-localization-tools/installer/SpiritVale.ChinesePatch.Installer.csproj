@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>SpiritVale_Chinese_Patch</AssemblyName>
+    <RootNamespace>SpiritVale.ChinesePatch.Installer</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Version>1.2.30</Version>
+    <FileVersion>1.2.30.0</FileVersion>
+    <Product>SpiritVale 简体中文补丁 v1.2.30 分级兼容版</Product>
+    <AssemblyTitle>SpiritVale 简体中文补丁 v1.2.30 分级兼容版</AssemblyTitle>
+    <Authors>auryx</Authors>
+    <Company>auryx</Company>
+    <Description>离线分级兼容安装器；作者：auryx；QQ群：882132807；个人汉化学习作品，侵删。</Description>
+    <Copyright>auryx 个人汉化学习作品，侵删</Copyright>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>false</EnableCompressionInSingleFile>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <PublishTrimmed>false</PublishTrimmed>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Payload.zip" LogicalName="SpiritValePatch.Payload.zip" />
+    <EmbeddedResource Include="Payload.sha256" LogicalName="SpiritValePatch.Payload.sha256" />
+    <EmbeddedResource Include="compatibility-policy.json" LogicalName="SpiritValePatch.CompatibilityPolicy.json" />
+    <EmbeddedResource Include="THIRD_PARTY_NOTICES.txt" LogicalName="SpiritValePatch.ThirdPartyNotices.txt" />
+    <EmbeddedResource Include="staging\compat-v1.2.21-build-24266225\compatibility-manifest.json" LogicalName="SpiritValePatch.CompatibilityRelease.json" />
+    <EmbeddedResource Include="licenses\*.txt" LogicalName="SpiritValePatch.Licenses.%(Filename)%(Extension)" />
+  </ItemGroup>
+</Project>

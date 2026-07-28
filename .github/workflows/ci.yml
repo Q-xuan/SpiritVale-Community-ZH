@@ -1,0 +1,51 @@
+name: Commit checks
+
+on:
+  push:
+    branches:
+      - '**'
+  pull_request:
+    branches:
+      - master
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - name: Set up .NET 9
+        uses: actions/setup-dotnet@67a3573c9a986a3f9c594539f4ab511d57bb3ce9 # v4
+        with:
+          dotnet-version: 9.0.x
+      - name: Validate repository contracts
+        shell: pwsh
+        run: ./.github/scripts/Test-Repository.ps1 -RepositoryRoot . -Mode Ci
+      - name: Test repository guards
+        shell: pwsh
+        run: |
+          ./.codex-localization-tools/tests/Test-SpiritValeReleaseMetadata.ps1
+          ./.github/tests/Test-RepositoryGuards.ps1
+      - name: Validate workflow YAML syntax
+        shell: ruby {0}
+        run: |
+          require "yaml"
+          Dir[".github/workflows/*.{yml,yaml}"].sort.each { |path| YAML.safe_load_file(path, aliases: true) }
+      - name: Run managed localization checks
+        shell: pwsh
+        run: |
+          dotnet run --project ./.codex-localization-tools/SpiritVale.BilingualDisplay.Tests/SpiritVale.BilingualDisplay.Tests.csproj -c Release
+          dotnet run --project ./.codex-localization-tools/SpiritVale.MarketSearch.Tests/SpiritVale.MarketSearch.Tests.csproj -c Release
+          dotnet run --project ./.codex-localization-tools/SpiritVale.RuntimeLocalization.Tests/SpiritVale.RuntimeLocalization.Tests.csproj -c Release -- --dictionary ./.codex-localization-tools/artifacts/translations.tsv --snapshot ./.codex-localization-tools/artifacts/source-snapshot.json --skill-aliases ./.codex-localization-tools/artifacts/runtime-skill-aliases.tsv --corpus-report $env:RUNNER_TEMP/localized-corpus.tsv --residual-report $env:RUNNER_TEMP/mixed-description-residuals.tsv
+      - name: Run bilingual catalog tests
+        run: python3 ./.codex-localization-tools/tests/test_bilingual_entity_catalog.py

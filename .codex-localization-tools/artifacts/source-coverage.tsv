@@ -1,0 +1,3580 @@
+status	key	category	source	traditional
+covered	archetype.Acolyte.name	Archetypes	Acolyte	
+covered	archetype.Artificer.name	Archetypes	Artificer	
+covered	archetype.Assassin.name	Archetypes	Assassin	
+covered	archetype.Berserker.name	Archetypes	Berserker	
+covered	archetype.Blacksmith.name	Archetypes	Blacksmith	
+covered	archetype.Cardweaver.name	Archetypes	Cardweaver	
+covered	archetype.Chronomancer.name	Archetypes	Chronomancer	
+covered	archetype.Craftsman.name	Archetypes	Craftsman	
+covered	archetype.DragonKnight.name	Archetypes	Dragon Knight	
+covered	archetype.Druid.name	Archetypes	Druid	
+covered	archetype.Gemsmith.name	Archetypes	Gemsmith	
+covered	archetype.Gunslinger.name	Archetypes	Gunslinger	
+covered	archetype.Jester.name	Archetypes	Jester	
+covered	archetype.Knight.name	Archetypes	Knight	
+covered	archetype.Mage.name	Archetypes	Mage	
+covered	archetype.Merchant.name	Archetypes	Merchant	
+covered	archetype.Monk.name	Archetypes	Monk	
+covered	archetype.Necromancer.name	Archetypes	Necromancer	
+covered	archetype.Paladin.name	Archetypes	Paladin	
+covered	archetype.Priest.name	Archetypes	Priest	
+covered	archetype.Ranger.name	Archetypes	Ranger	
+covered	archetype.Revenant.name	Archetypes	Revenant	
+covered	archetype.Rogue.name	Archetypes	Rogue	
+covered	archetype.Scout.name	Archetypes	Scout	
+covered	archetype.Shinobi.name	Archetypes	Shinobi	
+covered	archetype.Stylist.name	Archetypes	Stylist	
+covered	archetype.Summoner.name	Archetypes	Summoner	
+covered	archetype.Warlock.name	Archetypes	Warlock	
+covered	archetype.Warrior.name	Archetypes	Warrior	
+covered	archetype.Weaver.name	Archetypes	Weaver	
+covered	archetype.Wizard.name	Archetypes	Wizard	
+covered	artifact.Acolyte.name	Artifacts	Holy Vow	
+covered	artifact.Atk.name	Artifacts	Warglyph	
+covered	artifact.Auto.name	Artifacts	Blitzcore	
+covered	artifact.Bastion.name	Artifacts	Bastion	
+covered	artifact.Berserker_1.name	Artifacts	Bloodfury	
+covered	artifact.Cast.name	Artifacts	Spellweaver	
+covered	artifact.Corporeal.name	Artifacts	Corporeal	
+covered	artifact.Cost.name	Artifacts	Evercast	
+covered	artifact.Crit.name	Artifacts	Furybrand	
+covered	artifact.Def.name	Artifacts	Titanplate	
+covered	artifact.Eternis.name	Artifacts	Eternis	
+covered	artifact.Flee.name	Artifacts	Shadebound	
+covered	artifact.Gunslinger_1.name	Artifacts	Deadeye	
+covered	artifact.Healing.name	Artifacts	Lifebloom	
+covered	artifact.Hexbrand.name	Artifacts	Hexbrand	
+covered	artifact.Hit.name	Artifacts	Hawkeye	
+covered	artifact.Hp.name	Artifacts	Vitalis	
+covered	artifact.Immune.name	Artifacts	Nullmark	
+covered	artifact.Knight.name	Artifacts	Honored Oath	
+covered	artifact.Leech.name	Artifacts	Bloodbind	
+covered	artifact.Mage.name	Artifacts	Arcane Origin	
+covered	artifact.Magic.name	Artifacts	Arcanum	
+covered	artifact.Matk.name	Artifacts	Starfire	
+covered	artifact.Mdef.name	Artifacts	Veilward	
+covered	artifact.Melee.name	Artifacts	Steelheart	
+covered	artifact.Movespeed.name	Artifacts	Windborne	
+covered	artifact.Mp.name	Artifacts	Aethercore	
+covered	artifact.Necromancer_1.name	Artifacts	Gravebound	
+covered	artifact.Novice.name	Artifacts	Pioneer	
+covered	artifact.Oathbound.name	Artifacts	Oathbound	
+covered	artifact.Paladin_1.name	Artifacts	Aegis Light	
+covered	artifact.Priest_1.name	Artifacts	Sanctum Grace	
+covered	artifact.Primordial.name	Artifacts	Primordial	
+covered	artifact.Ranged.name	Artifacts	Stormquiver	
+covered	artifact.Rogue.name	Artifacts	Silent Death	
+covered	artifact.Scout.name	Artifacts	Far Sight	
+covered	artifact.Shinobi_1.name	Artifacts	Umbral Veil	
+covered	artifact.Summoner.name	Artifacts	Spirit Pact	
+covered	artifact.Vampiric.name	Artifacts	Vampiric	
+covered	artifact.Warrior.name	Artifacts	Iron Wake	
+covered	artifact.Weaver_1.name	Artifacts	Fateweave	
+covered	artifact.Wizard_1.name	Artifacts	Tempest Engine	
+covered	artifact.Wizard_2.name	Artifacts	Frozen Dominion	
+covered	artifact.Wizard_3.name	Artifacts	Meteoric Cataclysm	
+covered	artifact.Wizard_4.name	Artifacts	Arcane Elementalist	
+covered	card.Abomination.affix	Cards	Power	
+covered	card.Alien Big Blink.affix	Cards	Cosmic	
+covered	card.Alien Biteroot.affix	Cards	Resistance	
+covered	card.Alien Cyclops.affix	Cards	Gaze	
+covered	card.Alien One Eye.affix	Cards	Energy	
+covered	card.Alien Plant.affix	Cards	Resistance	
+covered	card.Alien Spike.affix	Cards	Spiked	
+covered	card.Alien Star.affix	Cards	Sanctified	
+covered	card.Alien Twinkle.affix	Cards	Blessed	
+covered	card.Alien Wheel.affix	Cards	Steadfast	
+covered	card.Alien Wreck.affix	Cards	Titan	
+covered	card.Angel Mage.affix	Cards	Pure	
+covered	card.Angel.affix	Cards	Unholy	
+covered	card.Archangel.affix	Cards	Lightproof	
+covered	card.Bat Lord.affix	Cards	Siphoning	
+covered	card.Bat.affix	Cards	Leeching	
+covered	card.Bee.affix	Cards	Energy	
+covered	card.Bird.affix	Cards	Sniper	
+covered	card.Bloom.affix	Cards	Status	
+covered	card.Blossom.affix	Cards	Status	
+covered	card.Bomb.affix	Cards	Volatile	
+covered	card.Boxy Robot.affix	Cards	Carrier	
+covered	card.Bud.affix	Cards	Fleet	
+covered	card.Bumble.affix	Cards	Energy	
+covered	card.Bunny.affix	Cards	Rapid	
+covered	card.Burrow.affix	Cards	Stomping	
+covered	card.Butterfly Fairy.affix	Cards	Sanctified	
+covered	card.Butterfly Hue.affix	Cards	Blessed	
+covered	card.Butterfly Pixie.affix	Cards	Lightproof	
+covered	card.Cacti.affix	Cards	Spiked	
+covered	card.Cactus Boss.affix	Cards	Enduring	
+covered	card.Cactus.affix	Cards	Spiked	
+covered	card.Cat Bolt.affix	Cards	Gale	
+covered	card.Cat Lightning.affix	Cards	Windproof	
+covered	card.Cat Meow.affix	Cards	Shocking	
+covered	card.Chick.affix	Cards	Sharp	
+covered	card.Creeper.affix	Cards	Savage	
+covered	card.Cyclops Bat Mage.affix	Cards	Magic	
+covered	card.Cyclops Bat Wizard.affix	Cards	Mind	
+covered	card.Cyclops Bat.affix	Cards	Grave	
+covered	card.Cyclops Giant.affix	Cards	Warding	
+covered	card.Cyclops Minion.affix	Cards	Warding	
+covered	card.Cyclops.affix	Cards	Warding	
+covered	card.Death Mage.affix	Cards	Cloaking	
+covered	card.Death.affix	Cards	Ethereal	
+covered	card.Delivery Robot.affix	Cards	Carrier	
+covered	card.Direwolf.affix	Cards	Melee	
+covered	card.Dog Bark.affix	Cards	Flaming	
+covered	card.Dog Bowwow.affix	Cards	Flaming	
+covered	card.Dog Pup.affix	Cards	Flaming	
+covered	card.Dragon Blizzard.affix	Cards	Diamond	
+covered	card.Dragon Darkness.affix	Cards	Violent	
+covered	card.Dragon Dusk.affix	Cards	Exorcist's	
+covered	card.Dragon Fire.affix	Cards	Fireproof	
+covered	card.Dragon Ice.affix	Cards	Freezing	
+covered	card.Dragon Inferno.affix	Cards	Power	
+covered	card.Dragon Nightfall.affix	Cards	Purifying	
+covered	card.Dragon Spark.affix	Cards	Power	
+covered	card.Dragon Water.affix	Cards	Waterproof	
+covered	card.Dragonfly Arrow.affix	Cards	Elusive	
+covered	card.Dragonfly Darner.affix	Cards	Elusive	
+covered	card.Dragonfly Swift.affix	Cards	Elusive	
+covered	card.Egg.affix	Cards	Vital	
+covered	card.Egglet.affix	Cards	Rapid	
+covered	card.Elder Wisp Blue.affix	Cards	Glacial	
+covered	card.Elder Wisp Purple.affix	Cards	Spark	
+covered	card.Elder Wisp Yellow.affix	Cards	Pyre	
+covered	card.Eyeball Bat Blue.affix	Cards	Radiant	
+covered	card.Eyeball Bat Green.affix	Cards	Purity	
+covered	card.Eyeball Bat Red.affix	Cards	Vampiric	
+covered	card.Eyeball Creep Blue.affix	Cards	Focus	
+covered	card.Eyeball Creep Green.affix	Cards	Focus	
+covered	card.Eyeball Creep Red.affix	Cards	Focus	
+covered	card.Eyeball Mage Blue.affix	Cards	Mind	
+covered	card.Eyeball Mage Green.affix	Cards	Exorcist	
+covered	card.Eyeball Mage Red.affix	Cards	Vampiric	
+covered	card.Eyeball Monster.affix	Cards	Abyss	
+covered	card.Fire Mage.affix	Cards	Mind	
+covered	card.Fire.affix	Cards	Unbreaking	
+covered	card.FIsh Blue.affix	Cards	Fading	
+covered	card.Fish Man Blue.affix	Cards	Mind	
+covered	card.Fish Man Pink.affix	Cards	Power	
+covered	card.Fish Man Yellow.affix	Cards	Precision	
+covered	card.Fish Merman Pink.affix	Cards	Savage	
+covered	card.Fish Merman Yellow.affix	Cards	Lightning	
+covered	card.Fish Pink.affix	Cards	Violent	
+covered	card.Fish Yellow.affix	Cards	Perfect	
+covered	card.Flame.affix	Cards	Burning	
+covered	card.Fledgling.affix	Cards	Accurate	
+covered	card.Flora.affix	Cards	Frosty	
+covered	card.Flower Pot Monster.affix	Cards	Quagmire	
+covered	card.Fungi.affix	Cards	Heal	
+covered	card.Ghost.affix	Cards	Cloaking	
+covered	card.Gloom.affix	Cards	Mystery	
+covered	card.Glow Wisp Blue.affix	Cards	Glacial	
+covered	card.Glow Wisp Purple.affix	Cards	Spark	
+covered	card.Glow Wisp Yellow.affix	Cards	Pyre	
+covered	card.Goblin Giant Devil.affix	Cards	Quaking	
+covered	card.Goblin Giant Gold.affix	Cards	Earthen	
+covered	card.Goblin Giant Mage.affix	Cards	Seismic	
+covered	card.Goblin Giant.affix	Cards	Healthy	
+covered	card.Goblin Minion.affix	Cards	Bashing	
+covered	card.Goblin Trooper Assassin.affix	Cards	Mobile	
+covered	card.Goblin Trooper Mage.affix	Cards	Free	
+covered	card.Goblin Trooper Soldier.affix	Cards	Healthy	
+covered	card.Goblin Trooper.affix	Cards	Mudproof	
+covered	card.Goblin Warblade.affix	Cards	Spiked	
+covered	card.Goblin Warchief.affix	Cards	Elemental	
+covered	card.Goblin Warcrusher.affix	Cards	Seismic	
+covered	card.Goblin Warlock.affix	Cards	Mind	
+covered	card.Golem Earth.affix	Cards	Stone	
+covered	card.Golem Fire.affix	Cards	Stone	
+covered	card.Golem Ice.affix	Cards	Stone	
+covered	card.Grim Reaper.affix	Cards	Undead	
+covered	card.Gripper Robot.affix	Cards	Immune	
+covered	card.Hare.affix	Cards	Fleet	
+covered	card.Haunt.affix	Cards	Wizardry	
+covered	card.Hermit King.affix	Cards	Hydro	
+covered	card.Horror.affix	Cards	Savage	
+covered	card.Housefly Icky.affix	Cards	Assassin's	
+covered	card.Housefly Junk.affix	Cards	Assassin's	
+covered	card.Housefly Nom.affix	Cards	Assassin's	
+covered	card.Ice Bear A.affix	Cards	Healthy	
+covered	card.Ice Bear B.affix	Cards	Arcanum	
+covered	card.Ice Mage.affix	Cards	Thawing	
+covered	card.Ice Starflake A.affix	Cards	Stone	
+covered	card.Ice Starflake B.affix	Cards	Energy	
+covered	card.Ice Starflake C.affix	Cards	Umbral	
+covered	card.Ice.affix	Cards	Icepick	
+covered	card.Icicle.affix	Cards	Thawing	
+covered	card.Imp Demon.affix	Cards	Swift	
+covered	card.Imp Devil.affix	Cards	Meteoric	
+covered	card.Imp Mischief.affix	Cards	Mischief	
+covered	card.Jellyfish Robot.affix	Cards	Energy	
+covered	card.Lurker.affix	Cards	Savage	
+covered	card.Mega Ice Golem.affix	Cards	Permafrost	
+covered	card.Mimic Barrel.affix	Cards	Vit	
+covered	card.Mimic Book.affix	Cards	Int	
+covered	card.Mimic Candle.affix	Cards	Dex	
+covered	card.Mimic Living Trap.affix	Cards	Agi	
+covered	card.Mimic Sword.affix	Cards	Str	
+covered	card.Mimic Treasure Chest.affix	Cards	Luk	
+covered	card.Mini Ice Bear A.affix	Cards	Thawing	
+covered	card.Mole Rat King.affix	Cards	Mudproof	
+covered	card.Mole Rat.affix	Cards	Healthy	
+covered	card.Monster Bat King.affix	Cards	Mana Burn	
+covered	card.Monster Bat.affix	Cards	Focus	
+covered	card.Mosquito Bug.affix	Cards	Vampiric	
+covered	card.Mosquito Pester.affix	Cards	Windproof	
+covered	card.Mosquito Stinger.affix	Cards	Haste	
+covered	card.Moth Celestial.affix	Cards	Cloaking	
+covered	card.Moth Luna.affix	Cards	Wizardry	
+covered	card.Moth Moon.affix	Cards	Wizardry	
+covered	card.Mushroom.affix	Cards	Occult	
+covered	card.Nightmare.affix	Cards	Cloaking	
+covered	card.NightmareAcolyte.affix	Cards	Acolyte	
+covered	card.NightmareBerserker.affix	Cards	Berserker	
+covered	card.NightmareGunslinger.affix	Cards	Gunslinger	
+covered	card.NightmareKnight.affix	Cards	Knight	
+covered	card.NightmareMage.affix	Cards	Mage	
+covered	card.NightmareNecromancer.affix	Cards	Necromancer	
+covered	card.NightmarePaladin.affix	Cards	Paladin	
+covered	card.NightmarePriest.affix	Cards	Priest	
+covered	card.NightmareRogue.affix	Cards	Rogue	
+covered	card.NightmareScout.affix	Cards	Scout	
+covered	card.NightmareShinobi.affix	Cards	Shinobi	
+covered	card.NightmareSummoner.affix	Cards	Summoner	
+covered	card.NightmareWarrior.affix	Cards	Warrior	
+covered	card.NightmareWizard.affix	Cards	Wizard	
+covered	card.Nose Robot.affix	Cards	Overheat	
+covered	card.Octopus Baby Blue.affix	Cards	Elusive	
+covered	card.Octopus Baby Orange.affix	Cards	Elusive	
+covered	card.Octopus Baby Purple.affix	Cards	Elusive	
+covered	card.Octopus King Blue.affix	Cards	Ranged	
+covered	card.Octopus King Orange.affix	Cards	Long-Range	
+covered	card.Octopus King Purple.affix	Cards	Ranged	
+covered	card.Petal.affix	Cards	Hoarfrost	
+covered	card.Phantom.affix	Cards	Ethereal	
+covered	card.Plant Chewer.affix	Cards	Immune	
+covered	card.Plant Monster.affix	Cards	Status	
+covered	card.Plant Shooter.affix	Cards	Poisonous	
+covered	card.Plant Worm.affix	Cards	Status	
+covered	card.Poison Bomb.affix	Cards	Toxic	
+covered	card.Pollen.affix	Cards	Elusive	
+covered	card.Posy.affix	Cards	Icy	
+covered	card.Queen Worm.affix	Cards	Toxic	
+covered	card.Rabbit.affix	Cards	Swift	
+covered	card.Rat Dark.affix	Cards	Elusive	
+covered	card.Rat Grey.affix	Cards	Anti-Venom	
+covered	card.Rat White.affix	Cards	Accurate	
+covered	card.Razor Robot.affix	Cards	Rapid	
+covered	card.Scorpion King.affix	Cards	Blazing	
+covered	card.Scorpion.affix	Cards	Fireproof	
+covered	card.Scorpling.affix	Cards	Ashen	
+covered	card.Seed.affix	Cards	Vital	
+covered	card.Shade.affix	Cards	Mystery	
+covered	card.Shadow.affix	Cards	Mystery	
+covered	card.Shark Baby.affix	Cards	Taunting	
+covered	card.Shark Humanoid.affix	Cards	Taunting	
+covered	card.Shark.affix	Cards	Taunting	
+covered	card.Shell Robot.affix	Cards	Rapid	
+covered	card.Shell.affix	Cards	Immune	
+covered	card.Skeleton Giant.affix	Cards	Melee	
+covered	card.Skeleton Mage.affix	Cards	Mind	
+covered	card.Skeleton.affix	Cards	Undead	
+covered	card.Slime Jelly.affix	Cards	Poisonous	
+covered	card.Slime Monster.affix	Cards	Anti-Venom	
+covered	card.Slime.affix	Cards	Toxinproof	
+covered	card.Snake Naga.affix	Cards	Twinfang	
+covered	card.Snake.affix	Cards	Venomous	
+covered	card.Snakelet.affix	Cards	Combo	
+covered	card.Snout Robot.affix	Cards	Pillar	
+covered	card.Snow Bomb.affix	Cards	Freezing	
+covered	card.Soul Mage.affix	Cards	Wizardry	
+covered	card.Soul.affix	Cards	Unbreaking	
+covered	card.Spider King.affix	Cards	Sharp	
+covered	card.Spider Queen Robot.affix	Cards	Unnatural	
+covered	card.Spider.affix	Cards	Shadow	
+covered	card.Spiderling Robot.affix	Cards	Darkproof	
+covered	card.Spike Robot.affix	Cards	Rapid	
+covered	card.Spike.affix	Cards	Focus	
+covered	card.Spook.affix	Cards	Unbreaking	
+covered	card.Spore.affix	Cards	Healthy	
+covered	card.Sprout.affix	Cards	Splintering	
+covered	card.Sting.affix	Cards	Frenzy	
+covered	card.Stinger Robot.affix	Cards	Energy	
+covered	card.Sun Blossom.affix	Cards	Blessed	
+covered	card.Sunflora Pixie.affix	Cards	Vocal	
+covered	card.Sunflower Fairy.affix	Cards	Blessed	
+covered	card.Tentacles Robot.affix	Cards	Swift	
+covered	card.Titan Turtle Sci Blue.affix	Cards	Freezing	
+covered	card.Titan Turtle Sci Green.affix	Cards	Power	
+covered	card.Titan Turtle Sci Pink.affix	Cards	Tempest	
+covered	card.Toadstool.affix	Cards	Waterproof	
+covered	card.Treant Forest Autumn.affix	Cards	Autumn	
+covered	card.Treant Forest Evergreen.affix	Cards	Evergreen	
+covered	card.Treant Minion Autumn.affix	Cards	Autumn	
+covered	card.Treant Minion Evergreen.affix	Cards	Evergreen	
+covered	card.Treant Tree Autumn.affix	Cards	Autumn	
+covered	card.Treant Tree Evergreen.affix	Cards	Evergreen	
+covered	card.Turtle King.affix	Cards	Overload	
+covered	card.Turtle Monster Blue.affix	Cards	Watchful	
+covered	card.Turtle Monster Green.affix	Cards	Purifying	
+covered	card.Turtle Monster Red.affix	Cards	Flameguard	
+covered	card.Turtle.affix	Cards	Steadfast	
+covered	card.Vampire Bat.affix	Cards	Leeching	
+covered	card.Werewolf.affix	Cards	Tainted	
+covered	card.Whirlwind.affix	Cards	Grounding	
+covered	card.Wind Mage.affix	Cards	Storm	
+covered	card.Wind.affix	Cards	Focus	
+covered	card.Wisp Blue.affix	Cards	Glacial	
+covered	card.Wisp Purple.affix	Cards	Spark	
+covered	card.Wisp Red.affix	Cards	Pyre	
+covered	card.Wisp Yellow.affix	Cards	Seismic	
+covered	card.Wolf Pup.affix	Cards	Umbral	
+covered	card.Wolf.affix	Cards	Darkproof	
+covered	card.Worm Creep.affix	Cards	Poisonous	
+covered	card.Worm Rot.affix	Cards	Toxinproof	
+covered	card.Worm Stink.affix	Cards	Purging	
+covered	card.Wraith.affix	Cards	Frenzied	
+covered	card.Zombie Goblin Giant.affix	Cards	Occult	
+covered	card.Zombie Goblin King.affix	Cards	Undead	
+covered	card.Zombie Goblin Minion.affix	Cards	Purity	
+covered	card.Zombie Goblin Soldier.affix	Cards	Undying	
+covered	consumable.Artifact Box Advanced.name	Consumables	Box of Mastery	
+covered	consumable.Artifact Box Base.name	Consumables	Box of Origins	
+covered	consumable.Lure Alien Big Blink.name	Consumables	Time Device	
+covered	consumable.Lure Angel Mage.name	Consumables	Heaven's Tear Earring	
+covered	consumable.Lure Bat Lord.name	Consumables	Overripe Grape Cluster	
+covered	consumable.Lure Cactus Boss.name	Consumables	Oozing Pulp Chunk	
+covered	consumable.Lure Cat Bolt.name	Consumables	Curved Fishbone	
+covered	consumable.Lure Death Mage.name	Consumables	Black Mirror Shard	
+covered	consumable.Lure Eyeball Monster.name	Consumables	Abyssal Idol	
+covered	consumable.Lure Goblin Giant Gold.name	Consumables	Glinting Goblin Fang	
+covered	consumable.Lure Goblin Warchief.name	Consumables	Tribal Heirloom	
+covered	consumable.Lure Hare.name	Consumables	Gnawed Acorn	
+covered	consumable.Lure Hermit King.name	Consumables	Calcified Shell Core	
+covered	consumable.Lure Ice Mage.name	Consumables	Frozen Heart Crystal	
+covered	consumable.Lure Imp Devil.name	Consumables	Blank Pact Scroll	
+covered	consumable.Lure Mega Ice Golem.name	Consumables	Frozen Core Shard	
+covered	consumable.Lure Queen Worm.name	Consumables	Royal Jelly Clot	
+covered	consumable.Lure Scorpion King.name	Consumables	Soldier Termite	
+covered	consumable.Lure Snake Naga.name	Consumables	Fresh Meat	
+covered	consumable.Lure Spider Queen Robot.name	Consumables	Spider Web Coil	
+covered	consumable.Lure Sting.name	Consumables	Buzzing Hive Fragment	
+covered	consumable.Lure Sunflora Pixie.name	Consumables	Sunborn Petal Tuft	
+covered	consumable.Lure Turtle King.name	Consumables	Tactical Power Node	
+covered	consumable.Lure Werewolf.name	Consumables	Fragment of the Pale Moon	
+covered	consumable.Lure Worm Creep.name	Consumables	Worm-Eaten Sediment	
+covered	consumable.Lure Zombie Goblin King.name	Consumables	Lost Shoe	
+covered	consumable.Material Box.name	Consumables	Material Box	
+covered	consumable.Mystery Mount Box.name	Consumables	Mystery Mount Egg	
+covered	consumable.Mystery Pet Box.name	Consumables	Mystery Pet Egg	
+covered	consumable.Refine Box.name	Consumables	Refine Box	
+covered	consumable.Waystone.name	Consumables	Waystone	
+covered	cosmetic.3D Glasses.name	Cosmetics	3D Glasses	
+covered	cosmetic.Abyss Shard.name	Cosmetics	Abyss Shard	
+covered	cosmetic.Acolyte_1.name	Cosmetics	Scripture of Mercy	
+covered	cosmetic.Acolyte_2.name	Cosmetics	Radiant Strikes	
+covered	cosmetic.Acolyte_3.name	Cosmetics	Radiant Judgment	
+covered	cosmetic.Acolyte_4.name	Cosmetics	Gospel of Grace	
+covered	cosmetic.Acolyte_5.name	Cosmetics	Lightweaver	
+covered	cosmetic.Acolyte_6.name	Cosmetics	Sacred Rhythm	
+covered	cosmetic.Alien Cyclops.name	Cosmetics	Moonspawn Pet	
+covered	cosmetic.Alien Sporella.name	Cosmetics	Sporeling Pet	
+covered	cosmetic.Alien Star.name	Cosmetics	Starlet Pet	
+covered	cosmetic.Alien Wheel.name	Cosmetics	Blazewheel Pet	
+covered	cosmetic.Amber Bow.name	Cosmetics	Amber Bow	
+covered	cosmetic.Amber Loop.name	Cosmetics	Amber Loop	
+covered	cosmetic.Arcane Sigil.name	Cosmetics	Arcane Sigil	
+covered	cosmetic.ArcaneChest.name	Cosmetics	Arcane Chest	
+covered	cosmetic.ArcaneFeet.name	Cosmetics	Arcane Boots	
+covered	cosmetic.ArcaneGloves.name	Cosmetics	Arcane Gloves	
+covered	cosmetic.ArcaneLegs.name	Cosmetics	Arcane Legs	
+covered	cosmetic.Archangel.name	Cosmetics	Sangeal Pet	
+covered	cosmetic.Armor_Agi.name	Cosmetics	Speed Plate	
+covered	cosmetic.Armor_Dex.name	Cosmetics	Precision Plate	
+covered	cosmetic.Armor_Int.name	Cosmetics	Mind Plate	
+covered	cosmetic.Armor_Luk.name	Cosmetics	Fate Plate	
+covered	cosmetic.Armor_Str.name	Cosmetics	Power Plate	
+covered	cosmetic.Armor_Vit.name	Cosmetics	Endurance Plate	
+covered	cosmetic.Arrow Quiver.name	Cosmetics	Arrow Quiver	
+covered	cosmetic.Arrowcatch Wall.name	Cosmetics	Arrowcatch Wall	
+covered	cosmetic.Arrowpierced Shield.name	Cosmetics	Arrowpierced Shield	
+covered	cosmetic.Artemis.name	Cosmetics	Artemis	
+covered	cosmetic.Aura_Angel.name	Cosmetics	Angelic Aura	
+covered	cosmetic.Aura_Demon.name	Cosmetics	Demonic Aura	
+covered	cosmetic.Axe of Oblivion.name	Cosmetics	Axe of Oblivion	
+covered	cosmetic.Axe.name	Cosmetics	Axe	
+covered	cosmetic.Azure Antlers.name	Cosmetics	Azure Antlers	
+covered	cosmetic.Azure Crown.name	Cosmetics	Azure Crown	
+covered	cosmetic.Azure Cutlass.name	Cosmetics	Azure Cutlass	
+covered	cosmetic.Azure Prism.name	Cosmetics	Azure Prism	
+covered	cosmetic.Azure Tag.name	Cosmetics	Azure Tag	
+covered	cosmetic.Back_Academy.name	Cosmetics	Academy Satchel	
+covered	cosmetic.Back_Angel.name	Cosmetics	Angel Back	
+covered	cosmetic.Back_BabyChicken.name	Cosmetics	Baby Chick Backpack	
+covered	cosmetic.Back_Balloon.name	Cosmetics	Red Balloon	
+covered	cosmetic.Back_BucketofShrooms.name	Cosmetics	Bucket of Shrooms	
+covered	cosmetic.Back_CatBoltTail.name	Cosmetics	Regent's Sparktail	
+covered	cosmetic.Back_CrystalWings.name	Cosmetics	Frost Crystal Wings	
+covered	cosmetic.Back_Cuervo.name	Cosmetics	Cuervo Back	
+covered	cosmetic.Back_CyberRogue.name	Cosmetics	Cyber Rogue Back	
+covered	cosmetic.Back_Demonic.name	Cosmetics	Demonic Back	
+covered	cosmetic.Back_DragonWings.name	Cosmetics	Dragon Wings	
+covered	cosmetic.Back_DualAxes.name	Cosmetics	Crossed Axes	
+covered	cosmetic.Back_FairyWings.name	Cosmetics	Fairy Wings	
+covered	cosmetic.Back_FlowerPot.name	Cosmetics	Potted Blooms	
+covered	cosmetic.Back_ForgeWings.name	Cosmetics	Forge Wings	
+covered	cosmetic.Back_HolyCape.name	Cosmetics	Holy Cape	
+covered	cosmetic.Back_HourGlass.name	Cosmetics	Hourglass	
+covered	cosmetic.Back_MinersPouch.name	Cosmetics	Miner's Pouch	
+covered	cosmetic.Back_RaggedCape.name	Cosmetics	Ragged Cape	
+covered	cosmetic.Back_TeddyBear.name	Cosmetics	Teddy Bear Backpack	
+covered	cosmetic.Back_UmbrasGrace.name	Cosmetics	Umbra's Grace	
+covered	cosmetic.Back_VitaeGift.name	Cosmetics	Vitae's Gift	
+covered	cosmetic.Back_WolfPack.name	Cosmetics	Wolf Backpack	
+covered	cosmetic.Backpack.name	Cosmetics	Backpack	
+covered	cosmetic.Badge_Demonic.name	Cosmetics	Demonic	
+covered	cosmetic.Badge_Designer.name	Cosmetics	Designer	
+covered	cosmetic.Bandit Wrap.name	Cosmetics	Bandit Wrap	
+covered	cosmetic.Banner Helm.name	Cosmetics	Banner Helm	
+covered	cosmetic.Bat.name	Cosmetics	Flitterbat Pet	
+covered	cosmetic.Batling Familiar.name	Cosmetics	Batling Familiar	
+covered	cosmetic.Battle Bonnet.name	Cosmetics	Battle Bonnet	
+covered	cosmetic.Bear Backpack.name	Cosmetics	Bear Backpack	
+covered	cosmetic.Bear Hug Hood.name	Cosmetics	Bear Hood	
+covered	cosmetic.Beast Helm.name	Cosmetics	Beast Helm	
+covered	cosmetic.Beast Hood.name	Cosmetics	Beast Hood	
+covered	cosmetic.Beast Pelt Hood.name	Cosmetics	Bandana	
+covered	cosmetic.Bee.name	Cosmetics	Honeybum Pet	
+covered	cosmetic.BerserkChest.name	Cosmetics	Duskhunter Chest	
+covered	cosmetic.Berserker_1.name	Cosmetics	War Cry	
+covered	cosmetic.Berserker_2.name	Cosmetics	Crimson Frenzy	
+covered	cosmetic.Berserker_3.name	Cosmetics	Slaughter Instinct	
+covered	cosmetic.Berserker_4.name	Cosmetics	Executioner	
+covered	cosmetic.BerserkFeet.name	Cosmetics	Duskhunter Shoes	
+covered	cosmetic.BerserkLegs.name	Cosmetics	Duskhunter Legs	
+covered	cosmetic.Binding Spirits Staff.name	Cosmetics	Binding Spirits Staff	
+covered	cosmetic.Blacksteel Blade.name	Cosmetics	Blacksteel Blade	
+covered	cosmetic.Blade of Eclipse.name	Cosmetics	Blade of Eclipse	
+covered	cosmetic.Blade Standard.name	Cosmetics	Blade Standard	
+covered	cosmetic.Blindfold.name	Cosmetics	Blindfold	
+covered	cosmetic.Blood Clip.name	Cosmetics	Blood Clip	
+covered	cosmetic.Blood Pendant.name	Cosmetics	Blood Pendant	
+covered	cosmetic.Bloodbound.name	Cosmetics	Bloodbound	
+covered	cosmetic.Bloom of Midnight.name	Cosmetics	Bloom of Midnight	
+covered	cosmetic.Bloom Pendant.name	Cosmetics	Bloom Pendant	
+covered	cosmetic.Bloom Ring.name	Cosmetics	Bloom Ring	
+covered	cosmetic.Blue Shell.name	Cosmetics	Blue Shell	
+covered	cosmetic.Blunderbuss.name	Cosmetics	Blunderbuss	
+covered	cosmetic.Bomb Bud.name	Cosmetics	Bomb Bud	
+covered	cosmetic.Bomb.name	Cosmetics	Bombkin Pet	
+covered	cosmetic.Bone Channeler.name	Cosmetics	Bone Channeler	
+covered	cosmetic.Bone Helm.name	Cosmetics	Bone Helm	
+covered	cosmetic.Bone Pick.name	Cosmetics	Bone Pick	
+covered	cosmetic.Bonefang.name	Cosmetics	Bonefang	
+covered	cosmetic.Boxy Robot.name	Cosmetics	S.U. B0X Pet	
+covered	cosmetic.BreezeguardChest.name	Cosmetics	Breezeguard Chest	
+covered	cosmetic.BreezeguardFeet.name	Cosmetics	Breezeguard Shoes	
+covered	cosmetic.BreezeguardLegs.name	Cosmetics	Breezeguard Legs	
+covered	cosmetic.Brimblade.name	Cosmetics	Brimblade	
+covered	cosmetic.Broad Sword.name	Cosmetics	Broad Sword	
+covered	cosmetic.Bronze Crescent.name	Cosmetics	Bronze Crescent	
+covered	cosmetic.Bronze Plugs.name	Cosmetics	Bronze Plugs	
+covered	cosmetic.Bronze Visage.name	Cosmetics	Bronze Visage	
+covered	cosmetic.Bubblebeast Hood.name	Cosmetics	Bubblebeast Hood	
+covered	cosmetic.Buckler.name	Cosmetics	Buckler	
+covered	cosmetic.Bud.name	Cosmetics	Driftbud Pet	
+covered	cosmetic.Bullcrest Helm.name	Cosmetics	Bullcrest Helm	
+covered	cosmetic.Bunny Backpack.name	Cosmetics	Bunny Backpack	
+covered	cosmetic.Bunny Cap.name	Cosmetics	Bunny Cap	
+covered	cosmetic.Burrow.name	Cosmetics	Duglas Pet	
+covered	cosmetic.Butterfly Fairy.name	Cosmetics	Glenwing Fairy Pet	
+covered	cosmetic.Cactus.name	Cosmetics	Spinebloom Pet	
+covered	cosmetic.Caged Spirit.name	Cosmetics	Caged Spirit	
+covered	cosmetic.Cardboard Chick.name	Cosmetics	Cardboard Chick	
+covered	cosmetic.Casual_Back_1.name	Cosmetics	Brown Backpack	
+covered	cosmetic.Casual_Back_10.name	Cosmetics	Traveler's Backpack	
+covered	cosmetic.Casual_Back_16.name	Cosmetics	Red Bag	
+covered	cosmetic.Casual_Back_2.name	Cosmetics	School Bag	
+covered	cosmetic.Casual_Back_3.name	Cosmetics	Hipster Backpack	
+covered	cosmetic.Casual_Back_4.name	Cosmetics	Black Bag	
+covered	cosmetic.Casual_Back_5.name	Cosmetics	Cream Bag	
+covered	cosmetic.Casual_Back_6.name	Cosmetics	Blue Bag	
+covered	cosmetic.Casual_Back_7.name	Cosmetics	Leather Backpack	
+covered	cosmetic.Casual_Back_8.name	Cosmetics	Traveler's Bag	
+covered	cosmetic.Casual_Chest_1.name	Cosmetics	Duck Top	
+covered	cosmetic.Casual_Chest_10.name	Cosmetics	Yellow Sweater	
+covered	cosmetic.Casual_Chest_11.name	Cosmetics	Blue Sweater	
+covered	cosmetic.Casual_Chest_12.name	Cosmetics	Red Sweater	
+covered	cosmetic.Casual_Chest_14.name	Cosmetics	Purple Sweater	
+covered	cosmetic.Casual_Chest_15.name	Cosmetics	Pink Sweater	
+covered	cosmetic.Casual_Chest_16.name	Cosmetics	Grey Sweater	
+covered	cosmetic.Casual_Chest_17.name	Cosmetics	Monster Top	
+covered	cosmetic.Casual_Chest_18.name	Cosmetics	Green Sweater	
+covered	cosmetic.Casual_Chest_19.name	Cosmetics	Brown Sweater	
+covered	cosmetic.Casual_Chest_20.name	Cosmetics	Black Sweater	
+covered	cosmetic.Casual_Chest_21.name	Cosmetics	Cute Sweater	
+covered	cosmetic.Casual_Chest_22.name	Cosmetics	Plum Sweater	
+covered	cosmetic.Casual_Chest_23.name	Cosmetics	Yellow Hoodie	
+covered	cosmetic.Casual_Chest_24.name	Cosmetics	Orange Hoodie	
+covered	cosmetic.Casual_Chest_25.name	Cosmetics	Blue Hoodie	
+covered	cosmetic.Casual_Chest_26.name	Cosmetics	Navy Hoodie	
+covered	cosmetic.Casual_Chest_27.name	Cosmetics	White Bomber Jacket	
+covered	cosmetic.Casual_Chest_28.name	Cosmetics	Black Bomber Jacket	
+covered	cosmetic.Casual_Chest_29.name	Cosmetics	Blue Bomber Jacket	
+covered	cosmetic.Casual_Chest_3.name	Cosmetics	White T-Shirt	
+covered	cosmetic.Casual_Chest_30.name	Cosmetics	Stylish Bomber Jacket	
+covered	cosmetic.Casual_Chest_31.name	Cosmetics	Brown Shirt	
+covered	cosmetic.Casual_Chest_32.name	Cosmetics	Blue Shirt	
+covered	cosmetic.Casual_Chest_33.name	Cosmetics	White Jersey	
+covered	cosmetic.Casual_Chest_35.name	Cosmetics	Formal Shirt	
+covered	cosmetic.Casual_Chest_36.name	Cosmetics	Blue Formal Shirt	
+covered	cosmetic.Casual_Chest_37.name	Cosmetics	Smart Casual Shirt	
+covered	cosmetic.Casual_Chest_38.name	Cosmetics	Yellow School Uniform Top	
+covered	cosmetic.Casual_Chest_39.name	Cosmetics	Pink School Uniform Top	
+covered	cosmetic.Casual_Chest_40.name	Cosmetics	Black School Uniform Top	
+covered	cosmetic.Casual_Chest_41.name	Cosmetics	Blue School Uniform Top	
+covered	cosmetic.Casual_Chest_42.name	Cosmetics	Captain Top	
+covered	cosmetic.Casual_Chest_43.name	Cosmetics	Sailor Top	
+covered	cosmetic.Casual_Chest_44.name	Cosmetics	White Dress Shirt	
+covered	cosmetic.Casual_Chest_45.name	Cosmetics	Yellow Dress Shirt	
+covered	cosmetic.Casual_Chest_46.name	Cosmetics	Purple Dress Shirt	
+covered	cosmetic.Casual_Chest_49.name	Cosmetics	Business Graduation Gown	
+covered	cosmetic.Casual_Chest_5.name	Cosmetics	Black T-Shirt	
+covered	cosmetic.Casual_Chest_50.name	Cosmetics	Science Graduation Gown	
+covered	cosmetic.Casual_Chest_51.name	Cosmetics	Firefighter Top	
+covered	cosmetic.Casual_Chest_53.name	Cosmetics	Bandit Top	
+covered	cosmetic.Casual_Chest_54.name	Cosmetics	Royal Coat	
+covered	cosmetic.Casual_Chest_55.name	Cosmetics	Hexweaver Robe	
+covered	cosmetic.Casual_Chest_56.name	Cosmetics	Witch's Robe	
+covered	cosmetic.Casual_Chest_57.name	Cosmetics	Bunny Top	
+covered	cosmetic.Casual_Chest_58.name	Cosmetics	Dino Top	
+covered	cosmetic.Casual_Chest_59.name	Cosmetics	Bear Top	
+covered	cosmetic.Casual_Chest_6.name	Cosmetics	Yellow T-Shirt	
+covered	cosmetic.Casual_Chest_60.name	Cosmetics	Neko Top	
+covered	cosmetic.Casual_Chest_61.name	Cosmetics	Festive Top	
+covered	cosmetic.Casual_Chest_62.name	Cosmetics	Red Boxing Top	
+covered	cosmetic.Casual_Chest_63.name	Cosmetics	Shark Top	
+covered	cosmetic.Casual_Chest_64.name	Cosmetics	Football Top	
+covered	cosmetic.Casual_Chest_7.name	Cosmetics	Blue T-Shirt	
+covered	cosmetic.Casual_Chest_70.name	Cosmetics	Tuxedo Top	
+covered	cosmetic.Casual_Eyewear_10.name	Cosmetics	Diva Shades	
+covered	cosmetic.Casual_Eyewear_13.name	Cosmetics	Snow Goggles	
+covered	cosmetic.Casual_Eyewear_14.name	Cosmetics	Diver Goggles	
+covered	cosmetic.Casual_Eyewear_15.name	Cosmetics	Aviator Goggles	
+covered	cosmetic.Casual_Eyewear_17.name	Cosmetics	Red Bandit Mask	
+covered	cosmetic.Casual_Eyewear_3.name	Cosmetics	Hipster Specs	
+covered	cosmetic.Casual_Eyewear_4.name	Cosmetics	Stylish Specs	
+covered	cosmetic.Casual_Eyewear_8.name	Cosmetics	Star Glasses	
+covered	cosmetic.Casual_Feet_1.name	Cosmetics	Blue Dress Shoes	
+covered	cosmetic.Casual_Feet_10.name	Cosmetics	White School Shoes	
+covered	cosmetic.Casual_Feet_11.name	Cosmetics	Cream School Shoes	
+covered	cosmetic.Casual_Feet_12.name	Cosmetics	Black Dress Shoes	
+covered	cosmetic.Casual_Feet_13.name	Cosmetics	Tan Dress Shoes	
+covered	cosmetic.Casual_Feet_14.name	Cosmetics	Amber Dress Shoes	
+covered	cosmetic.Casual_Feet_15.name	Cosmetics	Brown Dress Shoes	
+covered	cosmetic.Casual_Feet_16.name	Cosmetics	Tuxedo Shoes	
+covered	cosmetic.Casual_Feet_17.name	Cosmetics	Violet Boots	
+covered	cosmetic.Casual_Feet_18.name	Cosmetics	Black Boots	
+covered	cosmetic.Casual_Feet_19.name	Cosmetics	Black Sneakers	
+covered	cosmetic.Casual_Feet_2.name	Cosmetics	Green Sneakers	
+covered	cosmetic.Casual_Feet_20.name	Cosmetics	Firefighter Shoes	
+covered	cosmetic.Casual_Feet_21.name	Cosmetics	Grey High-Tops	
+covered	cosmetic.Casual_Feet_22.name	Cosmetics	Hiking Boots	
+covered	cosmetic.Casual_Feet_23.name	Cosmetics	Forest Boots	
+covered	cosmetic.Casual_Feet_24.name	Cosmetics	Heavy-Duty Boots	
+covered	cosmetic.Casual_Feet_25.name	Cosmetics	Royal Shoes	
+covered	cosmetic.Casual_Feet_27.name	Cosmetics	Bandit Shoes	
+covered	cosmetic.Casual_Feet_28.name	Cosmetics	Dress Boots	
+covered	cosmetic.Casual_Feet_29.name	Cosmetics	Brown Pointed Boots	
+covered	cosmetic.Casual_Feet_3.name	Cosmetics	Yellow Sneakers	
+covered	cosmetic.Casual_Feet_30.name	Cosmetics	Dark Pointed Boots	
+covered	cosmetic.Casual_Feet_32.name	Cosmetics	Brown Witch Shoes	
+covered	cosmetic.Casual_Feet_33.name	Cosmetics	Violet Witch Shoes	
+covered	cosmetic.Casual_Feet_34.name	Cosmetics	Elf Shoes	
+covered	cosmetic.Casual_Feet_35.name	Cosmetics	Bunny Shoes	
+covered	cosmetic.Casual_Feet_36.name	Cosmetics	Dino Shoes	
+covered	cosmetic.Casual_Feet_37.name	Cosmetics	Bear Shoes	
+covered	cosmetic.Casual_Feet_38.name	Cosmetics	Neko Shoes	
+covered	cosmetic.Casual_Feet_39.name	Cosmetics	Festive Slippers	
+covered	cosmetic.Casual_Feet_4.name	Cosmetics	Orange Sneakers	
+covered	cosmetic.Casual_Feet_40.name	Cosmetics	Diver Shoes	
+covered	cosmetic.Casual_Feet_41.name	Cosmetics	Red Runners	
+covered	cosmetic.Casual_Feet_42.name	Cosmetics	Blue Sneakers	
+covered	cosmetic.Casual_Feet_43.name	Cosmetics	Football Shoes	
+covered	cosmetic.Casual_Feet_48.name	Cosmetics	Strapped Boots	
+covered	cosmetic.Casual_Feet_5.name	Cosmetics	White Runners	
+covered	cosmetic.Casual_Feet_50.name	Cosmetics	Monster Shoes	
+covered	cosmetic.Casual_Feet_51.name	Cosmetics	Shark Shoes	
+covered	cosmetic.Casual_Feet_52.name	Cosmetics	Duck Shoes	
+covered	cosmetic.Casual_Feet_6.name	Cosmetics	Rose Runners	
+covered	cosmetic.Casual_Feet_7.name	Cosmetics	Black Runners	
+covered	cosmetic.Casual_Feet_8.name	Cosmetics	Blue Runners	
+covered	cosmetic.Casual_Feet_9.name	Cosmetics	Hipster High-Tops	
+covered	cosmetic.Casual_Hands_10.name	Cosmetics	Neko Gloves	
+covered	cosmetic.Casual_Hands_11.name	Cosmetics	Bear Gloves	
+covered	cosmetic.Casual_Hands_12.name	Cosmetics	Festive Gloves	
+covered	cosmetic.Casual_Hands_13.name	Cosmetics	Red Boxing Gloves	
+covered	cosmetic.Casual_Hands_14.name	Cosmetics	Blue Boxing Gloves	
+covered	cosmetic.Casual_Hands_15.name	Cosmetics	Football Gloves	
+covered	cosmetic.Casual_Hands_21.name	Cosmetics	Monster Gloves	
+covered	cosmetic.Casual_Hands_22.name	Cosmetics	Duck Gloves	
+covered	cosmetic.Casual_Hands_3.name	Cosmetics	Hiking Gloves	
+covered	cosmetic.Casual_Hands_4.name	Cosmetics	Leather Gloves	
+covered	cosmetic.Casual_Hands_5.name	Cosmetics	Elf Gloves	
+covered	cosmetic.Casual_Hands_8.name	Cosmetics	Bunny Gloves	
+covered	cosmetic.Casual_Hands_9.name	Cosmetics	Dino Gloves	
+covered	cosmetic.Casual_Head_1.name	Cosmetics	Baseball Cap	
+covered	cosmetic.Casual_Head_10.name	Cosmetics	Blue Cap	
+covered	cosmetic.Casual_Head_13.name	Cosmetics	Straw Hat	
+covered	cosmetic.Casual_Head_14.name	Cosmetics	Cowboy Hat	
+covered	cosmetic.Casual_Head_16.name	Cosmetics	Spring Hat	
+covered	cosmetic.Casual_Head_17.name	Cosmetics	Ribbon Hat	
+covered	cosmetic.Casual_Head_2.name	Cosmetics	Black Cap	
+covered	cosmetic.Casual_Head_20.name	Cosmetics	Chicky Hat	
+covered	cosmetic.Casual_Head_21.name	Cosmetics	Scout Hat	
+covered	cosmetic.Casual_Head_23.name	Cosmetics	Banana Hat	
+covered	cosmetic.Casual_Head_28.name	Cosmetics	Captain Hat	
+covered	cosmetic.Casual_Head_29.name	Cosmetics	Sailor Hat	
+covered	cosmetic.Casual_Head_30.name	Cosmetics	Science Graduation Cap	
+covered	cosmetic.Casual_Head_31.name	Cosmetics	Business Graduation Cap	
+covered	cosmetic.Casual_Head_39.name	Cosmetics	Firefighter Hat	
+covered	cosmetic.Casual_Head_4.name	Cosmetics	Hipster Cap	
+covered	cosmetic.Casual_Head_41.name	Cosmetics	Red Bandit Bandana	
+covered	cosmetic.Casual_Head_42.name	Cosmetics	Blue Bandit Bandana	
+covered	cosmetic.Casual_Head_46.name	Cosmetics	Royal Crown	
+covered	cosmetic.Casual_Head_5.name	Cosmetics	Black Beanie	
+covered	cosmetic.Casual_Head_6.name	Cosmetics	Blue Beanie	
+covered	cosmetic.Casual_Head_7.name	Cosmetics	Snow Beanie	
+covered	cosmetic.Casual_Head_8.name	Cosmetics	Artist Hat	
+covered	cosmetic.Casual_Legs_1.name	Cosmetics	Duck Pants	
+covered	cosmetic.Casual_Legs_10.name	Cosmetics	Monster Pants	
+covered	cosmetic.Casual_Legs_13.name	Cosmetics	Orange Shorts	
+covered	cosmetic.Casual_Legs_15.name	Cosmetics	Tuxedo Pants	
+covered	cosmetic.Casual_Legs_18.name	Cosmetics	Brown Cargo Pants	
+covered	cosmetic.Casual_Legs_19.name	Cosmetics	Grey Cargo Pants	
+covered	cosmetic.Casual_Legs_2.name	Cosmetics	Black Boxers	
+covered	cosmetic.Casual_Legs_20.name	Cosmetics	Black Cargo Pants	
+covered	cosmetic.Casual_Legs_21.name	Cosmetics	Green Cargo Pants	
+covered	cosmetic.Casual_Legs_22.name	Cosmetics	Blue Cargo Pants	
+covered	cosmetic.Casual_Legs_23.name	Cosmetics	White Jeans	
+covered	cosmetic.Casual_Legs_24.name	Cosmetics	Light Jeans	
+covered	cosmetic.Casual_Legs_25.name	Cosmetics	Navy Jeans	
+covered	cosmetic.Casual_Legs_3.name	Cosmetics	Blue Boxers	
+covered	cosmetic.Casual_Legs_32.name	Cosmetics	Red Dress	
+covered	cosmetic.Casual_Legs_33.name	Cosmetics	Black Dress	
+covered	cosmetic.Casual_Legs_34.name	Cosmetics	Firefighter Pants	
+covered	cosmetic.Casual_Legs_36.name	Cosmetics	Bandit Pants	
+covered	cosmetic.Casual_Legs_37.name	Cosmetics	Royal Pants	
+covered	cosmetic.Casual_Legs_38.name	Cosmetics	Blue Shorts	
+covered	cosmetic.Casual_Legs_40.name	Cosmetics	Bunny Pants	
+covered	cosmetic.Casual_Legs_41.name	Cosmetics	Dino Pants	
+covered	cosmetic.Casual_Legs_42.name	Cosmetics	Bear Pants	
+covered	cosmetic.Casual_Legs_43.name	Cosmetics	Neko Pants	
+covered	cosmetic.Casual_Legs_44.name	Cosmetics	Festive Pants	
+covered	cosmetic.Casual_Legs_45.name	Cosmetics	Diver Pants	
+covered	cosmetic.Casual_Legs_47.name	Cosmetics	Shark Pants	
+covered	cosmetic.Casual_Legs_48.name	Cosmetics	Football Pants	
+covered	cosmetic.Casual_Legs_54.name	Cosmetics	Crimson Dress	
+covered	cosmetic.Casual_Legs_7.name	Cosmetics	Yellow Boxers	
+covered	cosmetic.Casual_Legs_8.name	Cosmetics	White Shorts	
+covered	cosmetic.Cat Meow.name	Cosmetics	Sparkitty Pet	
+covered	cosmetic.Centurion Helm.name	Cosmetics	Centurion Helm	
+covered	cosmetic.Ceremonial Mask.name	Cosmetics	Ceremonial Mask	
+covered	cosmetic.Cerulean Scepter.name	Cosmetics	Cerulean Scepter	
+covered	cosmetic.Chainfrost Staff.name	Cosmetics	Chainfrost Staff	
+covered	cosmetic.Chains of Binding.name	Cosmetics	Chains of Binding	
+covered	cosmetic.Champion Blade.name	Cosmetics	Divine Blade	
+covered	cosmetic.Chaos Reaver.name	Cosmetics	Chaos Reaver	
+covered	cosmetic.ChatBubble_Angelic.name	Cosmetics	Angelic	
+covered	cosmetic.ChatBubble_Demonic.name	Cosmetics	Demonic	
+covered	cosmetic.Chest_AcademyF.name	Cosmetics	Academy Female Top	
+covered	cosmetic.Chest_AcademyM.name	Cosmetics	Academy Male Top	
+covered	cosmetic.Chest_Angel_F.name	Cosmetics	Angel Female Top	
+covered	cosmetic.Chest_Angel_M.name	Cosmetics	Angel Male Top	
+covered	cosmetic.Chest_Cuervo_F.name	Cosmetics	Cuervo Female Top	
+covered	cosmetic.Chest_Cuervo_M.name	Cosmetics	Cuervo Male Top	
+covered	cosmetic.Chest_CyberRogue.name	Cosmetics	Cyber Rogue Top	
+covered	cosmetic.Chest_Demonic_F.name	Cosmetics	Demonic Female Top	
+covered	cosmetic.Chest_Demonic_M.name	Cosmetics	Demonic Male Top	
+covered	cosmetic.Chest_Easter_F.name	Cosmetics	Easter Female Top	
+covered	cosmetic.Chest_Easter_M.name	Cosmetics	Easter Male Top	
+covered	cosmetic.Chest_FireFox.name	Cosmetics	Fire Fox Top	
+covered	cosmetic.Chest_Gladys.name	Cosmetics	Gladys Top	
+covered	cosmetic.Chest_GS.name	Cosmetics	Gunslinger Top	
+covered	cosmetic.Chest_IceFox.name	Cosmetics	Ice Fox Top	
+covered	cosmetic.Chest_Priest_F.name	Cosmetics	Priest Female Top	
+covered	cosmetic.Chest_Priest_M.name	Cosmetics	Priest Male Top	
+covered	cosmetic.Chest_Shinobi.name	Cosmetics	Shinobi Top	
+covered	cosmetic.Chest_SpiritValer.name	Cosmetics	Spirit Valer Top	
+covered	cosmetic.Chest_SukebanF.name	Cosmetics	Sukeban Female Top	
+covered	cosmetic.Chest_SukebanM.name	Cosmetics	Sukeban Male Top	
+covered	cosmetic.Chest_Transparent.name	Cosmetics	Transparent Top	
+covered	cosmetic.Chest_Urban.name	Cosmetics	Urban Top	
+covered	cosmetic.Chest_WhiteCatHoodie.name	Cosmetics	White Cat Hoodie	
+covered	cosmetic.Chest_Wizard_F.name	Cosmetics	Wizard Female Top	
+covered	cosmetic.Chest_Wizard_M.name	Cosmetics	Wizard Male Top	
+covered	cosmetic.Chick.name	Cosmetics	Peep Pet	
+covered	cosmetic.Chicky Hood.name	Cosmetics	Chicky Hood	
+covered	cosmetic.Chirpy Hat.name	Cosmetics	Chirpy Hat	
+covered	cosmetic.Chompy Hood.name	Cosmetics	Chompy Hood	
+covered	cosmetic.ClericChest.name	Cosmetics	Cleric Chest	
+covered	cosmetic.ClericFeet.name	Cosmetics	Cleric Shoes	
+covered	cosmetic.ClericLegs.name	Cosmetics	Cleric Legs	
+covered	cosmetic.Cloud Loop.name	Cosmetics	Cloud Loop	
+covered	cosmetic.Cloud Mount.name	Cosmetics	Flying Nimbus	
+covered	cosmetic.Codex Binding Light.name	Cosmetics	Grimoire of Binding Light	
+covered	cosmetic.Codex First Hymn.name	Cosmetics	Tome of the First Hymn	
+covered	cosmetic.Codex of Revelation.name	Cosmetics	Codex of Revelation	
+covered	cosmetic.Codex Umbra.name	Cosmetics	Codex Umbra	
+covered	cosmetic.Codex Vitae.name	Cosmetics	Codex Vitae	
+covered	cosmetic.Codex.name	Cosmetics	Tome	
+covered	cosmetic.Combat Knife.name	Cosmetics	Combat Knife	
+covered	cosmetic.Cotton Mask.name	Cosmetics	Cotton Mask	
+covered	cosmetic.Crimson Crest.name	Cosmetics	Crimson Crest	
+covered	cosmetic.Crimson Plume.name	Cosmetics	Crimson Plume	
+covered	cosmetic.Crown of Spikes.name	Cosmetics	Crown of Spikes	
+covered	cosmetic.Crusader Staff.name	Cosmetics	Radiant Scepter	
+covered	cosmetic.Crusader Sword.name	Cosmetics	Oathbreaker	
+covered	cosmetic.Crystal Cache.name	Cosmetics	Crystal Cache	
+covered	cosmetic.Crystal Slammer.name	Cosmetics	Crystal Slammer	
+covered	cosmetic.Crystal Wings.name	Cosmetics	Crystal Wings	
+covered	cosmetic.Curse Tag.name	Cosmetics	Curse Tag	
+covered	cosmetic.Cursed Grimoire.name	Cosmetics	Cursed Grimoire	
+covered	cosmetic.Cyclops Minion.name	Cosmetics	Frostclops Pet	
+covered	cosmetic.Daggers.name	Cosmetics	Twin Daggers	
+covered	cosmetic.Darkfeather Wings.name	Cosmetics	Darkfeather Wings	
+covered	cosmetic.Darkhide Gloves.name	Cosmetics	Darkhide Gloves	
+covered	cosmetic.Dawn Prayer.name	Cosmetics	Dawn Prayer	
+covered	cosmetic.Dawnstar.name	Cosmetics	Dawnstar	
+covered	cosmetic.Death.name	Cosmetics	Deathling Pet	
+covered	cosmetic.Demon Cat.name	Cosmetics	Demon Cat Hood	
+covered	cosmetic.Demon Hood.name	Cosmetics	Demon Hood	
+covered	cosmetic.Destruction Staff.name	Cosmetics	Destruction Staff	
+covered	cosmetic.Dino Cub Backpack.name	Cosmetics	Dino Cub Backpack	
+covered	cosmetic.DiscipleArmlets.name	Cosmetics	Disciple's Bracers	
+covered	cosmetic.DiscipleChest.name	Cosmetics	Disciple's Manteau	
+covered	cosmetic.DiscipleFeet.name	Cosmetics	Disciple's Shoes	
+covered	cosmetic.DiscipleHelm.name	Cosmetics	Disciple's Visage	
+covered	cosmetic.DiscipleLegs.name	Cosmetics	Disciple's Wraps	
+covered	cosmetic.Discipline Band.name	Cosmetics	Discipline Mask	
+covered	cosmetic.Dog Pup.name	Cosmetics	Hot Dog Pet	
+covered	cosmetic.Doom Crescent.name	Cosmetics	Doom Crescent	
+covered	cosmetic.Doom Crown.name	Cosmetics	Doom Crown	
+covered	cosmetic.Doom Keg.name	Cosmetics	Doom Keg	
+covered	cosmetic.Dragon Blizzard.name	Cosmetics	Snowwyrm Mount	
+covered	cosmetic.Dragon Darkness.name	Cosmetics	Noctwyrm Mount	
+covered	cosmetic.Dragon Dusk.name	Cosmetics	Twilight Wyrm Pet	
+covered	cosmetic.Dragon Hood.name	Cosmetics	Dragon Hood	
+covered	cosmetic.Dragon Inferno.name	Cosmetics	Hellwyrm Mount	
+covered	cosmetic.Dragon Spark.name	Cosmetics	Spark Drake Pet	
+covered	cosmetic.Dragon Water.name	Cosmetics	Puddle Drake Pet	
+covered	cosmetic.Dragonfly Darner.name	Cosmetics	Kadregan Pet	
+covered	cosmetic.Dragonic Spear.name	Cosmetics	Dragonic Spear	
+covered	cosmetic.Dragonspire Helm.name	Cosmetics	Dragonspire Helm	
+covered	cosmetic.Drooping Bat.name	Cosmetics	Drooping Bat	
+covered	cosmetic.Drooping Burrow.name	Cosmetics	Drooping Burrow	
+covered	cosmetic.Drooping Cat.name	Cosmetics	Drooping Cat	
+covered	cosmetic.Drooping Flora.name	Cosmetics	Drooping Flora	
+covered	cosmetic.Drooping Pup.name	Cosmetics	Drooping Pup	
+covered	cosmetic.Dualblade Sheath.name	Cosmetics	Dualblade Sheath	
+covered	cosmetic.Duskfang.name	Cosmetics	Duskfang	
+covered	cosmetic.Dustweaver Hat.name	Cosmetics	Dustweaver Hat	
+covered	cosmetic.Earring_AquaBeads.name	Cosmetics	Aqua Beads	
+covered	cosmetic.Earring_CrystalEarring.name	Cosmetics	Frost Crystal Earrings	
+covered	cosmetic.Earring_Demonic.name	Cosmetics	Demonic Earring	
+covered	cosmetic.Earring_Earbuds.name	Cosmetics	Earbuds	
+covered	cosmetic.Earring_FeatherBeads.name	Cosmetics	Feather Beads	
+covered	cosmetic.Earring_MoonlitCrystal.name	Cosmetics	Moonlit Shards	
+covered	cosmetic.Earring_ObsidianHeart.name	Cosmetics	Obsidian Heart	
+covered	cosmetic.Earring_PearlHeart.name	Cosmetics	Pearl Heart	
+covered	cosmetic.Earring_Puddles.name	Cosmetics	Puddle Drops	
+covered	cosmetic.Earring_SeasilkPearl.name	Cosmetics	Seasilk Pearl	
+covered	cosmetic.Earring_SunSigial.name	Cosmetics	Sun Sigil	
+covered	cosmetic.Earring_SylvanSprout.name	Cosmetics	Sylvan Sprout	
+covered	cosmetic.Earth Shaker.name	Cosmetics	Earth Shaker	
+covered	cosmetic.Earth Shield.name	Cosmetics	Obsidian Bulwark	
+covered	cosmetic.Eclipse Kunai.name	Cosmetics	Eclipse Kunai	
+covered	cosmetic.Edge of Twilight.name	Cosmetics	Edge of Twilight	
+covered	cosmetic.Elixir Gourd.name	Cosmetics	Elixir Gourd	
+covered	cosmetic.Emberhide Helm.name	Cosmetics	Emberhide Helm	
+covered	cosmetic.Embershard.name	Cosmetics	Embershard	
+covered	cosmetic.Emerald Crown.name	Cosmetics	Emerald Crown	
+covered	cosmetic.Emote_Crown.name	Cosmetics	Crown Emote	
+covered	cosmetic.Emote_Flair.name	Cosmetics	Flair Emote	
+covered	cosmetic.Emote_Salsa.name	Cosmetics	Salsa Emote	
+covered	cosmetic.Emote_Samba.name	Cosmetics	Samba Emote	
+covered	cosmetic.Emote_Twerk.name	Cosmetics	Twerk Emote	
+covered	cosmetic.Energy Sword Blue.name	Cosmetics	Prism Blade	
+covered	cosmetic.Energy Sword Purple.name	Cosmetics	Umbral Blade	
+covered	cosmetic.Energy Sword Yellow.name	Cosmetics	Chromatic Blade	
+covered	cosmetic.Everfrost Staff.name	Cosmetics	Everfrost Staff	
+covered	cosmetic.Executioner Axe.name	Cosmetics	Executioner Axe	
+covered	cosmetic.Exorcist Bible.name	Cosmetics	Exorcist Bible	
+covered	cosmetic.Exorcist Staff.name	Cosmetics	Exorcist Staff	
+covered	cosmetic.Eye of Vigil.name	Cosmetics	Eye of Vigil	
+covered	cosmetic.Eye_Demonic_F.name	Cosmetics	Demonic Female Eye	
+covered	cosmetic.Eye_Demonic_M.name	Cosmetics	Demonic Male Eye	
+covered	cosmetic.Eyeball Bat Red.name	Cosmetics	Ruby Eyewing Pet	
+covered	cosmetic.Eyepatch.name	Cosmetics	Eyepatch	
+covered	cosmetic.Eyewear_Cuervo_F.name	Cosmetics	Cuervo Female Eyewear	
+covered	cosmetic.Eyewear_Cuervo_M.name	Cosmetics	Cuervo Male Eyewear	
+covered	cosmetic.Eyewear_CyberRogue.name	Cosmetics	Cyber Rogue Eyewear	
+covered	cosmetic.Face_CrystalEars.name	Cosmetics	Frost Crystal Ears	
+covered	cosmetic.Face_DeathMage.name	Cosmetics	Archon's Veil	
+covered	cosmetic.Face_Goggles.name	Cosmetics	Round Goggles	
+covered	cosmetic.Face_KitsuneMask.name	Cosmetics	Kitsune Mask	
+covered	cosmetic.Face_OniMask.name	Cosmetics	Oni Mask	
+covered	cosmetic.Falcon Band.name	Cosmetics	Falcon Band	
+covered	cosmetic.Falcon Hood.name	Cosmetics	Falcon Hood	
+covered	cosmetic.Fang Clip.name	Cosmetics	Fang Clip	
+covered	cosmetic.Fang of the Moon.name	Cosmetics	Fang of the Moon	
+covered	cosmetic.Feathered Crown.name	Cosmetics	Jadefeather Crown	
+covered	cosmetic.Feathered Scout Hat.name	Cosmetics	Feathered Scout Hat	
+covered	cosmetic.Feet_Academy.name	Cosmetics	Academy Shoes	
+covered	cosmetic.Feet_Agi.name	Cosmetics	Speed Shoes	
+covered	cosmetic.Feet_Angel.name	Cosmetics	Angel Shoes	
+covered	cosmetic.Feet_Cuervo.name	Cosmetics	Cuervo Shoes	
+covered	cosmetic.Feet_CyberRogue.name	Cosmetics	Cyber Rogue Shoes	
+covered	cosmetic.Feet_Demonic_F.name	Cosmetics	Demonic Female Shoes	
+covered	cosmetic.Feet_Demonic_M.name	Cosmetics	Demonic Male Shoes	
+covered	cosmetic.Feet_Dex.name	Cosmetics	Precision Shoes	
+covered	cosmetic.Feet_Easter_F.name	Cosmetics	Easter Female Shoes	
+covered	cosmetic.Feet_Easter_M.name	Cosmetics	Easter Male Shoes	
+covered	cosmetic.Feet_FireFox.name	Cosmetics	Fire Fox Shoes	
+covered	cosmetic.Feet_Gladys.name	Cosmetics	Gladys Shoes	
+covered	cosmetic.Feet_GS.name	Cosmetics	Gunslinger Shoes	
+covered	cosmetic.Feet_IceFox.name	Cosmetics	Ice Fox Shoes	
+covered	cosmetic.Feet_Int.name	Cosmetics	Mind Shoes	
+covered	cosmetic.Feet_Luk.name	Cosmetics	Fate Shoes	
+covered	cosmetic.Feet_Priest_F.name	Cosmetics	Priest Female Shoes	
+covered	cosmetic.Feet_Priest_M.name	Cosmetics	Priest Male Shoes	
+covered	cosmetic.Feet_Shinobi.name	Cosmetics	Shinobi Shoes	
+covered	cosmetic.Feet_SpiritValer.name	Cosmetics	Spirit Valer Shoes	
+covered	cosmetic.Feet_Str.name	Cosmetics	Power Shoes	
+covered	cosmetic.Feet_SukebanF.name	Cosmetics	Sukeban Female Shoes	
+covered	cosmetic.Feet_SukebanM.name	Cosmetics	Sukeban Male Shoes	
+covered	cosmetic.Feet_Transparent.name	Cosmetics	Transparent Shoes	
+covered	cosmetic.Feet_Urban.name	Cosmetics	Urban Shoes	
+covered	cosmetic.Feet_Vit.name	Cosmetics	Endurance Shoes	
+covered	cosmetic.Feet_WhiteCatHoodie.name	Cosmetics	White Cat Shoes	
+covered	cosmetic.Feet_Wizard_F.name	Cosmetics	Wizard Female Shoes	
+covered	cosmetic.Feet_Wizard_M.name	Cosmetics	Wizard Male Shoes	
+covered	cosmetic.Ferncloak.name	Cosmetics	Ferncloak	
+covered	cosmetic.Festival Cap.name	Cosmetics	Lantern Cap	
+covered	cosmetic.Festival Rockets.name	Cosmetics	Festival Firecrackers	
+covered	cosmetic.Festival Turtle Cap.name	Cosmetics	Lucky Turtle Cap	
+covered	cosmetic.Festive Gift Box.name	Cosmetics	Ribboned Gift Box	
+covered	cosmetic.Fire Shield.name	Cosmetics	Molten Core Heater	
+covered	cosmetic.Fish Man Pink.name	Cosmetics	Roseate Finfolk Pet	
+covered	cosmetic.Flame Spirit.name	Cosmetics	Flame Spirit Horns	
+covered	cosmetic.Flame Tongue Kunai.name	Cosmetics	Flame Tongue Kunai	
+covered	cosmetic.Flame.name	Cosmetics	Blazer Pet	
+covered	cosmetic.Flameburst Kunai.name	Cosmetics	Flameburst Kunai	
+covered	cosmetic.Fleetrunner.name	Cosmetics	Fleetrunner	
+covered	cosmetic.Flintlock Pistol.name	Cosmetics	Flintlock Pistol	
+covered	cosmetic.Flora.name	Cosmetics	Lakeblossom Pet	
+covered	cosmetic.Focus Band.name	Cosmetics	Focus Band	
+covered	cosmetic.Forest Friend Hat.name	Cosmetics	Forest Friend Hat	
+covered	cosmetic.ForestChest.name	Cosmetics	Forest Chest	
+covered	cosmetic.ForestFeet.name	Cosmetics	Forest Shoes	
+covered	cosmetic.ForestLegs.name	Cosmetics	Forest Legs	
+covered	cosmetic.Fortified Guardwall.name	Cosmetics	Fortified Guardwall	
+covered	cosmetic.Frost Mark.name	Cosmetics	Frost Mark	
+covered	cosmetic.Frostfang.name	Cosmetics	Frostfang	
+covered	cosmetic.Frostscale Helm.name	Cosmetics	Frostscale Helm	
+covered	cosmetic.Frostshard.name	Cosmetics	Frostshard	
+covered	cosmetic.Frostspire Kunai.name	Cosmetics	Frostspire Kunai	
+covered	cosmetic.Fruit Bowl.name	Cosmetics	Basket of Fruit	
+covered	cosmetic.Funny Glasses.name	Cosmetics	Disguise Glasses	
+covered	cosmetic.Fur Hood.name	Cosmetics	Fur Hood	
+covered	cosmetic.Gatling Gun.name	Cosmetics	Gatling Gun	
+covered	cosmetic.Ghost.name	Cosmetics	Whispling Pet	
+covered	cosmetic.Ghostly Hat.name	Cosmetics	Ghostly Hat	
+covered	cosmetic.Glimmerthorn.name	Cosmetics	Glimmerthorn	
+covered	cosmetic.Gloom.name	Cosmetics	Spectre Pet	
+covered	cosmetic.Glove_Agi.name	Cosmetics	Speed Gauntlets	
+covered	cosmetic.Glove_Dex.name	Cosmetics	Precision Gauntlets	
+covered	cosmetic.Glove_Int.name	Cosmetics	Mind Gauntlets	
+covered	cosmetic.Glove_Luk.name	Cosmetics	Fate Gauntlets	
+covered	cosmetic.Glove_Str.name	Cosmetics	Power Gauntlets	
+covered	cosmetic.Glove_Vit.name	Cosmetics	Endurance Gauntlets	
+covered	cosmetic.Goblin Minion.name	Cosmetics	Goblet Pet	
+covered	cosmetic.Golden Aegis.name	Cosmetics	Golden Aegis	
+covered	cosmetic.Golden Axe.name	Cosmetics	Golden Axe	
+covered	cosmetic.Golden Crest.name	Cosmetics	Golden Crest	
+covered	cosmetic.Golden Crown.name	Cosmetics	Golden Crown	
+covered	cosmetic.Golden Hammer.name	Cosmetics	Golden Hammer	
+covered	cosmetic.Golden Hoop.name	Cosmetics	Golden Hoop	
+covered	cosmetic.Grasping Eye Urn.name	Cosmetics	Grasping Eye Urn	
+covered	cosmetic.Grave Helm.name	Cosmetics	Grave Helm	
+covered	cosmetic.GravemarrowChest.name	Cosmetics	Gravemarrow Chest	
+covered	cosmetic.GravemarrowFeet.name	Cosmetics	Gravemarrow Shoes	
+covered	cosmetic.GravemarrowLegs.name	Cosmetics	Gravemarrow Legs	
+covered	cosmetic.Gravestone Breaker.name	Cosmetics	Gravestone Breaker	
+covered	cosmetic.Green Shell.name	Cosmetics	Green Shell	
+covered	cosmetic.Griffin_BlackandWhite.name	Cosmetics	Shadow Griffin	
+covered	cosmetic.Griffin_BrownA.name	Cosmetics	Highland Griffin	
+covered	cosmetic.Griffin_BrownB.name	Cosmetics	Wild Griffin	
+covered	cosmetic.Griffin_Eagle.name	Cosmetics	Sky Eagle Griffin	
+covered	cosmetic.Griffin_Flying.name	Cosmetics	Flying Griffin	
+covered	cosmetic.Griffin_SnowOwl.name	Cosmetics	Snow Griffin	
+covered	cosmetic.Grim Reaper Scythe.name	Cosmetics	Life Drinker	
+covered	cosmetic.Guardblade.name	Cosmetics	Guardblade	
+covered	cosmetic.Hands_Angel_F.name	Cosmetics	Angel Female Gloves	
+covered	cosmetic.Hands_Angel_M.name	Cosmetics	Angel Male Gloves	
+covered	cosmetic.Hands_Cuervo_F.name	Cosmetics	Cuervo Female Gloves	
+covered	cosmetic.Hands_Cuervo_M.name	Cosmetics	Cuervo Male Gloves	
+covered	cosmetic.Hands_CyberRogue.name	Cosmetics	Cyber Rogue Gloves	
+covered	cosmetic.Hands_Demonic_F.name	Cosmetics	Demonic Female Gloves	
+covered	cosmetic.Hands_Demonic_M.name	Cosmetics	Demonic Male Gloves	
+covered	cosmetic.Hands_Gladys.name	Cosmetics	Gladys Gloves	
+covered	cosmetic.Hands_Transparent.name	Cosmetics	Transparent Gloves	
+covered	cosmetic.Happy Chipper Hat.name	Cosmetics	Happy Chipper Hat	
+covered	cosmetic.Harvester of Souls.name	Cosmetics	Harvester of Souls	
+covered	cosmetic.Haunt.name	Cosmetics	Hauntling Pet	
+covered	cosmetic.Hawkeye Crossbow.name	Cosmetics	Hawkeye Crossbow	
+covered	cosmetic.Head_Angel.name	Cosmetics	Angel Hat	
+covered	cosmetic.Head_AngelBand.name	Cosmetics	Angel Band	
+covered	cosmetic.Head_AoA.name	Cosmetics	Pierced Apple	
+covered	cosmetic.Head_Aviator.name	Cosmetics	Aviator Hat	
+covered	cosmetic.Head_BatLord.name	Cosmetics	Count's Cowl	
+covered	cosmetic.Head_BunnyEars.name	Cosmetics	Bunny Ears	
+covered	cosmetic.Head_CactusKing.name	Cosmetics	Monarch's Spinecrown	
+covered	cosmetic.Head_CatBolt.name	Cosmetics	Regent's Stormhood	
+covered	cosmetic.Head_CatEars.name	Cosmetics	Cat Ears	
+covered	cosmetic.Head_CosmicBand.name	Cosmetics	Cosmic Band	
+covered	cosmetic.Head_CupidHalo.name	Cosmetics	Golden Halo	
+covered	cosmetic.Head_Demonic.name	Cosmetics	Demonic Headgear	
+covered	cosmetic.Head_Easter_F.name	Cosmetics	Easter Female Hat	
+covered	cosmetic.Head_Easter_M.name	Cosmetics	Easter Male Hat	
+covered	cosmetic.Head_FeatheredCrown_Brown.name	Cosmetics	Brown Feathered Crown	
+covered	cosmetic.Head_FeatheredCrown_Rainbow.name	Cosmetics	Rainbow Feathered Crown	
+covered	cosmetic.Head_FireFox.name	Cosmetics	Fire Fox Hat	
+covered	cosmetic.Head_FlowerHat.name	Cosmetics	Sunbloom Hat	
+covered	cosmetic.Head_FoxEars.name	Cosmetics	Fox Ears	
+covered	cosmetic.Head_Froggie.name	Cosmetics	Froggie Headband	
+covered	cosmetic.Head_Gladys.name	Cosmetics	Gladys Hat	
+covered	cosmetic.Head_HareHorns.name	Cosmetics	Vorpal Horns	
+covered	cosmetic.Head_HermitKing.name	Cosmetics	Shell Tyrant Crown	
+covered	cosmetic.Head_IceCrown.name	Cosmetics	Frostweaver Crown	
+covered	cosmetic.Head_IceFox.name	Cosmetics	Ice Fox Hat	
+covered	cosmetic.Head_IceGolem.name	Cosmetics	Titanfrost Crown	
+covered	cosmetic.Head_ImpDevil.name	Cosmetics	Calcifur Headdress	
+covered	cosmetic.Head_MajesticHorn.name	Cosmetics	Majestic Horns	
+covered	cosmetic.Head_Priest.name	Cosmetics	Priest Hat	
+covered	cosmetic.Head_QueenWorm.name	Cosmetics	Broodworm Cowl	
+covered	cosmetic.Head_Ribbon_Red.name	Cosmetics	Red Ribbon	
+covered	cosmetic.Head_Ribbon_Yellow.name	Cosmetics	Yellow Ribbon	
+covered	cosmetic.Head_Sakkat.name	Cosmetics	Sakkat	
+covered	cosmetic.Head_ScorpionKing.name	Cosmetics	Scorpion King Crown	
+covered	cosmetic.Head_Shinobi.name	Cosmetics	Shinobi Hat	
+covered	cosmetic.Head_SnakeNaga.name	Cosmetics	Serpent Charmer Hat	
+covered	cosmetic.Head_SpiderQueenRobot.name	Cosmetics	Supharan Widow Veil	
+covered	cosmetic.Head_Sprout.name	Cosmetics	Sprig Cap	
+covered	cosmetic.Head_Sting.name	Cosmetics	Bumblebee Beanie	
+covered	cosmetic.Head_Transparent.name	Cosmetics	Transparent Hat	
+covered	cosmetic.Head_TurtleChampion.name	Cosmetics	Reefguard Visor	
+covered	cosmetic.Head_Urban.name	Cosmetics	Urban Hat	
+covered	cosmetic.Head_Werewolf.name	Cosmetics	Moonfang Hood	
+covered	cosmetic.Head_Wizard.name	Cosmetics	Wizard Hat	
+covered	cosmetic.Head_WormCreep.name	Cosmetics	Whispering Worm	
+covered	cosmetic.Head_Wraith.name	Cosmetics	Apostle's Duskhat	
+covered	cosmetic.Head_Xmas_M_Blue.name	Cosmetics	Blue Christmas Hat	
+covered	cosmetic.Head_Xmas_M_Red.name	Cosmetics	Red Christmas Hat	
+covered	cosmetic.Heart Vessel.name	Cosmetics	Heart Vessel	
+covered	cosmetic.Heartgaze Shades.name	Cosmetics	Heartgaze Shades	
+covered	cosmetic.Heartloop Earring.name	Cosmetics	Heartloop Earring	
+covered	cosmetic.Hellfire Staff.name	Cosmetics	Hellfire Staff	
+covered	cosmetic.Hellhorn Hood.name	Cosmetics	Hellhorn Hood	
+covered	cosmetic.Hermit Hood.name	Cosmetics	Hermit Hood	
+covered	cosmetic.Hexweaver Hat.name	Cosmetics	Hexweaver Hat	
+covered	cosmetic.Holy Shield.name	Cosmetics	Holy Crest	
+covered	cosmetic.Holy Staff.name	Cosmetics	Holy Staff	
+covered	cosmetic.Hornbrand.name	Cosmetics	Hornbrand	
+covered	cosmetic.Horned Crusader Helm.name	Cosmetics	Horned Crusader Helm	
+covered	cosmetic.Horned Vanguard.name	Cosmetics	Viking Helm	
+covered	cosmetic.Horse_Black.name	Cosmetics	Black Horse	
+covered	cosmetic.Horse_Black_Roan.name	Cosmetics	Black Roan Horse	
+covered	cosmetic.Horse_Flame.name	Cosmetics	Lunar Flame Horse	
+covered	cosmetic.Horse_Palomino.name	Cosmetics	Palomino Horse	
+covered	cosmetic.Horse_Tobiano.name	Cosmetics	Tobiano Horse	
+covered	cosmetic.Horse_White.name	Cosmetics	White Horse	
+covered	cosmetic.Housefly Nom.name	Cosmetics	Bogwing Pet	
+covered	cosmetic.Hunting Knife.name	Cosmetics	Hunting Knife	
+covered	cosmetic.Hunting Pike.name	Cosmetics	Hunting Pike	
+covered	cosmetic.Icicle.name	Cosmetics	Icicle Pet	
+covered	cosmetic.Imp Mischief.name	Cosmetics	Fire Gremlin Pet	
+covered	cosmetic.Insect Carapace.name	Cosmetics	Insect Carapace	
+covered	cosmetic.Iron Ankh.name	Cosmetics	Iron Ankh	
+covered	cosmetic.Iron Bulwark.name	Cosmetics	Iron Bulwark	
+covered	cosmetic.Iron Fortitude.name	Cosmetics	Iron Fortitude	
+covered	cosmetic.Iron Guard Helm.name	Cosmetics	Guard Helm	
+covered	cosmetic.Iron Halo.name	Cosmetics	Saint's Burden	
+covered	cosmetic.Iron Morningstar.name	Cosmetics	Iron Morningstar	
+covered	cosmetic.Iron Reaver.name	Cosmetics	Iron Reaver	
+covered	cosmetic.Iron Spear.name	Cosmetics	Iron Spear	
+covered	cosmetic.Iron Spire.name	Cosmetics	Chained Spire	
+covered	cosmetic.Ironhorn Cap.name	Cosmetics	Gorehorn Helm	
+covered	cosmetic.Ironshade Helm.name	Cosmetics	Ironshade Helm	
+covered	cosmetic.IslandChest.name	Cosmetics	Island Spirit Chest	
+covered	cosmetic.IslandFeet.name	Cosmetics	Island Spirit Shoes	
+covered	cosmetic.IslandLegs.name	Cosmetics	Island Spirit Legs	
+covered	cosmetic.Jagtooth.name	Cosmetics	Jagtooth	
+covered	cosmetic.Jellyfish Robot.name	Cosmetics	Stormjelly Pet	
+covered	cosmetic.Jester Hat.name	Cosmetics	Jester Hat	
+covered	cosmetic.Knife.name	Cosmetics	Knife	
+covered	cosmetic.Knight_1.name	Cosmetics	Breaking Advance	
+covered	cosmetic.Knight_2.name	Cosmetics	Sweeping Order	
+covered	cosmetic.Knight_3.name	Cosmetics	Lightning Stance	
+covered	cosmetic.Knight_4.name	Cosmetics	Rescuing Throw	
+covered	cosmetic.Knight_5.name	Cosmetics	Iron Response	
+covered	cosmetic.Knight_6.name	Cosmetics	Vanguard Doctrine	
+covered	cosmetic.KnightChest.name	Cosmetics	Skystrider Chest	
+covered	cosmetic.KnightFeet.name	Cosmetics	Skystrider Shoes	
+covered	cosmetic.KnightLegs.name	Cosmetics	Skystrider Legs	
+covered	cosmetic.Knuckleband.name	Cosmetics	Knuckleband	
+covered	cosmetic.Kunai.name	Cosmetics	Kunai	
+covered	cosmetic.Launcher.name	Cosmetics	Launcher	
+covered	cosmetic.Leaf Mask.name	Cosmetics	Leaf Mask	
+covered	cosmetic.Leg_Agi.name	Cosmetics	Speed Greaves	
+covered	cosmetic.Leg_Dex.name	Cosmetics	Precision Greaves	
+covered	cosmetic.Leg_Int.name	Cosmetics	Mind Greaves	
+covered	cosmetic.Leg_Luk.name	Cosmetics	Fate Greaves	
+covered	cosmetic.Leg_Str.name	Cosmetics	Power Greaves	
+covered	cosmetic.Leg_Vit.name	Cosmetics	Endurance Greaves	
+covered	cosmetic.Legionnaire Helm.name	Cosmetics	Legionnaire Helm	
+covered	cosmetic.Legs_AcademyF.name	Cosmetics	Academy Female Pants	
+covered	cosmetic.Legs_AcademyM.name	Cosmetics	Academy Male Pants	
+covered	cosmetic.Legs_Angel_F.name	Cosmetics	Angel Female Pants	
+covered	cosmetic.Legs_Angel_M.name	Cosmetics	Angel Male Pants	
+covered	cosmetic.Legs_Cuervo_F.name	Cosmetics	Cuervo Female Pants	
+covered	cosmetic.Legs_Cuervo_M.name	Cosmetics	Cuervo Male Pants	
+covered	cosmetic.Legs_CyberRogue.name	Cosmetics	Cyber Rogue Pants	
+covered	cosmetic.Legs_Demonic_F.name	Cosmetics	Demonic Female Pants	
+covered	cosmetic.Legs_Demonic_M.name	Cosmetics	Demonic Male Pants	
+covered	cosmetic.Legs_Easter_F.name	Cosmetics	Easter Female Pants	
+covered	cosmetic.Legs_Easter_M.name	Cosmetics	Easter Male Pants	
+covered	cosmetic.Legs_FireFox.name	Cosmetics	Fire Fox Pants	
+covered	cosmetic.Legs_Gladys.name	Cosmetics	Gladys Pants	
+covered	cosmetic.Legs_GS.name	Cosmetics	Gunslinger Pants	
+covered	cosmetic.Legs_IceFox.name	Cosmetics	Ice Fox Pants	
+covered	cosmetic.Legs_Priest_F.name	Cosmetics	Priest Female Pants	
+covered	cosmetic.Legs_Priest_M.name	Cosmetics	Priest Male Pants	
+covered	cosmetic.Legs_Shinobi.name	Cosmetics	Shinobi Pants	
+covered	cosmetic.Legs_SpiritValer.name	Cosmetics	Spirit Valer Pants	
+covered	cosmetic.Legs_SukebanF.name	Cosmetics	Sukeban Female Pants	
+covered	cosmetic.Legs_SukebanM.name	Cosmetics	Sukeban Male Pants	
+covered	cosmetic.Legs_Transparent.name	Cosmetics	Transparent Pants	
+covered	cosmetic.Legs_Urban.name	Cosmetics	Urban Pants	
+covered	cosmetic.Legs_Wizard_F.name	Cosmetics	Wizard Female Pants	
+covered	cosmetic.Legs_Wizard_M.name	Cosmetics	Wizard Male Pants	
+covered	cosmetic.Life Staff.name	Cosmetics	Life Staff	
+covered	cosmetic.Lifebloom Shoes.name	Cosmetics	Lifebloom Shoes	
+covered	cosmetic.Longbow.name	Cosmetics	Longbow	
+covered	cosmetic.Lucky Drops.name	Cosmetics	Lucky Drops	
+covered	cosmetic.Lurker.name	Cosmetics	Creepy Crawly Pet	
+covered	cosmetic.Luxbane.name	Cosmetics	Luxbane	
+covered	cosmetic.Luxspire.name	Cosmetics	Luxspire	
+covered	cosmetic.Mace.name	Cosmetics	Mace	
+covered	cosmetic.Mage Guard.name	Cosmetics	Mage Guard	
+covered	cosmetic.Mage Plate.name	Cosmetics	Mage Plate	
+covered	cosmetic.Mage_1.name	Cosmetics	Elementalist	
+covered	cosmetic.Mage_2.name	Cosmetics	Spellshot	
+covered	cosmetic.Mage_3.name	Cosmetics	Blink Step	
+covered	cosmetic.Mage_4.name	Cosmetics	Ley Pulse	
+covered	cosmetic.Mage_5.name	Cosmetics	Frostglass	
+covered	cosmetic.Mage_6.name	Cosmetics	Combustion	
+covered	cosmetic.MageChest.name	Cosmetics	Spellthread Chest	
+covered	cosmetic.MageFeet.name	Cosmetics	Spellthread Shoes	
+covered	cosmetic.MageLegs.name	Cosmetics	Spellthread Legs	
+covered	cosmetic.Mana Cask.name	Cosmetics	Mana Cask	
+covered	cosmetic.Mana Potion.name	Cosmetics	Mana Potion	
+covered	cosmetic.Master Axe.name	Cosmetics	Master Axe	
+covered	cosmetic.Master Codex.name	Cosmetics	Master Codex	
+covered	cosmetic.Master Dagger.name	Cosmetics	Master Dagger	
+covered	cosmetic.Master Hammer.name	Cosmetics	Master Hammer	
+covered	cosmetic.Master Katar.name	Cosmetics	Master Katar	
+covered	cosmetic.Master Revolver.name	Cosmetics	Master Pistol	
+covered	cosmetic.Master Scythe.name	Cosmetics	Master Scythe	
+covered	cosmetic.Master Slingshot.name	Cosmetics	Master Bow	
+covered	cosmetic.Master Spear.name	Cosmetics	Master Spear	
+covered	cosmetic.Master Sword.name	Cosmetics	Master Sword	
+covered	cosmetic.Master Wand.name	Cosmetics	Master Wand	
+covered	cosmetic.Mechanical Core.name	Cosmetics	Mechanical Core	
+covered	cosmetic.Meteoric Staff.name	Cosmetics	Meteoric Staff	
+covered	cosmetic.Mimic Barrel.name	Cosmetics	Barrel Mimic Pet	
+covered	cosmetic.Mimic Book.name	Cosmetics	False Grimoire Pet	
+covered	cosmetic.Mimic Candle.name	Cosmetics	Wicktrap Pet	
+covered	cosmetic.Mimic Living Trap.name	Cosmetics	Safe Trap Pet	
+covered	cosmetic.Mimic Sword.name	Cosmetics	Sharp Mimic Pet	
+covered	cosmetic.Mimic Treasure Chest.name	Cosmetics	Treasure Mimic Pet	
+covered	cosmetic.Mindweave.name	Cosmetics	Mindweave	
+covered	cosmetic.Mirage Cloak.name	Cosmetics	Mirage Cloak	
+covered	cosmetic.Mischief Gift Box.name	Cosmetics	Mischief Gift Box	
+covered	cosmetic.Mitre of Sanctity.name	Cosmetics	Mitre of Sanctity	
+covered	cosmetic.Molten Core.name	Cosmetics	Sunstone Geode	
+covered	cosmetic.Monster Bat.name	Cosmetics	Bloatwing Pet	
+covered	cosmetic.Moonfrost.name	Cosmetics	Moonfrost	
+covered	cosmetic.Moonshadow Hat.name	Cosmetics	Moonshadow Hat	
+covered	cosmetic.Moonweave Gloves.name	Cosmetics	Moonweave Band	
+covered	cosmetic.Mosquito Pester.name	Cosmetics	Buzzbite Pet	
+covered	cosmetic.Moth Moon.name	Cosmetics	Moonveil Moth Pet	
+covered	cosmetic.Mount_AngelLion.name	Cosmetics	Angel Lion	
+covered	cosmetic.Mount_BananaDuck.name	Cosmetics	Banana Duck	
+covered	cosmetic.Mount_DemonDragon.name	Cosmetics	Demon Dragon	
+covered	cosmetic.Mount_FireFox.name	Cosmetics	Pyronyx	
+covered	cosmetic.Mount_FloraWhale.name	Cosmetics	Flora Whale	
+covered	cosmetic.Mount_IceFox.name	Cosmetics	Polarian	
+covered	cosmetic.Mouth_Demonic_F.name	Cosmetics	Demonic Female Mouth	
+covered	cosmetic.Mouth_Demonic_M.name	Cosmetics	Demonic Male Mouth	
+covered	cosmetic.Mushroom.name	Cosmetics	Capkin Pet	
+covered	cosmetic.Mystic Hat.name	Cosmetics	Mystic Hat	
+covered	cosmetic.Mystic Hood.name	Cosmetics	Mystic Hood	
+covered	cosmetic.Necronomicon.name	Cosmetics	Necronomicon	
+covered	cosmetic.Neko Hood.name	Cosmetics	Neko Hood	
+covered	cosmetic.Night Chest.name	Cosmetics	Night Armor	
+covered	cosmetic.Night Feet.name	Cosmetics	Night Boots	
+covered	cosmetic.Night Helm.name	Cosmetics	Night Helm	
+covered	cosmetic.Night Legs.name	Cosmetics	Night Greaves	
+covered	cosmetic.Night Shield.name	Cosmetics	Compass of Dawn	
+covered	cosmetic.Nightfang Stud.name	Cosmetics	Nightfang Stud	
+covered	cosmetic.Ninja Hood.name	Cosmetics	Ninja Hood	
+covered	cosmetic.Nomad Hood.name	Cosmetics	Nomad Hood	
+covered	cosmetic.NoviceChest.name	Cosmetics	Novice Chest	
+covered	cosmetic.NoviceFeet.name	Cosmetics	Novice Shoes	
+covered	cosmetic.NoviceLegs.name	Cosmetics	Novice Legs	
+covered	cosmetic.Nozzle Robot.name	Cosmetics	S.U. NOZZLE Pet	
+covered	cosmetic.Oak Bow.name	Cosmetics	Oak Bow	
+covered	cosmetic.Oathbound Helm.name	Cosmetics	Oathbound Helm	
+covered	cosmetic.Obsidian Band.name	Cosmetics	Obsidian Band	
+covered	cosmetic.Obsidian Edge.name	Cosmetics	Obsidian Edge	
+covered	cosmetic.Obsidian Loop.name	Cosmetics	Obsidian Loop	
+covered	cosmetic.Obsidian Pillar.name	Cosmetics	Sealed Scroll Totem	
+covered	cosmetic.Ocular Grimoire.name	Cosmetics	Ocular Grimoire	
+covered	cosmetic.Onyx Bolt.name	Cosmetics	Onyx Bolt	
+covered	cosmetic.Ornamented Staff.name	Cosmetics	Ornamented Staff	
+covered	cosmetic.Oxygen Tank.name	Cosmetics	Dangerous Tank	
+covered	cosmetic.Paladin Crest.name	Cosmetics	Paladin Crest	
+covered	cosmetic.Paladin_1.name	Cosmetics	Resolute Pose	
+covered	cosmetic.Paladin_2.name	Cosmetics	Crushing Advance	
+covered	cosmetic.Paladin_3.name	Cosmetics	Sacred Bastion	
+covered	cosmetic.Paladin_4.name	Cosmetics	Divine Retribution	
+covered	cosmetic.Parrying Knife.name	Cosmetics	Parrying Knife	
+covered	cosmetic.Pet_Angeling.name	Cosmetics	Angeling	
+covered	cosmetic.Pet_Cat_BlackPatch.name	Cosmetics	Persian Cat	
+covered	cosmetic.Pet_Cat_Ginger.name	Cosmetics	Ginger Cat	
+covered	cosmetic.Pet_Cat_Grey.name	Cosmetics	Grey Munchkin Cat	
+covered	cosmetic.Pet_Cat_Whiteface.name	Cosmetics	British Shorthair Cat	
+covered	cosmetic.Pet_Cat_WhiteGrey.name	Cosmetics	Ragdoll Cat	
+covered	cosmetic.Pet_DemonicImp.name	Cosmetics	Demonic Imp	
+covered	cosmetic.Pet_Dog_Buddy.name	Cosmetics	Golden Poodle Dog	
+covered	cosmetic.Pet_Dog_Hope.name	Cosmetics	Black Terrier Dog	
+covered	cosmetic.Pet_Dog_Jessie.name	Cosmetics	White Labrador Dog	
+covered	cosmetic.Pet_Dog_Loki.name	Cosmetics	Pomsky Dog	
+covered	cosmetic.Pet_Dog_Mishka.name	Cosmetics	German Shepherd Dog	
+covered	cosmetic.Pet_Dog_Pardo.name	Cosmetics	Husky Dog	
+covered	cosmetic.Pet_Dog_Shadow.name	Cosmetics	Black Labrador Dog	
+covered	cosmetic.Pet_Dog_Tillie.name	Cosmetics	Cattle Dog	
+covered	cosmetic.Pet_Earth.name	Cosmetics	Leafling	
+covered	cosmetic.Pet_EasterBunny.name	Cosmetics	Easter Bunny	
+covered	cosmetic.Pet_Fire.name	Cosmetics	Dawnling	
+covered	cosmetic.Pet_Griff_BlacknWhite.name	Cosmetics	Black Griffin	
+covered	cosmetic.Pet_Griff_BlueJay.name	Cosmetics	Blue Jay Griffin	
+covered	cosmetic.Pet_Griff_Brown.name	Cosmetics	Brown Griffin	
+covered	cosmetic.Pet_Griff_Eagle.name	Cosmetics	Eagle Griffin	
+covered	cosmetic.Pet_Griff_Mallard.name	Cosmetics	Mallard Griffin	
+covered	cosmetic.Pet_HybridBunny.name	Cosmetics	Hybrid Bunny	
+covered	cosmetic.Pet_Water.name	Cosmetics	Aqualing	
+covered	cosmetic.Pet_Wind.name	Cosmetics	Wildling	
+covered	cosmetic.Phantom Kunai.name	Cosmetics	Phantom Kunai	
+covered	cosmetic.Phantom Mask.name	Cosmetics	Phantom Mask	
+covered	cosmetic.Piercer.name	Cosmetics	Piercer	
+covered	cosmetic.Pirate Hat.name	Cosmetics	Pirate Hat	
+covered	cosmetic.PirateChest.name	Cosmetics	Pirate Coat	
+covered	cosmetic.PirateFeet.name	Cosmetics	Pirate Shoes	
+covered	cosmetic.PirateGloves.name	Cosmetics	Pirate Hook	
+covered	cosmetic.PirateLegs.name	Cosmetics	Pirate Pants	
+covered	cosmetic.Pistol.name	Cosmetics	Pistol	
+covered	cosmetic.Plant Shooter.name	Cosmetics	Bogspitter Pet	
+covered	cosmetic.Plasma Helmet.name	Cosmetics	Plasma Helmet	
+covered	cosmetic.Plasma Shell.name	Cosmetics	Plasma Shell	
+covered	cosmetic.Plasma Sword Blue.name	Cosmetics	Azure Flow	
+covered	cosmetic.Plasma Sword Purple.name	Cosmetics	Violet Arc	
+covered	cosmetic.Plasma Sword Yellow.name	Cosmetics	Solar Pulse	
+covered	cosmetic.PlasmaChest.name	Cosmetics	Plasma Suit	
+covered	cosmetic.PlasmaFeet.name	Cosmetics	Plasma Boots	
+covered	cosmetic.PlasmaLegs.name	Cosmetics	Plasma Greaves	
+covered	cosmetic.Plum Talisman.name	Cosmetics	Plum Talisman	
+covered	cosmetic.Pollen.name	Cosmetics	Sneezle Pet	
+covered	cosmetic.Potion Bowl.name	Cosmetics	Alchemist's Bowl	
+covered	cosmetic.Potion Gourd.name	Cosmetics	Sealed Potion Gourd	
+covered	cosmetic.Potions.name	Cosmetics	Potion Pouch	
+covered	cosmetic.Priest_1.name	Cosmetics	Veil of the Exorcist	
+covered	cosmetic.Priest_2.name	Cosmetics	Martyr's Oath	
+covered	cosmetic.Priest_3.name	Cosmetics	Exorcist's Brand	
+covered	cosmetic.Priest_4.name	Cosmetics	Eclipsing Aegis	
+covered	cosmetic.Priest_5.name	Cosmetics	Overflowing Grace	
+covered	cosmetic.Priest_6.name	Cosmetics	Resurrection Pact	
+covered	cosmetic.Priest_7.name	Cosmetics	Purity	
+covered	cosmetic.Priest_8.name	Cosmetics	Sanctuary Doctrine	
+covered	cosmetic.Pumpkin Head.name	Cosmetics	Jack-o'-lantern	
+covered	cosmetic.Quillcap.name	Cosmetics	Quillcap	
+covered	cosmetic.Quiver of Thorns.name	Cosmetics	Quiver of Thorns	
+covered	cosmetic.Quiver.name	Cosmetics	Quiver	
+covered	cosmetic.Rabbit.name	Cosmetics	Meadow Hare Pet	
+covered	cosmetic.Radiant Dagger.name	Cosmetics	Radiant Dagger	
+covered	cosmetic.Radiant Wand.name	Cosmetics	Radiant Wand	
+covered	cosmetic.Ragebound Fury.name	Cosmetics	Ragebound Fury	
+covered	cosmetic.Raider Helm.name	Cosmetics	Raider Helm	
+covered	cosmetic.Ram Skull Mask.name	Cosmetics	Ram Skull Mask	
+covered	cosmetic.Ransack.name	Cosmetics	Tomato Basket	
+covered	cosmetic.Rat Grey.name	Cosmetics	Grimerat Pet	
+covered	cosmetic.Razor Edge.name	Cosmetics	Razor's Edge	
+covered	cosmetic.Razor Kunai.name	Cosmetics	Razor Kunai	
+covered	cosmetic.Razor Robot.name	Cosmetics	S.U. Razor Unit Pet	
+covered	cosmetic.Reaper Scythe.name	Cosmetics	Grim Scythe	
+covered	cosmetic.Recurve Bow.name	Cosmetics	Recurve Bow	
+covered	cosmetic.Red Maw.name	Cosmetics	Red Maw	
+covered	cosmetic.Red Shell.name	Cosmetics	Terrapin v2000	
+covered	cosmetic.Regal Tricorne.name	Cosmetics	Regal Tricorne	
+covered	cosmetic.Reindeer Headband.name	Cosmetics	Reindeer Headband	
+covered	cosmetic.Reindeer Hood.name	Cosmetics	Reindeer Hood	
+covered	cosmetic.ReindeerChest.name	Cosmetics	Reindeer Chest	
+covered	cosmetic.ReindeerFeet.name	Cosmetics	Reindeer Shoes	
+covered	cosmetic.ReindeerGloves.name	Cosmetics	Reindeer Gloves	
+covered	cosmetic.ReindeerLegs.name	Cosmetics	Reindeer Legs	
+covered	cosmetic.Relic Trident.name	Cosmetics	Relic Trident	
+covered	cosmetic.Repeater Crossbow.name	Cosmetics	Repeater Crossbow	
+covered	cosmetic.Resonant Headphones.name	Cosmetics	Resonant Headphones	
+covered	cosmetic.Rifle.name	Cosmetics	Rifle	
+covered	cosmetic.Riftbreaker.name	Cosmetics	Riftbreaker	
+covered	cosmetic.Rod.name	Cosmetics	Rod	
+covered	cosmetic.Rogue_1.name	Cosmetics	Silent Circle	
+covered	cosmetic.Rogue_2.name	Cosmetics	Shadow Trail	
+covered	cosmetic.Rogue_3.name	Cosmetics	Venom Bloom	
+covered	cosmetic.Rogue_4.name	Cosmetics	Shadow Dance	
+covered	cosmetic.Rogue_5.name	Cosmetics	Hidden Strikes	
+covered	cosmetic.Round Glasses.name	Cosmetics	Round Glasses	
+covered	cosmetic.Round Shield.name	Cosmetics	Round Shield	
+covered	cosmetic.Royal Crest.name	Cosmetics	Royal Crest	
+covered	cosmetic.Royal Dagger.name	Cosmetics	Royal Dagger	
+covered	cosmetic.Royal Fang.name	Cosmetics	Royal Fang	
+covered	cosmetic.Runeborn Visor.name	Cosmetics	Runeborn Visor	
+covered	cosmetic.Runecall.name	Cosmetics	Runecall	
+covered	cosmetic.Runesmasher.name	Cosmetics	Runesmasher	
+covered	cosmetic.Rusted Binocs.name	Cosmetics	Rusted Binoculars	
+covered	cosmetic.Safety Helmet.name	Cosmetics	Safety Helmet	
+covered	cosmetic.SafetyChest.name	Cosmetics	Safety Chest	
+covered	cosmetic.SafetyFeet.name	Cosmetics	Safety Shoes	
+covered	cosmetic.SafetyGloves.name	Cosmetics	Safety Gloves	
+covered	cosmetic.SafetyLegs.name	Cosmetics	Safety Legs	
+covered	cosmetic.Sailor Cap.name	Cosmetics	Sailor Cap	
+covered	cosmetic.SanctifiedChest.name	Cosmetics	Sanctified Chest	
+covered	cosmetic.SanctifiedFeet.name	Cosmetics	Sanctified Shoes	
+covered	cosmetic.SanctifiedLegs.name	Cosmetics	Sanctified Legs	
+covered	cosmetic.Sanctum Gloves.name	Cosmetics	Sanctum Gloves	
+covered	cosmetic.Sanctum Guard.name	Cosmetics	Sanctum Guard	
+covered	cosmetic.SantaChest.name	Cosmetics	Santa Chest	
+covered	cosmetic.SantaFeet.name	Cosmetics	Santa Shoes	
+covered	cosmetic.SantaGloves.name	Cosmetics	Santa Gloves	
+covered	cosmetic.SantaHat.name	Cosmetics	Santa Hat	
+covered	cosmetic.SantaLegs.name	Cosmetics	Santa Legs	
+covered	cosmetic.Sapphire Crown.name	Cosmetics	Sapphire Crown	
+covered	cosmetic.Sapphire Guard.name	Cosmetics	Stormplate Helm	
+covered	cosmetic.Satchel of Embers.name	Cosmetics	Satchel of Embers	
+covered	cosmetic.Scalpel.name	Cosmetics	Scalpel	
+covered	cosmetic.Scholar Glasses.name	Cosmetics	Scholar Glasses	
+covered	cosmetic.Scorpling.name	Cosmetics	Scorchling Pet	
+covered	cosmetic.Scout_1.name	Cosmetics	Chain Reaction	
+covered	cosmetic.Scout_2.name	Cosmetics	Hunting Ground	
+covered	cosmetic.Scout_3.name	Cosmetics	Skirmisher's Flow	
+covered	cosmetic.Scout_4.name	Cosmetics	Suppressing Shot	
+covered	cosmetic.Scout_5.name	Cosmetics	Eagle Eye	
+covered	cosmetic.Scrapfang.name	Cosmetics	Scrapfang	
+covered	cosmetic.Scroll Case.name	Cosmetics	Scroll Case	
+covered	cosmetic.Scroll Charm.name	Cosmetics	Scroll Charm	
+covered	cosmetic.Scythe.name	Cosmetics	Scythe	
+covered	cosmetic.Seedling Satchel.name	Cosmetics	Seedling Satchel	
+covered	cosmetic.Serpent Ring.name	Cosmetics	Serpent Ring	
+covered	cosmetic.Shade.name	Cosmetics	Duskwraith Pet	
+covered	cosmetic.Shadow Dancers.name	Cosmetics	Shadow Dancers	
+covered	cosmetic.Shadow Shield.name	Cosmetics	Shadowsteel Guard	
+covered	cosmetic.Shady Specs.name	Cosmetics	Shady Specs	
+covered	cosmetic.Sharkbite Hood.name	Cosmetics	Sharkbite Hood	
+covered	cosmetic.Sharpened Visor.name	Cosmetics	Sharpened Visor	
+covered	cosmetic.Shell.name	Cosmetics	Shelbert Pet	
+covered	cosmetic.Shinobi_1.name	Cosmetics	Silent Execution	
+covered	cosmetic.Shinobi_2.name	Cosmetics	Sealed Fate	
+covered	cosmetic.Shinobi_3.name	Cosmetics	Honed Technique	
+covered	cosmetic.Shinobi_4.name	Cosmetics	Phantom Manuscript	
+covered	cosmetic.Shotgun.name	Cosmetics	Shotgun	
+covered	cosmetic.Shuriken.name	Cosmetics	Fuma Shuriken	
+covered	cosmetic.Silence of Night.name	Cosmetics	Silence of Night	
+covered	cosmetic.Skull Emblem.name	Cosmetics	Skull Emblem	
+covered	cosmetic.Skull Lord Totem.name	Cosmetics	Skull Lord Totem	
+covered	cosmetic.Skull Pendant.name	Cosmetics	Skull Pendant	
+covered	cosmetic.Skullhacker.name	Cosmetics	Skullhacker	
+covered	cosmetic.Sky Raider Hat.name	Cosmetics	Sky Raider Hat	
+covered	cosmetic.Skybreaker Staff.name	Cosmetics	Skybreaker Staff	
+covered	cosmetic.Skywing Mask.name	Cosmetics	Skywing Mask	
+covered	cosmetic.Slime.name	Cosmetics	Blob Pet	
+covered	cosmetic.Slingshot.name	Cosmetics	Slingshot	
+covered	cosmetic.Snake.name	Cosmetics	Viper Pet	
+covered	cosmetic.Sniper Rifle.name	Cosmetics	Sniper Rifle	
+covered	cosmetic.Snowbun Earmuffs.name	Cosmetics	Snowbun Earmuffs	
+covered	cosmetic.Snowman Head.name	Cosmetics	Snowman Head	
+covered	cosmetic.Solar Relic.name	Cosmetics	Solar Relic	
+covered	cosmetic.Solar Spear.name	Cosmetics	Solar Spear	
+covered	cosmetic.Solaris Blade.name	Cosmetics	Solaris Blade	
+covered	cosmetic.Sonic Shoes.name	Cosmetics	Sonic Shoes	
+covered	cosmetic.Soul Reaper Scythe.name	Cosmetics	Blight Reaver	
+covered	cosmetic.SoulbinderChest.name	Cosmetics	Soulforged Chest	
+covered	cosmetic.SoulbinderFeet.name	Cosmetics	Soulforged Shoes	
+covered	cosmetic.SoulbinderLegs.name	Cosmetics	Soulforged Legs	
+covered	cosmetic.Spider Toxin.name	Cosmetics	Venomweaver Pet	
+covered	cosmetic.Spiderling Robot.name	Cosmetics	S.U. Threadling Pet	
+covered	cosmetic.Spiked Club.name	Cosmetics	Spiked Club	
+covered	cosmetic.Spiked Familiar.name	Cosmetics	Shardling Familiar	
+covered	cosmetic.Spiked Helm.name	Cosmetics	Blackthorn Helm	
+covered	cosmetic.Spikesteel Helm.name	Cosmetics	Spikesteel Helm	
+covered	cosmetic.Spined Aegis.name	Cosmetics	Spined Aegis	
+covered	cosmetic.Spineshard.name	Cosmetics	Spineshard	
+covered	cosmetic.Spirit Familiar.name	Cosmetics	Spirit Familiar	
+covered	cosmetic.Spirit Ward.name	Cosmetics	Spirit Ward	
+covered	cosmetic.Spooky Spell Hat.name	Cosmetics	Spooky Spell Hat	
+covered	cosmetic.Spore.name	Cosmetics	Duskcap Pet	
+covered	cosmetic.Springram Horns.name	Cosmetics	Springram Horns	
+covered	cosmetic.Sprout.name	Cosmetics	Sprig Pet	
+covered	cosmetic.Squid Baby.name	Cosmetics	Inky Pet	
+covered	cosmetic.Staff of Eternis.name	Cosmetics	Staff of Eternis	
+covered	cosmetic.Stall_Oriental.name	Cosmetics	Oriental Vending Stall	
+covered	cosmetic.Stall_SpiritValer.name	Cosmetics	Spirit Valer Vending Stall	
+covered	cosmetic.Star.name	Cosmetics	Golden Star	
+covered	cosmetic.Starbound Hat.name	Cosmetics	Starbound Hat	
+covered	cosmetic.Starshine Glasses.name	Cosmetics	Starshine Glasses	
+covered	cosmetic.Stiletto.name	Cosmetics	Stiletto	
+covered	cosmetic.Stonebound Boots.name	Cosmetics	Stonebound Boots	
+covered	cosmetic.Stoneguard.name	Cosmetics	Stoneguard	
+covered	cosmetic.Stonepoint Spear.name	Cosmetics	Stonepoint Spear	
+covered	cosmetic.Stormburst Crossbow.name	Cosmetics	Stormburst Crossbow	
+covered	cosmetic.Stormcall Kunai.name	Cosmetics	Stormcall Kunai	
+covered	cosmetic.Stormcaller Totem.name	Cosmetics	Stormcaller Totem	
+covered	cosmetic.Stormfeather Kunai.name	Cosmetics	Stormfeather Kunai	
+covered	cosmetic.Stormpiercer.name	Cosmetics	Stormpiercer	
+covered	cosmetic.StormplateChest.name	Cosmetics	Stormplate Chest	
+covered	cosmetic.StormplateFeet.name	Cosmetics	Stormplate Shoes	
+covered	cosmetic.StormplateLegs.name	Cosmetics	Stormplate Legs	
+covered	cosmetic.Straw Hat.name	Cosmetics	Wanderer's Straw Hat	
+covered	cosmetic.Stylish Shades.name	Cosmetics	Stylish Shades	
+covered	cosmetic.Summoner_1.name	Cosmetics	Alpha Surge	
+covered	cosmetic.Summoner_2.name	Cosmetics	Hexwell Current	
+covered	cosmetic.Summoner_3.name	Cosmetics	Banishment Well	
+covered	cosmetic.Summoner_4.name	Cosmetics	Resonant Wind	
+covered	cosmetic.Summoner_5.name	Cosmetics	Blessed Resonance	
+covered	cosmetic.Summoner_6.name	Cosmetics	Soul Chains	
+covered	cosmetic.Sun Disc.name	Cosmetics	Shining Sun Shield	
+covered	cosmetic.Sun Emblem Helm.name	Cosmetics	Hero's Helm	
+covered	cosmetic.Sun Emblem.name	Cosmetics	Sun Emblem	
+covered	cosmetic.Sun Lion Crest.name	Cosmetics	Sun Lion Crest	
+covered	cosmetic.Sunbound Mitts.name	Cosmetics	Sunbound Mitts	
+covered	cosmetic.Suncrest Mace.name	Cosmetics	Suncrest Mace	
+covered	cosmetic.Sunflare.name	Cosmetics	Sunflare	
+covered	cosmetic.Sunflower Clip.name	Cosmetics	Sunflower Clip	
+covered	cosmetic.Sunflower Fairy.name	Cosmetics	Sylvie Pet	
+covered	cosmetic.Sunglasses.name	Cosmetics	Sunglasses	
+covered	cosmetic.Sunset Shutters.name	Cosmetics	Cogwheel Goggles	
+covered	cosmetic.Swampy Hat.name	Cosmetics	Swampy Hat	
+covered	cosmetic.Swift Fang.name	Cosmetics	Serpent Fang	
+covered	cosmetic.Sword.name	Cosmetics	Sword	
+covered	cosmetic.Teapot Spirit.name	Cosmetics	Teapot Spirit	
+covered	cosmetic.Tempest Robes.name	Cosmetics	Tempest Robes	
+covered	cosmetic.Tempest Staff.name	Cosmetics	Tempest Staff	
+covered	cosmetic.Thief Mask.name	Cosmetics	Thief Mask	
+covered	cosmetic.ThiefChest.name	Cosmetics	Ashwalker Chest	
+covered	cosmetic.ThiefFeet.name	Cosmetics	Ashwalker Shoes	
+covered	cosmetic.ThiefLegs.name	Cosmetics	Ashwalker Legs	
+covered	cosmetic.Thundercoil.name	Cosmetics	Thundercoil	
+covered	cosmetic.Tiger Hat.name	Cosmetics	Tiger Hat	
+covered	cosmetic.Tinker Goggles.name	Cosmetics	Tinker Goggles	
+covered	cosmetic.Tinker Mask.name	Cosmetics	Tinker Mask	
+covered	cosmetic.Title_Backer.name	Cosmetics	Backer	
+covered	cosmetic.Title_Duo.name	Cosmetics	Duo	
+covered	cosmetic.Title_EarlyBird.name	Cosmetics	Early Bird	
+covered	cosmetic.Title_Founder.name	Cosmetics	Founder	
+covered	cosmetic.Title_MountDesigner.name	Cosmetics	Mount Designer	
+covered	cosmetic.Title_NPCDesigner.name	Cosmetics	NPC Designer	
+covered	cosmetic.Title_PetDesigner.name	Cosmetics	Pet Designer	
+covered	cosmetic.Title_SpiritValer.name	Cosmetics	SpiritValer	
+covered	cosmetic.Title_UltimateFounder.name	Cosmetics	Ultimate Founder	
+covered	cosmetic.Title_WeaponDesigner.name	Cosmetics	Weapon Designer	
+covered	cosmetic.Tomahawk.name	Cosmetics	Tomahawk	
+covered	cosmetic.Tome of Ages.name	Cosmetics	Tome of Ages	
+covered	cosmetic.Top Hat.name	Cosmetics	Top Hat	
+covered	cosmetic.Totem Banner.name	Cosmetics	Totem Banner	
+covered	cosmetic.Totem Mask.name	Cosmetics	Totem Mask	
+covered	cosmetic.Totem Skull Headdress.name	Cosmetics	Spirit Skull Headdress	
+covered	cosmetic.Trail_Angel.name	Cosmetics	Angelic Trail	
+covered	cosmetic.Trail_Demon.name	Cosmetics	Demonic Trail	
+covered	cosmetic.Treant Minion Evergreen.name	Cosmetics	Pineguard Sprig Pet	
+covered	cosmetic.Treasure Box.name	Cosmetics	Mini Treasure Chest	
+covered	cosmetic.Treasure Chest.name	Cosmetics	Treasure Chest	
+covered	cosmetic.Tribal Mask.name	Cosmetics	Tribal Mask	
+covered	cosmetic.Trickster Horns.name	Cosmetics	Trickster Horns	
+covered	cosmetic.Trident of Tides.name	Cosmetics	Trident of Tides	
+covered	cosmetic.Triple Barrel Revolver.name	Cosmetics	Triple Barrel Revolver	
+covered	cosmetic.Turtle.name	Cosmetics	Shellby Pet	
+covered	cosmetic.TurtleShell.name	Cosmetics	Turtle Shell	
+covered	cosmetic.Twinblade.name	Cosmetics	Twinblade	
+covered	cosmetic.Valiant Crown.name	Cosmetics	Valiant Crown	
+covered	cosmetic.Valor Helm.name	Cosmetics	Valor Helm	
+covered	cosmetic.Ventilator Mask.name	Cosmetics	Ventilator Mask	
+covered	cosmetic.Verdant Antlers.name	Cosmetics	Verdant Antlers	
+covered	cosmetic.Verdant Core.name	Cosmetics	Verdant Core	
+covered	cosmetic.Verdant Striders.name	Cosmetics	Verdant Striders	
+covered	cosmetic.Violet Heart Charm.name	Cosmetics	Violet Heart Charm	
+covered	cosmetic.Void Urn.name	Cosmetics	Void Urn	
+covered	cosmetic.Voidspike Helm.name	Cosmetics	Voidspike Helm	
+covered	cosmetic.Voidthreads.name	Cosmetics	Voidthreads	
+covered	cosmetic.War Axe.name	Cosmetics	War Axe	
+covered	cosmetic.War Banner.name	Cosmetics	War Banner	
+covered	cosmetic.Warborn Aegis.name	Cosmetics	Warborn Aegis	
+covered	cosmetic.Warlord Emblem Shield.name	Cosmetics	Warlord Emblem Shield	
+covered	cosmetic.Warrior_1.name	Cosmetics	Bloodtrail	
+covered	cosmetic.Warrior_2.name	Cosmetics	Breakjaw	
+covered	cosmetic.Warrior_3.name	Cosmetics	Warmaw	
+covered	cosmetic.Warrior_4.name	Cosmetics	Bloodprice	
+covered	cosmetic.Warrior_5.name	Cosmetics	Warpath	
+covered	cosmetic.Wasteland Cleaver.name	Cosmetics	Wasteland Cleaver	
+covered	cosmetic.Watch_1.name	Cosmetics	Digital Watch	
+covered	cosmetic.Watch_2.name	Cosmetics	Hipster Watch	
+covered	cosmetic.Watch_3.name	Cosmetics	Wrist Compass	
+covered	cosmetic.Watch_4.name	Cosmetics	Wrist Hourglass	
+covered	cosmetic.Watch_5.name	Cosmetics	Wrist Receiver	
+covered	cosmetic.Water Shield.name	Cosmetics	Frostspire Guard	
+covered	cosmetic.Weaver_1.name	Cosmetics	Weave of Counter	
+covered	cosmetic.Weaver_2.name	Cosmetics	Weave of Guardian	
+covered	cosmetic.Weaver_3.name	Cosmetics	Weave of Arcana	
+covered	cosmetic.Weaver_4.name	Cosmetics	Weave of Fury	
+covered	cosmetic.Weaver_5.name	Cosmetics	Weave of Marksman	
+covered	cosmetic.WeaverChest.name	Cosmetics	Weaver Chest	
+covered	cosmetic.WeaverFeet.name	Cosmetics	Weaver Shoes	
+covered	cosmetic.WeaverLegs.name	Cosmetics	Weaver Legs	
+covered	cosmetic.Whale Backpack.name	Cosmetics	Whale Backpack	
+covered	cosmetic.Whirlwind.name	Cosmetics	Zephyrl Pet	
+covered	cosmetic.Whisper of Thorns.name	Cosmetics	Whisper of Thorns	
+covered	cosmetic.Wilderness Pack.name	Cosmetics	Wilderness Pack	
+covered	cosmetic.Wildroot Veil.name	Cosmetics	Wildroot Mask	
+covered	cosmetic.Willow Staff.name	Cosmetics	Willow Staff	
+covered	cosmetic.Wind Shield.name	Cosmetics	Zephyr Cross	
+covered	cosmetic.Windcarver.name	Cosmetics	Windcarver	
+covered	cosmetic.Windroot.name	Cosmetics	Windroot	
+covered	cosmetic.WindstriderChest.name	Cosmetics	Windstrider Chest	
+covered	cosmetic.WindstriderFeet.name	Cosmetics	Windstrider Shoes	
+covered	cosmetic.WindstriderLegs.name	Cosmetics	Windstrider Legs	
+covered	cosmetic.Winged Helm.name	Cosmetics	Winged Helm	
+covered	cosmetic.Wings of Valor.name	Cosmetics	Wings of Valor	
+covered	cosmetic.Wisp Red.name	Cosmetics	Flame Sprite Pet	
+covered	cosmetic.Witchsteps.name	Cosmetics	Witchsteps	
+covered	cosmetic.Wizard_1.name	Cosmetics	Jupiter's Wrath	
+covered	cosmetic.Wizard_2.name	Cosmetics	Voltaic Overdraw	
+covered	cosmetic.Wizard_3.name	Cosmetics	Eye of the Storm	
+covered	cosmetic.Wizard_4.name	Cosmetics	Stonewake	
+covered	cosmetic.Wizard_5.name	Cosmetics	Focused Amplification	
+covered	cosmetic.Wizard_6.name	Cosmetics	Mana Surge	
+covered	cosmetic.Wizard_7.name	Cosmetics	Arcane Barrier	
+covered	cosmetic.Wizardry Hat.name	Cosmetics	Wizardry Hat	
+covered	cosmetic.Wolf Pup.name	Cosmetics	Direpup Pet	
+covered	cosmetic.Wolfcrest Shield.name	Cosmetics	Wolfcrest Shield	
+covered	cosmetic.Wooden Guard.name	Cosmetics	Wooden Guard	
+covered	cosmetic.Worm.name	Cosmetics	Wriggler Pet	
+covered	cosmetic.Wraith of Dawn.name	Cosmetics	Wraith of Dawn	
+covered	cosmetic.Wraithlight.name	Cosmetics	Wraithlight	
+covered	cosmetic.Zephyrlight.name	Cosmetics	Zephyrlight	
+covered	equip.3D Glasses.name	Equips	3D Glasses	
+covered	equip.Abyss Shard.name	Equips	Abyss Shard	
+covered	equip.Acolyte_1.name	Equips	Scripture of Mercy	
+covered	equip.Acolyte_2.name	Equips	Radiant Strikes	
+covered	equip.Acolyte_3.name	Equips	Radiant Judgment	
+covered	equip.Acolyte_4.name	Equips	Gospel of Grace	
+covered	equip.Acolyte_5.name	Equips	Lightweaver	
+covered	equip.Acolyte_6.name	Equips	Sacred Rhythm	
+covered	equip.Amber Bow.name	Equips	Amber Bow	
+covered	equip.Amber Loop.name	Equips	Amber Loop	
+covered	equip.Arcane Sigil.name	Equips	Arcane Sigil	
+covered	equip.ArcaneChest.name	Equips	Arcane Chest	
+covered	equip.ArcaneFeet.name	Equips	Arcane Boots	
+covered	equip.ArcaneGloves.name	Equips	Arcane Gloves	
+covered	equip.ArcaneLegs.name	Equips	Arcane Legs	
+covered	equip.Armor_Agi.name	Equips	Speed Plate	
+covered	equip.Armor_Dex.name	Equips	Precision Plate	
+covered	equip.Armor_Int.name	Equips	Mind Plate	
+covered	equip.Armor_Luk.name	Equips	Fate Plate	
+covered	equip.Armor_Str.name	Equips	Power Plate	
+covered	equip.Armor_Vit.name	Equips	Endurance Plate	
+covered	equip.Arrow Quiver.name	Equips	Arrow Quiver	
+covered	equip.Arrowcatch Wall.name	Equips	Arrowcatch Wall	
+covered	equip.Arrowpierced Shield.name	Equips	Arrow-Pierced Shield	
+covered	equip.Artemis.name	Equips	Artemis	
+covered	equip.Axe of Oblivion.name	Equips	Axe of Oblivion	
+covered	equip.Axe.name	Equips	Axe	
+covered	equip.Azure Antlers.name	Equips	Azure Antlers	
+covered	equip.Azure Crown.name	Equips	Azure Crown	
+covered	equip.Azure Cutlass.name	Equips	Azure Cutlass	
+covered	equip.Azure Prism.name	Equips	Azure Prism	
+covered	equip.Azure Tag.name	Equips	Azure Tag	
+covered	equip.Backpack.name	Equips	Backpack	
+covered	equip.Bandit Wrap.name	Equips	Bandit Wrap	
+covered	equip.Banner Helm.name	Equips	Banner Helm	
+covered	equip.Batling Familiar.name	Equips	Batling Familiar	
+covered	equip.Battle Bonnet.name	Equips	Battle Bonnet	
+covered	equip.Bear Backpack.name	Equips	Bear Backpack	
+covered	equip.Bear Hug Hood.name	Equips	Bear Hood	
+covered	equip.Beast Helm.name	Equips	Beast Helm	
+covered	equip.Beast Hood.name	Equips	Beast Hood	
+covered	equip.Beast Pelt Hood.name	Equips	Bandana	
+covered	equip.BerserkChest.name	Equips	Duskhunter Chest	
+covered	equip.Berserker_1.name	Equips	War Cry	
+covered	equip.Berserker_2.name	Equips	Crimson Frenzy	
+covered	equip.Berserker_3.name	Equips	Slaughter Instinct	
+covered	equip.Berserker_4.name	Equips	Executioner	
+covered	equip.BerserkFeet.name	Equips	Duskhunter Shoes	
+covered	equip.BerserkLegs.name	Equips	Duskhunter Legs	
+covered	equip.Binding Spirits Staff.name	Equips	Binding Spirits Staff	
+covered	equip.Blacksteel Blade.name	Equips	Blacksteel Blade	
+covered	equip.Blade of Eclipse.name	Equips	Eclipse Blade	
+covered	equip.Blade Standard.name	Equips	Blade Standard	
+covered	equip.Blindfold.name	Equips	Blindfold	
+covered	equip.Blood Clip.name	Equips	Blood Clip	
+covered	equip.Blood Pendant.name	Equips	Blood Pendant	
+covered	equip.Bloodbound.name	Equips	Bloodbound	
+covered	equip.Bloom of Midnight.name	Equips	Bloom of Midnight	
+covered	equip.Bloom Pendant.name	Equips	Bloom Pendant	
+covered	equip.Bloom Ring.name	Equips	Bloom Ring	
+covered	equip.Blue Shell.name	Equips	Blue Shell	
+covered	equip.Blunderbuss.name	Equips	Blunderbuss	
+covered	equip.Bomb Bud.name	Equips	Bomb Bud	
+covered	equip.Bone Channeler.name	Equips	Bone Channeler	
+covered	equip.Bone Helm.name	Equips	Bone Helm	
+covered	equip.Bone Pick.name	Equips	Bone Pick	
+covered	equip.Bonefang.name	Equips	Bonefang	
+covered	equip.BonkStick.name	Equips	Bonk Stick	
+covered	equip.BossProtocol.name	Grimoires	Boss Protocol	
+covered	equip.Breakerhead.name	Equips	Breakerhead	
+covered	equip.BreezeguardChest.name	Equips	Breezeguard Chest	
+covered	equip.BreezeguardFeet.name	Equips	Breezeguard Shoes	
+covered	equip.BreezeguardLegs.name	Equips	Breezeguard Legs	
+covered	equip.Brimblade.name	Equips	Brimblade	
+covered	equip.Broad Sword.name	Equips	Broad Sword	
+covered	equip.Bronze Crescent.name	Equips	Bronze Crescent	
+covered	equip.Bronze Plugs.name	Equips	Bronze Plugs	
+covered	equip.Bronze Visage.name	Equips	Bronze Visage	
+covered	equip.Bubblebeast Hood.name	Equips	Bubblebeast Hood	
+covered	equip.Buckler.name	Equips	Buckler	
+covered	equip.Bullcrest Helm.name	Equips	Bullcrest Helm	
+covered	equip.Bunny Backpack.name	Equips	Bunny Backpack	
+covered	equip.Bunny Cap.name	Equips	Bunny Cap	
+covered	equip.Caged Spirit.name	Equips	Caged Spirit	
+covered	equip.Cardboard Chick.name	Equips	Cardboard Chick	
+covered	equip.Centurion Helm.name	Equips	Centurion Helm	
+covered	equip.Ceremonial Mask.name	Equips	Ceremonial Mask	
+covered	equip.Cerulean Scepter.name	Equips	Cerulean Scepter	
+covered	equip.Chainfrost Staff.name	Equips	Chainfrost Staff	
+covered	equip.Chains of Binding.name	Equips	Chains of Binding	
+covered	equip.Champion Blade.name	Equips	Divine Blade	
+covered	equip.Chaos Reaver.name	Equips	Chaos Reaver	
+covered	equip.Chicky Hood.name	Equips	Chicky Hood	
+covered	equip.Chirpy Hat.name	Equips	Chirpy Hat	
+covered	equip.Chompy Hood.name	Equips	Chompy Hood	
+covered	equip.ClericChest.name	Equips	Cleric Chest	
+covered	equip.ClericFeet.name	Equips	Cleric Shoes	
+covered	equip.ClericLegs.name	Equips	Cleric Legs	
+covered	equip.Cloud Loop.name	Equips	Cloud Loop	
+covered	equip.Codex Binding Light.name	Equips	Grimoire of Binding Light	
+covered	equip.Codex First Hymn.name	Equips	Tome of the First Hymn	
+covered	equip.Codex of Revelation.name	Equips	Codex of Revelation	
+covered	equip.Codex Umbra.name	Equips	Codex Umbra	
+covered	equip.Codex Vitae.name	Equips	Codex Vitae	
+covered	equip.Codex.name	Equips	Tome	
+covered	equip.Combat Knife.name	Equips	Combat Knife	
+covered	equip.Cotton Mask.name	Equips	Cotton Mask	
+covered	equip.Crimson Crest.name	Equips	Crimson Crest	
+covered	equip.Crimson Plume.name	Equips	Crimson Plume	
+covered	equip.Crown of Spikes.name	Equips	Crown of Spikes	
+covered	equip.Crusader Staff.name	Equips	Radiant Scepter	
+covered	equip.Crusader Sword.name	Equips	Oathbreaker	
+covered	equip.Crystal Cache.name	Equips	Crystal Cache	
+covered	equip.Crystal Slammer.name	Equips	Crystal Slammer	
+covered	equip.Crystal Wings.name	Equips	Crystal Wings	
+covered	equip.Curse Tag.name	Equips	Curse Tag	
+covered	equip.Cursed Grimoire.name	Equips	Cursed Grimoire	
+covered	equip.Daggers.name	Equips	Twin Daggers	
+covered	equip.Darkfeather Wings.name	Equips	Darkfeather Wings	
+covered	equip.Darkhide Gloves.name	Equips	Darkhide Gloves	
+covered	equip.Dawn Prayer.name	Equips	Dawn Prayer	
+covered	equip.Dawnstar.name	Equips	Dawnstar	
+covered	equip.Daybreak.name	Equips	Daybreak	
+covered	equip.Demon Cat.name	Equips	Demon Cat Hood	
+covered	equip.Demon Hood.name	Equips	Demon Hood	
+covered	equip.Destruction Staff.name	Equips	Destruction Staff	
+covered	equip.Dino Cub Backpack.name	Equips	Dino Cub Backpack	
+covered	equip.DiscipleArmlets.name	Equips	Disciple's Bracers	
+covered	equip.DiscipleChest.name	Equips	Disciple's Manteau	
+covered	equip.DiscipleFeet.name	Equips	Disciple's Shoes	
+covered	equip.DiscipleHelm.name	Equips	Disciple's Visage	
+covered	equip.DiscipleLegs.name	Equips	Disciple's Wraps	
+covered	equip.Discipline Band.name	Equips	Discipline Mask	
+covered	equip.Doom Crescent.name	Equips	Doom Crescent	
+covered	equip.Doom Crown.name	Equips	Doom Crown	
+covered	equip.Doom Keg.name	Equips	Doom Keg	
+covered	equip.Double Ravenbeak.name	Equips	Double Ravenbeak	
+covered	equip.Dragon Hood.name	Equips	Dragon Hood	
+covered	equip.Dragonic Spear.name	Equips	Dragonic Spear	
+covered	equip.Dragonspire Helm.name	Equips	Dragonspire Helm	
+covered	equip.Drooping Bat.name	Equips	Drooping Bat	
+covered	equip.Drooping Burrow.name	Equips	Drooping Burrow	
+covered	equip.Drooping Cat.name	Equips	Drooping Cat	
+covered	equip.Drooping Flora.name	Equips	Drooping Flora	
+covered	equip.Drooping Pup.name	Equips	Drooping Pup	
+covered	equip.Dualblade Sheath.name	Equips	Dualblade Sheath	
+covered	equip.Duskfang.name	Equips	Duskfang	
+covered	equip.Dustweaver Hat.name	Equips	Dustweaver Hat	
+covered	equip.Earth Shaker.name	Equips	Earth Shaker	
+covered	equip.Earth Shield.name	Equips	Obsidian Bulwark	
+covered	equip.Eclipse Kunai.name	Equips	Eclipse Kunai	
+covered	equip.Edge of Twilight.name	Equips	Edge of Twilight	
+covered	equip.Elixir Gourd.name	Equips	Elixir Gourd	
+covered	equip.Emberhide Helm.name	Equips	Emberhide Helm	
+covered	equip.Embershard.name	Equips	Embershard	
+covered	equip.Emerald Crown.name	Equips	Emerald Crown	
+covered	equip.Energy Sword Blue.name	Equips	Prism Blade	
+covered	equip.Energy Sword Purple.name	Equips	Umbral Blade	
+covered	equip.Energy Sword Yellow.name	Equips	Chromatic Blade	
+covered	equip.Everfrost Staff.name	Equips	Everfrost Staff	
+covered	equip.Executioner Axe.name	Equips	Executioner Axe	
+covered	equip.Exorcist Bible.name	Equips	Exorcist Bible	
+covered	equip.Exorcist Staff.name	Equips	Exorcist Staff	
+covered	equip.Eye of Vigil.name	Equips	Eye of Vigil	
+covered	equip.Eyepatch.name	Equips	Eyepatch	
+covered	equip.Falcon Band.name	Equips	Falcon Band	
+covered	equip.Falcon Hood.name	Equips	Falcon Hood	
+covered	equip.Fang Clip.name	Equips	Fang Clip	
+covered	equip.Fang of the Moon.name	Equips	Fang of the Moon	
+covered	equip.Feathered Crown.name	Equips	Jadefeather Crown	
+covered	equip.Feathered Scout Hat.name	Equips	Feathered Scout Hat	
+covered	equip.Feet_Agi.name	Equips	Speed Shoes	
+covered	equip.Feet_Dex.name	Equips	Precision Shoes	
+covered	equip.Feet_Int.name	Equips	Mind Shoes	
+covered	equip.Feet_Luk.name	Equips	Fate Shoes	
+covered	equip.Feet_Str.name	Equips	Power Shoes	
+covered	equip.Feet_Vit.name	Equips	Endurance Shoes	
+covered	equip.Ferncloak.name	Equips	Ferncloak	
+covered	equip.Festival Cap.name	Equips	Lantern Cap	
+covered	equip.Festival Rockets.name	Equips	Festival Firecrackers	
+covered	equip.Festival Turtle Cap.name	Equips	Lucky Turtle Cap	
+covered	equip.Festive Gift Box.name	Equips	Ribboned Gift Box	
+covered	equip.Fire Shield.name	Equips	Molten Core Heater	
+covered	equip.Flame Spirit.name	Equips	Flame Spirit Horns	
+covered	equip.Flame Tongue Kunai.name	Equips	Flame Tongue Kunai	
+covered	equip.Flameburst Kunai.name	Equips	Flameburst Kunai	
+covered	equip.Fleetrunner.name	Equips	Fleetrunner	
+covered	equip.Flintlock Pistol.name	Equips	Flintlock Pistol	
+covered	equip.Focus Band.name	Equips	Focus Band	
+covered	equip.Forest Friend Hat.name	Equips	Forest Friend Hat	
+covered	equip.ForestChest.name	Equips	Forest Chest	
+covered	equip.ForestFeet.name	Equips	Forest Shoes	
+covered	equip.ForestLegs.name	Equips	Forest Legs	
+covered	equip.Fortified Guardwall.name	Equips	Fortified Guardwall	
+covered	equip.Frost Mark.name	Equips	Frost Mark	
+covered	equip.Frostfang.name	Equips	Frostfang	
+covered	equip.Frostscale Helm.name	Equips	Frostscale Helm	
+covered	equip.Frostshard.name	Equips	Frostshard	
+covered	equip.Frostspire Kunai.name	Equips	Frostspire Kunai	
+covered	equip.Fruit Bowl.name	Equips	Basket of Fruit	
+covered	equip.Funny Glasses.name	Equips	Disguise Glasses	
+covered	equip.Fur Hood.name	Equips	Fur Hood	
+covered	equip.Game Master Utility.name	Equips	Game Master Utility	
+covered	equip.GameMaster.name	Grimoires	Game Master	
+covered	equip.Gatling Gun.name	Equips	Gatling Gun	
+covered	equip.Ghostly Hat.name	Equips	Ghostly Hat	
+covered	equip.Glimmerthorn.name	Equips	Glimmerthorn	
+covered	equip.Glove_Agi.name	Equips	Speed Gauntlets	
+covered	equip.Glove_Dex.name	Equips	Precision Gauntlets	
+covered	equip.Glove_Int.name	Equips	Mind Gauntlets	
+covered	equip.Glove_Luk.name	Equips	Fate Gauntlets	
+covered	equip.Glove_Str.name	Equips	Power Gauntlets	
+covered	equip.Glove_Vit.name	Equips	Endurance Gauntlets	
+covered	equip.Golden Aegis.name	Equips	Golden Aegis	
+covered	equip.Golden Axe.name	Equips	Golden Axe	
+covered	equip.Golden Crest.name	Equips	Golden Crest	
+covered	equip.Golden Crown.name	Equips	Golden Crown	
+covered	equip.Golden Hammer.name	Equips	Golden Hammer	
+covered	equip.Golden Hoop.name	Equips	Golden Hoop	
+covered	equip.Grasping Eye Urn.name	Equips	Grasping Eye Urn	
+covered	equip.Grave Helm.name	Equips	Grave Helm	
+covered	equip.GravemarrowChest.name	Equips	Gravemarrow Chest	
+covered	equip.GravemarrowFeet.name	Equips	Gravemarrow Shoes	
+covered	equip.GravemarrowLegs.name	Equips	Gravemarrow Legs	
+covered	equip.Gravestone Breaker.name	Equips	Gravestone Breaker	
+covered	equip.Green Shell.name	Equips	Green Shell	
+covered	equip.Grim Reaper Scythe.name	Equips	Life Drinker	
+covered	equip.Guardblade.name	Equips	Guardblade	
+covered	equip.Happy Chipper Hat.name	Equips	Happy Chipper Hat	
+covered	equip.Harvester of Souls.name	Equips	Harvester of Souls	
+covered	equip.Hawkeye Crossbow.name	Equips	Hawkeye Crossbow	
+covered	equip.Heart Vessel.name	Equips	Heart Vessel	
+covered	equip.Heartgaze Shades.name	Equips	Heartgaze Shades	
+covered	equip.Heartloop Earring.name	Equips	Heartloop Earring	
+covered	equip.Hellfire Staff.name	Equips	Hellfire Staff	
+covered	equip.Hellhorn Hood.name	Equips	Hellhorn Hood	
+covered	equip.Hermit Hood.name	Equips	Hermit Hood	
+covered	equip.Hexweaver Hat.name	Equips	Hexweaver Hat	
+covered	equip.Holy Shield.name	Equips	Holy Crest	
+covered	equip.Holy Staff.name	Equips	Holy Staff	
+covered	equip.Hornbrand.name	Equips	Hornbrand	
+covered	equip.Horned Crusader Helm.name	Equips	Horned Crusader Helm	
+covered	equip.Horned Vanguard.name	Equips	Viking Helm	
+covered	equip.Hunting Knife.name	Equips	Hunting Knife	
+covered	equip.Hunting Pike.name	Equips	Hunting Pike	
+covered	equip.Insect Carapace.name	Equips	Insect Carapace	
+covered	equip.Iron Ankh.name	Equips	Iron Ankh	
+covered	equip.Iron Bulwark.name	Equips	Iron Bulwark	
+covered	equip.Iron Fortitude.name	Equips	Iron Fortitude	
+covered	equip.Iron Guard Helm.name	Equips	Guard Helm	
+covered	equip.Iron Halo.name	Equips	Saint's Burden	
+covered	equip.Iron Morningstar.name	Equips	Iron Morningstar	
+covered	equip.Iron Reaver.name	Equips	Iron Reaver	
+covered	equip.Iron Spear.name	Equips	Iron Spear	
+covered	equip.Iron Spire.name	Equips	Chained Spire	
+covered	equip.Ironhorn Cap.name	Equips	Gorehorn Helm	
+covered	equip.Ironshade Helm.name	Equips	Ironshade Helm	
+covered	equip.IslandChest.name	Equips	Island Spirit Chest	
+covered	equip.IslandFeet.name	Equips	Island Spirit Shoes	
+covered	equip.IslandLegs.name	Equips	Island Spirit Legs	
+covered	equip.Jagtooth.name	Equips	Jagtooth	
+covered	equip.Jester Hat.name	Equips	Jester Hat	
+covered	equip.Jewelcrest Mace.name	Equips	Jewelcrest Mace	
+covered	equip.Knife.name	Equips	Knife	
+covered	equip.Knight_1.name	Equips	Breaking Advance	
+covered	equip.Knight_2.name	Equips	Sweeping Order	
+covered	equip.Knight_3.name	Equips	Lightning Stance	
+covered	equip.Knight_4.name	Equips	Rescuing Throw	
+covered	equip.Knight_5.name	Equips	Iron Response	
+covered	equip.Knight_6.name	Equips	Vanguard Doctrine	
+covered	equip.KnightChest.name	Equips	Skystrider Chest	
+covered	equip.KnightFeet.name	Equips	Skystrider Shoes	
+covered	equip.KnightLegs.name	Equips	Skystrider Legs	
+covered	equip.Knuckleband.name	Equips	Knuckleband	
+covered	equip.Kunai.name	Equips	Kunai	
+covered	equip.Launcher.name	Equips	Launcher	
+covered	equip.Leaf Mask.name	Equips	Leaf Mask	
+covered	equip.Leg_Agi.name	Equips	Speed Greaves	
+covered	equip.Leg_Dex.name	Equips	Precision Greaves	
+covered	equip.Leg_Int.name	Equips	Mind Greaves	
+covered	equip.Leg_Luk.name	Equips	Fate Greaves	
+covered	equip.Leg_Str.name	Equips	Power Greaves	
+covered	equip.Leg_Vit.name	Equips	Endurance Greaves	
+covered	equip.Legionnaire Helm.name	Equips	Legionnaire Helm	
+covered	equip.Life Staff.name	Equips	Life Staff	
+covered	equip.Lifebloom Shoes.name	Equips	Lifebloom Shoes	
+covered	equip.Longbow.name	Equips	Longbow	
+covered	equip.Lucky Drops.name	Equips	Lucky Drops	
+covered	equip.Lute.name	Equips	Lute	
+covered	equip.Luxbane.name	Equips	Luxbane	
+covered	equip.Luxspire.name	Equips	Luxspire	
+covered	equip.Mace.name	Equips	Mace	
+covered	equip.Mage Guard.name	Equips	Mage Guard	
+covered	equip.Mage Plate.name	Equips	Mage Plate	
+covered	equip.Mage_1.name	Equips	Elementalist	
+covered	equip.Mage_2.name	Equips	Spellshot	
+covered	equip.Mage_3.name	Equips	Blink Step	
+covered	equip.Mage_4.name	Equips	Ley Pulse	
+covered	equip.Mage_5.name	Equips	Frostglass	
+covered	equip.Mage_6.name	Equips	Combustion	
+covered	equip.MageChest.name	Equips	Spellthread Chest	
+covered	equip.MageFeet.name	Equips	Spellthread Shoes	
+covered	equip.MageLegs.name	Equips	Spellthread Legs	
+covered	equip.Mana Cask.name	Equips	Mana Cask	
+covered	equip.Mana Potion.name	Equips	Elsi's Mana Potion	
+covered	equip.Master Axe.name	Equips	Master Axe	
+covered	equip.Master Codex.name	Equips	Master Codex	
+covered	equip.Master Dagger.name	Equips	Master Dagger	
+covered	equip.Master Hammer.name	Equips	Master Hammer	
+covered	equip.Master Katar.name	Equips	Master Katar	
+covered	equip.Master Revolver.name	Equips	Master Pistol	
+covered	equip.Master Scythe.name	Equips	Master Scythe	
+covered	equip.Master Slingshot.name	Equips	Master Bow	
+covered	equip.Master Spear.name	Equips	Master Spear	
+covered	equip.Master Sword.name	Equips	Master Sword	
+covered	equip.Master Wand.name	Equips	Master Staff	
+covered	equip.Mechanical Core.name	Equips	Mechanical Core	
+covered	equip.Meteoric Staff.name	Equips	Meteoric Staff	
+covered	equip.Mindweave.name	Equips	Mindweave	
+covered	equip.Mirage Cloak.name	Equips	Mirage Cloak	
+covered	equip.Mischief Gift Box.name	Equips	Mischief Gift Box	
+covered	equip.Mitre of Sanctity.name	Equips	Mitre of Sanctity	
+covered	equip.Molten Core.name	Equips	Sunstone Geode	
+covered	equip.Moonfrost.name	Equips	Moonfrost	
+covered	equip.Moonshadow Hat.name	Equips	Moonshadow Hat	
+covered	equip.Moonweave Gloves.name	Equips	Moonweave Band	
+covered	equip.Mystic Hat.name	Equips	Mystic Hat	
+covered	equip.Mystic Hood.name	Equips	Mystic Hood	
+covered	equip.Necronomicon.name	Equips	Necronomicon	
+covered	equip.Neko Hood.name	Equips	Neko Hood	
+covered	equip.Night Chest.name	Equips	Night Armor	
+covered	equip.Night Feet.name	Equips	Night Boots	
+covered	equip.Night Helm.name	Equips	Night Helm	
+covered	equip.Night Legs.name	Equips	Night Greaves	
+covered	equip.Night Shield.name	Equips	Compass of Dawn	
+covered	equip.Nightfang Stud.name	Equips	Nightfang Stud	
+covered	equip.Ninja Hood.name	Equips	Ninja Hood	
+covered	equip.Nomad Hood.name	Equips	Nomad Hood	
+covered	equip.NoviceChest.name	Equips	Novice Chest	
+covered	equip.NoviceFeet.name	Equips	Novice Shoes	
+covered	equip.NoviceLegs.name	Equips	Novice Legs	
+covered	equip.Oak Bow.name	Equips	Oak Bow	
+covered	equip.Oathbound Helm.name	Equips	Oathbound Helm	
+covered	equip.Obsidian Band.name	Equips	Obsidian Band	
+covered	equip.Obsidian Edge.name	Equips	Obsidian Edge	
+covered	equip.Obsidian Loop.name	Equips	Obsidian Loop	
+covered	equip.Obsidian Pillar.name	Equips	Sealed Scroll Totem	
+covered	equip.Ocular Grimoire.name	Equips	Ocular Grimoire	
+covered	equip.Onyx Bolt.name	Equips	Onyx Bolt	
+covered	equip.Ornamented Staff.name	Equips	Ornamented Staff	
+covered	equip.Oxygen Tank.name	Equips	Dangerous Tank	
+covered	equip.Paladin Crest.name	Equips	Paladin Crest	
+covered	equip.Paladin_1.name	Equips	Resolute Pose	
+covered	equip.Paladin_2.name	Equips	Crushing Advance	
+covered	equip.Paladin_3.name	Equips	Sacred Bastion	
+covered	equip.Paladin_4.name	Equips	Divine Retribution	
+covered	equip.Parrying Knife.name	Equips	Parrying Knife	
+covered	equip.Phantom Kunai.name	Equips	Phantom Kunai	
+covered	equip.Phantom Mask.name	Equips	Phantom Mask	
+covered	equip.Piercer.name	Equips	Piercer	
+covered	equip.Pirate Hat.name	Equips	Pirate Hat	
+covered	equip.PirateChest.name	Equips	Pirate Coat	
+covered	equip.PirateFeet.name	Equips	Pirate Shoes	
+covered	equip.PirateGloves.name	Equips	Pirate Hook	
+covered	equip.PirateLegs.name	Equips	Pirate Pants	
+covered	equip.Pistol.name	Equips	Pistol	
+covered	equip.Plasma Helmet.name	Equips	Plasma Helmet	
+covered	equip.Plasma Shell.name	Equips	Plasma Shell	
+covered	equip.Plasma Sword Blue.name	Equips	Azure Flow	
+covered	equip.Plasma Sword Purple.name	Equips	Violet Arc	
+covered	equip.Plasma Sword Yellow.name	Equips	Solar Pulse	
+covered	equip.PlasmaChest.name	Equips	Plasma Suit	
+covered	equip.PlasmaFeet.name	Equips	Plasma Boots	
+covered	equip.PlasmaLegs.name	Equips	Plasma Greaves	
+covered	equip.Plum Talisman.name	Equips	Plum Talisman	
+covered	equip.Potion Bowl.name	Equips	Alchemist's Bowl	
+covered	equip.Potion Gourd.name	Equips	Sealed Potion Gourd	
+covered	equip.Potions.name	Equips	Potion Pouch	
+covered	equip.Priest_1.name	Equips	Veil of the Exorcist	
+covered	equip.Priest_2.name	Equips	Martyr's Oath	
+covered	equip.Priest_3.name	Equips	Exorcist's Brand	
+covered	equip.Priest_4.name	Equips	Eclipsing Aegis	
+covered	equip.Priest_5.name	Equips	Overflowing Grace	
+covered	equip.Priest_6.name	Equips	Resurrection Pact	
+covered	equip.Priest_7.name	Equips	Purity	
+covered	equip.Priest_8.name	Equips	Sanctuary Doctrine	
+covered	equip.Pumpkin Head.name	Equips	Jack-o'-lantern	
+covered	equip.Quillcap.name	Equips	Quillcap	
+covered	equip.Quiver of Thorns.name	Equips	Quiver of Thorns	
+covered	equip.Quiver.name	Equips	Quiver	
+covered	equip.Radiant Dagger.name	Equips	Radiant Dagger	
+covered	equip.Radiant Lyra.name	Equips	Radiant Lyra	
+covered	equip.Radiant Wand.name	Equips	Radiant Staff	
+covered	equip.Ragebound Fury.name	Equips	Ragebound Fury	
+covered	equip.Raider Helm.name	Equips	Raider Helm	
+covered	equip.Ram Skull Mask.name	Equips	Ram Skull Mask	
+covered	equip.Ransack.name	Equips	Tomato Basket	
+covered	equip.Razor Edge.name	Equips	Razor's Edge	
+covered	equip.Razor Kunai.name	Equips	Razor Kunai	
+covered	equip.Reaper Scythe.name	Equips	Grim Scythe	
+covered	equip.Recurve Bow.name	Equips	Recurve Bow	
+covered	equip.Red Maw.name	Equips	Red Maw	
+covered	equip.Red Shell.name	Equips	Terrapin v2000	
+covered	equip.Regal Tricorne.name	Equips	Regal Tricorne	
+covered	equip.Reindeer Headband.name	Equips	Reindeer Headband	
+covered	equip.Reindeer Hood.name	Equips	Reindeer Hood	
+covered	equip.ReindeerChest.name	Equips	Reindeer Chest	
+covered	equip.ReindeerFeet.name	Equips	Reindeer Shoes	
+covered	equip.ReindeerGloves.name	Equips	Reindeer Gloves	
+covered	equip.ReindeerLegs.name	Equips	Reindeer Legs	
+covered	equip.Relic Trident.name	Equips	Relic Trident	
+covered	equip.Repeater Crossbow.name	Equips	Repeater Crossbow	
+covered	equip.Resonant Headphones.name	Equips	Resonant Headphones	
+covered	equip.Rifle.name	Equips	Rifle	
+covered	equip.Riftbreaker.name	Equips	Riftbreaker	
+covered	equip.Rod.name	Equips	Rod	
+covered	equip.Rogue_1.name	Equips	Silent Circle	
+covered	equip.Rogue_2.name	Equips	Shadow Trail	
+covered	equip.Rogue_3.name	Equips	Venom Bloom	
+covered	equip.Rogue_4.name	Equips	Shadow Dance	
+covered	equip.Rogue_5.name	Equips	Hidden Strikes	
+covered	equip.Round Glasses.name	Equips	Round Glasses	
+covered	equip.Round Shield.name	Equips	Round Shield	
+covered	equip.Royal Crest.name	Equips	Royal Crest	
+covered	equip.Royal Dagger.name	Equips	Royal Dagger	
+covered	equip.Royal Fang.name	Equips	Royal Fang	
+covered	equip.Runeborn Visor.name	Equips	Runeborn Visor	
+covered	equip.Runecall.name	Equips	Runecall	
+covered	equip.Runed Staff.name	Equips	Runed Staff	
+covered	equip.Runesmasher.name	Equips	Runesmasher	
+covered	equip.Runesteel.name	Equips	Runesteel	
+covered	equip.Rusted Binocs.name	Equips	Rusted Binoculars	
+covered	equip.Safety Helmet.name	Equips	Safety Helmet	
+covered	equip.SafetyChest.name	Equips	Safety Chest	
+covered	equip.SafetyFeet.name	Equips	Safety Shoes	
+covered	equip.SafetyGloves.name	Equips	Safety Gloves	
+covered	equip.SafetyLegs.name	Equips	Safety Legs	
+covered	equip.Sailor Cap.name	Equips	Sailor Cap	
+covered	equip.SanctifiedChest.name	Equips	Sanctified Chest	
+covered	equip.SanctifiedFeet.name	Equips	Sanctified Shoes	
+covered	equip.SanctifiedLegs.name	Equips	Sanctified Legs	
+covered	equip.Sanctum Gloves.name	Equips	Sanctum Gloves	
+covered	equip.Sanctum Guard.name	Equips	Sanctum Guard	
+covered	equip.SantaChest.name	Equips	Santa Chest	
+covered	equip.SantaFeet.name	Equips	Santa Shoes	
+covered	equip.SantaGloves.name	Equips	Santa Gloves	
+covered	equip.SantaHat.name	Equips	Santa Hat	
+covered	equip.SantaLegs.name	Equips	Santa Legs	
+covered	equip.Sapphire Crown.name	Equips	Sapphire Crown	
+covered	equip.Sapphire Guard.name	Equips	Stormplate Helm	
+covered	equip.Satchel of Embers.name	Equips	Satchel of Embers	
+covered	equip.Scalpel.name	Equips	Scalpel	
+covered	equip.Scholar Glasses.name	Equips	Scholar Glasses	
+covered	equip.Scout_1.name	Equips	Chain Reaction	
+covered	equip.Scout_2.name	Equips	Hunting Ground	
+covered	equip.Scout_3.name	Equips	Skirmisher's Flow	
+covered	equip.Scout_4.name	Equips	Suppressing Shot	
+covered	equip.Scout_5.name	Equips	Eagle Eye	
+covered	equip.Scrapfang.name	Equips	Scrapfang	
+covered	equip.Scroll Case.name	Equips	Scroll Case	
+covered	equip.Scroll Charm.name	Equips	Scroll Charm	
+covered	equip.Scythe.name	Equips	Scythe	
+covered	equip.Seedling Satchel.name	Equips	Seedling Satchel	
+covered	equip.Serpent Ring.name	Equips	Serpent Ring	
+covered	equip.Shadow Dancers.name	Equips	Shadow Dancers	
+covered	equip.Shadow Shield.name	Equips	Shadowsteel Guard	
+covered	equip.Shady Specs.name	Equips	Shady Specs	
+covered	equip.Sharkbite Hood.name	Equips	Sharkbite Hood	
+covered	equip.Sharpened Visor.name	Equips	Sharpened Visor	
+covered	equip.Shinobi_1.name	Equips	Silent Execution	
+covered	equip.Shinobi_2.name	Equips	Sealed Fate	
+covered	equip.Shinobi_3.name	Equips	Honed Technique	
+covered	equip.Shinobi_4.name	Equips	Phantom Manuscript	
+covered	equip.Shotgun.name	Equips	Shotgun	
+covered	equip.Shuriken.name	Equips	Fuma Shuriken	
+covered	equip.Silence of Night.name	Equips	Rhythm of Night	
+covered	equip.Skull Emblem.name	Equips	Skull Emblem	
+covered	equip.Skull Lord Totem.name	Equips	Skull Lord Totem	
+covered	equip.Skull Pendant.name	Equips	Skull Pendant	
+covered	equip.Skullhacker.name	Equips	Skullhacker	
+covered	equip.Sky Raider Hat.name	Equips	Sky Raider Hat	
+covered	equip.Skybreaker Staff.name	Equips	Skybreaker Staff	
+covered	equip.Skywing Mask.name	Equips	Skywing Mask	
+covered	equip.Slingshot.name	Equips	Slingshot	
+covered	equip.Sniper Rifle.name	Equips	Sniper Rifle	
+covered	equip.Snowbun Earmuffs.name	Equips	Snowbun Earmuffs	
+covered	equip.Snowman Head.name	Equips	Snowman Head	
+covered	equip.Solar Relic.name	Equips	Solar Relic	
+covered	equip.Solar Spear.name	Equips	Solar Spear	
+covered	equip.Solaris Blade.name	Equips	Solaris Blade	
+covered	equip.Sonic Shoes.name	Equips	Sonic Shoes	
+covered	equip.Soul Reaper Scythe.name	Equips	Blight Reaver	
+covered	equip.SoulbinderChest.name	Equips	Soulforged Chest	
+covered	equip.SoulbinderFeet.name	Equips	Soulforged Shoes	
+covered	equip.SoulbinderLegs.name	Equips	Soulforged Legs	
+covered	equip.Spiked Club.name	Equips	Spiked Club	
+covered	equip.Spiked Familiar.name	Equips	Shardling Familiar	
+covered	equip.Spiked Helm.name	Equips	Blackthorn Helm	
+covered	equip.Spikesteel Helm.name	Equips	Spikesteel Helm	
+covered	equip.Spined Aegis.name	Equips	Spined Aegis	
+covered	equip.Spineshard.name	Equips	Spineshard	
+covered	equip.Spirit Familiar.name	Equips	Spirit Familiar	
+covered	equip.Spirit Ward.name	Equips	Spirit Ward	
+covered	equip.Spooky Spell Hat.name	Equips	Spooky Spell Hat	
+covered	equip.Springram Horns.name	Equips	Springram Horns	
+covered	equip.Staff of Eternis.name	Equips	Staff of Eternis	
+covered	equip.Star.name	Equips	Golden Star	
+covered	equip.Starbound Hat.name	Equips	Starbound Hat	
+covered	equip.Starshine Glasses.name	Equips	Starshine Glasses	
+covered	equip.Stiletto.name	Equips	Stiletto	
+covered	equip.Stonebound Boots.name	Equips	Stonebound Boots	
+covered	equip.Stoneguard.name	Equips	Stoneguard	
+covered	equip.Stonepoint Spear.name	Equips	Stonepoint Spear	
+covered	equip.Stormburst Crossbow.name	Equips	Stormburst Crossbow	
+covered	equip.Stormcall Kunai.name	Equips	Stormcall Kunai	
+covered	equip.Stormcaller Totem.name	Equips	Stormcaller Totem	
+covered	equip.Stormfeather Kunai.name	Equips	Stormfeather Kunai	
+covered	equip.Stormpiercer.name	Equips	Stormpiercer	
+covered	equip.StormplateChest.name	Equips	Stormplate Chest	
+covered	equip.StormplateFeet.name	Equips	Stormplate Shoes	
+covered	equip.StormplateLegs.name	Equips	Stormplate Legs	
+covered	equip.Straw Hat.name	Equips	Wanderer's Straw Hat	
+covered	equip.Stylish Shades.name	Equips	Stylish Shades	
+covered	equip.Summoner_1.name	Equips	Alpha Surge	
+covered	equip.Summoner_2.name	Equips	Hexwell Current	
+covered	equip.Summoner_3.name	Equips	Banishment Well	
+covered	equip.Summoner_4.name	Equips	Resonant Wind	
+covered	equip.Summoner_5.name	Equips	Blessed Resonance	
+covered	equip.Summoner_6.name	Equips	Soul Chains	
+covered	equip.Sun Disc.name	Equips	Shining Sun Shield	
+covered	equip.Sun Emblem Helm.name	Equips	Hero's Helm	
+covered	equip.Sun Emblem.name	Equips	Sun Emblem	
+covered	equip.Sun Lion Crest.name	Equips	Sun Lion Crest	
+covered	equip.Sunbound Mitts.name	Equips	Sunbound Mitts	
+covered	equip.Suncrest Mace.name	Equips	Suncrest Mace	
+covered	equip.Sunflare.name	Equips	Sunflare	
+covered	equip.Sunflower Clip.name	Equips	Sunflower Clip	
+covered	equip.Sunglasses.name	Equips	Sunglasses	
+covered	equip.Sunset Shutters.name	Equips	Cogwheel Goggles	
+covered	equip.Swampy Hat.name	Equips	Swampy Hat	
+covered	equip.Swift Fang.name	Equips	Serpent Fang	
+covered	equip.Sword.name	Equips	Sword	
+covered	equip.Teapot Spirit.name	Equips	Teapot Spirit	
+covered	equip.Tempest Robes.name	Equips	Tempest Robes	
+covered	equip.Tempest Staff.name	Equips	Tempest Staff	
+covered	equip.Thief Mask.name	Equips	Thief Mask	
+covered	equip.ThiefChest.name	Equips	Ashwalker Chest	
+covered	equip.ThiefFeet.name	Equips	Ashwalker Shoes	
+covered	equip.ThiefLegs.name	Equips	Ashwalker Legs	
+covered	equip.Thundercoil.name	Equips	Thundercoil	
+covered	equip.Tiger Hat.name	Equips	Tiger Hat	
+covered	equip.Tinker Goggles.name	Equips	Tinker Goggles	
+covered	equip.Tinker Mask.name	Equips	Tinker Mask	
+covered	equip.Tomahawk.name	Equips	Tomahawk	
+covered	equip.Tome of Ages.name	Equips	Tome of Ages	
+covered	equip.Top Hat.name	Equips	Top Hat	
+covered	equip.Totem Banner.name	Equips	Totem Banner	
+covered	equip.Totem Mask.name	Equips	Totem Mask	
+covered	equip.Totem Skull Headdress.name	Equips	Spirit Skull Headdress	
+covered	equip.Treasure Box.name	Equips	Mini Treasure Chest	
+covered	equip.Treasure Chest.name	Equips	Treasure Chest	
+covered	equip.Tribal Mask.name	Equips	Tribal Mask	
+covered	equip.Trickster Horns.name	Equips	Trickster Horns	
+covered	equip.Trident of Tides.name	Equips	Trident of Tides	
+covered	equip.Triple Barrel Revolver.name	Equips	Triple Barrel Revolver	
+covered	equip.TurtleShell.name	Equips	Turtle Shell	
+covered	equip.Twinblade.name	Equips	Twinblade	
+covered	equip.Valiant Crown.name	Equips	Valiant Crown	
+covered	equip.Valor Helm.name	Equips	Valor Helm	
+covered	equip.Ventilator Mask.name	Equips	Ventilator Mask	
+covered	equip.Verdant Antlers.name	Equips	Verdant Antlers	
+covered	equip.Verdant Core.name	Equips	Verdant Core	
+covered	equip.Verdant Striders.name	Equips	Verdant Striders	
+covered	equip.Violet Heart Charm.name	Equips	Violet Heart Charm	
+covered	equip.Void Urn.name	Equips	Void Urn	
+covered	equip.Voidspike Helm.name	Equips	Voidspike Helm	
+covered	equip.Voidthreads.name	Equips	Voidthreads	
+covered	equip.War Axe.name	Equips	War Axe	
+covered	equip.War Banner.name	Equips	War Banner	
+covered	equip.Warborn Aegis.name	Equips	Warborn Aegis	
+covered	equip.Warlord Emblem Shield.name	Equips	Warlord Emblem Shield	
+covered	equip.Warrior_1.name	Equips	Bloodtrail	
+covered	equip.Warrior_2.name	Equips	Breakjaw	
+covered	equip.Warrior_3.name	Equips	Warmaw	
+covered	equip.Warrior_4.name	Equips	Bloodprice	
+covered	equip.Warrior_5.name	Equips	Warpath	
+covered	equip.Wasteland Cleaver.name	Equips	Wasteland Cleaver	
+covered	equip.Water Shield.name	Equips	Frostspire Guard	
+covered	equip.Weaver Gauntlets.name	Equips	Weaver Gauntlets	
+covered	equip.Weaver_1.name	Equips	Weave of Counter	
+covered	equip.Weaver_2.name	Equips	Weave of Guardian	
+covered	equip.Weaver_3.name	Equips	Weave of Arcana	
+covered	equip.Weaver_4.name	Equips	Weave of Fury	
+covered	equip.Weaver_5.name	Equips	Weave of Marksman	
+covered	equip.WeaverChest.name	Equips	Weaver Chest	
+covered	equip.WeaverFeet.name	Equips	Weaver Shoes	
+covered	equip.WeaverLegs.name	Equips	Weaver Legs	
+covered	equip.Whale Backpack.name	Equips	Whale Backpack	
+covered	equip.Whisper of Thorns.name	Equips	Whisper of Thorns	
+covered	equip.Wilderness Pack.name	Equips	Wilderness Pack	
+covered	equip.Wildroot Veil.name	Equips	Wildroot Mask	
+covered	equip.Willow Staff.name	Equips	Willow Staff	
+covered	equip.Wind Shield.name	Equips	Zephyr Cross	
+covered	equip.Windcarver.name	Equips	Windcarver	
+covered	equip.Windroot.name	Equips	Windroot	
+covered	equip.WindstriderChest.name	Equips	Windstrider Chest	
+covered	equip.WindstriderFeet.name	Equips	Windstrider Shoes	
+covered	equip.WindstriderLegs.name	Equips	Windstrider Legs	
+covered	equip.Winged Helm.name	Equips	Winged Helm	
+covered	equip.Wings of Valor.name	Equips	Wings of Valor	
+covered	equip.Witchsteps.name	Equips	Witchsteps	
+covered	equip.Wizard_1.name	Equips	Jupiter's Wrath	
+covered	equip.Wizard_2.name	Equips	Voltaic Overdraw	
+covered	equip.Wizard_3.name	Equips	Eye of the Storm	
+covered	equip.Wizard_4.name	Equips	Stonewake	
+covered	equip.Wizard_5.name	Equips	Focused Amplification	
+covered	equip.Wizard_6.name	Equips	Mana Surge	
+covered	equip.Wizard_7.name	Equips	Arcane Barrier	
+covered	equip.Wizard_Artifact_1.name	Grimoires	Tempest Engine	
+covered	equip.Wizard_Artifact_2.name	Grimoires	Frozen Dominion	
+covered	equip.Wizard_Artifact_3.name	Grimoires	Meteoric Cataclysm	
+covered	equip.Wizardry Hat.name	Equips	Wizardry Hat	
+covered	equip.Wolfcrest Shield.name	Equips	Wolfcrest Shield	
+covered	equip.Wooden Guard.name	Equips	Wooden Guard	
+covered	equip.Wraith of Dawn.name	Equips	Wraith of Dawn	
+covered	equip.Wraithlight.name	Equips	Wraithlight	
+covered	equip.Zephyrlight.name	Equips	Zephyrlight	
+covered	gem.AerialShot Gem.affix	Gems	Aerial Shot	
+covered	gem.AerialShot Gem.name	Gems	Aerial Shot Gem	
+covered	gem.ArrowShower Gem.affix	Gems	Arrow Shower	
+covered	gem.ArrowShower Gem.name	Gems	Arrow Shower Gem	
+covered	gem.AtkSpd Gem.affix	Gems	Tempo	
+covered	gem.AtkSpd Gem.name	Gems	Tempo Gem	
+covered	gem.AxeArc Gem.affix	Gems	Twin Cleave	
+covered	gem.AxeArc Gem.name	Gems	Twin Cleave Gem	
+covered	gem.AxeThrow Gem.affix	Gems	Axe Throw	
+covered	gem.AxeThrow Gem.name	Gems	Axe Throw Gem	
+covered	gem.AxeVortex Gem.affix	Gems	Vortex Slash	
+covered	gem.AxeVortex Gem.name	Gems	Vortex Slash Gem	
+covered	gem.Bash Gem.affix	Gems	Bash	
+covered	gem.Bash Gem.name	Gems	Bash Gem	
+covered	gem.BladeDance Gem.affix	Gems	Blade Dance	
+covered	gem.BladeDance Gem.name	Gems	Blade Dance Gem	
+covered	gem.BoneSpear Gem.affix	Gems	Bone Spear	
+covered	gem.BoneSpear Gem.name	Gems	Bone Spear Gem	
+covered	gem.BoneSpikes Gem.affix	Gems	Bone Spikes	
+covered	gem.BoneSpikes Gem.name	Gems	Bone Spikes Gem	
+covered	gem.CastSpd Gem.affix	Gems	Focus	
+covered	gem.CastSpd Gem.name	Gems	Focus Gem	
+covered	gem.ChainLightning Gem.affix	Gems	Chain Lightning	
+covered	gem.ChainLightning Gem.name	Gems	Chain Lightning Gem	
+covered	gem.ConsecratedGround Gem.affix	Gems	Consecrated Ground	
+covered	gem.ConsecratedGround Gem.name	Gems	Consecrated Ground Gem	
+covered	gem.Consecration Gem.affix	Gems	Consecration	
+covered	gem.Consecration Gem.name	Gems	Consecration Gem	
+covered	gem.CorpseExplosionEnemy Gem.affix	Gems	Corpse Explosion	
+covered	gem.CorpseExplosionEnemy Gem.name	Gems	Corpse Explosion Gem	
+covered	gem.CounterSlash Gem.affix	Gems	Counter Slash	
+covered	gem.CounterSlash Gem.name	Gems	Counter Slash Gem	
+covered	gem.CritDamage Gem.affix	Gems	Razor	
+covered	gem.CritDamage Gem.name	Gems	Razor Gem	
+covered	gem.Cyclone Gem.affix	Gems	Cyclone	
+covered	gem.Cyclone Gem.name	Gems	Cyclone Gem	
+covered	gem.Damnation Gem.affix	Gems	Damnation	
+covered	gem.Damnation Gem.name	Gems	Damnation Gem	
+covered	gem.Dark Exorcism Gem.affix	Gems	Dark Exorcism	
+covered	gem.Dark Exorcism Gem.name	Gems	Dark Exorcism Gem	
+covered	gem.DarkClaw Gem.affix	Gems	Dark Claw	
+covered	gem.DarkClaw Gem.name	Gems	Dark Claw Gem	
+covered	gem.DeathCoilEnemy Gem.affix	Gems	Death Coil	
+covered	gem.DeathCoilEnemy Gem.name	Gems	Death Coil Gem	
+covered	gem.DeathCoilSummon Gem.affix	Gems	Death Coil	
+covered	gem.DeathCoilSummon Gem.name	Gems	Death Coil Gem	
+covered	gem.DeathNova Gem.affix	Gems	Death Nova	
+covered	gem.DeathNova Gem.name	Gems	Death Nova Gem	
+covered	gem.DeathSpiral Gem.affix	Gems	Death Spiral	
+covered	gem.DeathSpiral Gem.name	Gems	Death Spiral Gem	
+covered	gem.DefMult Gem.affix	Gems	Bastion	
+covered	gem.DefMult Gem.name	Gems	Bastion Gem	
+covered	gem.Detector Gem.affix	Gems	Seer	
+covered	gem.Detector Gem.name	Gems	Seer Gem	
+covered	gem.DivinePunishment Gem.affix	Gems	Divine Punishment	
+covered	gem.DivinePunishment Gem.name	Gems	Divine Punishment Gem	
+covered	gem.DoubleAttack Gem.affix	Gems	Echo	
+covered	gem.DoubleAttack Gem.name	Gems	Echo Gem	
+covered	gem.Earth Gem.affix	Gems	Earth	
+covered	gem.Earth Gem.name	Gems	Earth Gem	
+covered	gem.Earthbolt Gem.affix	Gems	Earthbolt	
+covered	gem.Earthbolt Gem.name	Gems	Earthbolt Gem	
+covered	gem.Earthquake Gem.affix	Gems	Earthquake	
+covered	gem.Earthquake Gem.name	Gems	Earthquake Gem	
+covered	gem.EarthSpikes Gem.affix	Gems	Earth Spikes	
+covered	gem.EarthSpikes Gem.name	Gems	Earth Spikes Gem	
+covered	gem.Execute Gem.affix	Gems	Execute	
+covered	gem.Execute Gem.name	Gems	Execute Gem	
+covered	gem.Exorcism Gem.affix	Gems	Exorcism	
+covered	gem.Exorcism Gem.name	Gems	Exorcism Gem	
+covered	gem.ExplosiveGrenade Gem.affix	Gems	Explosive Grenade	
+covered	gem.ExplosiveGrenade Gem.name	Gems	Explosive Grenade Gem	
+covered	gem.FanFire Gem.affix	Gems	Fan Fire	
+covered	gem.FanFire Gem.name	Gems	Fan Fire Gem	
+covered	gem.FanOfKnives Gem.affix	Gems	Fan Of Knives	
+covered	gem.FanOfKnives Gem.name	Gems	Fan Of Knives Gem	
+covered	gem.FieldCurse Gem.affix	Gems	Banishment Field	
+covered	gem.FieldCurse Gem.name	Gems	Banishment Field Gem	
+covered	gem.FieldDamage Gem.affix	Gems	Dissonance Well	
+covered	gem.FieldDamage Gem.name	Gems	Dissonance Well Gem	
+covered	gem.FieldHealing Gem.affix	Gems	Resonance Well	
+covered	gem.FieldHealing Gem.name	Gems	Resonance Well Gem	
+covered	gem.FieldSilence Gem.affix	Gems	Suppression Field	
+covered	gem.FieldSilence Gem.name	Gems	Suppression Field Gem	
+covered	gem.Fire Gem.affix	Gems	Fire	
+covered	gem.Fire Gem.name	Gems	Fire Gem	
+covered	gem.Fireball Gem.affix	Gems	Fireball	
+covered	gem.Fireball Gem.name	Gems	Fireball Gem	
+covered	gem.Firebolt Gem.affix	Gems	Firebolt	
+covered	gem.Firebolt Gem.name	Gems	Firebolt Gem	
+covered	gem.FirePillar Gem.affix	Gems	Fire Pillar	
+covered	gem.FirePillar Gem.name	Gems	Fire Pillar Gem	
+covered	gem.FireRelease Gem.affix	Gems	Fire Release	
+covered	gem.FireRelease Gem.name	Gems	Fire Release Gem	
+covered	gem.FlameOrb Gem.affix	Gems	Flame Orb	
+covered	gem.FlameOrb Gem.name	Gems	Flame Orb Gem	
+covered	gem.FlashGrenade Gem.affix	Gems	Flash Grenade	
+covered	gem.FlashGrenade Gem.name	Gems	Flash Grenade Gem	
+covered	gem.Flee Gem.affix	Gems	Evasion	
+covered	gem.Flee Gem.name	Gems	Evasion Gem	
+covered	gem.ForceShot Gem.affix	Gems	Force Shot	
+covered	gem.ForceShot Gem.name	Gems	Force Shot Gem	
+covered	gem.FreezeGrenade Gem.affix	Gems	Freeze Grenade	
+covered	gem.FreezeGrenade Gem.name	Gems	Freeze Grenade Gem	
+covered	gem.FreezingField Gem.affix	Gems	Blizzard	
+covered	gem.FreezingField Gem.name	Gems	Blizzard Gem	
+covered	gem.FrostBlade Gem.affix	Gems	Binding Spiral	
+covered	gem.FrostBlade Gem.name	Gems	Binding Spiral Gem	
+covered	gem.GrandCross Gem.affix	Gems	Grand Cross	
+covered	gem.GrandCross Gem.name	Gems	Grand Cross Gem	
+covered	gem.GroundSlam Gem.affix	Gems	Earth Splitter	
+covered	gem.GroundSlam Gem.name	Gems	Earth Splitter Gem	
+covered	gem.GunkShot Gem.affix	Gems	Gunk Shot	
+covered	gem.GunkShot Gem.name	Gems	Gunk Shot Gem	
+covered	gem.Harvest Gem.affix	Gems	Harvest	
+covered	gem.Harvest Gem.name	Gems	Harvest Gem	
+covered	gem.Heal Gem.affix	Gems	Heal	
+covered	gem.Heal Gem.name	Gems	Heal Gem	
+covered	gem.HealAll Gem.affix	Gems	Mass Heal	
+covered	gem.HealAll Gem.name	Gems	Mass Heal Gem	
+covered	gem.Healing Gem.affix	Gems	Grace	
+covered	gem.Healing Gem.name	Gems	Grace Gem	
+covered	gem.HighHeal Gem.affix	Gems	High Heal	
+covered	gem.HighHeal Gem.name	Gems	High Heal Gem	
+covered	gem.Hit Gem.affix	Gems	Precision	
+covered	gem.Hit Gem.name	Gems	Precision Gem	
+covered	gem.Holy Gem.affix	Gems	Holy	
+covered	gem.Holy Gem.name	Gems	Holy Gem	
+covered	gem.HolyLight Gem.affix	Gems	Holy Light	
+covered	gem.HolyLight Gem.name	Gems	Holy Light Gem	
+covered	gem.HolyWrath Gem.affix	Gems	Holy Wrath	
+covered	gem.HolyWrath Gem.name	Gems	Holy Wrath Gem	
+covered	gem.HolyWrathField Gem.affix	Gems	Litany of Wrath	
+covered	gem.HolyWrathField Gem.name	Gems	Litany of Wrath Gem	
+covered	gem.HpMult Gem.affix	Gems	Heart	
+covered	gem.HpMult Gem.name	Gems	Heart Gem	
+covered	gem.HydroVortex Gem.affix	Gems	Hydro Vortex	
+covered	gem.HydroVortex Gem.name	Gems	Hydro Vortex Gem	
+covered	gem.Icebolt Gem.affix	Gems	Icebolt	
+covered	gem.Icebolt Gem.name	Gems	Icebolt Gem	
+covered	gem.IceRelease Gem.affix	Gems	Ice Release	
+covered	gem.IceRelease Gem.name	Gems	Ice Release Gem	
+covered	gem.IceShard Gem.affix	Gems	Ice Shard	
+covered	gem.IceShard Gem.name	Gems	Ice Shard Gem	
+covered	gem.JudgementBlade Gem.affix	Gems	Judgement Blade	
+covered	gem.JudgementBlade Gem.name	Gems	Judgement Blade Gem	
+covered	gem.JumpShot Gem.affix	Gems	Jump Shot	
+covered	gem.JumpShot Gem.name	Gems	Jump Shot Gem	
+covered	gem.Leech Gem.affix	Gems	Bloodfang	
+covered	gem.Leech Gem.name	Gems	Bloodfang Gem	
+covered	gem.LeechMp Gem.affix	Gems	Soulfang	
+covered	gem.LeechMp Gem.name	Gems	Soulfang Gem	
+covered	gem.LifeDrainEnemy Gem.affix	Gems	Life Drain	
+covered	gem.LifeDrainEnemy Gem.name	Gems	Life Drain Gem	
+covered	gem.LifeDrainSummon Gem.affix	Gems	Life Drain	
+covered	gem.LifeDrainSummon Gem.name	Gems	Life Drain Gem	
+covered	gem.LightningRelease Gem.affix	Gems	Lightning Release	
+covered	gem.LightningRelease Gem.name	Gems	Lightning Release Gem	
+covered	gem.LightningStrike Gem.affix	Gems	Flash Step	
+covered	gem.LightningStrike Gem.name	Gems	Flash Step Gem	
+covered	gem.MdefMult Gem.affix	Gems	Ward	
+covered	gem.MdefMult Gem.name	Gems	Ward Gem	
+covered	gem.Meteor Gem.affix	Gems	Meteor	
+covered	gem.Meteor Gem.name	Gems	Meteor Gem	
+covered	gem.MoveSpd Gem.affix	Gems	Stride	
+covered	gem.MoveSpd Gem.name	Gems	Stride Gem	
+covered	gem.MpCost Gem.affix	Gems	Channel	
+covered	gem.MpCost Gem.name	Gems	Channel Gem	
+covered	gem.MpMult Gem.affix	Gems	Mind	
+covered	gem.MpMult Gem.name	Gems	Mind Gem	
+covered	gem.NoCastCancel Gem.affix	Gems	Mantra	
+covered	gem.NoCastCancel Gem.name	Gems	Mantra Gem	
+covered	gem.NoFlinch Gem.affix	Gems	Steadfast	
+covered	gem.NoFlinch Gem.name	Gems	Steadfast Gem	
+covered	gem.NoKnockback Gem.affix	Gems	Anchor	
+covered	gem.NoKnockback Gem.name	Gems	Anchor Gem	
+covered	gem.PanicBurst Gem.affix	Gems	Panic Burst	
+covered	gem.PanicBurst Gem.name	Gems	Panic Burst Gem	
+covered	gem.PerfectCloak Gem.affix	Gems	Veil	
+covered	gem.PerfectCloak Gem.name	Gems	Veil Gem	
+covered	gem.PiercingShot Gem.affix	Gems	Piercing Shot	
+covered	gem.PiercingShot Gem.name	Gems	Piercing Shot Gem	
+covered	gem.PointBlankShot Gem.affix	Gems	Point Blank	
+covered	gem.PointBlankShot Gem.name	Gems	Point Blank Gem	
+covered	gem.Poison Gem.affix	Gems	Poison	
+covered	gem.Poison Gem.name	Gems	Poison Gem	
+covered	gem.PoisonGrenade Gem.affix	Gems	Poison Grenade	
+covered	gem.PoisonGrenade Gem.name	Gems	Poison Grenade Gem	
+covered	gem.Reap Gem.affix	Gems	Reap	
+covered	gem.Reap Gem.name	Gems	Reap Gem	
+covered	gem.ReflectDamage Gem.affix	Gems	Spike	
+covered	gem.ReflectDamage Gem.name	Gems	Spike Gem	
+covered	gem.ReflectSpell Gem.affix	Gems	Mirror	
+covered	gem.ReflectSpell Gem.name	Gems	Mirror Gem	
+covered	gem.Regen Gem.affix	Gems	Vitalis	
+covered	gem.Regen Gem.name	Gems	Vitalis Gem	
+covered	gem.Sanctuary Gem.affix	Gems	Sanctuary	
+covered	gem.Sanctuary Gem.name	Gems	Sanctuary Gem	
+covered	gem.Shadow Gem.affix	Gems	Shadow	
+covered	gem.Shadow Gem.name	Gems	Shadow Gem	
+covered	gem.ShadowRelease Gem.affix	Gems	Black Blade	
+covered	gem.ShadowRelease Gem.name	Gems	Black Blade Gem	
+covered	gem.ShadowStep Gem.affix	Gems	Shadow Step	
+covered	gem.ShadowStep Gem.name	Gems	Shadow Step Gem	
+covered	gem.ShieldBash Gem.affix	Gems	Shield Bash	
+covered	gem.ShieldBash Gem.name	Gems	Shield Bash Gem	
+covered	gem.ShieldThrow Gem.affix	Gems	Shield Throw	
+covered	gem.ShieldThrow Gem.name	Gems	Shield Throw Gem	
+covered	gem.ShoutStun Gem.affix	Gems	Fearsome Cry	
+covered	gem.ShoutStun Gem.name	Gems	Fearsome Cry Gem	
+covered	gem.ShrapnelShot Gem.affix	Gems	Shrapnel	
+covered	gem.ShrapnelShot Gem.name	Gems	Shrapnel Gem	
+covered	gem.ShurikenFan Gem.affix	Gems	Shuriken Fan	
+covered	gem.ShurikenFan Gem.name	Gems	Shuriken Fan Gem	
+covered	gem.Smite Gem.affix	Gems	Smite	
+covered	gem.Smite Gem.name	Gems	Smite Gem	
+covered	gem.SniperShot Gem.affix	Gems	Sniper Shot	
+covered	gem.SniperShot Gem.name	Gems	Sniper Shot Gem	
+covered	gem.SoulStrike Gem.affix	Gems	Soul Strike	
+covered	gem.SoulStrike Gem.name	Gems	Soul Strike Gem	
+covered	gem.SpearSlice Gem.affix	Gems	Air Cutter	
+covered	gem.SpearSlice Gem.name	Gems	Air Cutter Gem	
+covered	gem.SpearStab Gem.affix	Gems	Impale	
+covered	gem.SpearStab Gem.name	Gems	Impale Gem	
+covered	gem.SpearThrust Gem.affix	Gems	Piercing Flurry	
+covered	gem.SpearThrust Gem.name	Gems	Piercing Flurry Gem	
+covered	gem.Stomp Gem.affix	Gems	Stomp	
+covered	gem.Stomp Gem.name	Gems	Stomp Gem	
+covered	gem.StrafingVolley Gem.affix	Gems	Strafing Volley	
+covered	gem.StrafingVolley Gem.name	Gems	Strafing Volley Gem	
+covered	gem.SuppressiveShot Gem.affix	Gems	Suppressive Shot	
+covered	gem.SuppressiveShot Gem.name	Gems	Suppressive Shot Gem	
+covered	gem.Tempest Gem.affix	Gems	Tempest	
+covered	gem.Tempest Gem.name	Gems	Tempest Gem	
+covered	gem.TetraVortex Gem.affix	Gems	Elemental Overload	
+covered	gem.TetraVortex Gem.name	Gems	Elemental Overload Gem	
+covered	gem.Thunderbolt Gem.affix	Gems	Thunderbolt	
+covered	gem.Thunderbolt Gem.name	Gems	Thunderbolt Gem	
+covered	gem.ThunderStorm Gem.affix	Gems	Thunder Storm	
+covered	gem.ThunderStorm Gem.name	Gems	Thunder Storm Gem	
+covered	gem.TurnUndead Gem.affix	Gems	Turn Undead	
+covered	gem.TurnUndead Gem.name	Gems	Turn Undead Gem	
+covered	gem.TwistOfFate Gem.affix	Gems	Twist Of Fate	
+covered	gem.TwistOfFate Gem.name	Gems	Twist Of Fate Gem	
+covered	gem.Undead Gem.affix	Gems	Undead	
+covered	gem.Undead Gem.name	Gems	Undead Gem	
+covered	gem.VenomStrike Gem.affix	Gems	Venom Strike	
+covered	gem.VenomStrike Gem.name	Gems	Venom Strike Gem	
+covered	gem.VolatileBolt Gem.affix	Gems	Volatile Bolt	
+covered	gem.VolatileBolt Gem.name	Gems	Volatile Bolt Gem	
+covered	gem.Water Gem.affix	Gems	Water	
+covered	gem.Water Gem.name	Gems	Water Gem	
+covered	gem.WeaponThrow Gem.affix	Gems	Weapon Throw	
+covered	gem.WeaponThrow Gem.name	Gems	Weapon Throw Gem	
+covered	gem.WeightLimit Gem.affix	Gems	Carrier	
+covered	gem.WeightLimit Gem.name	Gems	Carrier Gem	
+covered	gem.Whirlwind Gem.affix	Gems	Whirlwind	
+covered	gem.Whirlwind Gem.name	Gems	Whirlwind Gem	
+covered	gem.WildCharge Gem.affix	Gems	Wild Charge	
+covered	gem.WildCharge Gem.name	Gems	Wild Charge Gem	
+covered	gem.Wind Gem.affix	Gems	Wind	
+covered	gem.Wind Gem.name	Gems	Wind Gem	
+covered	junk.Acorn Rotten.name	Junks	Rotten Acorn	
+covered	junk.Acorn.name	Junks	Acorn	
+covered	junk.Alligator Gaa.name	Junks	Alligator Gar	
+covered	junk.Amberstone Piece.name	Junks	Amberstone Piece	
+covered	junk.Amberstone.name	Junks	Amberstone	
+covered	junk.Anchovy.name	Junks	Anchovy	
+covered	junk.Angelfish.name	Junks	Angelfish	
+covered	junk.Angler Fish.name	Junks	Angler Fish	
+covered	junk.Antique Key.name	Junks	Antique Key	
+covered	junk.Antique Teacup.name	Junks	Antique Teacup	
+covered	junk.Apple.name	Junks	Apple	
+covered	junk.Arkose.name	Junks	Arkose	
+covered	junk.Arowana.name	Junks	Arowana	
+covered	junk.Ash.name	Junks	Ash	
+covered	junk.Azurite Piece.name	Junks	Azurite Piece	
+covered	junk.Azurite.name	Junks	Azurite	
+covered	junk.Banana.name	Junks	Banana	
+covered	junk.Baobab Piece.name	Junks	Baobab Piece	
+covered	junk.Baobab.name	Junks	Baobab	
+covered	junk.Barley.name	Junks	Barley	
+covered	junk.Basalt Fine.name	Junks	Basalt Sand	
+covered	junk.Basalt.name	Junks	Basalt	
+covered	junk.Bauxite.name	Junks	Bauxite	
+covered	junk.Beehive.name	Junks	Beehive	
+covered	junk.Betta.name	Junks	Betta	
+covered	junk.Black Locust.name	Junks	Black Locust	
+covered	junk.Bladed Penknife.name	Junks	Bladed Penknife	
+covered	junk.Blowfish.name	Junks	Blowfish	
+covered	junk.Blue Tang.name	Junks	Blue Tang	
+covered	junk.Bluefin Tuna.name	Junks	Bluefin Tuna	
+covered	junk.Bottle.name	Junks	Bottle	
+covered	junk.Branch Broken.name	Junks	Broken Branch	
+covered	junk.Branch Dead.name	Junks	Decayed Branch	
+covered	junk.Branch.name	Junks	Branch	
+covered	junk.Breadfruit.name	Junks	Breadfruit	
+covered	junk.Brick Red.name	Junks	Brick	
+covered	junk.Broken Navigation.name	Junks	Broken Navigation	
+covered	junk.Cactus Pulp.name	Junks	Cactus Pulp	
+covered	junk.Camphor.name	Junks	Camphor	
+covered	junk.Can Empty.name	Junks	Empty Can	
+covered	junk.Candy Cane.name	Junks	Candy Cane	
+covered	junk.Canned Bread.name	Junks	Canned Bread	
+covered	junk.Canned Crow Bamboo.name	Junks	Canned Crow Bamboo	
+covered	junk.Carbonate.name	Junks	Carbonate	
+covered	junk.Caribou Meat.name	Junks	Caribou Meat	
+covered	junk.Carp.name	Junks	Carp	
+covered	junk.Catfish.name	Junks	Catfish	
+covered	junk.Cd.name	Junks	Compact Disc	
+covered	junk.Chalcopyrite Piece.name	Junks	Chalcopyrite Piece	
+covered	junk.Chalcopyrite.name	Junks	Chalcopyrite	
+covered	junk.Charcoal.name	Junks	Charcoal	
+covered	junk.Cinnamon.name	Junks	Cinnamon	
+covered	junk.Citrus.name	Junks	Citrus	
+covered	junk.Clay.name	Junks	Clay	
+covered	junk.Clownfish.name	Junks	Clownfish	
+covered	junk.Coal Hard.name	Junks	Hard Coal	
+covered	junk.Coal.name	Junks	Coal	
+covered	junk.Cocoa.name	Junks	Cocoa	
+covered	junk.Coconut Oil.name	Junks	Coconut Oil	
+covered	junk.Coelacanth.name	Junks	Coelacanth	
+covered	junk.Coffeebean.name	Junks	Coffee Bean	
+covered	junk.Copper.name	Junks	Copper	
+covered	junk.Coral Stone Piece.name	Junks	Coral Stone Piece	
+covered	junk.Coral Stone.name	Junks	Hard Coral	
+covered	junk.Corn.name	Junks	Corn	
+covered	junk.Cornerstone.name	Junks	Cornerstone	
+covered	junk.Cosmetic Converter.name	Junks	Cosmetic Converter	
+covered	junk.Cotton.name	Junks	Cotton	
+covered	junk.Crucian.name	Junks	Crucian	
+covered	junk.Curry.name	Junks	Curry	
+covered	junk.Daggertooth.name	Junks	Daggertooth	
+covered	junk.Dandlelion Baby.name	Junks	Dandelion Baby	
+covered	junk.Dark Bark Piece.name	Junks	Dark Bark Piece	
+covered	junk.Dark Bark.name	Junks	Dark Bark	
+covered	junk.Dark Sleeper.name	Junks	Dark Sleeper	
+covered	junk.Data Crystal.name	Junks	Data Crystal	
+covered	junk.Dawn Stone.name	Junks	Dawn Stone	
+covered	junk.Diamond.name	Junks	Diamond	
+covered	junk.Diatomite Piece.name	Junks	Diatomite Piece	
+covered	junk.Diatomite.name	Junks	Diatomite	
+covered	junk.Ebony.name	Junks	Ebony	
+covered	junk.Emerald.name	Junks	Emerald	
+covered	junk.Endless Gum.name	Junks	Endless Gum	
+covered	junk.Essence Chaos.name	Junks	Essence of Chaos	
+covered	junk.Essence Destruction.name	Junks	Essence of Destruction	
+covered	junk.Essence Flow.name	Junks	Essence of Flow	
+covered	junk.Essence Growth.name	Junks	Essence of Growth	
+covered	junk.Essence Rebirth.name	Junks	Essence of Rebirth	
+covered	junk.False Acasia Piece.name	Junks	False Acacia Piece	
+covered	junk.False Acasia.name	Junks	False Acacia	
+covered	junk.Feather.name	Junks	Feather	
+covered	junk.Firewood.name	Junks	Firewood	
+covered	junk.Fish Oil.name	Junks	Fish Oil	
+covered	junk.Fishbone.name	Junks	Fishbone	
+covered	junk.Flatfish.name	Junks	Flatfish	
+covered	junk.Flax.name	Junks	Flax	
+covered	junk.Flying Fish.name	Junks	Flying Fish	
+covered	junk.Foxtail.name	Junks	Cat's-Tail	
+covered	junk.Fur.name	Junks	Fur	
+covered	junk.Garra Rufa.name	Junks	Garra Rufa	
+covered	junk.Ginseng Juice.name	Junks	Ginseng Juice	
+covered	junk.Goby.name	Junks	Goby	
+covered	junk.Gold Ore Piece.name	Junks	Gold Ore Piece	
+covered	junk.Gold Ore.name	Junks	Gold Ore	
+covered	junk.Goldfish.name	Junks	Goldfish	
+covered	junk.Goldribbon Soapfish.name	Junks	Goldribbon Soapfish	
+covered	junk.Goldtooth.name	Junks	Goldtooth	
+covered	junk.Granite Piece.name	Junks	Granite Piece	
+covered	junk.Granite.name	Junks	Granite	
+covered	junk.Grape.name	Junks	Grape	
+covered	junk.Gravion Chunk.name	Junks	Gravion Chunk	
+covered	junk.Gravion Crystal.name	Junks	Gravion Crystal	
+covered	junk.Gravion Shard.name	Junks	Gravion Shard	
+covered	junk.Great White Shark.name	Junks	Great White Shark	
+covered	junk.Greeenstone.name	Junks	Greenstone	
+covered	junk.Guild Charter.name	Junks	Guild Charter	
+covered	junk.Guppy.name	Junks	Guppy	
+covered	junk.Halite.name	Junks	Halite	
+covered	junk.Hammerhead.name	Junks	Hammerhead	
+covered	junk.Harisenbon.name	Junks	Harisenbon	
+covered	junk.Herring.name	Junks	Herring	
+covered	junk.Hibiscus.name	Junks	Hibiscus	
+covered	junk.Hop.name	Junks	Hop	
+covered	junk.Horseshoe.name	Junks	Horseshoe	
+covered	junk.Humpback Whale.name	Junks	Humpback Whale	
+covered	junk.Indigo.name	Junks	Indigo	
+covered	junk.Ingot Gold.name	Junks	Gold Ingot	
+covered	junk.Ingot Iron.name	Junks	Iron Ingot	
+covered	junk.Ingot Steel.name	Junks	Steel Ingot	
+covered	junk.Inlaid Scabbard.name	Junks	Inlaid Scabbard	
+covered	junk.Ironstone Piece.name	Junks	Ironstone Piece	
+covered	junk.Ironstone.name	Junks	Ironstone	
+covered	junk.Jasmine Tea.name	Junks	Jasmine Tea	
+covered	junk.Killer Whale.name	Junks	Killer Whale	
+covered	junk.Kumgang Fat Minnow.name	Junks	Stout Minnow	
+covered	junk.Largemouth Bass.name	Junks	Largemouth Bass	
+covered	junk.Larva.name	Junks	Larva	
+covered	junk.Leaf.name	Junks	Leaf	
+covered	junk.Leather.name	Junks	Leather	
+covered	junk.Leatherjacket.name	Junks	Leatherjacket	
+covered	junk.Leopoldi.name	Junks	Leopoldi	
+covered	junk.Limited Cd.name	Junks	Limited Compact Disc	
+covered	junk.Lionfish.name	Junks	Lionfish	
+covered	junk.Longhorn Cowfish.name	Junks	Longhorn Cowfish	
+covered	junk.Lunaris Chunk.name	Junks	Lunaris Chunk	
+covered	junk.Lunaris Crystal.name	Junks	Lunaris Crystal	
+covered	junk.Lunaris Shard.name	Junks	Lunaris Shard	
+covered	junk.Mackerel.name	Junks	Mackerel	
+covered	junk.Mahi Mahi.name	Junks	Mahi Mahi	
+covered	junk.Malachite Piece.name	Junks	Malachite Piece	
+covered	junk.Malachite.name	Junks	Malachite	
+covered	junk.Mandarin.name	Junks	Mandarin	
+covered	junk.Mangrove Piece.name	Junks	Mangrove Piece	
+covered	junk.Mangrove.name	Junks	Mangrove	
+covered	junk.Maple Tree.name	Junks	Maple Tree	
+covered	junk.Marble Piece.name	Junks	Marble Piece	
+covered	junk.Marble.name	Junks	Marble	
+covered	junk.Meat.name	Junks	Meat	
+covered	junk.Memory Card.name	Junks	Memory Card	
+covered	junk.Memory Fragment.name	Junks	Memory Fragment	
+covered	junk.Mola Mola.name	Junks	Mola Mola	
+covered	junk.Moonrock.name	Junks	Moonrock	
+covered	junk.Moonstone Piece.name	Junks	Moonstone Piece	
+covered	junk.Moonstone.name	Junks	Moonstone	
+covered	junk.Moray Eel.name	Junks	Moray Eel	
+covered	junk.Mushroom.name	Junks	Mushroom	
+covered	junk.Mylodon.name	Junks	Mylodon	
+covered	junk.Napoleon Fish.name	Junks	Crowned Reef Fish	
+covered	junk.Nightmare Fragment.name	Junks	Umbral Fragment	
+covered	junk.Oak Piece.name	Junks	Oak Piece	
+covered	junk.Oak.name	Junks	Oak	
+covered	junk.Oarfish.name	Junks	Oarfish	
+covered	junk.Obsidian Piece.name	Junks	Obsidian Piece	
+covered	junk.Obsidian.name	Junks	Obsidian	
+covered	junk.Oceanite.name	Junks	Oceanite	
+covered	junk.Octopus.name	Junks	Octopus	
+covered	junk.Oil.name	Junks	Oil	
+covered	junk.Olive Flounder.name	Junks	Olive Flounder	
+covered	junk.Orange Roughy.name	Junks	Orange Roughy	
+covered	junk.Oriental Cherry Piece.name	Junks	Blossom Cherry Piece	
+covered	junk.Oriental Cherry.name	Junks	Blossom Cherry	
+covered	junk.Pacific Saury.name	Junks	Silver Saury	
+covered	junk.Pale Chub.name	Junks	Pale Chub	
+covered	junk.Palm Tree.name	Junks	Palm Tree	
+covered	junk.Panther Grouper.name	Junks	Panther Grouper	
+covered	junk.Pearl Earring.name	Junks	Pearl Earring	
+covered	junk.Pearl.name	Junks	Pearl	
+covered	junk.Pelage.name	Junks	Pelage	
+covered	junk.Pepper.name	Junks	Pepper	
+covered	junk.Phosphate.name	Junks	Phosphate	
+covered	junk.Picasso Triggerfish.name	Junks	Painted Triggerfish	
+covered	junk.Pimento.name	Junks	Pimento	
+covered	junk.Pine Cone Broken.name	Junks	Broken Pine Cone	
+covered	junk.Pine Cone.name	Junks	Pine Cone	
+covered	junk.Pipe.name	Junks	Pipe	
+covered	junk.Piranha.name	Junks	Piranha	
+covered	junk.Pirarucu.name	Junks	Pirarucu	
+covered	junk.Platinum.name	Junks	Platinum	
+covered	junk.Pomfret.name	Junks	Pomfret	
+covered	junk.Pond Loach.name	Junks	Pond Loach	
+covered	junk.Potato.name	Junks	Potato	
+covered	junk.Pouch Fairy Dust.name	Junks	Fairy Dust	
+covered	junk.Pumpkin.name	Junks	Pumpkin	
+covered	junk.Raw Rubber.name	Junks	Raw Rubber	
+covered	junk.Red Wood Piece.name	Junks	Redwood Piece	
+covered	junk.Red Wood.name	Junks	Redwood	
+covered	junk.Redfin Velvetfish.name	Junks	Redfin Velvetfish	
+covered	junk.Remora.name	Junks	Remora	
+covered	junk.Resonance Core.name	Junks	Resonance Core	
+covered	junk.Rock Bream.name	Junks	Rock Bream	
+covered	junk.Rockfish.name	Junks	Rockfish	
+covered	junk.Rose Quartz Piece.name	Junks	Rose Quartz Piece	
+covered	junk.Rose Quartz.name	Junks	Rose Quartz	
+covered	junk.Royal Jelly.name	Junks	Royal Jelly	
+covered	junk.Rubber Tree Piece.name	Junks	Rubber Tree Piece	
+covered	junk.Rubber Tree.name	Junks	Rubber Tree	
+covered	junk.Ruby.name	Junks	Ruby	
+covered	junk.Sailfish.name	Junks	Sailfish	
+covered	junk.Sapphire.name	Junks	Sapphire	
+covered	junk.Sawdust.name	Junks	Sawdust	
+covered	junk.Sea Bass.name	Junks	Sea Bass	
+covered	junk.Sea Bream.name	Junks	Sea Bream	
+covered	junk.Seahorse.name	Junks	Seahorse	
+covered	junk.Security Box.name	Junks	Security Box	
+covered	junk.Seed.name	Junks	Seed	
+covered	junk.Shad.name	Junks	Shad	
+covered	junk.Shingle.name	Junks	Shingle	
+covered	junk.Shoes Lost.name	Junks	Lost Shoes	
+covered	junk.Shower Towel.name	Junks	Shower Towel	
+covered	junk.Silica Sand.name	Junks	Silica Sand	
+covered	junk.Silver Piece.name	Junks	Silver Piece	
+covered	junk.Silver.name	Junks	Silver	
+covered	junk.Snakehead.name	Junks	Snakehead	
+covered	junk.Soldalite Piece.name	Junks	Sodalite Piece	
+covered	junk.Soldalite.name	Junks	Sodalite	
+covered	junk.Spider Web.name	Junks	Spider Web	
+covered	junk.Splendidus.name	Junks	Splendidus	
+covered	junk.Squid.name	Junks	Squid	
+covered	junk.Stingray.name	Junks	Stingray	
+covered	junk.Stone.name	Junks	Stone	
+covered	junk.Strawberry.name	Junks	Strawberry	
+covered	junk.Sturgeon.name	Junks	Sturgeon	
+covered	junk.Sugar Cane.name	Junks	Sugar Cane	
+covered	junk.Swamp Eels.name	Junks	Swamp Eels	
+covered	junk.Tadpole.name	Junks	Tadpole	
+covered	junk.Tar.name	Junks	Tar	
+covered	junk.Tea Container.name	Junks	Tea Container	
+covered	junk.Teff.name	Junks	Teff	
+covered	junk.Termite Soldier.name	Junks	Termite Soldier	
+covered	junk.Termite.name	Junks	Termite	
+covered	junk.Thorium Piece.name	Junks	Thorium Piece	
+covered	junk.Thorium.name	Junks	Thorium	
+covered	junk.Tiger Eye Piece.name	Junks	Tiger Eye Piece	
+covered	junk.Tiger Eye.name	Junks	Tiger Eye	
+covered	junk.Time Device.name	Junks	Time Device	
+covered	junk.Tin Piece.name	Junks	Tin Piece	
+covered	junk.Tin.name	Junks	Tin	
+covered	junk.Tower Key.name	Junks	Spire Compass	
+covered	junk.Tree Bark.name	Junks	Tree Bark	
+covered	junk.Tree Dead.name	Junks	Dead Tree	
+covered	junk.Tree Sap Gold.name	Junks	Golden Tree Sap	
+covered	junk.Tree Sap.name	Junks	Sap	
+covered	junk.Trevally.name	Junks	Trevally	
+covered	junk.Tungsten.name	Junks	Tungsten	
+covered	junk.Unicornfish.name	Junks	Unicornfish	
+covered	junk.Unwritten Contract.name	Junks	Unwritten Contract	
+covered	junk.Verrucella Stellata.name	Junks	Verrucella Stellata	
+covered	junk.Vulkanite Chunk.name	Junks	Vulkanite Chunk	
+covered	junk.Vulkanite Crystal.name	Junks	Vulkanite Crystal	
+covered	junk.Vulkanite Shard.name	Junks	Vulkanite Shard	
+covered	junk.Wax.name	Junks	Wax	
+covered	junk.Whale Shark.name	Junks	Whale Shark	
+covered	junk.Wheat.name	Junks	Wheat	
+covered	junk.White Birch.name	Junks	White Birch	
+covered	junk.Windmill Palm Piece.name	Junks	Windmill Palm Piece	
+covered	junk.Windmill Palm.name	Junks	Windmill Palm	
+covered	junk.Wood Piece.name	Junks	Wood Piece	
+covered	junk.Wood Plate.name	Junks	Wood Plate	
+covered	junk.Wood.name	Junks	Wood	
+covered	junk.Zinc.name	Junks	Zinc	
+covered	monster.Abomination.name	Monsters	Abomination	
+covered	monster.Alien Big Blink.name	Monsters	Cosmic Entity	
+covered	monster.Alien Biteroot.name	Monsters	Chomproot	
+covered	monster.Alien Cyclops.name	Monsters	Voidspawn	
+covered	monster.Alien Galaxia.name	Monsters	Galaxian Brute	
+covered	monster.Alien One Eye.name	Monsters	Voidgazer	
+covered	monster.Alien Pew Pew.name	Monsters	Galaxian Blaster	
+covered	monster.Alien Plant.name	Monsters	Chompbloom	
+covered	monster.Alien Skye.name	Monsters	Galaxian Skimmer	
+covered	monster.Alien Spike.name	Monsters	Cinderspike	
+covered	monster.Alien Sporella.name	Monsters	Chompcap	
+covered	monster.Alien Star.name	Monsters	Little Star	
+covered	monster.Alien Starry.name	Monsters	Starry	
+covered	monster.Alien Twinkle.name	Monsters	Twinkle	
+covered	monster.Alien Wheel.name	Monsters	Cinderwheel	
+covered	monster.Alien Wreck.name	Monsters	Cindermaw	
+covered	monster.Angel Mage.name	Monsters	Seraphim Arbiter	
+covered	monster.Angel.name	Monsters	Angel	
+covered	monster.Archangel.name	Monsters	Archangel	
+covered	monster.Ball Robot Blue.name	Monsters	Ward Robot	
+covered	monster.Ball Robot Red.name	Monsters	Strike Robot	
+covered	monster.Bat Lord.name	Monsters	Night Baron	
+covered	monster.Bat.name	Monsters	Bat	
+covered	monster.Bee.name	Monsters	Bee	
+covered	monster.Bird.name	Monsters	Rooster	
+covered	monster.Blast Robot Blue.name	Monsters	Guard Robot	
+covered	monster.Blast Robot Red.name	Monsters	Blast Robot	
+covered	monster.Blind.name	Monsters	Nightshade	
+covered	monster.Bloom.name	Monsters	Nightbloom	
+covered	monster.Blossom.name	Monsters	Deathblossom	
+covered	monster.Bomb.name	Monsters	Bomb	
+covered	monster.Bot Robot.name	Monsters	Repair Robot	
+covered	monster.Boxy Robot.name	Monsters	Boxy Robot	
+covered	monster.Bud.name	Monsters	Venom Bud	
+covered	monster.Bumble.name	Monsters	Bumblebee	
+covered	monster.Bunny.name	Monsters	Bunny	
+covered	monster.Burrow.name	Monsters	Digger	
+covered	monster.Butterfly Fairy.name	Monsters	Fairy	
+covered	monster.Butterfly Hue.name	Monsters	Sprite	
+covered	monster.Butterfly Pixie.name	Monsters	Pixie	
+covered	monster.Cacti.name	Monsters	Cacti	
+covered	monster.Cactus Boss.name	Monsters	Cactus King	
+covered	monster.Cactus.name	Monsters	Cactus	
+covered	monster.Cat Bolt.name	Monsters	Raiju	
+covered	monster.Cat Lightning.name	Monsters	Voltpaw	
+covered	monster.Cat Meow.name	Monsters	Sparkit	
+covered	monster.Chick.name	Monsters	Chick	
+covered	monster.Cobra Venom.name	Monsters	Cobra	
+covered	monster.Creeper.name	Monsters	Crawler	
+covered	monster.Crystal Guardian Amethyst.name	Monsters	Amethyst Guardian	
+covered	monster.Crystal Guardian Aqua.name	Monsters	Aquamarine Guardian	
+covered	monster.Crystal Guardian Emerald.name	Monsters	Emerald Guardian	
+covered	monster.Cyclops Bat Mage.name	Monsters	Eyeclops Mage	
+covered	monster.Cyclops Bat Wizard.name	Monsters	Eyeclops Arcanist	
+covered	monster.Cyclops Bat.name	Monsters	Eyeclops Bat	
+covered	monster.Cyclops Giant.name	Monsters	Cyclops Titan	
+covered	monster.Cyclops Minion.name	Monsters	Cyclopling	
+covered	monster.Cyclops.name	Monsters	Cyclops	
+covered	monster.Dark Wizard Black.name	Monsters	Onyx Warlock	
+covered	monster.Dark Wizard Purple.name	Monsters	Violet Warlock	
+covered	monster.Dark Wizard Red.name	Monsters	Scarlet Warlock	
+covered	monster.Death Mage.name	Monsters	Abyss Archon	
+covered	monster.Death.name	Monsters	Wight	
+covered	monster.Delivery Robot.name	Monsters	Delivery Robot	
+covered	monster.Devil Bat.name	Monsters	Fire Bat	
+covered	monster.Devil Hades.name	Monsters	Inferno Bat	
+covered	monster.Devil Hell.name	Monsters	Hell Bat	
+covered	monster.Direwolf.name	Monsters	Direwolf	
+covered	monster.Dog Bark.name	Monsters	Hound	
+covered	monster.Dog Bowwow.name	Monsters	Hellhound	
+covered	monster.Dog Pup.name	Monsters	Pup	
+covered	monster.Dragon Blizzard.name	Monsters	Frost Wyvern	
+covered	monster.Dragon Bot.name	Monsters	Dragon Bot	
+covered	monster.Dragon Darkness.name	Monsters	Shadow Wyvern	
+covered	monster.Dragon Dusk.name	Monsters	Dusk Drake	
+covered	monster.Dragon Fire.name	Monsters	Flame Drake	
+covered	monster.Dragon Ice.name	Monsters	Rime Drake	
+covered	monster.Dragon Inferno.name	Monsters	Inferno Wyvern	
+covered	monster.Dragon King Blue.name	Monsters	Frost Wyrm	
+covered	monster.Dragon King Green.name	Monsters	Fire Wyrm	
+covered	monster.Dragon King Orange.name	Monsters	Earth Wyrm	
+covered	monster.Dragon King Purple.name	Monsters	Lightning Wyrm	
+covered	monster.Dragon Nightfall.name	Monsters	Night Drake	
+covered	monster.Dragon Predator Robot.name	Monsters	Robot Dragon	
+covered	monster.Dragon Robot.name	Monsters	Dragon Robot	
+covered	monster.Dragon Spark.name	Monsters	Spark Drake	
+covered	monster.Dragon Water.name	Monsters	Aqua Drake	
+covered	monster.Dragonfly Arrow.name	Monsters	Darter	
+covered	monster.Dragonfly Darner.name	Monsters	Skimmer	
+covered	monster.Dragonfly Swift.name	Monsters	Hawker	
+covered	monster.Earthworm.name	Monsters	Grave Worm	
+covered	monster.Egg.name	Monsters	Egg	
+covered	monster.Egglet.name	Monsters	Egglet	
+covered	monster.Elder Wisp Blue.name	Monsters	Elder Frost	
+covered	monster.Elder Wisp Purple.name	Monsters	Elder Lightning	
+covered	monster.Elder Wisp Yellow.name	Monsters	Elder Fire	
+covered	monster.Eyeball Bat Blue.name	Monsters	Azure Gazer	
+covered	monster.Eyeball Bat Green.name	Monsters	Jade Gazer	
+covered	monster.Eyeball Bat Red.name	Monsters	Ruby Gazer	
+covered	monster.Eyeball Creep Blue.name	Monsters	Azure Eyestalk	
+covered	monster.Eyeball Creep Green.name	Monsters	Jade Eyestalk	
+covered	monster.Eyeball Creep Red.name	Monsters	Ruby Eyestalk	
+covered	monster.Eyeball Mage Blue.name	Monsters	Azure Beholder	
+covered	monster.Eyeball Mage Green.name	Monsters	Jade Beholder	
+covered	monster.Eyeball Mage Red.name	Monsters	Ruby Beholder	
+covered	monster.Eyeball Mage.name	Monsters	Beholder	
+covered	monster.Eyeball Monster.name	Monsters	Kraken	
+covered	monster.Fire Mage.name	Monsters	Fire Mage	
+covered	monster.Fire.name	Monsters	Ember	
+covered	monster.FIsh Blue.name	Monsters	Bluefin	
+covered	monster.Fish Man Blue.name	Monsters	Aqua Merling	
+covered	monster.Fish Man Pink.name	Monsters	Roseate Merling	
+covered	monster.Fish Man Yellow.name	Monsters	Canary Merling	
+covered	monster.Fish Merman Blue.name	Monsters	Sapphire Merman	
+covered	monster.Fish Merman Pink.name	Monsters	Coral Merman	
+covered	monster.Fish Merman Yellow.name	Monsters	Topaz Merman	
+covered	monster.Fish Pink.name	Monsters	Rosetail	
+covered	monster.Fish Yellow.name	Monsters	Goldtail	
+covered	monster.Flame.name	Monsters	Blaze	
+covered	monster.Fledgling.name	Monsters	Fledgling	
+covered	monster.Flora.name	Monsters	Flora	
+covered	monster.Flower Pot Monster.name	Monsters	Mandrake	
+covered	monster.Fungi.name	Monsters	Fungi	
+covered	monster.Galaxy Robot.name	Monsters	Galaxy Robot	
+covered	monster.Ghost.name	Monsters	Ghost	
+covered	monster.Gloom.name	Monsters	Spectre	
+covered	monster.Glow Wisp Blue.name	Monsters	Frost Glimmer	
+covered	monster.Glow Wisp Purple.name	Monsters	Lightning Glimmer	
+covered	monster.Glow Wisp Yellow.name	Monsters	Fire Glimmer	
+covered	monster.Goblin Giant Devil.name	Monsters	Orc Soldier	
+covered	monster.Goblin Giant Gold.name	Monsters	Orc King	
+covered	monster.Goblin Giant Mage.name	Monsters	Orc Mage	
+covered	monster.Goblin Giant.name	Monsters	Orc	
+covered	monster.Goblin Minion.name	Monsters	Goblin	
+covered	monster.Goblin Trooper Assassin.name	Monsters	Goblin Assassin	
+covered	monster.Goblin Trooper Mage.name	Monsters	Goblin Mage	
+covered	monster.Goblin Trooper Soldier.name	Monsters	Goblin Soldier	
+covered	monster.Goblin Trooper.name	Monsters	Goblin Grunt	
+covered	monster.Goblin Warblade.name	Monsters	Orc Reaver	
+covered	monster.Goblin Warchief.name	Monsters	Orc Warchief	
+covered	monster.Goblin Warcrusher.name	Monsters	Orc Crusher	
+covered	monster.Goblin Warlock.name	Monsters	Orc Warlock	
+covered	monster.Golem Earth.name	Monsters	Stone Golem	
+covered	monster.Golem Fire.name	Monsters	Magma Golem	
+covered	monster.Golem Ice.name	Monsters	Rime Golem	
+covered	monster.Grid Robot.name	Monsters	Grid Robot	
+covered	monster.Grim Reaper.name	Monsters	Reaper	
+covered	monster.Gripper Robot.name	Monsters	Gripper Robot	
+covered	monster.Hare.name	Monsters	Vorpal Hare	
+covered	monster.Haunt.name	Monsters	Banshee	
+covered	monster.Hermit King.name	Monsters	Hermit King	
+covered	monster.Hermit Robot Blue.name	Monsters	Scout Robot	
+covered	monster.Hermit Robot Red.name	Monsters	Sentry Robot	
+covered	monster.Horror.name	Monsters	Horror	
+covered	monster.Housefly Icky.name	Monsters	Gadfly	
+covered	monster.Housefly Junk.name	Monsters	Bluebottle	
+covered	monster.Housefly Nom.name	Monsters	Blowfly	
+covered	monster.Ice Bear A.name	Monsters	Ice Bear	
+covered	monster.Ice Bear B.name	Monsters	Festive Bear	
+covered	monster.Ice Cube A.name	Monsters	Ice Golem	
+covered	monster.Ice Cube B.name	Monsters	Shadow Golem	
+covered	monster.Ice Mage.name	Monsters	Ice Mage	
+covered	monster.Ice Starflake A.name	Monsters	Starflake	
+covered	monster.Ice Starflake B.name	Monsters	Vanilla Ice	
+covered	monster.Ice Starflake C.name	Monsters	Shadow Ice	
+covered	monster.Ice.name	Monsters	Ice	
+covered	monster.Icicle.name	Monsters	Icicle	
+covered	monster.Imp Demon.name	Monsters	Imp	
+covered	monster.Imp Devil.name	Monsters	Demon Lord	
+covered	monster.Imp Mischief.name	Monsters	Gremlin	
+covered	monster.Jellyfish Robot.name	Monsters	Stormjelly	
+covered	monster.Love Heart.name	Monsters	Cupid	
+covered	monster.Lurker.name	Monsters	Lurker	
+covered	monster.Mega Ice Golem.name	Monsters	Ice Titan	
+covered	monster.Metal Robot.name	Monsters	Metal Robot	
+covered	monster.Mimic Barrel.name	Monsters	Barrel Mimic	
+covered	monster.Mimic Book.name	Monsters	Book Mimic	
+covered	monster.Mimic Candle.name	Monsters	Candle Mimic	
+covered	monster.Mimic Living Trap.name	Monsters	Trap Mimic	
+covered	monster.Mimic Sword.name	Monsters	Sword Mimic	
+covered	monster.Mimic Treasure Chest.name	Monsters	Chest Mimic	
+covered	monster.Mini Ice Bear A.name	Monsters	Ice Baby	
+covered	monster.Mini Ice Bear B.name	Monsters	Festive Baby	
+covered	monster.Mini Ice Cube A.name	Monsters	Ice Cube	
+covered	monster.Mini Ice Cube B.name	Monsters	Shadow Cube	
+covered	monster.Mole Rat King.name	Monsters	Dire Mole	
+covered	monster.Mole Rat.name	Monsters	Mole	
+covered	monster.Monster Bat King.name	Monsters	Nightlord	
+covered	monster.Monster Bat.name	Monsters	Nightwing	
+covered	monster.Mosquito Bug.name	Monsters	Gnat	
+covered	monster.Mosquito Pester.name	Monsters	Mosquito	
+covered	monster.Mosquito Stinger.name	Monsters	Bloodsucker	
+covered	monster.Moth Celestial.name	Monsters	Celestial Moth	
+covered	monster.Moth Luna.name	Monsters	Luna Moth	
+covered	monster.Moth Moon.name	Monsters	Moon Moth	
+covered	monster.Mushroom.name	Monsters	Shroom	
+covered	monster.Nexus Robot.name	Monsters	Nexus Robot	
+covered	monster.Nightmare.name	Monsters	Apparition	
+covered	monster.NightmareAcolyte.name	Monsters	Umbral Acolyte	
+covered	monster.NightmareBerserker.name	Monsters	Umbral Berserker	
+covered	monster.NightmareBerserkerBoss.name	Monsters	Echo Berserker	
+covered	monster.NightmareGunslinger.name	Monsters	Umbral Gunslinger	
+covered	monster.NightmareGunslingerBoss.name	Monsters	Echo Gunslinger	
+covered	monster.NightmareKnight.name	Monsters	Umbral Knight	
+covered	monster.NightmareMage.name	Monsters	Umbral Mage	
+covered	monster.NightmareNecromancer.name	Monsters	Umbral Necromancer	
+covered	monster.NightmareNecromancerBoss.name	Monsters	Echo Necromancer	
+covered	monster.NightmarePaladin.name	Monsters	Umbral Paladin	
+covered	monster.NightmarePaladinBoss.name	Monsters	Echo Paladin	
+covered	monster.NightmarePriest.name	Monsters	Umbral Priest	
+covered	monster.NightmarePriestBoss.name	Monsters	Echo Priest	
+covered	monster.NightmareRogue.name	Monsters	Umbral Rogue	
+covered	monster.NightmareScout.name	Monsters	Umbral Scout	
+covered	monster.NightmareShadow.name	Monsters	Curse Manifestation	
+covered	monster.NightmareShinobi.name	Monsters	Umbral Shinobi	
+covered	monster.NightmareShinobiBoss.name	Monsters	Echo Shinobi	
+covered	monster.NightmareSummoner.name	Monsters	Umbral Summoner	
+covered	monster.NightmareWarrior.name	Monsters	Umbral Warrior	
+covered	monster.NightmareWizard.name	Monsters	Umbral Wizard	
+covered	monster.NightmareWizardBoss.name	Monsters	Echo Wizard	
+covered	monster.Nose Robot.name	Monsters	Nose Robot	
+covered	monster.Nozzle Robot.name	Monsters	Nozzle Robot	
+covered	monster.Octopus Baby Blue.name	Monsters	Azure Squid	
+covered	monster.Octopus Baby Orange.name	Monsters	Amber Squid	
+covered	monster.Octopus Baby Purple.name	Monsters	Plum Squid	
+covered	monster.Octopus King Blue.name	Monsters	Azure Octopus	
+covered	monster.Octopus King Orange.name	Monsters	Amber Octopus	
+covered	monster.Octopus King Purple.name	Monsters	Violet Octopus	
+covered	monster.Octopus Orange.name	Monsters	Amber Cuttlefish	
+covered	monster.Octopus Purple.name	Monsters	Violet Cuttlefish	
+covered	monster.Octopus White.name	Monsters	Pearl Cuttlefish	
+covered	monster.Petal.name	Monsters	Nautilus	
+covered	monster.Phantom.name	Monsters	Phantom	
+covered	monster.Plant Chewer.name	Monsters	Man-Eater	
+covered	monster.Plant Monster.name	Monsters	Snapvine	
+covered	monster.Plant Shooter.name	Monsters	Spitter	
+covered	monster.Plant Worm.name	Monsters	Vinecrawler	
+covered	monster.Poison Bomb.name	Monsters	Miasma	
+covered	monster.Pollen.name	Monsters	Pollen	
+covered	monster.Posy.name	Monsters	Sea Blossom	
+covered	monster.Practice Dummy.name	Monsters	Straw Dummy	
+covered	monster.Queen Worm.name	Monsters	Broodmother	
+covered	monster.Rabbit.name	Monsters	Rabbit	
+covered	monster.Rat Dark.name	Monsters	Sewer Rat	
+covered	monster.Rat Grey.name	Monsters	Plague Rat	
+covered	monster.Rat White.name	Monsters	Albino Rat	
+covered	monster.Razor Robot.name	Monsters	Razor Robot	
+covered	monster.Scorpion King.name	Monsters	Scorpion King	
+covered	monster.Scorpion.name	Monsters	Scorpion	
+covered	monster.Scorpling.name	Monsters	Scorpling	
+covered	monster.Seed.name	Monsters	Seedling	
+covered	monster.Shade.name	Monsters	Shade	
+covered	monster.Shadow.name	Monsters	Nightfiend	
+covered	monster.Shark Baby.name	Monsters	Sharkling	
+covered	monster.Shark Humanoid.name	Monsters	Shark Buccaneer	
+covered	monster.Shark.name	Monsters	Bull Shark	
+covered	monster.Shell Robot.name	Monsters	Shell Robot	
+covered	monster.Shell.name	Monsters	Conch	
+covered	monster.Skeleton Giant.name	Monsters	Skeleton Giant	
+covered	monster.Skeleton Mage.name	Monsters	Skeleton Mage	
+covered	monster.Skeleton.name	Monsters	Skeleton	
+covered	monster.Slime Jelly.name	Monsters	Jellooze	
+covered	monster.Slime Monster.name	Monsters	Oozelord	
+covered	monster.Slime.name	Monsters	Slime	
+covered	monster.Snake Naga.name	Monsters	Naga	
+covered	monster.Snake.name	Monsters	Viper	
+covered	monster.Snakelet.name	Monsters	Adder	
+covered	monster.Snout Robot.name	Monsters	Snout Robot	
+covered	monster.Snow Bomb.name	Monsters	Snowball	
+covered	monster.Soldier Robot.name	Monsters	Soldier Robot	
+covered	monster.Soul Mage.name	Monsters	Soul Mage	
+covered	monster.Soul.name	Monsters	Soul	
+covered	monster.Spider King.name	Monsters	Arachne	
+covered	monster.Spider Queen Robot.name	Monsters	Suphara	
+covered	monster.Spider Robot.name	Monsters	Spider Robot	
+covered	monster.Spider Toxin.name	Monsters	Widow	
+covered	monster.Spider.name	Monsters	Spider	
+covered	monster.Spiderling Robot.name	Monsters	Spiderling Robot	
+covered	monster.Spike Robot.name	Monsters	Spike Robot	
+covered	monster.Spike.name	Monsters	Hermit	
+covered	monster.Spook.name	Monsters	Spook	
+covered	monster.Spore.name	Monsters	Spore	
+covered	monster.Sprout.name	Monsters	Sprout	
+covered	monster.Squid Baby.name	Monsters	Squidling	
+covered	monster.Sting.name	Monsters	Vespa	
+covered	monster.Stinger Robot.name	Monsters	Stormstinger	
+covered	monster.Sun Blossom.name	Monsters	Nymph	
+covered	monster.Sunflora Pixie.name	Monsters	Lady Fey	
+covered	monster.Sunflower Fairy.name	Monsters	Sylvie	
+covered	monster.Tanker Robot.name	Monsters	Tanker Robot	
+covered	monster.Target Dummy.name	Monsters	Bullseye	
+covered	monster.Tech Robot.name	Monsters	Tech Robot	
+covered	monster.Tentacles Robot.name	Monsters	Stormcoil	
+covered	monster.Titan Turtle Sci Blue.name	Monsters	Hydro Turtle	
+covered	monster.Titan Turtle Sci Green.name	Monsters	Solar Turtle	
+covered	monster.Titan Turtle Sci Pink.name	Monsters	Storm Turtle	
+covered	monster.Toadstool.name	Monsters	Toadstool	
+covered	monster.Training Dummy.name	Monsters	Sandbag	
+covered	monster.Treant Forest Autumn.name	Monsters	Maple Ancient	
+covered	monster.Treant Forest Evergreen.name	Monsters	Pine Ancient	
+covered	monster.Treant Minion Autumn.name	Monsters	Maple Sapling	
+covered	monster.Treant Minion Evergreen.name	Monsters	Pine Sapling	
+covered	monster.Treant Tree Autumn.name	Monsters	Maple Treant	
+covered	monster.Treant Tree Evergreen.name	Monsters	Pine Treant	
+covered	monster.Trooper Robot.name	Monsters	Trooper Robot	
+covered	monster.Turtle King.name	Monsters	Turtle Champion	
+covered	monster.Turtle Monster Blue.name	Monsters	Azure Terrapin	
+covered	monster.Turtle Monster Green.name	Monsters	Verdant Terrapin	
+covered	monster.Turtle Monster Red.name	Monsters	Crimson Terrapin	
+covered	monster.Turtle.name	Monsters	Turtle Baby	
+covered	monster.Vampire Bat.name	Monsters	Nosferatu	
+covered	monster.Werewolf.name	Monsters	Lycanthrope	
+covered	monster.Whirlwind.name	Monsters	Breeze	
+covered	monster.Wind Mage.name	Monsters	Wind Mage	
+covered	monster.Wind.name	Monsters	Gale	
+covered	monster.Wisp Blue.name	Monsters	Frost Wisp	
+covered	monster.Wisp Purple.name	Monsters	Lightning Wisp	
+covered	monster.Wisp Red.name	Monsters	Fire Wisp	
+covered	monster.Wisp Yellow.name	Monsters	Earth Wisp	
+covered	monster.Wolf Pup.name	Monsters	Wolf Cub	
+covered	monster.Wolf.name	Monsters	Wolf	
+covered	monster.Worm Creep.name	Monsters	Devourer	
+covered	monster.Worm Rot.name	Monsters	Maggot	
+covered	monster.Worm Stink.name	Monsters	Grub	
+covered	monster.Worm.name	Monsters	Worm	
+covered	monster.Wraith.name	Monsters	Wraith King	
+covered	monster.Zombie Goblin Giant.name	Monsters	Zombie Orc	
+covered	monster.Zombie Goblin King.name	Monsters	Zombie Orc Lord	
+covered	monster.Zombie Goblin Minion.name	Monsters	Zombie Goblin	
+covered	monster.Zombie Goblin Soldier.name	Monsters	Zombie Grunt	
+covered	npc.Artificer.name	NPCs	Artificer	
+covered	npc.Blacksmith.name	NPCs	Blacksmith	
+covered	npc.BlacksmithVendor.name	NPCs	Material Vendor	
+covered	npc.Craftsman.name	NPCs	Craftsman	
+covered	npc.EtenalTower.name	NPCs	Dark Disciple	
+covered	npc.Gemsmith.name	NPCs	Gemsmith	
+covered	npc.Healer.name	NPCs	Healer	
+covered	npc.Master.name	NPCs	Master	
+covered	npc.Mira.name	NPCs	Mira the Storage Clerk	
+covered	npc.Pvp.name	NPCs	Combat Master	
+covered	npc.Signpost_Nevaris.name	NPCs	Adventurer's Board	
+covered	npc.Stylist.name	NPCs	Stylist	
+covered	npc.Timekeeper.name	NPCs	Timekeeper	
+covered	npc.Vending.name	NPCs	Vending Stallmaster	
+covered	npc.VikingIslandCaptain.name	NPCs	Ship Captain	
+covered	npc.Waybinder.name	NPCs	Waybinder	
+covered	npc.Weaver.name	NPCs	Weaver	
+covered	skill.Acolyte_1.name	SkillPassives	Scripture of Mercy	
+covered	skill.Acolyte_2.name	SkillPassives	Radiant Strikes	
+covered	skill.Acolyte_3.name	SkillPassives	Radiant Judgment	
+covered	skill.Acolyte_4.name	SkillPassives	Gospel of Grace	
+covered	skill.Acolyte_5.name	SkillPassives	Lightweaver	
+covered	skill.Acolyte_6.name	SkillPassives	Sacred Rhythm	
+covered	skill.Aegis.name	Skills	Aegis of Light	
+covered	skill.AerialShot.name	Skills	Aerial Shot	
+covered	skill.Agility.name	Skills	Inner Focus	
+covered	skill.AngelicBlessing.name	Skills	Angelic Blessing	
+covered	skill.ArcaneSigil.name	Skills	Arcane Sigil	
+covered	skill.Armored.name	Skills	Armored	
+covered	skill.ArrowShower.name	Skills	Arrow Shower	
+covered	skill.AutoAttack.name	Skills	Auto Attack	
+covered	skill.AutoattackMastery.name	SkillPassives	Deadly Strikes	
+covered	skill.AutoStrafe.name	SkillPassives	Auto Strafe	
+covered	skill.AxeArc.name	Skills	Twin Cleave	
+covered	skill.AxeMastery.name	SkillPassives	Axe Mastery	
+covered	skill.AxeThrow.name	Skills	Axe Throw	
+covered	skill.AxeVortex.name	Skills	Vortex Slash	
+covered	skill.Barrier.name	Skills	Sacred Aegis	
+covered	skill.Bash.name	Skills	Bash	
+covered	skill.Berserk.name	Skills	Berserk	
+covered	skill.Berserker_1.name	SkillPassives	War Cry	
+covered	skill.Berserker_2.name	SkillPassives	Crimson Frenzy	
+covered	skill.Berserker_3.name	SkillPassives	Slaughter Instinct	
+covered	skill.Berserker_4.name	SkillPassives	Executioner	
+covered	skill.BladeDance.name	Skills	Blade Dance	
+covered	skill.BladeMastery.name	SkillPassives	Blade Mastery	
+covered	skill.BleedCoating.name	Skills	Red Maw	
+covered	skill.Blessing.name	Skills	Benediction	
+covered	skill.Blink.name	Skills	Blink	
+covered	skill.BloodCrash.name	Skills	Blood Crash	
+covered	skill.BloodFrenzy.name	Skills	Blood Frenzy	
+covered	skill.BloodLust.name	Skills	Blood Lust	
+covered	skill.BoneSpear.name	Skills	Bone Spear	
+covered	skill.BoneSpikes.name	Skills	Bone Spikes	
+covered	skill.Bonk.name	Skills	Bonk!	
+covered	skill.BossProtocol.name	SkillPassives	Boss Protocol	
+covered	skill.ChainLightning.name	Skills	Chain Lightning	
+covered	skill.Cloaking.name	Skills	Cloaking	
+covered	skill.CodexMastery.name	SkillPassives	Codex Mastery	
+covered	skill.Combustion.name	Skills	Combustion	
+covered	skill.Conjurer.name	Skills	Conjurer	
+covered	skill.ConsecratedGround.name	Skills	Consecrated Ground	
+covered	skill.Consecration.name	Skills	Consecration	
+covered	skill.Conviction.name	Skills	Conviction Aura	
+covered	skill.CorpseBarrier.name	Skills	Corpse Barrier	
+covered	skill.CorpseExplosion.name	Skills	Corpse Explosion	
+covered	skill.CorpseExplosionEnemy.name	Skills	Corpse Explosion (Enemy)	
+covered	skill.CorpseExplosionSummon.name	Skills	Corpse Explosion (Summon)	
+covered	skill.Counter.name	Skills	Counter Stance	
+covered	skill.CounterSlash.name	Skills	Counter Slash	
+covered	skill.CrimsonFrenzy.name	Skills	Crimson Frenzy	
+covered	skill.CritMastery.name	SkillPassives	Honed Blade	
+covered	skill.CrushingAdvance.name	Skills	Crushing Advance	
+covered	skill.Cure.name	Skills	Cure	
+covered	skill.CureAll.name	Skills	Mass Cure	
+covered	skill.Cyclone.name	Skills	Cyclone	
+covered	skill.Damnation.name	Skills	Damnation	
+covered	skill.Dark Exorcism.name	Skills	Dark Exorcism	
+covered	skill.DarkClaw.name	Skills	Dark Claw	
+covered	skill.DeathBond.name	Skills	Death Bond	
+covered	skill.DeathBramble.name	Skills	Necrotic Presence	
+covered	skill.DeathBrambleEnemy.name	Skills	Necrotic Presence (Enemy)	
+covered	skill.DeathCoil.name	Skills	Death Coil	
+covered	skill.DeathCoilEnemy.name	Skills	Death Coil (Enemy)	
+covered	skill.DeathCoilSummon.name	Skills	Death Coil (Summon)	
+covered	skill.DeathNova.name	Skills	Death Nova	
+covered	skill.DeathNovaField.name	Skills	Death Nova Field	
+covered	skill.DeathSpiral.name	Skills	Death Spiral	
+covered	skill.DecayAura.name	Skills	Decay Aura	
+covered	skill.Defiance.name	Skills	Defiance Aura	
+covered	skill.Deflect.name	Skills	Deflect	
+covered	skill.Dispell.name	Skills	Absolution	
+covered	skill.DivinePunishment.name	Skills	Divine Punishment	
+covered	skill.Divinity.name	Skills	Divinity	
+covered	skill.DualWieldMastery.name	SkillPassives	Dual Wield Mastery	
+covered	skill.EarthBarrier.name	Skills	Avatar of Stone	
+covered	skill.Earthbolt.name	Skills	Earthbolt	
+covered	skill.Earthquake.name	Skills	Earthquake	
+covered	skill.EarthSpikes.name	Skills	Earth Spikes	
+covered	skill.EarthWall.name	Skills	Earth Wall	
+covered	skill.EclipsingAegis.name	Skills	Eclipsing Aegis	
+covered	skill.EnchantArmorHoly.name	Skills	Sanctify	
+covered	skill.EnchantEarth.name	Skills	Enchant Earth	
+covered	skill.EnchantFire.name	Skills	Enchant Fire	
+covered	skill.EnchantHoly.name	Skills	Enchant Holy	
+covered	skill.EnchantPoison.name	Skills	Enchant Poison	
+covered	skill.EnchantShadow.name	Skills	Enchant Shadow	
+covered	skill.EnchantUndead.name	Skills	Enchant Undead	
+covered	skill.EnchantWater.name	Skills	Enchant Water	
+covered	skill.EnchantWind.name	Skills	Enchant Wind	
+covered	skill.EndowHoly.name	Skills	Endow Holy	
+covered	skill.Endure.name	Skills	Endure	
+covered	skill.EnergyShield.name	Skills	Energy Shield	
+covered	skill.Execute.name	Skills	Execute	
+covered	skill.Exorcism.name	Skills	Exorcism	
+covered	skill.ExplosiveGrenade.name	Skills	Explosive Grenade	
+covered	skill.Faith.name	SkillPassives	Faith	
+covered	skill.Fanaticism.name	Skills	Fanaticism	
+covered	skill.FanFire.name	Skills	Fan Fire	
+covered	skill.FanOfKnives.name	Skills	Fan Of Knives	
+covered	skill.Ferocity.name	Skills	Ferocity	
+covered	skill.FieldCurse.name	Skills	Banishment Field	
+covered	skill.FieldDamage.name	Skills	Dissonance Well	
+covered	skill.FieldHealing.name	Skills	Resonance Well	
+covered	skill.FieldSilence.name	Skills	Suppression Field	
+covered	skill.Fireball.name	Skills	Fireball	
+covered	skill.FireBarrier.name	Skills	Avatar of Fire	
+covered	skill.Firebolt.name	Skills	Firebolt	
+covered	skill.FireField.name	Skills	Flame Ground	
+covered	skill.FirePillar.name	Skills	Fire Pillar	
+covered	skill.FireRelease.name	Skills	Fire Release	
+covered	skill.Firewall.name	Skills	Firewall	
+covered	skill.FlameOrb.name	Skills	Flame Orb	
+covered	skill.FlameOrbExplosion.name	Skills	Flame Explosion	
+covered	skill.FlashBang.name	Skills	Flash Bang	
+covered	skill.FlashGrenade.name	Skills	Flash Grenade	
+covered	skill.FlowState.name	Skills	Flow State	
+covered	skill.ForceShot.name	Skills	Force Shot	
+covered	skill.Fortify.name	SkillPassives	Fortify	
+covered	skill.FreeCast.name	SkillPassives	Free Cast	
+covered	skill.FreezeGrenade.name	Skills	Freeze Grenade	
+covered	skill.FreezingEdge.name	Skills	Frost Rounds	
+covered	skill.FreezingField.name	Skills	Blizzard	
+covered	skill.FrostBlade.name	Skills	Binding Spiral	
+covered	skill.FrostBladeExplosion.name	Skills	Spiral Collapse	
+covered	skill.Frostglass.name	Skills	Frostglass	
+covered	skill.FrozenGround.name	Skills	Frozen Ground	
+covered	skill.FuryBond.name	Skills	Fury Bond	
+covered	skill.GainRage.name	Skills	Gain Rage	
+covered	skill.GameMaster.name	SkillPassives	Game Master	
+covered	skill.GameMasterCloaking.name	Skills	Game Master Cloaking	
+covered	skill.Grace.name	Skills	Divine Grace	
+covered	skill.GrandCross.name	Skills	Grand Cross	
+covered	skill.GraveChill.name	Skills	Grave Chill	
+covered	skill.GraveChillEnemy.name	Skills	Grave Chill (Enemy)	
+covered	skill.GroundSlam.name	Skills	Earth Splitter	
+covered	skill.GuardianBond.name	Skills	Guardian Bond	
+covered	skill.GuardianSpirit.name	Skills	Guardian Spirit	
+covered	skill.GunMastery.name	SkillPassives	Gun Mastery	
+covered	skill.Harvest.name	Skills	Harvest	
+covered	skill.Haste.name	Skills	Haste	
+covered	skill.HasteAll.name	Skills	Mass Haste	
+covered	skill.Heal.name	Skills	Heal	
+covered	skill.HealAll.name	Skills	Mass Heal	
+covered	skill.HighGuard.name	Skills	High Guard	
+covered	skill.HighHeal.name	Skills	High Heal	
+covered	skill.HolyLight.name	Skills	Holy Light	
+covered	skill.HolyShield.name	Skills	Holy Shield	
+covered	skill.HolyWrath.name	Skills	Holy Wrath	
+covered	skill.HolyWrathField.name	Skills	Litany of Wrath	
+covered	skill.HydroVortex.name	Skills	Hydro Vortex	
+covered	skill.Icebolt.name	Skills	Icebolt	
+covered	skill.IceRelease.name	Skills	Ice Release	
+covered	skill.IceShard.name	Skills	Ice Shard	
+covered	skill.IncreasedFlee.name	SkillPassives	Increased Flee	
+covered	skill.IncreasedHealth.name	SkillPassives	Increased Health	
+covered	skill.IncreasedHealthRegen.name	SkillPassives	Increased Regeneration	
+covered	skill.IncreasedMana.name	SkillPassives	Increased Mana	
+covered	skill.IncreasedManaRegen.name	SkillPassives	Increased Recovery	
+covered	skill.Invoker.name	Skills	Invoker	
+covered	skill.JudgementBlade.name	Skills	Judgement Blade	
+covered	skill.JumpShot.name	Skills	Jump Shot	
+covered	skill.Knight_1.name	SkillPassives	Breaking Advance	
+covered	skill.Knight_2.name	SkillPassives	Sweeping Order	
+covered	skill.Knight_3.name	SkillPassives	Lightning Stance	
+covered	skill.Knight_4.name	SkillPassives	Rescuing Throw	
+covered	skill.Knight_5.name	SkillPassives	Iron Response	
+covered	skill.Knight_6.name	SkillPassives	Vanguard Doctrine	
+covered	skill.LifeBond.name	Skills	Life Bond	
+covered	skill.LifeDrain.name	Skills	Life Drain	
+covered	skill.LifeDrainEnemy.name	Skills	Life Drain (Enemy)	
+covered	skill.LifeDrainSummon.name	Skills	Life Drain (Summon)	
+covered	skill.LightningCoat.name	Skills	Lightning Coat	
+covered	skill.LightningReflexes.name	Skills	Lightning Reflexes	
+covered	skill.LightningRelease.name	Skills	Lightning Release	
+covered	skill.LightningStrike.name	Skills	Flash Step	
+covered	skill.LimitBreak.name	Skills	Limit Break	
+covered	skill.Lockdown.name	Skills	Lockdown	
+covered	skill.MaceMastery.name	SkillPassives	Mace Mastery	
+covered	skill.Mage_1.name	SkillPassives	Elementalist	
+covered	skill.Mage_2.name	SkillPassives	Spellshot	
+covered	skill.Mage_3.name	SkillPassives	Blink Step	
+covered	skill.Mage_4.name	SkillPassives	Ley Pulse	
+covered	skill.Mage_5.name	SkillPassives	Frostglass	
+covered	skill.Mage_6.name	SkillPassives	Combustion	
+covered	skill.Marked.name	Skills	Mark Target	
+covered	skill.Meteor.name	Skills	Meteor	
+covered	skill.MeteorStorm.name	Skills	Meteor Storm	
+covered	skill.MimicSeal.name	Skills	Mimic Seal	
+covered	skill.Mount.name	Skills	Mount	
+covered	skill.MountMastery.name	Skills	Gryphon Riding	
+covered	skill.Multistrike.name	SkillPassives	Multistrike	
+covered	skill.NinjutsuMastery.name	SkillPassives	Ninjutsu Mastery	
+covered	skill.NPC_Berserk.name	Skills	Wild Rage	
+covered	skill.NPC_BleedAttack.name	Skills	Bleed	
+covered	skill.NPC_Blind.name	Skills	Blind	
+covered	skill.NPC_Burn.name	Skills	Burn	
+covered	skill.NPC_Enrage.name	Skills	Enrage	
+covered	skill.NPC_Enrage_2.name	Skills	Last Stand	
+covered	skill.NPC_Freeze.name	Skills	Freeze	
+covered	skill.NPC_Knockback.name	Skills	Knockback	
+covered	skill.NPC_LightningReflexes.name	Skills	Empower Reflexes	
+covered	skill.NPC_ManaLeech.name	Skills	Mana Drain	
+covered	skill.NPC_Poison.name	Skills	Gunk Shot	
+covered	skill.NPC_Pull.name	Skills	Pull	
+covered	skill.NPC_ShadowStep.name	Skills	Dark Step	
+covered	skill.NPC_Sharpen.name	Skills	Critical Strikes	
+covered	skill.NPC_Silence.name	Skills	Silence	
+covered	skill.NPC_SpellGuard.name	Skills	Reflect Magic	
+covered	skill.NPC_SpikedShell.name	Skills	Reflect Physical	
+covered	skill.NPC_SteelGuard.name	Skills	Reinforce	
+covered	skill.NPC_Stun.name	Skills	Stun	
+covered	skill.NPC_Venom.name	Skills	Venom	
+covered	skill.NPC_WideBleed.name	Skills	Wide Bleed	
+covered	skill.NPC_WideBlind.name	Skills	Wide Blind	
+covered	skill.NPC_WideCurse.name	Skills	Wide Curse	
+covered	skill.NPC_WideFreeze.name	Skills	Wide Freeze	
+covered	skill.NPC_WidePoison.name	Skills	Wide Poison	
+covered	skill.NPC_WideSilence.name	Skills	Wide Silence	
+covered	skill.NPC_WideStun.name	Skills	Wide Stun	
+covered	skill.Paladin_1.name	SkillPassives	Resolute Pose	
+covered	skill.Paladin_2.name	SkillPassives	Crushing Advance	
+covered	skill.Paladin_3.name	SkillPassives	Sacred Bastion	
+covered	skill.Paladin_4.name	SkillPassives	Divine Retribution	
+covered	skill.PanicBurst.name	Skills	Panic Burst	
+covered	skill.PiercingShot.name	Skills	Piercing Shot	
+covered	skill.PointBlankShot.name	Skills	Point Blank	
+covered	skill.PoisonField.name	Skills	Poison Ground	
+covered	skill.PoisonGrenade.name	Skills	Poison Grenade	
+covered	skill.PreciseAim.name	SkillPassives	Precise Aim	
+covered	skill.Priest_1.name	SkillPassives	Veil of the Exorcist	
+covered	skill.Priest_2.name	SkillPassives	Martyr's Oath	
+covered	skill.Priest_3.name	SkillPassives	Exorcist's Brand	
+covered	skill.Priest_4.name	SkillPassives	Eclipsing Aegis	
+covered	skill.Priest_5.name	SkillPassives	Overflowing Grace	
+covered	skill.Priest_6.name	SkillPassives	Resurrection Pact	
+covered	skill.Priest_7.name	SkillPassives	Purity	
+covered	skill.Priest_8.name	SkillPassives	Sanctuary Doctrine	
+covered	skill.RageMastery.name	SkillPassives	Brutality	
+covered	skill.Reanimation.name	Skills	Reanimation	
+covered	skill.Reap.name	Skills	Reap	
+covered	skill.ReapSummon.name	Skills	Reap (Summon)	
+covered	skill.ReflectShield.name	SkillPassives	Reflect Shield	
+covered	skill.ResistanceMastery.name	SkillPassives	Natural Resistance	
+covered	skill.Revive.name	Skills	Resurrection	
+covered	skill.ReviveAll.name	Skills	Salvation	
+covered	skill.Rogue_1.name	SkillPassives	Silent Circle	
+covered	skill.Rogue_2.name	SkillPassives	Shadow Trail	
+covered	skill.Rogue_3.name	SkillPassives	Venom Bloom	
+covered	skill.Rogue_4.name	SkillPassives	Shadow Dance	
+covered	skill.Rogue_5.name	SkillPassives	Hidden Strikes	
+covered	skill.Sacrament.name	Skills	Sacrament	
+covered	skill.SacredBlast.name	Skills	Sacred Blast	
+covered	skill.SacredGround.name	Skills	Sacred Ground	
+covered	skill.Sacrifice.name	Skills	Sacrifice	
+covered	skill.Sanctuary.name	Skills	Sanctuary	
+covered	skill.SanctuaryField.name	Skills	Litany of Sanctuary	
+covered	skill.Scout_1.name	SkillPassives	Chain Reaction	
+covered	skill.Scout_2.name	SkillPassives	Hunting Ground	
+covered	skill.Scout_3.name	SkillPassives	Skirmisher's Flow	
+covered	skill.Scout_4.name	SkillPassives	Suppressing Shot	
+covered	skill.Scout_5.name	SkillPassives	Eagle Eye	
+covered	skill.ScytheMastery.name	SkillPassives	Scythe Mastery	
+covered	skill.ShadowFeint.name	Skills	Elusive Feint	
+covered	skill.ShadowMastery.name	SkillPassives	Shadow Mastery	
+covered	skill.ShadowRelease.name	Skills	Black Blade	
+covered	skill.ShadowSeal.name	Skills	Shadow Seal	
+covered	skill.ShadowStep.name	Skills	Shadow Step	
+covered	skill.ShadowStrike.name	Skills	Shadow Strike	
+covered	skill.ShadowTrail.name	Skills	Shadow Trail	
+covered	skill.ShieldBash.name	Skills	Shield Bash	
+covered	skill.ShieldMastery.name	SkillPassives	Shield Mastery	
+covered	skill.ShieldThrow.name	Skills	Shield Throw	
+covered	skill.Shinobi_1.name	SkillPassives	Silent Execution	
+covered	skill.Shinobi_2.name	SkillPassives	Sealed Fate	
+covered	skill.Shinobi_3.name	SkillPassives	Honed Technique	
+covered	skill.Shinobi_4.name	SkillPassives	Phantom Manuscript	
+covered	skill.ShockAbsorber.name	Skills	Shock Absorber	
+covered	skill.ShoutBlood.name	Skills	Blood Howl	
+covered	skill.ShoutFury.name	Skills	Furious Shout	
+covered	skill.ShoutMight.name	Skills	Mighty Roar	
+covered	skill.ShoutMightLong.name	Skills	War Cry	
+covered	skill.ShoutStun.name	Skills	Fearsome Cry	
+covered	skill.ShrapnelShot.name	Skills	Shrapnel	
+covered	skill.ShurikenFan.name	Skills	Shuriken Fan	
+covered	skill.SilentEdge.name	Skills	Silent Edge	
+covered	skill.SkeletonMastery.name	SkillPassives	Skeleton Mastery	
+covered	skill.SlowTrap.name	Skills	Slow Trap	
+covered	skill.Smite.name	Skills	Smite	
+covered	skill.SmokeScreen.name	Skills	Smoke Screen	
+covered	skill.SmokeScreenAlly.name	Skills	Smoke Screen (Ally)	
+covered	skill.SniperNest.name	Skills	Sniper's Nest	
+covered	skill.SniperShot.name	Skills	Sniper Shot	
+covered	skill.SoulDrain.name	Skills	Soul Drain	
+covered	skill.SoulDrainEnemy.name	Skills	Soul Drain (Enemy)	
+covered	skill.SoulStrike.name	Skills	Soul Strike	
+covered	skill.SpearMastery.name	SkillPassives	Spear Mastery	
+covered	skill.SpearQuicken.name	Skills	Precision Focus	
+covered	skill.SpearSlice.name	Skills	Air Cutter	
+covered	skill.SpearStab.name	Skills	Impale	
+covered	skill.SpearThrust.name	Skills	Piercing Flurry	
+covered	skill.SpellShield.name	Skills	Arcanum Ward	
+covered	skill.StatusRecovery.name	Skills	Status Recovery	
+covered	skill.SteadyHands.name	SkillPassives	Steady Hands	
+covered	skill.Stomp.name	Skills	Stomp	
+covered	skill.StrafingVolley.name	Skills	Strafing Volley	
+covered	skill.SummonAbomination.name	Skills	Summon Blightbeast	
+covered	skill.SummonAngel.name	Skills	Summon Angel	
+covered	skill.SummonAttack.name	Skills	Summon Command	
+covered	skill.SummonCactus.name	Skills	Summon Cactus	
+covered	skill.SummonCat.name	Skills	Summon Cat	
+covered	skill.SummonDeathMage.name	Skills	Summon Death	
+covered	skill.Summoner_1.name	SkillPassives	Alpha Surge	
+covered	skill.Summoner_2.name	SkillPassives	Hexwell Current	
+covered	skill.Summoner_3.name	SkillPassives	Banishment Well	
+covered	skill.Summoner_4.name	SkillPassives	Resonant Wind	
+covered	skill.Summoner_5.name	SkillPassives	Blessed Resonance	
+covered	skill.Summoner_6.name	SkillPassives	Soul Chains	
+covered	skill.SummonMastery.name	SkillPassives	Summon Mastery	
+covered	skill.SummonMount.name	Skills	Summon Mount	
+covered	skill.SummonReanimation.name	Skills	Summon Reanimation	
+covered	skill.SummonRecall.name	Skills	Summon Recall	
+covered	skill.SummonSkeleton.name	Skills	Summon Bonekin	
+covered	skill.SummonSkeletonMage.name	Skills	Summon Bonecaster	
+covered	skill.SummonSwap.name	Skills	Summon Swap	
+covered	skill.SummonWolf.name	Skills	Summon Wolf	
+covered	skill.SummonWraith.name	Skills	Summon Reaper	
+covered	skill.SuppressiveShot.name	Skills	Suppressive Shot	
+covered	skill.Taunt.name	Skills	Taunt	
+covered	skill.Tempest.name	Skills	Tempest	
+covered	skill.TetraVortex.name	Skills	Elemental Overload	
+covered	skill.TetraVortexEarth.name	Skills	Overload Earth	
+covered	skill.TetraVortexFire.name	Skills	Overload Fire	
+covered	skill.TetraVortexWater.name	Skills	Overload Ice	
+covered	skill.TetraVortexWind.name	Skills	Overload Wind	
+covered	skill.Thunderbolt.name	Skills	Thunderbolt	
+covered	skill.ThunderField.name	Skills	Static Field	
+covered	skill.ThunderStorm.name	Skills	Thunder Storm	
+covered	skill.TriggerHappy.name	Skills	Trigger Happy	
+covered	skill.TrueSight.name	Skills	True Sight	
+covered	skill.TurnUndead.name	Skills	Turn Undead	
+covered	skill.TwistOfFate.name	Skills	Twist Of Fate	
+covered	skill.TwohandParry.name	SkillPassives	Twohand Parry	
+covered	skill.TwohandQuicken.name	Skills	Critical Focus	
+covered	skill.UmbralExplosion.name	Skills	Umbral Rupture	
+covered	skill.UmbralField.name	Skills	Umbral Decay	
+covered	skill.UmbralWide.name	Skills	Umbral Collapse	
+covered	skill.UnholyAura.name	Skills	Unholy Aura	
+covered	skill.Unyielding.name	Skills	Unyielding	
+covered	skill.VenomBloom.name	Skills	Venom Bloom	
+covered	skill.VenomCoating.name	Skills	Venom Coating	
+covered	skill.VenomStrike.name	Skills	Venom Strike	
+covered	skill.Vitality.name	Skills	Vitality Aura	
+covered	skill.VolatileBolt.name	Skills	Volatile Bolt	
+covered	skill.VolatileExplosion.name	Skills	Volatile Explosion	
+covered	skill.WandMastery.name	SkillPassives	Staff Mastery	
+covered	skill.Warrior_1.name	SkillPassives	Bloodtrail	
+covered	skill.Warrior_2.name	SkillPassives	Breakjaw	
+covered	skill.Warrior_3.name	SkillPassives	Warmaw	
+covered	skill.Warrior_4.name	SkillPassives	Bloodprice	
+covered	skill.Warrior_5.name	SkillPassives	Warpath	
+covered	skill.WaterBarrier.name	Skills	Avatar of Frost	
+covered	skill.WeaponSwap.name	Skills	Dual Loadout	
+covered	skill.WeaponThrow.name	Skills	Weapon Throw	
+covered	skill.Weaver_1.name	SkillPassives	Weave of Counter	
+covered	skill.Weaver_2.name	SkillPassives	Weave of Guardian	
+covered	skill.Weaver_3.name	SkillPassives	Weave of Arcana	
+covered	skill.Weaver_4.name	SkillPassives	Weave of Fury	
+covered	skill.Weaver_5.name	SkillPassives	Weave of Marksman	
+covered	skill.WeaverMastery.name	SkillPassives	Weaver Mastery	
+covered	skill.Whirlwind.name	Skills	Whirlwind	
+covered	skill.WildCharge.name	Skills	Wild Charge	
+covered	skill.WindBarrier.name	Skills	Avatar of Storm	
+covered	skill.Wizard_1.name	SkillPassives	Jupiter's Wrath	
+covered	skill.Wizard_2.name	SkillPassives	Voltaic Overdraw	
+covered	skill.Wizard_3.name	SkillPassives	Eye of the Storm	
+covered	skill.Wizard_4.name	SkillPassives	Stonewake	
+covered	skill.Wizard_5.name	SkillPassives	Focused Amplification	
+covered	skill.Wizard_6.name	SkillPassives	Mana Surge	
+covered	skill.Wizard_7.name	SkillPassives	Arcane Barrier	
+covered	skill.Wizard_Artifact_1.name	SkillPassives	Tempest Engine	
+covered	skill.Wizard_Artifact_2.name	SkillPassives	Frozen Dominion	
+covered	skill.Wizard_Artifact_3.name	SkillPassives	Meteoric Cataclysm	
+covered	skill.Zeal.name	Skills	Zeal	
+covered	status.Aegis.name	Statuses	Aegis	
+covered	status.Aggressive.name	Statuses	Aggressive	
+covered	status.Agility.name	Statuses	Inner Focus	
+covered	status.Alacrity.name	Statuses	Alacrity	
+covered	status.Anathema.name	Statuses	Anathema	
+covered	status.AngelicBlessing.name	Statuses	Angelic Blessing	
+covered	status.ArcaneSigil.name	Statuses	Arcane Sigil	
+covered	status.ArmorBreak.name	Statuses	Armor Break	
+covered	status.Armored.name	Statuses	Armored	
+covered	status.Barrier.name	Statuses	Sacred Aegis	
+covered	status.Berserk.name	Statuses	Berserk	
+covered	status.BleedCoating.name	Statuses	Red Maw	
+covered	status.Bleeding.name	Statuses	Bleeding	
+covered	status.Blessing.name	Statuses	Benediction	
+covered	status.Blind.name	Statuses	Blind	
+covered	status.BlindImmunity.name	Statuses	Blind Immunity	
+covered	status.BloodCrash.name	Statuses	Blood Crash	
+covered	status.BloodFrenzy.name	Statuses	Blood Frenzy	
+covered	status.BloodLust.name	Statuses	Blood Lust	
+covered	status.Bloodprice.name	Statuses	Bloodprice	
+covered	status.BoostAxeArc.name	Statuses	Bloodtrail	
+covered	status.BoostAxeVortex.name	Statuses	Warmaw	
+covered	status.BoostBash.name	Statuses	Breakjaw	
+covered	status.BoostSmite.name	Statuses	Martyr's Oath	
+covered	status.BoostStomp.name	Statuses	Gorepath	
+covered	status.Burning.name	Statuses	Burning	
+covered	status.BurningImmunity.name	Statuses	Burning Immunity	
+covered	status.CastReady.name	Statuses	Cast Ready	
+covered	status.Cloaking.name	Statuses	Cloaking	
+covered	status.CombatMounted.name	Statuses	Combat Mounted	
+covered	status.ComboReady.name	Statuses	Combo Ready	
+covered	status.Conjurer.name	Statuses	Conjurer	
+covered	status.CorpseBarrier.name	Statuses	Corpse Barrier	
+covered	status.CorpseExplosion.name	Statuses	Corpse Explosion	
+covered	status.Counter.name	Statuses	Counter	
+covered	status.Curse.name	Statuses	Curse	
+covered	status.CurseImmunity.name	Statuses	Curse Immunity	
+covered	status.DeathBond.name	Statuses	Death Bond	
+covered	status.DeathBramble.name	Statuses	Necrotic Presence	
+covered	status.DeathBrambleEnemy.name	Statuses	Necrotic Presence (Enemy)	
+covered	status.Decay.name	Statuses	Decay	
+covered	status.DecayImmunity.name	Statuses	Decay Immunity	
+covered	status.Defiance.name	Statuses	Defiance	
+covered	status.Divinity.name	Statuses	Divinity	
+covered	status.EarthAttunement.name	Statuses	Earth Attunement	
+covered	status.EarthBarrier.name	Statuses	Earth Barrier	
+covered	status.EarthBarrier2.name	Statuses	Arcane Barrier	
+covered	status.EarthExposure.name	Statuses	Earth Exposure	
+covered	status.EclipsingAegis.name	Statuses	Eclipsing Aegis	
+covered	status.ElementalAttunement.name	Statuses	Elemental Attunement	
+covered	status.Elusive.name	Statuses	Elusive	
+covered	status.EnchantArmorHoly.name	Statuses	Sanctify	
+covered	status.EnchantEarth.name	Statuses	Enchant Earth	
+covered	status.EnchantFire.name	Statuses	Enchant Fire	
+covered	status.EnchantHoly.name	Statuses	Enchant Holy	
+covered	status.EnchantPoison.name	Statuses	Enchant Poison	
+covered	status.EnchantShadow.name	Statuses	Enchant Shadow	
+covered	status.EnchantUndead.name	Statuses	Enchant Undead	
+covered	status.EnchantWater.name	Statuses	Enchant Water	
+covered	status.EnchantWind.name	Statuses	Enchant Wind	
+covered	status.Endure.name	Statuses	Endure	
+covered	status.EnergyShield.name	Statuses	Energy Shield	
+covered	status.Enrage.name	Statuses	Enrage	
+covered	status.ExorcistBrand.name	Statuses	Exorcist's Brand	
+covered	status.Fanaticism.name	Statuses	Fanaticism	
+covered	status.Ferocity.name	Statuses	Ferocity	
+covered	status.FireAttunement.name	Statuses	Fire Attunement	
+covered	status.FireBarrier.name	Statuses	Fire Barrier	
+covered	status.FireBarrier2.name	Statuses	Arcane Barrier	
+covered	status.FireExposure.name	Statuses	Fire Exposure	
+covered	status.FireRelease.name	Statuses	Fire Release	
+covered	status.Flow.name	Statuses	Flow	
+covered	status.FlowState.name	Statuses	Flow State	
+covered	status.Focus.name	Statuses	Focus	
+covered	status.FreezingEdge.name	Statuses	Frost Rounds	
+covered	status.Frenzy.name	Statuses	Frenzy	
+covered	status.Frozen.name	Statuses	Frozen	
+covered	status.FrozenImmunity.name	Statuses	Frozen Immunity	
+covered	status.Fury.name	Statuses	Fury	
+covered	status.FuryBond.name	Statuses	Fury Bond	
+covered	status.GameMasterCloaking.name	Statuses	Game Master Cloaking	
+covered	status.GospelOfGrace.name	Statuses	Gospel Of Grace	
+covered	status.Grace.name	Statuses	Divine Grace	
+covered	status.GraveChill.name	Statuses	Grave Chill	
+covered	status.GraveChillEnemy.name	Statuses	Grave Chill (Enemy)	
+covered	status.GuardianBond.name	Statuses	Guardian Bond	
+covered	status.GuardianSpirit.name	Statuses	Guardian Spirit	
+covered	status.Haste.name	Statuses	Haste	
+covered	status.HighGuard.name	Statuses	High Guard	
+covered	status.HolyAttunement.name	Statuses	Holy Attunement	
+covered	status.HolyExposure.name	Statuses	Consecrated	
+covered	status.HolyShield.name	Statuses	Holy Shield	
+covered	status.HonedTechnique.name	Statuses	Honed Technique	
+covered	status.IceRelease.name	Statuses	Ice Release	
+covered	status.Invoker.name	Statuses	Invoker	
+covered	status.IronResponse.name	Statuses	Iron Response	
+covered	status.LauncherBoost.name	Statuses	Launcher Boost	
+covered	status.LifeBond.name	Statuses	Life Bond	
+covered	status.LightningCoat.name	Statuses	Lightning Coat	
+covered	status.LightningReflexes.name	Statuses	Lightning Reflexes	
+covered	status.LightningRelease.name	Statuses	Lightning Release	
+covered	status.LimitBreak.name	Statuses	Limit Break	
+covered	status.Lockdown.name	Statuses	Lockdown	
+covered	status.MagicExposure.name	Statuses	Magic Exposure	
+covered	status.ManaEcho.name	Statuses	Mana Echo	
+covered	status.Marked.name	Statuses	Marked	
+covered	status.Might.name	Statuses	Might	
+covered	status.MindBreak.name	Statuses	Mind Break	
+covered	status.Mounted.name	Statuses	Mounted	
+covered	status.Multistrike.name	Statuses	Multistrike	
+covered	status.NPC_Berserk.name	Statuses	Wild Rage	
+covered	status.NPC_Enrage.name	Statuses	Enrage	
+covered	status.NPC_Enrage_2.name	Statuses	Last Stand	
+covered	status.NPC_LightningReflexes.name	Statuses	Empower Reflexes	
+covered	status.NPC_Sharpen.name	Statuses	Critical Strikes	
+covered	status.NPC_SpellGuard.name	Statuses	Reflect Magic	
+covered	status.NPC_SpikedShell.name	Statuses	Reflect Physical	
+covered	status.NPC_SteelGuard.name	Statuses	Increase Block	
+covered	status.PerfectStrike.name	Statuses	Perfect Strike	
+covered	status.PistolBoost.name	Statuses	Pistol Boost	
+covered	status.Poison.name	Statuses	Poison	
+covered	status.PoisonExposure.name	Statuses	Poison Exposure	
+covered	status.PoisonImmunity.name	Statuses	Poison Immunity	
+covered	status.Protection.name	Statuses	Protection	
+covered	status.Radiance.name	Statuses	Radiance	
+covered	status.RadiantBulwark.name	Statuses	Radiant Bulwark	
+covered	status.Rage.name	Statuses	Rage	
+covered	status.Regeneration.name	Statuses	Regeneration	
+covered	status.Revealed.name	Statuses	Revealed	
+covered	status.RifleBoost.name	Statuses	Rifle Boost	
+covered	status.Ruthless.name	Statuses	Ruthless	
+covered	status.Sacrament.name	Statuses	Sacrament	
+covered	status.SacredGround.name	Statuses	Sacred Ground	
+covered	status.Sacrifice.name	Statuses	Sacrifice	
+covered	status.Sanctuary.name	Statuses	Sanctuary	
+covered	status.Sanctuary2.name	Statuses	Sanctuary Doctrine	
+covered	status.ShadowMark.name	Statuses	Shadow Mark	
+covered	status.ShockAbsorber.name	Statuses	Shock Absorber	
+covered	status.ShotgunBoost.name	Statuses	Shotgun Boost	
+covered	status.Silence.name	Statuses	Silence	
+covered	status.SilenceImmunity.name	Statuses	Silence Immunity	
+covered	status.SilentEdge.name	Statuses	Silent Edge	
+covered	status.Sitting.name	Statuses	Sitting	
+covered	status.Slow.name	Statuses	Slow	
+covered	status.SlowImmunity.name	Statuses	Slow Immunity	
+covered	status.SmokeScreen.name	Statuses	Smoke Screen	
+covered	status.SniperNest.name	Statuses	Sniper Nest	
+covered	status.SoulDrain.name	Statuses	Soul Drain	
+covered	status.SoulDrainEnemy.name	Statuses	Soul Drain (Enemy)	
+covered	status.SpearQuicken.name	Statuses	Precision Focus	
+covered	status.SpellShield.name	Statuses	Arcanum Ward	
+covered	status.Spinning.name	Statuses	Spinning	
+covered	status.SpiritBond.name	Statuses	Spirit Bond	
+covered	status.Stability.name	Statuses	Stability	
+covered	status.Stagger.name	Statuses	Stagger	
+covered	status.Stamina.name	Statuses	Stamina	
+covered	status.Stun.name	Statuses	Stun	
+covered	status.StunImmunity.name	Statuses	Stun Immunity	
+covered	status.SummonSpeed.name	Statuses	Summon Speed	
+covered	status.Taunt.name	Statuses	Taunt	
+covered	status.TempestEngine.name	Statuses	Tempest Engine	
+covered	status.TriggerHappy.name	Statuses	Trigger Happy	
+covered	status.TwohandQuicken.name	Statuses	Critical Focus	
+covered	status.UmbralCurse.name	Statuses	Umbral Curse	
+covered	status.UmbralMark.name	Statuses	Umbral Mark	
+covered	status.UndeadExposure.name	Statuses	Desecrated	
+covered	status.UnholyAura.name	Statuses	Unholy Aura	
+covered	status.UnholyFrenzy.name	Statuses	Unholy Frenzy	
+covered	status.Unyielding.name	Statuses	Unyielding	
+covered	status.VenomCoating.name	Statuses	Venom Coating	
+covered	status.VenomStep.name	Statuses	Venom Step	
+covered	status.Vitality.name	Statuses	Vitality	
+covered	status.Volatile.name	Statuses	Volatile	
+covered	status.Vulnerability.name	Statuses	Vulnerability	
+covered	status.WaterAttunement.name	Statuses	Water Attunement	
+covered	status.WaterBarrier.name	Statuses	Water Barrier	
+covered	status.WaterBarrier2.name	Statuses	Arcane Barrier	
+covered	status.WaterExposure.name	Statuses	Water Exposure	
+covered	status.Weaken.name	Statuses	Weaken	
+covered	status.WindAttunement.name	Statuses	Wind Attunement	
+covered	status.WindBarrier.name	Statuses	Wind Barrier	
+covered	status.WindBarrier2.name	Statuses	Arcane Barrier	
+covered	status.WindExposure.name	Statuses	Wind Exposure	
+covered	status.Zeal.name	Statuses	Zeal	

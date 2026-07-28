@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "bundle_name": "client_assets_gameclientconfig_4170b040dbb658de669c1e4fbd1c1857.bundle",
+  "steam_build_id": "24302330",
+  "game_assembly_sha256": "E96637D13174209BA27895DD89F688D29AC07B3EF1DB0F978EE1A45CA9386113",
+  "metadata_sha256": "F93CD79F85A93FEA90562A95B95F97A6ECF82863ED80E234AC2000775FA5A851",
+  "bundle_sha256": "B27E993E649D1F2B3D03E0A6DEC33D4ACD2E34027F9C92B88A890063B8B6984E",
+  "bundle_size": 269984677,
+  "object_path_id": 5072310189623964512,
+  "raw_sha256": "20B30D0C2E8AEC9229FA20276B220B297BF5DF71DBF3A3C4CFC4EE392962E3B0",
+  "baseline_raw_sha256": "20B30D0C2E8AEC9229FA20276B220B297BF5DF71DBF3A3C4CFC4EE392962E3B0",
+  "raw_matches_baseline": true,
+  "dictionary_sha256": "0D54D57FAE1A1700D715388A561F352B2241DB7490ECF7733B4D2456F8D6288A",
+  "config_entries": 7130,
+  "missing_simplified_entries": 3579,
+  "covered_entries": 3579,
+  "uncovered_entries": 0,
+  "uncovered_sources": 0,
+  "category_coverage": {
+    "Archetypes": {
+      "total": 31,
+      "covered": 31,
+      "uncovered": 0
+    },
+    "Artifacts": {
+      "total": 45,
+      "covered": 45,
+      "uncovered": 0
+    },
+    "Cards": {
+      "total": 264,
+      "covered": 264,
+      "uncovered": 0
+    },
+    "Consumables": {
+      "total": 31,
+      "covered": 31,
+      "uncovered": 0
+    },
+    "Cosmetics": {
+      "total": 1121,
+      "covered": 1121,
+      "uncovered": 0
+    },
+    "Equips": {
+      "total": 622,
+      "covered": 622,
+      "uncovered": 0
+    },
+    "Gems": {
+      "total": 262,
+      "covered": 262,
+      "uncovered": 0
+    },
+    "Grimoires": {
+      "total": 5,
+      "covered": 5,
+      "uncovered": 0
+    },
+    "Junks": {
+      "total": 280,
+      "covered": 280,
+      "uncovered": 0
+    },
+    "Monsters": {
+      "total": 330,
+      "covered": 330,
+      "uncovered": 0
+    },
+    "NPCs": {
+      "total": 17,
+      "covered": 17,
+      "uncovered": 0
+    },
+    "SkillPassives": {
+      "total": 109,
+      "covered": 109,
+      "uncovered": 0
+    },
+    "Skills": {
+      "total": 278,
+      "covered": 278,
+      "uncovered": 0
+    },
+    "Statuses": {
+      "total": 184,
+      "covered": 184,
+      "uncovered": 0
+    }
+  },
+  "added_keys": 0,
+  "removed_keys": 0,
+  "source_changed_keys": 0,
+  "simplified_changed_keys": 0,
+  "added_key_samples": [],
+  "removed_key_samples": [],
+  "source_changed_key_samples": [],
+  "simplified_changed_key_samples": []
+}

@@ -1,0 +1,2598 @@
+{
+  "schema_version": 1,
+  "steam_build_id": "24302330",
+  "game_assembly_sha256": "E96637D13174209BA27895DD89F688D29AC07B3EF1DB0F978EE1A45CA9386113",
+  "metadata_sha256": "F93CD79F85A93FEA90562A95B95F97A6ECF82863ED80E234AC2000775FA5A851",
+  "source_bundle_sha256": "B27E993E649D1F2B3D03E0A6DEC33D4ACD2E34027F9C92B88A890063B8B6984E",
+  "sharedassets_sha256": "DA34CD24CC5D55CD0017E44A9CAC10DB8C52282CA51DE534A8692C277C6C60DB",
+  "source_snapshot_name": "source-snapshot.json",
+  "source_snapshot_sha256": "5815F8244A0BE4F62014ABF7E929C6106B734484080D5DF142102BE869D61005",
+  "runtime_names_name": "runtime-name-aliases.tsv",
+  "runtime_names_sha256": "B2379752F471759886932AB328F17C97E9E692FB7538A60C2E1E90B8F987B4F2",
+  "runtime_names_summary_name": "runtime-name-aliases.json",
+  "runtime_names_summary_sha256": "1ECAF7EC00D8AF43956B4B230FF8E01A2FC9D196FD0A77EA58871598D6C3670D",
+  "skill_aliases_name": "runtime-skill-aliases.tsv",
+  "skill_aliases_sha256": "ECE6994711036540B9CCA77C34522E6F02E8DD8938968940A3EB193D51E4ECE9",
+  "skill_aliases_summary_name": "runtime-skill-aliases.json",
+  "skill_aliases_summary_sha256": "90D2B4F2B92B68889B2DA3BE00C265401A87E0F294DBCFC072E37B04621CAB57",
+  "dictionary_name": "translations.tsv",
+  "dictionary_sha256": "0D54D57FAE1A1700D715388A561F352B2241DB7490ECF7733B4D2456F8D6288A",
+  "map_manifest_name": "bilingual-map-entities.json",
+  "map_manifest_sha256": "82CCD8323CD41DFE89C7F2B9EBEE5966800E93D05DB24242247412AC0E9424E6",
+  "catalog_name": "bilingual-entity-catalog.tsv",
+  "catalog_sha256": "2C6567A63A6704B576CF1A5FFBD1CC1722CC70B74CCDD030C52DD3F7C52F9DC3",
+  "catalog_rows": 3615,
+  "category_coverage": {
+    "Item": {
+      "expected": 683,
+      "covered": 683,
+      "missing": 0
+    },
+    "Equip": {
+      "expected": 1482,
+      "covered": 1482,
+      "missing": 0
+    },
+    "Artifact": {
+      "expected": 65,
+      "covered": 65,
+      "missing": 0
+    },
+    "Gem": {
+      "expected": 131,
+      "covered": 131,
+      "missing": 0
+    },
+    "Skill": {
+      "expected": 325,
+      "covered": 325,
+      "missing": 0
+    },
+    "SkillPassive": {
+      "expected": 119,
+      "covered": 119,
+      "missing": 0
+    },
+    "Monster": {
+      "expected": 757,
+      "covered": 757,
+      "missing": 0
+    },
+    "Map": {
+      "expected": 53,
+      "covered": 53,
+      "missing": 0
+    }
+  },
+  "coverage_complete": true,
+  "missing_rows": 0,
+  "missing_samples": [],
+  "origin_input_rows": {
+    "map-manifest": 53,
+    "market-canonical-entry": 2558,
+    "runtime-name-alias": 3550,
+    "runtime-skill-alias": 278,
+    "source-snapshot": 2952
+  },
+  "compact_policy_counts": {
+    "english-on-hold": 3615
+  },
+  "cross_category_source_groups": 561,
+  "cross_category_source_samples": [
+    {
+      "source": "Abomination Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Abyss Archon Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Adder Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Aegis Light",
+      "categories": [
+        "Equip",
+        "Artifact",
+        "SkillPassive"
+      ]
+    },
+    {
+      "source": "Albino Rat Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Alpha Surge",
+      "categories": [
+        "Equip",
+        "SkillPassive"
+      ]
+    },
+    {
+      "source": "Amber Cuttlefish Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Amber Octopus Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Amber Squid Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Amethyst Guardian Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Angel Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Apparition Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Aqua Drake Card",
+      "categories": [
+        "Item",
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Aqua Drake Pet",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Aqua Drake",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Aqua Merling Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Aquamarine Guardian Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Arachne Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Arcane Barrier",
+      "categories": [
+        "Equip",
+        "SkillPassive"
+      ]
+    },
+    {
+      "source": "Arcane Elementalist",
+      "categories": [
+        "Equip",
+        "Artifact",
+        "SkillPassive"
+      ]
+    },
+    {
+      "source": "Arcane Sigil",
+      "categories": [
+        "Equip",
+        "Skill"
+      ]
+    },
+    {
+      "source": "Archangel Card",
+      "categories": [
+        "Item",
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Archangel Pet",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Archangel",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Azure Beholder Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Azure Eyestalk Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Azure Gazer Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Azure Octopus Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Azure Squid Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Azure Terrapin Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Banishment Well",
+      "categories": [
+        "Equip",
+        "SkillPassive"
+      ]
+    },
+    {
+      "source": "Banshee Card",
+      "categories": [
+        "Item",
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Banshee Pet",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Banshee",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Barrel Mimic Card",
+      "categories": [
+        "Item",
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Barrel Mimic Pet",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Barrel Mimic",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Bat Card",
+      "categories": [
+        "Item",
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Bat Lord",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Bat Pet",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Bat",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Bee Card",
+      "categories": [
+        "Item",
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Bee Pet",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Bee",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Beholder Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Blast Robot Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Blaze Card",
+      "categories": [
+        "Item",
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Blaze Pet",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Blaze",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Blessed Resonance",
+      "categories": [
+        "Equip",
+        "SkillPassive"
+      ]
+    },
+    {
+      "source": "Blind",
+      "categories": [
+        "Skill",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Blink Step",
+      "categories": [
+        "Equip",
+        "SkillPassive"
+      ]
+    },
+    {
+      "source": "Bloodfury",
+      "categories": [
+        "Equip",
+        "Artifact",
+        "SkillPassive"
+      ]
+    },
+    {
+      "source": "Bloodprice",
+      "categories": [
+        "Equip",
+        "SkillPassive"
+      ]
+    },
+    {
+      "source": "Bloodsucker Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Bloodtrail",
+      "categories": [
+        "Equip",
+        "SkillPassive"
+      ]
+    },
+    {
+      "source": "Blowfly Card",
+      "categories": [
+        "Item",
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Blowfly Pet",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Blowfly",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Bluebottle Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Bluefin Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Bomb Card",
+      "categories": [
+        "Item",
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Bomb Pet",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Bomb",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Book Mimic Card",
+      "categories": [
+        "Item",
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Book Mimic Pet",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Book Mimic",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Boss Protocol",
+      "categories": [
+        "Item",
+        "SkillPassive"
+      ]
+    },
+    {
+      "source": "Boxy Robot Card",
+      "categories": [
+        "Item",
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Boxy Robot Pet",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Boxy Robot",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Breaking Advance",
+      "categories": [
+        "Equip",
+        "SkillPassive"
+      ]
+    },
+    {
+      "source": "Breakjaw",
+      "categories": [
+        "Equip",
+        "SkillPassive"
+      ]
+    },
+    {
+      "source": "Breeze Card",
+      "categories": [
+        "Item",
+        "Equip",
+        "Skill",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Breeze Pet",
+      "categories": [
+        "Equip",
+        "Skill",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Breeze",
+      "categories": [
+        "Equip",
+        "Skill",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Broodmother Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Bull Shark Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Bumblebee Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Bunny Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Cacti Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Cactus Card",
+      "categories": [
+        "Item",
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Cactus King Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Cactus King",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Cactus Pet",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Cactus",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Canary Merling Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Candle Mimic Card",
+      "categories": [
+        "Item",
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Candle Mimic Pet",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Candle Mimic",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Celestial Moth Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Chain Reaction",
+      "categories": [
+        "Equip",
+        "SkillPassive"
+      ]
+    },
+    {
+      "source": "Chest Mimic Card",
+      "categories": [
+        "Item",
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Chest Mimic Pet",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Chest Mimic",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Chick Card",
+      "categories": [
+        "Item",
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Chick Pet",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Chick",
+      "categories": [
+        "Equip",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Chompbloom Card",
+      "categories": [
+        "Item",
+        "Monster"
+      ]
+    },
+    {
+      "source": "Chompcap Card",
+      "categories": [
+        "Item",
+        "Equip",
+        "Monster"
+      ]
+    }
+  ],
+  "target_collision_groups": 270,
+  "target_collision_samples": [
+    {
+      "target": "3D眼镜",
+      "sources": [
+        "3D Glasses",
+        "3DGlasses"
+      ]
+    },
+    {
+      "target": "S.U. B0X 宠物",
+      "sources": [
+        "Boxy Robot Pet",
+        "S.U. B0X Pet"
+      ]
+    },
+    {
+      "target": "S.U. 刃锋单元宠物",
+      "sources": [
+        "Razor Robot Pet",
+        "S.U. Razor Unit Pet"
+      ]
+    },
+    {
+      "target": "S.U. 喷嘴宠物",
+      "sources": [
+        "Nozzle Robot Pet",
+        "S.U. NOZZLE Pet"
+      ]
+    },
+    {
+      "target": "S.U. 幼蛛单元宠物",
+      "sources": [
+        "S.U. Threadling Pet",
+        "Spiderling Robot Pet"
+      ]
+    },
+    {
+      "target": "不良风男式鞋",
+      "sources": [
+        "Sukeban Male Shoes",
+        "Sukeban Shoes"
+      ]
+    },
+    {
+      "target": "丝带礼品盒",
+      "sources": [
+        "Festive Gift Box",
+        "Ribboned Gift Box"
+      ]
+    },
+    {
+      "target": "交叉双斧",
+      "sources": [
+        "Crossed Axes",
+        "Dual Axes"
+      ]
+    },
+    {
+      "target": "仙人掌",
+      "sources": [
+        "Cacti",
+        "Cactus"
+      ]
+    },
+    {
+      "target": "仙人掌卡片",
+      "sources": [
+        "Cacti Card",
+        "Cactus Card"
+      ]
+    },
+    {
+      "target": "仙人掌王",
+      "sources": [
+        "Cactus Boss",
+        "Cactus King"
+      ]
+    },
+    {
+      "target": "仙尘",
+      "sources": [
+        "Fairy Dust",
+        "Pouch Fairy Dust"
+      ]
+    },
+    {
+      "target": "伪装眼镜",
+      "sources": [
+        "Disguise Glasses",
+        "Funny Glasses"
+      ]
+    },
+    {
+      "target": "伪魔典宠物",
+      "sources": [
+        "Book Mimic Pet",
+        "False Grimoire Pet"
+      ]
+    },
+    {
+      "target": "低语幽魂宠物",
+      "sources": [
+        "Ghost Pet",
+        "Whispling Pet"
+      ]
+    },
+    {
+      "target": "使徒的黄昏",
+      "sources": [
+        "Apostle's Duskhat",
+        "Wraith Hat"
+      ]
+    },
+    {
+      "target": "假金合欢",
+      "sources": [
+        "False Acacia",
+        "False Acasia"
+      ]
+    },
+    {
+      "target": "假金合欢片",
+      "sources": [
+        "False Acacia Piece",
+        "False Acasia Piece"
+      ]
+    },
+    {
+      "target": "僵尸兽人领主",
+      "sources": [
+        "Zombie Goblin King",
+        "Zombie Orc Lord"
+      ]
+    },
+    {
+      "target": "先驱",
+      "sources": [
+        "Novice",
+        "Pioneer"
+      ]
+    },
+    {
+      "target": "光盘",
+      "sources": [
+        "Cd",
+        "Compact Disc"
+      ]
+    },
+    {
+      "target": "克拉肯",
+      "sources": [
+        "Eyeball Monster",
+        "Kraken"
+      ]
+    },
+    {
+      "target": "兔子",
+      "sources": [
+        "Bunny",
+        "Rabbit"
+      ]
+    },
+    {
+      "target": "兔子卡片",
+      "sources": [
+        "Bunny Card",
+        "Rabbit Card"
+      ]
+    },
+    {
+      "target": "六翼天使仲裁者",
+      "sources": [
+        "Angel Mage",
+        "Seraphim Arbiter"
+      ]
+    },
+    {
+      "target": "兽人大酋长",
+      "sources": [
+        "Goblin Warchief",
+        "Orc Warchief"
+      ]
+    },
+    {
+      "target": "兽人王",
+      "sources": [
+        "Goblin Giant Gold",
+        "Orc King"
+      ]
+    },
+    {
+      "target": "冰原狼幼崽宠物",
+      "sources": [
+        "Direpup Pet",
+        "Wolf Cub Pet"
+      ]
+    },
+    {
+      "target": "冰泰坦",
+      "sources": [
+        "Ice Titan",
+        "Mega Ice Golem"
+      ]
+    },
+    {
+      "target": "冰霜水晶耳朵",
+      "sources": [
+        "Crystal Ears",
+        "Frost Crystal Ears"
+      ]
+    },
+    {
+      "target": "冰霜独眼怪宠物",
+      "sources": [
+        "Cyclopling Pet",
+        "Frostclops Pet"
+      ]
+    },
+    {
+      "target": "利刃拟态怪宠物",
+      "sources": [
+        "Sharp Mimic Pet",
+        "Sword Mimic Pet"
+      ]
+    },
+    {
+      "target": "卡德雷根宠物",
+      "sources": [
+        "Kadregan Pet",
+        "Skimmer Pet"
+      ]
+    },
+    {
+      "target": "卡普金宠物",
+      "sources": [
+        "Capkin Pet",
+        "Shroom Pet"
+      ]
+    },
+    {
+      "target": "卡西弗头饰",
+      "sources": [
+        "Calcifur Headdress",
+        "Imp Devil Headress"
+      ]
+    },
+    {
+      "target": "危险气罐",
+      "sources": [
+        "Dangerous Tank",
+        "Oxygen Tank"
+      ]
+    },
+    {
+      "target": "压制射击",
+      "sources": [
+        "Suppressing Shot",
+        "Suppressive Shot"
+      ]
+    },
+    {
+      "target": "双匕首",
+      "sources": [
+        "Daggers",
+        "Twin Daggers"
+      ]
+    },
+    {
+      "target": "反射物理",
+      "sources": [
+        "NPC- Spiked Shell",
+        "Reflect Physical",
+        "Thorns"
+      ]
+    },
+    {
+      "target": "反射魔法",
+      "sources": [
+        "NPC- Spell Guard",
+        "Reflect Magic",
+        "Spell Shield"
+      ]
+    },
+    {
+      "target": "召唤收割者",
+      "sources": [
+        "Summon Reaper",
+        "Summon Wraith"
+      ]
+    },
+    {
+      "target": "召唤死灵法师",
+      "sources": [
+        "Summon Death",
+        "Summon Death Mage"
+      ]
+    },
+    {
+      "target": "召唤疫病兽",
+      "sources": [
+        "Summon Abomination",
+        "Summon Blightbeast"
+      ]
+    },
+    {
+      "target": "召唤骸骨战士",
+      "sources": [
+        "Summon Bonekin",
+        "Summon Skeleton"
+      ]
+    },
+    {
+      "target": "召唤骸骨法师",
+      "sources": [
+        "Summon Bonecaster",
+        "Summon Skeleton Mage"
+      ]
+    },
+    {
+      "target": "吞噬者",
+      "sources": [
+        "Devourer",
+        "Worm Creep"
+      ]
+    },
+    {
+      "target": "和风宠物",
+      "sources": [
+        "Breeze Pet",
+        "Zephyrl Pet"
+      ]
+    },
+    {
+      "target": "咖啡豆",
+      "sources": [
+        "Coffee Bean",
+        "Coffeebean"
+      ]
+    },
+    {
+      "target": "哥布仔宠物",
+      "sources": [
+        "Goblet Pet",
+        "Goblin Pet"
+      ]
+    },
+    {
+      "target": "啾啾小鸡宠物",
+      "sources": [
+        "Chick Pet",
+        "Peep Pet"
+      ]
+    },
+    {
+      "target": "喷嚏宠物",
+      "sources": [
+        "Pollen Pet",
+        "Sneezle Pet"
+      ]
+    },
+    {
+      "target": "嗡咬虫宠物",
+      "sources": [
+        "Buzzbite Pet",
+        "Mosquito Pet"
+      ]
+    },
+    {
+      "target": "回旋护目镜",
+      "sources": [
+        "Goggles",
+        "Round Goggles"
+      ]
+    },
+    {
+      "target": "圣吉尔宠物",
+      "sources": [
+        "Archangel Pet",
+        "Sangeal Pet"
+      ]
+    },
+    {
+      "target": "圣徒之负",
+      "sources": [
+        "Iron Halo",
+        "Saint's Burden"
+      ]
+    },
+    {
+      "target": "墓穴寒意（敌方）",
+      "sources": [
+        "Grave Chill (Enemy)",
+        "Grave Chill Enemy"
+      ]
+    },
+    {
+      "target": "墨色宠物",
+      "sources": [
+        "Inky Pet",
+        "Squidling Pet"
+      ]
+    },
+    {
+      "target": "夜龙坐骑",
+      "sources": [
+        "Noctwyrm Mount",
+        "Shadow Wyvern Mount"
+      ]
+    },
+    {
+      "target": "大黄蜂针织帽",
+      "sources": [
+        "Bumble Bee Beanie",
+        "Bumblebee Beanie"
+      ]
+    },
+    {
+      "target": "太阳印记",
+      "sources": [
+        "Sun Sigial",
+        "Sun Sigil"
+      ]
+    },
+    {
+      "target": "太阳花帽子",
+      "sources": [
+        "Sunbloom Hat",
+        "Sunflora Hat"
+      ]
+    },
+    {
+      "target": "头巾",
+      "sources": [
+        "Bandana",
+        "Beast Pelt Hood"
+      ]
+    },
+    {
+      "target": "女巫长袍",
+      "sources": [
+        "Witch's Robe",
+        "Witches Robe"
+      ]
+    },
+    {
+      "target": "妖精夫人",
+      "sources": [
+        "Lady Fey",
+        "Sunflora Pixie"
+      ]
+    },
+    {
+      "target": "娜迦",
+      "sources": [
+        "Naga",
+        "Snake Naga"
+      ]
+    },
+    {
+      "target": "孢子宠物",
+      "sources": [
+        "Chompcap Pet",
+        "Sporeling Pet"
+      ]
+    },
+    {
+      "target": "学院挎包",
+      "sources": [
+        "Academy Backpack",
+        "Academy Satchel"
+      ]
+    },
+    {
+      "target": "宇宙实体",
+      "sources": [
+        "Alien Big Blink",
+        "Cosmic Entity"
+      ]
+    },
+    {
+      "target": "守卫头盔",
+      "sources": [
+        "Guard Helm",
+        "Iron Guard Helm"
+      ]
+    },
+    {
+      "target": "安全陷阱宠物",
+      "sources": [
+        "Safe Trap Pet",
+        "Trap Mimic Pet"
+      ]
+    },
+    {
+      "target": "宝箱拟态怪宠物",
+      "sources": [
+        "Chest Mimic Pet",
+        "Treasure Mimic Pet"
+      ]
+    },
+    {
+      "target": "封印卷轴图腾",
+      "sources": [
+        "Obsidian Pillar",
+        "Sealed Scroll Totem"
+      ]
+    },
+    {
+      "target": "封印药水葫芦",
+      "sources": [
+        "Potion Gourd",
+        "Sealed Potion Gourd"
+      ]
+    },
+    {
+      "target": "小幽魂宠物",
+      "sources": [
+        "Banshee Pet",
+        "Hauntling Pet"
+      ]
+    },
+    {
+      "target": "小星星宠物",
+      "sources": [
+        "Little Star Pet",
+        "Starlet Pet"
+      ]
+    },
+    {
+      "target": "小枝宠物",
+      "sources": [
+        "Sprig Pet",
+        "Sprout Pet"
+      ]
+    },
+    {
+      "target": "小鸡背包",
+      "sources": [
+        "Baby Chick Backpack",
+        "Baby Chicken"
+      ]
+    },
+    {
+      "target": "幸运乌龟帽",
+      "sources": [
+        "Festival Turtle Cap",
+        "Lucky Turtle Cap"
+      ]
+    },
+    {
+      "target": "幽魂之王",
+      "sources": [
+        "Wraith",
+        "Wraith King"
+      ]
+    },
+    {
+      "target": "彩旗鱼",
+      "sources": [
+        "Painted Triggerfish",
+        "Picasso Triggerfish"
+      ]
+    },
+    {
+      "target": "彩虹羽毛皇冠",
+      "sources": [
+        "Feathered Crown Rainbow",
+        "Rainbow Feathered Crown"
+      ]
+    },
+    {
+      "target": "恶魔猫兜帽",
+      "sources": [
+        "Cheshire Cat",
+        "Demon Cat Hood"
+      ]
+    },
+    {
+      "target": "手腕沙漏",
+      "sources": [
+        "Wrist Hour Glass",
+        "Wrist Hourglass"
+      ]
+    },
+    {
+      "target": "执政官面纱",
+      "sources": [
+        "Archon's Veil",
+        "Death Mage Mask"
+      ]
+    },
+    {
+      "target": "拿破仑鱼",
+      "sources": [
+        "Crowned Reef Fish",
+        "Napoleon Fish"
+      ]
+    },
+    {
+      "target": "摄政王的火花尾",
+      "sources": [
+        "Cat Bolt Tail",
+        "Regent's Sparktail"
+      ]
+    },
+    {
+      "target": "摄政王风暴兜帽",
+      "sources": [
+        "Cat Bolt Hood",
+        "Regent's Stormhood"
+      ]
+    },
+    {
+      "target": "斩首号角",
+      "sources": [
+        "Hare Horns",
+        "Vorpal Horns"
+      ]
+    },
+    {
+      "target": "斩首野兔",
+      "sources": [
+        "Hare",
+        "Vorpal Hare"
+      ]
+    },
+    {
+      "target": "断枝",
+      "sources": [
+        "Branch Broken",
+        "Broken Branch"
+      ]
+    },
+    {
+      "target": "斯帕基蒂宠物",
+      "sources": [
+        "Sparkit Pet",
+        "Sparkitty Pet"
+      ]
+    },
+    {
+      "target": "方钠石",
+      "sources": [
+        "Sodalite",
+        "Soldalite"
+      ]
+    },
+    {
+      "target": "方钠石片",
+      "sources": [
+        "Sodalite Piece",
+        "Soldalite Piece"
+      ]
+    },
+    {
+      "target": "旅行包",
+      "sources": [
+        "Stylish Bag",
+        "Traveler's Bag"
+      ]
+    },
+    {
+      "target": "旅行者背包",
+      "sources": [
+        "Travel Backpack",
+        "Traveler's Backpack"
+      ]
+    },
+    {
+      "target": "日光石晶洞",
+      "sources": [
+        "Molten Core",
+        "Sunstone Geode"
+      ]
+    },
+    {
+      "target": "日蚀刃",
+      "sources": [
+        "Blade of Eclipse",
+        "Eclipse Blade"
+      ]
+    },
+    {
+      "target": "时髦高帮鞋",
+      "sources": [
+        "Hipster High-Tops",
+        "Hipster Hightops"
+      ]
+    },
+    {
+      "target": "暗夜男爵",
+      "sources": [
+        "Bat Lord",
+        "Night Baron"
+      ]
+    },
+    {
+      "target": "暗影",
+      "sources": [
+        "Shade",
+        "Shadow"
+      ]
+    }
+  ],
+  "identity_source_variant_groups": 647,
+  "identity_source_variant_samples": [
+    {
+      "category": "Artifact",
+      "identity": "Acolyte",
+      "sources": [
+        "Acolyte",
+        "Holy Vow"
+      ]
+    },
+    {
+      "category": "Artifact",
+      "identity": "Berserker_1",
+      "sources": [
+        "Bloodfury",
+        "War Cry"
+      ]
+    },
+    {
+      "category": "Artifact",
+      "identity": "Cost",
+      "sources": [
+        "Arcanum Verge",
+        "Evercast"
+      ]
+    },
+    {
+      "category": "Artifact",
+      "identity": "Knight",
+      "sources": [
+        "Honored Oath",
+        "Knight",
+        "Skystrider"
+      ]
+    },
+    {
+      "category": "Artifact",
+      "identity": "Mage",
+      "sources": [
+        "Arcane Origin",
+        "Mage",
+        "Spellthread"
+      ]
+    },
+    {
+      "category": "Artifact",
+      "identity": "Novice",
+      "sources": [
+        "Novice",
+        "Pioneer"
+      ]
+    },
+    {
+      "category": "Artifact",
+      "identity": "Paladin_1",
+      "sources": [
+        "Aegis Light",
+        "Resolute Pose"
+      ]
+    },
+    {
+      "category": "Artifact",
+      "identity": "Priest_1",
+      "sources": [
+        "Sanctum Grace",
+        "Veil of the Exorcist"
+      ]
+    },
+    {
+      "category": "Artifact",
+      "identity": "Rogue",
+      "sources": [
+        "Rogue",
+        "Silent Death"
+      ]
+    },
+    {
+      "category": "Artifact",
+      "identity": "Scout",
+      "sources": [
+        "Far Sight",
+        "Scout"
+      ]
+    },
+    {
+      "category": "Artifact",
+      "identity": "Shinobi_1",
+      "sources": [
+        "Silent Execution",
+        "Umbral Veil"
+      ]
+    },
+    {
+      "category": "Artifact",
+      "identity": "Summoner",
+      "sources": [
+        "Spirit Pact",
+        "Summoner"
+      ]
+    },
+    {
+      "category": "Artifact",
+      "identity": "Warrior",
+      "sources": [
+        "Iron Wake",
+        "Warrior"
+      ]
+    },
+    {
+      "category": "Artifact",
+      "identity": "Weaver_1",
+      "sources": [
+        "Fateweave",
+        "Weave of Counter"
+      ]
+    },
+    {
+      "category": "Artifact",
+      "identity": "Wizard_1",
+      "sources": [
+        "Jupiter's Wrath",
+        "Tempest Engine"
+      ]
+    },
+    {
+      "category": "Artifact",
+      "identity": "Wizard_2",
+      "sources": [
+        "Frozen Dominion",
+        "Voltaic Overdraw"
+      ]
+    },
+    {
+      "category": "Artifact",
+      "identity": "Wizard_3",
+      "sources": [
+        "Eye of the Storm",
+        "Meteoric Cataclysm"
+      ]
+    },
+    {
+      "category": "Artifact",
+      "identity": "Wizard_4",
+      "sources": [
+        "Arcane Elementalist",
+        "Stonewake"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "3D Glasses",
+      "sources": [
+        "3D Glasses",
+        "3DGlasses"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Alien Cyclops",
+      "sources": [
+        "Moonspawn Pet",
+        "Voidspawn",
+        "Voidspawn Card",
+        "Voidspawn Pet"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Alien Sporella",
+      "sources": [
+        "Chompcap",
+        "Chompcap Card",
+        "Chompcap Pet",
+        "Sporeling Pet"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Alien Star",
+      "sources": [
+        "Little Star",
+        "Little Star Card",
+        "Little Star Pet",
+        "Starlet Pet"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Alien Wheel",
+      "sources": [
+        "Blazewheel Pet",
+        "Cinderwheel",
+        "Cinderwheel Card",
+        "Cinderwheel Pet"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Archangel",
+      "sources": [
+        "Archangel",
+        "Archangel Card",
+        "Archangel Pet",
+        "Sangeal Pet"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Arrowpierced Shield",
+      "sources": [
+        "Arrow-Pierced Shield",
+        "Arrowpierced Shield"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Back_Academy",
+      "sources": [
+        "Academy Backpack",
+        "Academy Satchel"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Back_BabyChicken",
+      "sources": [
+        "Baby Chick Backpack",
+        "Baby Chicken"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Back_Balloon",
+      "sources": [
+        "Balloon",
+        "Red Balloon"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Back_CatBoltTail",
+      "sources": [
+        "Cat Bolt Tail",
+        "Regent's Sparktail"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Back_CrystalWings",
+      "sources": [
+        "Crystal Wings",
+        "Frost Crystal Wings"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Back_DualAxes",
+      "sources": [
+        "Crossed Axes",
+        "Dual Axes"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Back_FlowerPot",
+      "sources": [
+        "Flower Pot",
+        "Potted Blooms"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Back_HourGlass",
+      "sources": [
+        "Hour Glass",
+        "Hourglass"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Back_MinersPouch",
+      "sources": [
+        "Miner's Pouch",
+        "Miners Pouch"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Back_TeddyBear",
+      "sources": [
+        "Teddy Bear",
+        "Teddy Bear Backpack"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Bat",
+      "sources": [
+        "Bat",
+        "Bat Card",
+        "Bat Pet",
+        "Flitterbat Pet"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Bear Hug Hood",
+      "sources": [
+        "Bear Hood",
+        "Bear Hug Hood"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Beast Pelt Hood",
+      "sources": [
+        "Bandana",
+        "Beast Pelt Hood"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Bee",
+      "sources": [
+        "Bee",
+        "Bee Card",
+        "Bee Pet",
+        "Honeybum Pet"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "BerserkChest",
+      "sources": [
+        "Direwolf Chest",
+        "Duskhunter Chest"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "BerserkFeet",
+      "sources": [
+        "Direwolf Shoes",
+        "Duskhunter Shoes"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "BerserkLegs",
+      "sources": [
+        "Direwolf Legs",
+        "Duskhunter Legs"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Berserker_1",
+      "sources": [
+        "Bloodfury",
+        "War Cry"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Blade of Eclipse",
+      "sources": [
+        "Blade of Eclipse",
+        "Eclipse Blade"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Bomb",
+      "sources": [
+        "Bomb",
+        "Bomb Card",
+        "Bomb Pet",
+        "Bombkin Pet"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Boxy Robot",
+      "sources": [
+        "Boxy Robot",
+        "Boxy Robot Card",
+        "Boxy Robot Pet",
+        "S.U. B0X Pet"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Bud",
+      "sources": [
+        "Driftbud Pet",
+        "Venom Bud",
+        "Venom Bud Card",
+        "Venom Bud Pet"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Burrow",
+      "sources": [
+        "Digger",
+        "Digger Card",
+        "Digger Pet",
+        "Duglas Pet"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Butterfly Fairy",
+      "sources": [
+        "Fairy",
+        "Fairy Card",
+        "Fairy Pet",
+        "Glenwing Fairy Pet"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Cactus",
+      "sources": [
+        "Cactus",
+        "Cactus Card",
+        "Cactus Pet",
+        "Spinebloom Pet"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Back_1",
+      "sources": [
+        "Brown Backpack",
+        "Brown Bag"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Back_10",
+      "sources": [
+        "Travel Backpack",
+        "Traveler's Backpack"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Back_4",
+      "sources": [
+        "Black Bag",
+        "Brown Bag"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Back_5",
+      "sources": [
+        "Cream Bag",
+        "White Bag"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Back_8",
+      "sources": [
+        "Stylish Bag",
+        "Traveler's Bag"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Chest_22",
+      "sources": [
+        "Plum Sweater",
+        "Purple Sweater"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Chest_3",
+      "sources": [
+        "White T",
+        "White T-Shirt"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Chest_38",
+      "sources": [
+        "Yellow School Uniform Top",
+        "Yellow School Wear"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Chest_39",
+      "sources": [
+        "Pink School Uniform Top",
+        "Pink School Wear"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Chest_40",
+      "sources": [
+        "Black School Uniform Top",
+        "Black School Wear"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Chest_41",
+      "sources": [
+        "Blue School Uniform Top",
+        "Blue School Wear"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Chest_5",
+      "sources": [
+        "Black T",
+        "Black T-Shirt"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Chest_51",
+      "sources": [
+        "Firefighter Top",
+        "Fireman Top"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Chest_54",
+      "sources": [
+        "Royal Coat",
+        "Royal Top"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Chest_56",
+      "sources": [
+        "Witch's Robe",
+        "Witches Robe"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Chest_6",
+      "sources": [
+        "Yellow T",
+        "Yellow T-Shirt"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Chest_7",
+      "sources": [
+        "Blue T",
+        "Blue T-Shirt"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Feet_10",
+      "sources": [
+        "School Shoes",
+        "White School Shoes"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Feet_11",
+      "sources": [
+        "Cream School Shoes",
+        "School Shoes"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Feet_12",
+      "sources": [
+        "Black Dress Shoes",
+        "Dress Shoes"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Feet_13",
+      "sources": [
+        "Dress Shoes",
+        "Tan Dress Shoes"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Feet_14",
+      "sources": [
+        "Amber Dress Shoes",
+        "Dress Shoes"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Feet_15",
+      "sources": [
+        "Brown Dress Shoes",
+        "Dress Shoes"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Feet_20",
+      "sources": [
+        "Firefighter Shoes",
+        "Fireman Shoes"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Feet_21",
+      "sources": [
+        "Grey High-Tops",
+        "Grey Hightops"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Feet_24",
+      "sources": [
+        "Heavy Duty Shoes",
+        "Heavy-Duty Boots"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Feet_29",
+      "sources": [
+        "Brown Pointed Boots",
+        "Pointed Boots"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Feet_30",
+      "sources": [
+        "Dark Pointed Boots",
+        "Pointed Boots"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Feet_32",
+      "sources": [
+        "Brown Witch Shoes",
+        "Witch Shoes"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Feet_33",
+      "sources": [
+        "Violet Witch Shoes",
+        "Witch Shoes"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Feet_6",
+      "sources": [
+        "Red Runners",
+        "Rose Runners"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Feet_9",
+      "sources": [
+        "Hipster High-Tops",
+        "Hipster Hightops"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Head_39",
+      "sources": [
+        "Firefighter Hat",
+        "Fireman Hat"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Legs_18",
+      "sources": [
+        "Brown Cargo Pants",
+        "Brown Cargos"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Legs_19",
+      "sources": [
+        "Grey Cargo Pants",
+        "Grey Cargos"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Legs_20",
+      "sources": [
+        "Black Cargo Pants",
+        "Black Cargos"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Legs_21",
+      "sources": [
+        "Green Cargo Pants",
+        "Green Cargos"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Legs_22",
+      "sources": [
+        "Blue Cargo Pants",
+        "Blue Cargos"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Legs_34",
+      "sources": [
+        "Firefighter Pants",
+        "Fireman Pants"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Casual_Legs_54",
+      "sources": [
+        "Crimson Dress",
+        "Red Dress"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Cat Meow",
+      "sources": [
+        "Sparkit",
+        "Sparkit Card",
+        "Sparkit Pet",
+        "Sparkitty Pet"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Chick",
+      "sources": [
+        "Chick",
+        "Chick Card",
+        "Chick Pet",
+        "Peep Pet"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Cyclops Minion",
+      "sources": [
+        "Cyclopling",
+        "Cyclopling Card",
+        "Cyclopling Pet",
+        "Frostclops Pet"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Daggers",
+      "sources": [
+        "Daggers",
+        "Twin Daggers"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Death",
+      "sources": [
+        "Deathling Pet",
+        "Wight",
+        "Wight Card",
+        "Wight Pet"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Demon Cat",
+      "sources": [
+        "Cheshire Cat",
+        "Demon Cat Hood"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Discipline Band",
+      "sources": [
+        "Discipline Band",
+        "Discipline Mask"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Dog Pup",
+      "sources": [
+        "Hot Dog Pet",
+        "Pup",
+        "Pup Card",
+        "Pup Pet"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Dragon Blizzard",
+      "sources": [
+        "Frost Wyvern",
+        "Frost Wyvern Card",
+        "Frost Wyvern Mount",
+        "Snowwyrm Mount"
+      ]
+    },
+    {
+      "category": "Equip",
+      "identity": "Dragon Darkness",
+      "sources": [
+        "Noctwyrm Mount",
+        "Shadow Wyvern",
+        "Shadow Wyvern Card",
+        "Shadow Wyvern Mount"
+      ]
+    }
+  ],
+  "source_identity_collision_groups": 27,
+  "source_identity_collision_samples": [
+    {
+      "category": "Equip",
+      "source": "Brown Bag",
+      "identities": [
+        "Casual_Back_1",
+        "Casual_Back_4"
+      ]
+    },
+    {
+      "category": "Equip",
+      "source": "Crystal Wings",
+      "identities": [
+        "Back_CrystalWings",
+        "Crystal Wings"
+      ]
+    },
+    {
+      "category": "Equip",
+      "source": "Demonic",
+      "identities": [
+        "Badge_Demonic",
+        "ChatBubble_Demonic"
+      ]
+    },
+    {
+      "category": "Equip",
+      "source": "Dress Shoes",
+      "identities": [
+        "Casual_Feet_12",
+        "Casual_Feet_13",
+        "Casual_Feet_14",
+        "Casual_Feet_15"
+      ]
+    },
+    {
+      "category": "Equip",
+      "source": "Pointed Boots",
+      "identities": [
+        "Casual_Feet_29",
+        "Casual_Feet_30"
+      ]
+    },
+    {
+      "category": "Equip",
+      "source": "Purple Sweater",
+      "identities": [
+        "Casual_Chest_14",
+        "Casual_Chest_22"
+      ]
+    },
+    {
+      "category": "Equip",
+      "source": "Red Dress",
+      "identities": [
+        "Casual_Legs_32",
+        "Casual_Legs_54"
+      ]
+    },
+    {
+      "category": "Equip",
+      "source": "Red Runners",
+      "identities": [
+        "Casual_Feet_41",
+        "Casual_Feet_6"
+      ]
+    },
+    {
+      "category": "Equip",
+      "source": "School Shoes",
+      "identities": [
+        "Casual_Feet_10",
+        "Casual_Feet_11"
+      ]
+    },
+    {
+      "category": "Equip",
+      "source": "Sprout",
+      "identities": [
+        "Head_Sprout",
+        "Sprout"
+      ]
+    },
+    {
+      "category": "Equip",
+      "source": "Straw Hat",
+      "identities": [
+        "Casual_Head_13",
+        "Straw Hat"
+      ]
+    },
+    {
+      "category": "Equip",
+      "source": "Witch Shoes",
+      "identities": [
+        "Casual_Feet_32",
+        "Casual_Feet_33"
+      ]
+    },
+    {
+      "category": "Gem",
+      "source": "Death Coil Gem",
+      "identities": [
+        "DeathCoilEnemy Gem",
+        "DeathCoilSummon Gem"
+      ]
+    },
+    {
+      "category": "Gem",
+      "source": "Life Drain Gem",
+      "identities": [
+        "LifeDrainEnemy Gem",
+        "LifeDrainSummon Gem"
+      ]
+    },
+    {
+      "category": "Item",
+      "source": "Time Device",
+      "identities": [
+        "Lure Alien Big Blink",
+        "Time Device"
+      ]
+    },
+    {
+      "category": "Skill",
+      "source": "Berserk",
+      "identities": [
+        "Berserk",
+        "NPC_Berserk"
+      ]
+    },
+    {
+      "category": "Skill",
+      "source": "Corpse Explosion",
+      "identities": [
+        "CorpseExplosion",
+        "CorpseExplosionEnemy",
+        "CorpseExplosionSummon"
+      ]
+    },
+    {
+      "category": "Skill",
+      "source": "Death Coil",
+      "identities": [
+        "DeathCoil",
+        "DeathCoilEnemy",
+        "DeathCoilSummon"
+      ]
+    },
+    {
+      "category": "Skill",
+      "source": "Life Drain",
+      "identities": [
+        "LifeDrain",
+        "LifeDrainEnemy",
+        "LifeDrainSummon"
+      ]
+    },
+    {
+      "category": "Skill",
+      "source": "Lightning Reflexes",
+      "identities": [
+        "LightningReflexes",
+        "NPC_LightningReflexes"
+      ]
+    },
+    {
+      "category": "Skill",
+      "source": "Reap",
+      "identities": [
+        "Reap",
+        "ReapSummon"
+      ]
+    },
+    {
+      "category": "Skill",
+      "source": "Shadow Step",
+      "identities": [
+        "NPC_ShadowStep",
+        "ShadowStep"
+      ]
+    },
+    {
+      "category": "Skill",
+      "source": "Smoke Screen",
+      "identities": [
+        "SmokeScreen",
+        "SmokeScreenAlly"
+      ]
+    },
+    {
+      "category": "Skill",
+      "source": "Stun",
+      "identities": [
+        "NPC_Knockback",
+        "NPC_Stun"
+      ]
+    },
+    {
+      "category": "SkillPassive",
+      "source": "Frozen Dominion",
+      "identities": [
+        "Wizard_2",
+        "Wizard_Artifact_2"
+      ]
+    },
+    {
+      "category": "SkillPassive",
+      "source": "Meteoric Cataclysm",
+      "identities": [
+        "Wizard_3",
+        "Wizard_Artifact_3"
+      ]
+    },
+    {
+      "category": "SkillPassive",
+      "source": "Tempest Engine",
+      "identities": [
+        "Wizard_1",
+        "Wizard_Artifact_1"
+      ]
+    }
+  ],
+  "preview_lengths": {
+    "maximum_bilingual_characters": 35,
+    "over_24_characters": 353,
+    "over_32_characters": 7,
+    "over_40_characters": 0
+  },
+  "safety": {
+    "lookup_direction": "category+identity+source->target",
+    "reverse_lookup_generated": false,
+    "player_controlled_rows": 0,
+    "market_search_entry_rows_consumed": 2558,
+    "market_search_alias_rows_consumed": 0,
+    "market_search_keyword_rows_consumed": 0,
+    "dictionary_market_search_alias_rows": 129,
+    "dictionary_market_search_keyword_rows": 575
+  },
+  "bilingual_gate_only": true,
+  "pure_chinese_requires_catalog": false
+}

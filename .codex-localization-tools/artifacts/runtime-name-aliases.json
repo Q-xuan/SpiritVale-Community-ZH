@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "sharedassets_name": "sharedassets0.assets",
+  "sharedassets_sha256": "DA34CD24CC5D55CD0017E44A9CAC10DB8C52282CA51DE534A8692C277C6C60DB",
+  "source_snapshot_name": "source-snapshot.json",
+  "source_snapshot_sha256": "5815F8244A0BE4F62014ABF7E929C6106B734484080D5DF142102BE869D61005",
+  "dictionary_name": "translations.tsv",
+  "dictionary_sha256": "0D54D57FAE1A1700D715388A561F352B2241DB7490ECF7733B4D2456F8D6288A",
+  "mono_behaviours": 22818,
+  "raw_candidates": 17198,
+  "parsed_candidates": 3202,
+  "snapshot_name_ids": 2309,
+  "resolved_runtime_ids": 2267,
+  "runtime_display_strings": 2730,
+  "covered_display_strings": 2730,
+  "uncovered_display_strings": 0,
+  "unresolved_aliases": 0,
+  "conflicting_aliases": 0,
+  "coverage_complete": true,
+  "uncovered_samples": [],
+  "unresolved_samples": [],
+  "conflict_samples": []
+}

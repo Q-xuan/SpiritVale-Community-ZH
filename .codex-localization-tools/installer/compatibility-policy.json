@@ -1,0 +1,33 @@
+{
+    "schemaVersion":  1,
+    "steamAppId":  "3767850",
+    "verifiedBuilds":  [
+                           {
+                               "steamBuildId":  "24251379",
+                               "gameAssemblySha256":  "EB8D4D23F450C7DA98ACCC13191830626A9B06CFE65469A28E93C6575C9AC5E9",
+                               "metadataSha256":  "",
+                               "verifiedAtUtc":  "2026-07-17T15:27:14.2873627Z"
+                           },
+                           {
+                               "steamBuildId":  "24266225",
+                               "gameAssemblySha256":  "D4442C72CC52C02A749CEFBCDFFC5502639E773C7C38783647E544BAC6A51E06",
+                               "metadataSha256":  "",
+                               "verifiedAtUtc":  "2026-07-18T00:00:00Z"
+                           },
+                           {
+                               "steamBuildId":  "24274182",
+                               "gameAssemblySha256":  "69F1BF2E4A0DF8C35447610433BD87749CD3987EDDC569355FC8649BA0C65594",
+                               "metadataSha256":  "DFC3EC1E9C15462118664B335ED39ACF14DE44861252527476C1B76CBADDA9DC",
+                               "verifiedAtUtc":  "2026-07-19T05:37:04.4088968Z"
+                           },
+                           {
+                               "steamBuildId":  "24302330",
+                               "gameAssemblySha256":  "E96637D13174209BA27895DD89F688D29AC07B3EF1DB0F978EE1A45CA9386113",
+                               "metadataSha256":  "F93CD79F85A93FEA90562A95B95F97A6ECF82863ED80E234AC2000775FA5A851",
+                               "verifiedAtUtc":  "2026-07-21T10:48:30.4943418Z"
+                           }
+                       ],
+    "deniedBuilds":  [
+
+                     ]
+}

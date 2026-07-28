@@ -1,0 +1,893 @@
+﻿card.Abomination.affix	Cards	Power	
+card.Alien Big Blink.affix	Cards	Cosmic	
+card.Alien Biteroot.affix	Cards	Resistance	
+card.Alien Cyclops.affix	Cards	Gaze	
+card.Alien One Eye.affix	Cards	Energy	
+card.Alien Plant.affix	Cards	Resistance	
+card.Alien Spike.affix	Cards	Spiked	
+card.Alien Star.affix	Cards	Sanctified	
+card.Alien Twinkle.affix	Cards	Blessed	
+card.Alien Wheel.affix	Cards	Steadfast	
+card.Alien Wreck.affix	Cards	Titan	
+card.Angel Mage.affix	Cards	Pure	
+card.Angel.affix	Cards	Unholy	
+card.Archangel.affix	Cards	Lightproof	
+card.Bat Lord.affix	Cards	Siphoning	
+card.Bat.affix	Cards	Leeching	
+card.Bee.affix	Cards	Energy	
+card.Bird.affix	Cards	Sniper	
+card.Bloom.affix	Cards	Status	
+card.Blossom.affix	Cards	Status	
+card.Bomb.affix	Cards	Volatile	
+card.Boxy Robot.affix	Cards	Carrier	
+card.Bud.affix	Cards	Fleet	
+card.Bumble.affix	Cards	Energy	
+card.Bunny.affix	Cards	Rapid	
+card.Burrow.affix	Cards	Stomping	
+card.Butterfly Fairy.affix	Cards	Sanctified	
+card.Butterfly Hue.affix	Cards	Blessed	
+card.Butterfly Pixie.affix	Cards	Lightproof	
+card.Cacti.affix	Cards	Spiked	
+card.Cactus Boss.affix	Cards	Enduring	
+card.Cactus.affix	Cards	Spiked	
+card.Cat Bolt.affix	Cards	Gale	
+card.Cat Lightning.affix	Cards	Windproof	
+card.Cat Meow.affix	Cards	Shocking	
+card.Chick.affix	Cards	Sharp	
+card.Creeper.affix	Cards	Savage	
+card.Cyclops Bat Mage.affix	Cards	Magic	
+card.Cyclops Bat Wizard.affix	Cards	Mind	
+card.Cyclops Bat.affix	Cards	Grave	
+card.Cyclops Giant.affix	Cards	Warding	
+card.Cyclops Minion.affix	Cards	Warding	
+card.Cyclops.affix	Cards	Warding	
+card.Death Mage.affix	Cards	Cloaking	
+card.Death.affix	Cards	Ethereal	
+card.Delivery Robot.affix	Cards	Carrier	
+card.Direwolf.affix	Cards	Melee	
+card.Dog Bark.affix	Cards	Flaming	
+card.Dog Bowwow.affix	Cards	Flaming	
+card.Dog Pup.affix	Cards	Flaming	
+card.Dragon Blizzard.affix	Cards	Diamond	
+card.Dragon Darkness.affix	Cards	Violent	
+card.Dragon Dusk.affix	Cards	Exorcist's	
+card.Dragon Fire.affix	Cards	Fireproof	
+card.Dragon Ice.affix	Cards	Freezing	
+card.Dragon Inferno.affix	Cards	Power	
+card.Dragon Nightfall.affix	Cards	Purifying	
+card.Dragon Spark.affix	Cards	Power	
+card.Dragon Water.affix	Cards	Waterproof	
+card.Dragonfly Arrow.affix	Cards	Elusive	
+card.Dragonfly Darner.affix	Cards	Elusive	
+card.Dragonfly Swift.affix	Cards	Elusive	
+card.Egg.affix	Cards	Vital	
+card.Egglet.affix	Cards	Rapid	
+card.Elder Wisp Blue.affix	Cards	Glacial	
+card.Elder Wisp Purple.affix	Cards	Spark	
+card.Elder Wisp Yellow.affix	Cards	Pyre	
+card.Eyeball Bat Blue.affix	Cards	Radiant	
+card.Eyeball Bat Green.affix	Cards	Purity	
+card.Eyeball Bat Red.affix	Cards	Vampiric	
+card.Eyeball Creep Blue.affix	Cards	Focus	
+card.Eyeball Creep Green.affix	Cards	Focus	
+card.Eyeball Creep Red.affix	Cards	Focus	
+card.Eyeball Mage Blue.affix	Cards	Mind	
+card.Eyeball Mage Green.affix	Cards	Exorcist	
+card.Eyeball Mage Red.affix	Cards	Vampiric	
+card.Eyeball Monster.affix	Cards	Abyss	
+card.Fire Mage.affix	Cards	Mind	
+card.Fire.affix	Cards	Unbreaking	
+card.FIsh Blue.affix	Cards	Fading	
+card.Fish Man Blue.affix	Cards	Mind	
+card.Fish Man Pink.affix	Cards	Power	
+card.Fish Man Yellow.affix	Cards	Precision	
+card.Fish Merman Pink.affix	Cards	Savage	
+card.Fish Merman Yellow.affix	Cards	Lightning	
+card.Fish Pink.affix	Cards	Violent	
+card.Fish Yellow.affix	Cards	Perfect	
+card.Flame.affix	Cards	Burning	
+card.Fledgling.affix	Cards	Accurate	
+card.Flora.affix	Cards	Frosty	
+card.Flower Pot Monster.affix	Cards	Quagmire	
+card.Ghost.affix	Cards	Cloaking	
+card.Gloom.affix	Cards	Mystery	
+card.Glow Wisp Blue.affix	Cards	Glacial	
+card.Glow Wisp Purple.affix	Cards	Spark	
+card.Glow Wisp Yellow.affix	Cards	Pyre	
+card.Goblin Giant Devil.affix	Cards	Quaking	
+card.Goblin Giant Gold.affix	Cards	Earthen	
+card.Goblin Giant Mage.affix	Cards	Seismic	
+card.Goblin Giant.affix	Cards	Healthy	
+card.Goblin Minion.affix	Cards	Bashing	
+card.Goblin Trooper Assassin.affix	Cards	Mobile	
+card.Goblin Trooper Mage.affix	Cards	Free	
+card.Goblin Trooper Soldier.affix	Cards	Healthy	
+card.Goblin Trooper.affix	Cards	Mudproof	
+card.Goblin Warblade.affix	Cards	Spiked	
+card.Goblin Warchief.affix	Cards	Elemental	
+card.Goblin Warcrusher.affix	Cards	Seismic	
+card.Goblin Warlock.affix	Cards	Mind	
+card.Golem Earth.affix	Cards	Stone	
+card.Golem Fire.affix	Cards	Stone	
+card.Golem Ice.affix	Cards	Stone	
+card.Grim Reaper.affix	Cards	Undead	
+card.Gripper Robot.affix	Cards	Immune	
+card.Hare.affix	Cards	Fleet	
+card.Haunt.affix	Cards	Wizardry	
+card.Hermit King.affix	Cards	Hydro	
+card.Horror.affix	Cards	Savage	
+card.Housefly Icky.affix	Cards	Assassin's	
+card.Housefly Junk.affix	Cards	Assassin's	
+card.Housefly Nom.affix	Cards	Assassin's	
+card.Ice Bear A.affix	Cards	Healthy	
+card.Ice Bear B.affix	Cards	Arcanum	
+card.Ice Mage.affix	Cards	Thawing	
+card.Ice Starflake A.affix	Cards	Stone	
+card.Ice Starflake B.affix	Cards	Energy	
+card.Ice Starflake C.affix	Cards	Umbral	
+card.Ice.affix	Cards	Icepick	
+card.Icicle.affix	Cards	Thawing	
+card.Imp Demon.affix	Cards	Swift	
+card.Imp Devil.affix	Cards	Meteoric	
+card.Imp Mischief.affix	Cards	Mischief	
+card.Jellyfish Robot.affix	Cards	Energy	
+card.Lurker.affix	Cards	Savage	
+card.Mega Ice Golem.affix	Cards	Permafrost	
+card.Mimic Barrel.affix	Cards	Vit	
+card.Mimic Candle.affix	Cards	Dex	
+card.Mimic Living Trap.affix	Cards	Agi	
+card.Mimic Sword.affix	Cards	Str	
+card.Mimic Treasure Chest.affix	Cards	Luk	
+card.Mini Ice Bear A.affix	Cards	Thawing	
+card.Mole Rat King.affix	Cards	Mudproof	
+card.Mole Rat.affix	Cards	Healthy	
+card.Monster Bat King.affix	Cards	Mana Burn	
+card.Monster Bat.affix	Cards	Focus	
+card.Mosquito Bug.affix	Cards	Vampiric	
+card.Mosquito Pester.affix	Cards	Windproof	
+card.Moth Celestial.affix	Cards	Cloaking	
+card.Moth Luna.affix	Cards	Wizardry	
+card.Moth Moon.affix	Cards	Wizardry	
+card.Mushroom.affix	Cards	Occult	
+card.Nightmare.affix	Cards	Cloaking	
+card.NightmareAcolyte.affix	Cards	Acolyte	
+card.NightmareBerserker.affix	Cards	Berserker	
+card.NightmareGunslinger.affix	Cards	Gunslinger	
+card.NightmareKnight.affix	Cards	Knight	
+card.NightmareMage.affix	Cards	Mage	
+card.NightmareNecromancer.affix	Cards	Necromancer	
+card.NightmarePaladin.affix	Cards	Paladin	
+card.NightmarePriest.affix	Cards	Priest	
+card.NightmareRogue.affix	Cards	Rogue	
+card.NightmareScout.affix	Cards	Scout	
+card.NightmareShinobi.affix	Cards	Shinobi	
+card.NightmareSummoner.affix	Cards	Summoner	
+card.NightmareWarrior.affix	Cards	Warrior	
+card.NightmareWizard.affix	Cards	Wizard	
+card.Nose Robot.affix	Cards	Overheat	
+card.Octopus Baby Blue.affix	Cards	Elusive	
+card.Octopus Baby Orange.affix	Cards	Elusive	
+card.Octopus Baby Purple.affix	Cards	Elusive	
+card.Octopus King Blue.affix	Cards	Ranged	
+card.Octopus King Orange.affix	Cards	Long-Range	
+card.Octopus King Purple.affix	Cards	Ranged	
+card.Petal.affix	Cards	Hoarfrost	
+card.Phantom.affix	Cards	Ethereal	
+card.Plant Chewer.affix	Cards	Immune	
+card.Plant Monster.affix	Cards	Status	
+card.Plant Shooter.affix	Cards	Poisonous	
+card.Plant Worm.affix	Cards	Status	
+card.Poison Bomb.affix	Cards	Toxic	
+card.Pollen.affix	Cards	Elusive	
+card.Posy.affix	Cards	Icy	
+card.Queen Worm.affix	Cards	Toxic	
+card.Rabbit.affix	Cards	Swift	
+card.Rat Dark.affix	Cards	Elusive	
+card.Rat Grey.affix	Cards	Anti-Venom	
+card.Rat White.affix	Cards	Accurate	
+card.Razor Robot.affix	Cards	Rapid	
+card.Scorpion King.affix	Cards	Blazing	
+card.Scorpion.affix	Cards	Fireproof	
+card.Scorpling.affix	Cards	Ashen	
+card.Seed.affix	Cards	Vital	
+card.Shade.affix	Cards	Mystery	
+card.Shadow.affix	Cards	Mystery	
+card.Shark Baby.affix	Cards	Taunting	
+card.Shark Humanoid.affix	Cards	Taunting	
+card.Shark.affix	Cards	Taunting	
+card.Shell Robot.affix	Cards	Rapid	
+card.Shell.affix	Cards	Immune	
+card.Skeleton Giant.affix	Cards	Melee	
+card.Skeleton Mage.affix	Cards	Mind	
+card.Skeleton.affix	Cards	Undead	
+card.Slime Jelly.affix	Cards	Poisonous	
+card.Slime Monster.affix	Cards	Anti-Venom	
+card.Slime.affix	Cards	Toxinproof	
+card.Snake Naga.affix	Cards	Twinfang	
+card.Snake.affix	Cards	Venomous	
+card.Snakelet.affix	Cards	Combo	
+card.Snout Robot.affix	Cards	Pillar	
+card.Snow Bomb.affix	Cards	Freezing	
+card.Soul Mage.affix	Cards	Wizardry	
+card.Soul.affix	Cards	Unbreaking	
+card.Spider King.affix	Cards	Sharp	
+card.Spider Queen Robot.affix	Cards	Unnatural	
+card.Spider.affix	Cards	Shadow	
+card.Spiderling Robot.affix	Cards	Darkproof	
+card.Spike Robot.affix	Cards	Rapid	
+card.Spike.affix	Cards	Focus	
+card.Spook.affix	Cards	Unbreaking	
+card.Spore.affix	Cards	Healthy	
+card.Sprout.affix	Cards	Splintering	
+card.Sting.affix	Cards	Frenzy	
+card.Stinger Robot.affix	Cards	Energy	
+card.Sun Blossom.affix	Cards	Blessed	
+card.Sunflora Pixie.affix	Cards	Vocal	
+card.Sunflower Fairy.affix	Cards	Blessed	
+card.Tentacles Robot.affix	Cards	Swift	
+card.Titan Turtle Sci Blue.affix	Cards	Freezing	
+card.Titan Turtle Sci Green.affix	Cards	Power	
+card.Titan Turtle Sci Pink.affix	Cards	Tempest	
+card.Toadstool.affix	Cards	Waterproof	
+card.Treant Forest Autumn.affix	Cards	Autumn	
+card.Treant Forest Evergreen.affix	Cards	Evergreen	
+card.Treant Minion Autumn.affix	Cards	Autumn	
+card.Treant Minion Evergreen.affix	Cards	Evergreen	
+card.Treant Tree Autumn.affix	Cards	Autumn	
+card.Treant Tree Evergreen.affix	Cards	Evergreen	
+card.Turtle King.affix	Cards	Overload	
+card.Turtle Monster Blue.affix	Cards	Watchful	
+card.Turtle Monster Green.affix	Cards	Purifying	
+card.Turtle Monster Red.affix	Cards	Flameguard	
+card.Turtle.affix	Cards	Steadfast	
+card.Vampire Bat.affix	Cards	Leeching	
+card.Werewolf.affix	Cards	Tainted	
+card.Whirlwind.affix	Cards	Grounding	
+card.Wind Mage.affix	Cards	Storm	
+card.Wind.affix	Cards	Focus	
+card.Wisp Blue.affix	Cards	Glacial	
+card.Wisp Purple.affix	Cards	Spark	
+card.Wisp Red.affix	Cards	Pyre	
+card.Wisp Yellow.affix	Cards	Seismic	
+card.Wolf Pup.affix	Cards	Umbral	
+card.Wolf.affix	Cards	Darkproof	
+card.Worm Creep.affix	Cards	Poisonous	
+card.Worm Rot.affix	Cards	Toxinproof	
+card.Worm Stink.affix	Cards	Purging	
+card.Wraith.affix	Cards	Frenzied	
+card.Zombie Goblin Giant.affix	Cards	Occult	
+card.Zombie Goblin King.affix	Cards	Undead	
+card.Zombie Goblin Minion.affix	Cards	Purity	
+card.Zombie Goblin Soldier.affix	Cards	Undying	
+equip.BossProtocol.name	Grimoires	Boss Protocol	
+equip.GameMaster.name	Grimoires	Game Master	
+equip.Wizard_Artifact_1.name	Grimoires	Tempest Engine	
+equip.Wizard_Artifact_2.name	Grimoires	Frozen Dominion	
+equip.Wizard_Artifact_3.name	Grimoires	Meteoric Cataclysm	
+junk.Acorn Rotten.name	Junks	Rotten Acorn	
+junk.Acorn.name	Junks	Acorn	
+junk.Alligator Gaa.name	Junks	Alligator Gar	
+junk.Amberstone Piece.name	Junks	Amberstone Piece	
+junk.Amberstone.name	Junks	Amberstone	
+junk.Anchovy.name	Junks	Anchovy	
+junk.Angelfish.name	Junks	Angelfish	
+junk.Angler Fish.name	Junks	Angler Fish	
+junk.Antique Key.name	Junks	Antique Key	
+junk.Antique Teacup.name	Junks	Antique Teacup	
+junk.Apple.name	Junks	Apple	
+junk.Arkose.name	Junks	Arkose	
+junk.Arowana.name	Junks	Arowana	
+junk.Ash.name	Junks	Ash	
+junk.Azurite Piece.name	Junks	Azurite Piece	
+junk.Azurite.name	Junks	Azurite	
+junk.Banana.name	Junks	Banana	
+junk.Baobab Piece.name	Junks	Baobab Piece	
+junk.Baobab.name	Junks	Baobab	
+junk.Barley.name	Junks	Barley	
+junk.Basalt Fine.name	Junks	Basalt Sand	
+junk.Basalt.name	Junks	Basalt	
+junk.Bauxite.name	Junks	Bauxite	
+junk.Beehive.name	Junks	Beehive	
+junk.Betta.name	Junks	Betta	
+junk.Black Locust.name	Junks	Black Locust	
+junk.Bladed Penknife.name	Junks	Bladed Penknife	
+junk.Blowfish.name	Junks	Blowfish	
+junk.Blue Tang.name	Junks	Blue Tang	
+junk.Bluefin Tuna.name	Junks	Bluefin Tuna	
+junk.Bottle.name	Junks	Bottle	
+junk.Branch Broken.name	Junks	Broken Branch	
+junk.Branch Dead.name	Junks	Decayed Branch	
+junk.Branch.name	Junks	Branch	
+junk.Breadfruit.name	Junks	Breadfruit	
+junk.Brick Red.name	Junks	Brick	
+junk.Broken Navigation.name	Junks	Broken Navigation	
+junk.Cactus Pulp.name	Junks	Cactus Pulp	
+junk.Camphor.name	Junks	Camphor	
+junk.Can Empty.name	Junks	Empty Can	
+junk.Candy Cane.name	Junks	Candy Cane	
+junk.Canned Bread.name	Junks	Canned Bread	
+junk.Canned Crow Bamboo.name	Junks	Canned Crow Bamboo	
+junk.Carbonate.name	Junks	Carbonate	
+junk.Caribou Meat.name	Junks	Caribou Meat	
+junk.Carp.name	Junks	Carp	
+junk.Catfish.name	Junks	Catfish	
+junk.Cd.name	Junks	Compact Disc	
+junk.Chalcopyrite Piece.name	Junks	Chalcopyrite Piece	
+junk.Chalcopyrite.name	Junks	Chalcopyrite	
+junk.Charcoal.name	Junks	Charcoal	
+junk.Cinnamon.name	Junks	Cinnamon	
+junk.Citrus.name	Junks	Citrus	
+junk.Clay.name	Junks	Clay	
+junk.Clownfish.name	Junks	Clownfish	
+junk.Coal Hard.name	Junks	Hard Coal	
+junk.Coal.name	Junks	Coal	
+junk.Cocoa.name	Junks	Cocoa	
+junk.Coconut Oil.name	Junks	Coconut Oil	
+junk.Coelacanth.name	Junks	Coelacanth	
+junk.Coffeebean.name	Junks	Coffee Bean	
+junk.Copper.name	Junks	Copper	
+junk.Coral Stone Piece.name	Junks	Coral Stone Piece	
+junk.Coral Stone.name	Junks	Hard Coral	
+junk.Corn.name	Junks	Corn	
+junk.Cornerstone.name	Junks	Cornerstone	
+junk.Cosmetic Converter.name	Junks	Cosmetic Converter	
+junk.Cotton.name	Junks	Cotton	
+junk.Crucian.name	Junks	Crucian	
+junk.Curry.name	Junks	Curry	
+junk.Daggertooth.name	Junks	Daggertooth	
+junk.Dandlelion Baby.name	Junks	Dandelion Baby	
+junk.Dark Bark Piece.name	Junks	Dark Bark Piece	
+junk.Dark Bark.name	Junks	Dark Bark	
+junk.Dark Sleeper.name	Junks	Dark Sleeper	
+junk.Data Crystal.name	Junks	Data Crystal	
+junk.Dawn Stone.name	Junks	Dawn Stone	
+junk.Diamond.name	Junks	Diamond	
+junk.Diatomite Piece.name	Junks	Diatomite Piece	
+junk.Diatomite.name	Junks	Diatomite	
+junk.Ebony.name	Junks	Ebony	
+junk.Emerald.name	Junks	Emerald	
+junk.Endless Gum.name	Junks	Endless Gum	
+junk.Essence Chaos.name	Junks	Essence of Chaos	
+junk.Essence Destruction.name	Junks	Essence of Destruction	
+junk.Essence Flow.name	Junks	Essence of Flow	
+junk.Essence Growth.name	Junks	Essence of Growth	
+junk.Essence Rebirth.name	Junks	Essence of Rebirth	
+junk.False Acasia Piece.name	Junks	False Acacia Piece	
+junk.False Acasia.name	Junks	False Acacia	
+junk.Feather.name	Junks	Feather	
+junk.Firewood.name	Junks	Firewood	
+junk.Fish Oil.name	Junks	Fish Oil	
+junk.Fishbone.name	Junks	Fishbone	
+junk.Flatfish.name	Junks	Flatfish	
+junk.Flax.name	Junks	Flax	
+junk.Flying Fish.name	Junks	Flying Fish	
+junk.Foxtail.name	Junks	Cat's-Tail	
+junk.Fur.name	Junks	Fur	
+junk.Garra Rufa.name	Junks	Garra Rufa	
+junk.Ginseng Juice.name	Junks	Ginseng Juice	
+junk.Goby.name	Junks	Goby	
+junk.Gold Ore Piece.name	Junks	Gold Ore Piece	
+junk.Gold Ore.name	Junks	Gold Ore	
+junk.Goldfish.name	Junks	Goldfish	
+junk.Goldribbon Soapfish.name	Junks	Goldribbon Soapfish	
+junk.Goldtooth.name	Junks	Goldtooth	
+junk.Granite Piece.name	Junks	Granite Piece	
+junk.Granite.name	Junks	Granite	
+junk.Grape.name	Junks	Grape	
+junk.Gravion Chunk.name	Junks	Gravion Chunk	
+junk.Gravion Crystal.name	Junks	Gravion Crystal	
+junk.Gravion Shard.name	Junks	Gravion Shard	
+junk.Great White Shark.name	Junks	Great White Shark	
+junk.Greeenstone.name	Junks	Greenstone	
+junk.Guild Charter.name	Junks	Guild Charter	
+junk.Guppy.name	Junks	Guppy	
+junk.Halite.name	Junks	Halite	
+junk.Hammerhead.name	Junks	Hammerhead	
+junk.Harisenbon.name	Junks	Harisenbon	
+junk.Herring.name	Junks	Herring	
+junk.Hibiscus.name	Junks	Hibiscus	
+junk.Hop.name	Junks	Hop	
+junk.Horseshoe.name	Junks	Horseshoe	
+junk.Humpback Whale.name	Junks	Humpback Whale	
+junk.Indigo.name	Junks	Indigo	
+junk.Ingot Gold.name	Junks	Gold Ingot	
+junk.Ingot Iron.name	Junks	Iron Ingot	
+junk.Ingot Steel.name	Junks	Steel Ingot	
+junk.Inlaid Scabbard.name	Junks	Inlaid Scabbard	
+junk.Ironstone Piece.name	Junks	Ironstone Piece	
+junk.Ironstone.name	Junks	Ironstone	
+junk.Jasmine Tea.name	Junks	Jasmine Tea	
+junk.Killer Whale.name	Junks	Killer Whale	
+junk.Kumgang Fat Minnow.name	Junks	Stout Minnow	
+junk.Largemouth Bass.name	Junks	Largemouth Bass	
+junk.Larva.name	Junks	Larva	
+junk.Leaf.name	Junks	Leaf	
+junk.Leather.name	Junks	Leather	
+junk.Leatherjacket.name	Junks	Leatherjacket	
+junk.Leopoldi.name	Junks	Leopoldi	
+junk.Limited Cd.name	Junks	Limited Compact Disc	
+junk.Lionfish.name	Junks	Lionfish	
+junk.Longhorn Cowfish.name	Junks	Longhorn Cowfish	
+junk.Lunaris Chunk.name	Junks	Lunaris Chunk	
+junk.Lunaris Crystal.name	Junks	Lunaris Crystal	
+junk.Lunaris Shard.name	Junks	Lunaris Shard	
+junk.Mackerel.name	Junks	Mackerel	
+junk.Mahi Mahi.name	Junks	Mahi Mahi	
+junk.Malachite Piece.name	Junks	Malachite Piece	
+junk.Malachite.name	Junks	Malachite	
+junk.Mandarin.name	Junks	Mandarin	
+junk.Mangrove Piece.name	Junks	Mangrove Piece	
+junk.Mangrove.name	Junks	Mangrove	
+junk.Maple Tree.name	Junks	Maple Tree	
+junk.Marble Piece.name	Junks	Marble Piece	
+junk.Marble.name	Junks	Marble	
+junk.Meat.name	Junks	Meat	
+junk.Memory Card.name	Junks	Memory Card	
+junk.Memory Fragment.name	Junks	Memory Fragment	
+junk.Mola Mola.name	Junks	Mola Mola	
+junk.Moonrock.name	Junks	Moonrock	
+junk.Moonstone Piece.name	Junks	Moonstone Piece	
+junk.Moonstone.name	Junks	Moonstone	
+junk.Moray Eel.name	Junks	Moray Eel	
+junk.Mushroom.name	Junks	Mushroom	
+junk.Mylodon.name	Junks	Mylodon	
+junk.Napoleon Fish.name	Junks	Crowned Reef Fish	
+junk.Nightmare Fragment.name	Junks	Umbral Fragment	
+junk.Oak Piece.name	Junks	Oak Piece	
+junk.Oak.name	Junks	Oak	
+junk.Oarfish.name	Junks	Oarfish	
+junk.Obsidian Piece.name	Junks	Obsidian Piece	
+junk.Obsidian.name	Junks	Obsidian	
+junk.Oceanite.name	Junks	Oceanite	
+junk.Octopus.name	Junks	Octopus	
+junk.Oil.name	Junks	Oil	
+junk.Olive Flounder.name	Junks	Olive Flounder	
+junk.Orange Roughy.name	Junks	Orange Roughy	
+junk.Oriental Cherry Piece.name	Junks	Blossom Cherry Piece	
+junk.Oriental Cherry.name	Junks	Blossom Cherry	
+junk.Pacific Saury.name	Junks	Silver Saury	
+junk.Pale Chub.name	Junks	Pale Chub	
+junk.Palm Tree.name	Junks	Palm Tree	
+junk.Panther Grouper.name	Junks	Panther Grouper	
+junk.Pearl Earring.name	Junks	Pearl Earring	
+junk.Pearl.name	Junks	Pearl	
+junk.Pelage.name	Junks	Pelage	
+junk.Pepper.name	Junks	Pepper	
+junk.Phosphate.name	Junks	Phosphate	
+junk.Picasso Triggerfish.name	Junks	Painted Triggerfish	
+junk.Pimento.name	Junks	Pimento	
+junk.Pine Cone Broken.name	Junks	Broken Pine Cone	
+junk.Pine Cone.name	Junks	Pine Cone	
+junk.Pipe.name	Junks	Pipe	
+junk.Piranha.name	Junks	Piranha	
+junk.Pirarucu.name	Junks	Pirarucu	
+junk.Platinum.name	Junks	Platinum	
+junk.Pomfret.name	Junks	Pomfret	
+junk.Pond Loach.name	Junks	Pond Loach	
+junk.Potato.name	Junks	Potato	
+junk.Pouch Fairy Dust.name	Junks	Fairy Dust	
+junk.Pumpkin.name	Junks	Pumpkin	
+junk.Raw Rubber.name	Junks	Raw Rubber	
+junk.Red Wood Piece.name	Junks	Redwood Piece	
+junk.Red Wood.name	Junks	Redwood	
+junk.Redfin Velvetfish.name	Junks	Redfin Velvetfish	
+junk.Remora.name	Junks	Remora	
+junk.Resonance Core.name	Junks	Resonance Core	
+junk.Rock Bream.name	Junks	Rock Bream	
+junk.Rockfish.name	Junks	Rockfish	
+junk.Rose Quartz Piece.name	Junks	Rose Quartz Piece	
+junk.Rose Quartz.name	Junks	Rose Quartz	
+junk.Royal Jelly.name	Junks	Royal Jelly	
+junk.Rubber Tree Piece.name	Junks	Rubber Tree Piece	
+junk.Rubber Tree.name	Junks	Rubber Tree	
+junk.Ruby.name	Junks	Ruby	
+junk.Sailfish.name	Junks	Sailfish	
+junk.Sapphire.name	Junks	Sapphire	
+junk.Sawdust.name	Junks	Sawdust	
+junk.Sea Bass.name	Junks	Sea Bass	
+junk.Sea Bream.name	Junks	Sea Bream	
+junk.Seahorse.name	Junks	Seahorse	
+junk.Security Box.name	Junks	Security Box	
+junk.Seed.name	Junks	Seed	
+junk.Shad.name	Junks	Shad	
+junk.Shingle.name	Junks	Shingle	
+junk.Shoes Lost.name	Junks	Lost Shoes	
+junk.Shower Towel.name	Junks	Shower Towel	
+junk.Silica Sand.name	Junks	Silica Sand	
+junk.Silver Piece.name	Junks	Silver Piece	
+junk.Silver.name	Junks	Silver	
+junk.Snakehead.name	Junks	Snakehead	
+junk.Soldalite Piece.name	Junks	Sodalite Piece	
+junk.Soldalite.name	Junks	Sodalite	
+junk.Spider Web.name	Junks	Spider Web	
+junk.Splendidus.name	Junks	Splendidus	
+junk.Squid.name	Junks	Squid	
+junk.Stingray.name	Junks	Stingray	
+junk.Stone.name	Junks	Stone	
+junk.Strawberry.name	Junks	Strawberry	
+junk.Sturgeon.name	Junks	Sturgeon	
+junk.Sugar Cane.name	Junks	Sugar Cane	
+junk.Swamp Eels.name	Junks	Swamp Eels	
+junk.Tadpole.name	Junks	Tadpole	
+junk.Tar.name	Junks	Tar	
+junk.Tea Container.name	Junks	Tea Container	
+junk.Teff.name	Junks	Teff	
+junk.Termite Soldier.name	Junks	Termite Soldier	
+junk.Termite.name	Junks	Termite	
+junk.Thorium Piece.name	Junks	Thorium Piece	
+junk.Thorium.name	Junks	Thorium	
+junk.Tiger Eye Piece.name	Junks	Tiger Eye Piece	
+junk.Tiger Eye.name	Junks	Tiger Eye	
+junk.Time Device.name	Junks	Time Device	
+junk.Tin Piece.name	Junks	Tin Piece	
+junk.Tin.name	Junks	Tin	
+junk.Tower Key.name	Junks	Spire Compass	
+junk.Tree Bark.name	Junks	Tree Bark	
+junk.Tree Dead.name	Junks	Dead Tree	
+junk.Tree Sap Gold.name	Junks	Golden Tree Sap	
+junk.Tree Sap.name	Junks	Sap	
+junk.Trevally.name	Junks	Trevally	
+junk.Tungsten.name	Junks	Tungsten	
+junk.Unicornfish.name	Junks	Unicornfish	
+junk.Unwritten Contract.name	Junks	Unwritten Contract	
+junk.Verrucella Stellata.name	Junks	Verrucella Stellata	
+junk.Vulkanite Chunk.name	Junks	Vulkanite Chunk	
+junk.Vulkanite Crystal.name	Junks	Vulkanite Crystal	
+junk.Vulkanite Shard.name	Junks	Vulkanite Shard	
+junk.Wax.name	Junks	Wax	
+junk.Whale Shark.name	Junks	Whale Shark	
+junk.Wheat.name	Junks	Wheat	
+junk.White Birch.name	Junks	White Birch	
+junk.Windmill Palm Piece.name	Junks	Windmill Palm Piece	
+junk.Windmill Palm.name	Junks	Windmill Palm	
+junk.Wood Piece.name	Junks	Wood Piece	
+junk.Wood Plate.name	Junks	Wood Plate	
+junk.Wood.name	Junks	Wood	
+junk.Zinc.name	Junks	Zinc	
+monster.Abomination.name	Monsters	Abomination	
+monster.Alien Big Blink.name	Monsters	Cosmic Entity	
+monster.Alien Biteroot.name	Monsters	Chomproot	
+monster.Alien Cyclops.name	Monsters	Voidspawn	
+monster.Alien Galaxia.name	Monsters	Galaxian Brute	
+monster.Alien One Eye.name	Monsters	Voidgazer	
+monster.Alien Pew Pew.name	Monsters	Galaxian Blaster	
+monster.Alien Plant.name	Monsters	Chompbloom	
+monster.Alien Skye.name	Monsters	Galaxian Skimmer	
+monster.Alien Spike.name	Monsters	Cinderspike	
+monster.Alien Sporella.name	Monsters	Chompcap	
+monster.Alien Star.name	Monsters	Little Star	
+monster.Alien Starry.name	Monsters	Starry	
+monster.Alien Twinkle.name	Monsters	Twinkle	
+monster.Alien Wheel.name	Monsters	Cinderwheel	
+monster.Alien Wreck.name	Monsters	Cindermaw	
+monster.Angel Mage.name	Monsters	Seraphim Arbiter	
+monster.Angel.name	Monsters	Angel	
+monster.Archangel.name	Monsters	Archangel	
+monster.Ball Robot Blue.name	Monsters	Ward Robot	
+monster.Ball Robot Red.name	Monsters	Strike Robot	
+monster.Bat Lord.name	Monsters	Night Baron	
+monster.Bat.name	Monsters	Bat	
+monster.Bee.name	Monsters	Bee	
+monster.Bird.name	Monsters	Rooster	
+monster.Blast Robot Blue.name	Monsters	Guard Robot	
+monster.Blast Robot Red.name	Monsters	Blast Robot	
+monster.Blind.name	Monsters	Nightshade	
+monster.Bloom.name	Monsters	Nightbloom	
+monster.Blossom.name	Monsters	Deathblossom	
+monster.Bomb.name	Monsters	Bomb	
+monster.Bot Robot.name	Monsters	Repair Robot	
+monster.Boxy Robot.name	Monsters	Boxy Robot	
+monster.Bud.name	Monsters	Venom Bud	
+monster.Bumble.name	Monsters	Bumblebee	
+monster.Bunny.name	Monsters	Bunny	
+monster.Burrow.name	Monsters	Digger	
+monster.Butterfly Fairy.name	Monsters	Fairy	
+monster.Butterfly Hue.name	Monsters	Sprite	
+monster.Butterfly Pixie.name	Monsters	Pixie	
+monster.Cacti.name	Monsters	Cacti	
+monster.Cactus Boss.name	Monsters	Cactus King	
+monster.Cactus.name	Monsters	Cactus	
+monster.Cat Bolt.name	Monsters	Raiju	
+monster.Cat Lightning.name	Monsters	Voltpaw	
+monster.Cat Meow.name	Monsters	Sparkit	
+monster.Chick.name	Monsters	Chick	
+monster.Cobra Venom.name	Monsters	Cobra	
+monster.Creeper.name	Monsters	Crawler	
+monster.Crystal Guardian Amethyst.name	Monsters	Amethyst Guardian	
+monster.Crystal Guardian Aqua.name	Monsters	Aquamarine Guardian	
+monster.Crystal Guardian Emerald.name	Monsters	Emerald Guardian	
+monster.Cyclops Bat Mage.name	Monsters	Eyeclops Mage	
+monster.Cyclops Bat Wizard.name	Monsters	Eyeclops Arcanist	
+monster.Cyclops Bat.name	Monsters	Eyeclops Bat	
+monster.Cyclops Giant.name	Monsters	Cyclops Titan	
+monster.Cyclops Minion.name	Monsters	Cyclopling	
+monster.Cyclops.name	Monsters	Cyclops	
+monster.Dark Wizard Black.name	Monsters	Onyx Warlock	
+monster.Dark Wizard Purple.name	Monsters	Violet Warlock	
+monster.Dark Wizard Red.name	Monsters	Scarlet Warlock	
+monster.Death Mage.name	Monsters	Abyss Archon	
+monster.Death.name	Monsters	Wight	
+monster.Delivery Robot.name	Monsters	Delivery Robot	
+monster.Devil Bat.name	Monsters	Fire Bat	
+monster.Devil Hades.name	Monsters	Inferno Bat	
+monster.Devil Hell.name	Monsters	Hell Bat	
+monster.Direwolf.name	Monsters	Direwolf	
+monster.Dog Bark.name	Monsters	Hound	
+monster.Dog Bowwow.name	Monsters	Hellhound	
+monster.Dog Pup.name	Monsters	Pup	
+monster.Dragon Blizzard.name	Monsters	Frost Wyvern	
+monster.Dragon Bot.name	Monsters	Dragon Bot	
+monster.Dragon Darkness.name	Monsters	Shadow Wyvern	
+monster.Dragon Dusk.name	Monsters	Dusk Drake	
+monster.Dragon Fire.name	Monsters	Flame Drake	
+monster.Dragon Ice.name	Monsters	Rime Drake	
+monster.Dragon Inferno.name	Monsters	Inferno Wyvern	
+monster.Dragon King Blue.name	Monsters	Frost Wyrm	
+monster.Dragon King Green.name	Monsters	Fire Wyrm	
+monster.Dragon King Orange.name	Monsters	Earth Wyrm	
+monster.Dragon King Purple.name	Monsters	Lightning Wyrm	
+monster.Dragon Nightfall.name	Monsters	Night Drake	
+monster.Dragon Predator Robot.name	Monsters	Robot Dragon	
+monster.Dragon Robot.name	Monsters	Dragon Robot	
+monster.Dragon Spark.name	Monsters	Spark Drake	
+monster.Dragon Water.name	Monsters	Aqua Drake	
+monster.Dragonfly Arrow.name	Monsters	Darter	
+monster.Dragonfly Darner.name	Monsters	Skimmer	
+monster.Dragonfly Swift.name	Monsters	Hawker	
+monster.Earthworm.name	Monsters	Grave Worm	
+monster.Egg.name	Monsters	Egg	
+monster.Egglet.name	Monsters	Egglet	
+monster.Elder Wisp Blue.name	Monsters	Elder Frost	
+monster.Elder Wisp Purple.name	Monsters	Elder Lightning	
+monster.Elder Wisp Yellow.name	Monsters	Elder Fire	
+monster.Eyeball Bat Blue.name	Monsters	Azure Gazer	
+monster.Eyeball Bat Green.name	Monsters	Jade Gazer	
+monster.Eyeball Bat Red.name	Monsters	Ruby Gazer	
+monster.Eyeball Creep Blue.name	Monsters	Azure Eyestalk	
+monster.Eyeball Creep Green.name	Monsters	Jade Eyestalk	
+monster.Eyeball Creep Red.name	Monsters	Ruby Eyestalk	
+monster.Eyeball Mage Blue.name	Monsters	Azure Beholder	
+monster.Eyeball Mage Green.name	Monsters	Jade Beholder	
+monster.Eyeball Mage Red.name	Monsters	Ruby Beholder	
+monster.Eyeball Mage.name	Monsters	Beholder	
+monster.Eyeball Monster.name	Monsters	Kraken	
+monster.Fire Mage.name	Monsters	Fire Mage	
+monster.Fire.name	Monsters	Ember	
+monster.FIsh Blue.name	Monsters	Bluefin	
+monster.Fish Man Blue.name	Monsters	Aqua Merling	
+monster.Fish Man Pink.name	Monsters	Roseate Merling	
+monster.Fish Man Yellow.name	Monsters	Canary Merling	
+monster.Fish Merman Blue.name	Monsters	Sapphire Merman	
+monster.Fish Merman Pink.name	Monsters	Coral Merman	
+monster.Fish Merman Yellow.name	Monsters	Topaz Merman	
+monster.Fish Pink.name	Monsters	Rosetail	
+monster.Fish Yellow.name	Monsters	Goldtail	
+monster.Flame.name	Monsters	Blaze	
+monster.Fledgling.name	Monsters	Fledgling	
+monster.Flora.name	Monsters	Flora	
+monster.Flower Pot Monster.name	Monsters	Mandrake	
+monster.Fungi.name	Monsters	Fungi	
+monster.Galaxy Robot.name	Monsters	Galaxy Robot	
+monster.Ghost.name	Monsters	Ghost	
+monster.Gloom.name	Monsters	Spectre	
+monster.Glow Wisp Blue.name	Monsters	Frost Glimmer	
+monster.Glow Wisp Purple.name	Monsters	Lightning Glimmer	
+monster.Glow Wisp Yellow.name	Monsters	Fire Glimmer	
+monster.Goblin Giant Devil.name	Monsters	Orc Soldier	
+monster.Goblin Giant Gold.name	Monsters	Orc King	
+monster.Goblin Giant Mage.name	Monsters	Orc Mage	
+monster.Goblin Giant.name	Monsters	Orc	
+monster.Goblin Minion.name	Monsters	Goblin	
+monster.Goblin Trooper Assassin.name	Monsters	Goblin Assassin	
+monster.Goblin Trooper Mage.name	Monsters	Goblin Mage	
+monster.Goblin Trooper Soldier.name	Monsters	Goblin Soldier	
+monster.Goblin Trooper.name	Monsters	Goblin Grunt	
+monster.Goblin Warblade.name	Monsters	Orc Reaver	
+monster.Goblin Warchief.name	Monsters	Orc Warchief	
+monster.Goblin Warcrusher.name	Monsters	Orc Crusher	
+monster.Goblin Warlock.name	Monsters	Orc Warlock	
+monster.Golem Earth.name	Monsters	Stone Golem	
+monster.Golem Fire.name	Monsters	Magma Golem	
+monster.Golem Ice.name	Monsters	Rime Golem	
+monster.Grid Robot.name	Monsters	Grid Robot	
+monster.Grim Reaper.name	Monsters	Reaper	
+monster.Gripper Robot.name	Monsters	Gripper Robot	
+monster.Hare.name	Monsters	Vorpal Hare	
+monster.Haunt.name	Monsters	Banshee	
+monster.Hermit King.name	Monsters	Hermit King	
+monster.Hermit Robot Blue.name	Monsters	Scout Robot	
+monster.Hermit Robot Red.name	Monsters	Sentry Robot	
+monster.Horror.name	Monsters	Horror	
+monster.Housefly Icky.name	Monsters	Gadfly	
+monster.Housefly Junk.name	Monsters	Bluebottle	
+monster.Housefly Nom.name	Monsters	Blowfly	
+monster.Ice Bear A.name	Monsters	Ice Bear	
+monster.Ice Bear B.name	Monsters	Festive Bear	
+monster.Ice Cube A.name	Monsters	Ice Golem	
+monster.Ice Cube B.name	Monsters	Shadow Golem	
+monster.Ice Mage.name	Monsters	Ice Mage	
+monster.Ice Starflake A.name	Monsters	Starflake	
+monster.Ice Starflake B.name	Monsters	Vanilla Ice	
+monster.Ice Starflake C.name	Monsters	Shadow Ice	
+monster.Ice.name	Monsters	Ice	
+monster.Icicle.name	Monsters	Icicle	
+monster.Imp Demon.name	Monsters	Imp	
+monster.Imp Devil.name	Monsters	Demon Lord	
+monster.Imp Mischief.name	Monsters	Gremlin	
+monster.Jellyfish Robot.name	Monsters	Stormjelly	
+monster.Love Heart.name	Monsters	Cupid	
+monster.Lurker.name	Monsters	Lurker	
+monster.Mega Ice Golem.name	Monsters	Ice Titan	
+monster.Metal Robot.name	Monsters	Metal Robot	
+monster.Mimic Barrel.name	Monsters	Barrel Mimic	
+monster.Mimic Book.name	Monsters	Book Mimic	
+monster.Mimic Candle.name	Monsters	Candle Mimic	
+monster.Mimic Living Trap.name	Monsters	Trap Mimic	
+monster.Mimic Sword.name	Monsters	Sword Mimic	
+monster.Mimic Treasure Chest.name	Monsters	Chest Mimic	
+monster.Mini Ice Bear A.name	Monsters	Ice Baby	
+monster.Mini Ice Bear B.name	Monsters	Festive Baby	
+monster.Mini Ice Cube A.name	Monsters	Ice Cube	
+monster.Mini Ice Cube B.name	Monsters	Shadow Cube	
+monster.Mole Rat King.name	Monsters	Dire Mole	
+monster.Mole Rat.name	Monsters	Mole	
+monster.Monster Bat King.name	Monsters	Nightlord	
+monster.Monster Bat.name	Monsters	Nightwing	
+monster.Mosquito Bug.name	Monsters	Gnat	
+monster.Mosquito Pester.name	Monsters	Mosquito	
+monster.Mosquito Stinger.name	Monsters	Bloodsucker	
+monster.Moth Celestial.name	Monsters	Celestial Moth	
+monster.Moth Luna.name	Monsters	Luna Moth	
+monster.Moth Moon.name	Monsters	Moon Moth	
+monster.Mushroom.name	Monsters	Shroom	
+monster.Nexus Robot.name	Monsters	Nexus Robot	
+monster.Nightmare.name	Monsters	Apparition	
+monster.NightmareAcolyte.name	Monsters	Umbral Acolyte	
+monster.NightmareBerserker.name	Monsters	Umbral Berserker	
+monster.NightmareBerserkerBoss.name	Monsters	Echo Berserker	
+monster.NightmareGunslinger.name	Monsters	Umbral Gunslinger	
+monster.NightmareGunslingerBoss.name	Monsters	Echo Gunslinger	
+monster.NightmareKnight.name	Monsters	Umbral Knight	
+monster.NightmareMage.name	Monsters	Umbral Mage	
+monster.NightmareNecromancer.name	Monsters	Umbral Necromancer	
+monster.NightmareNecromancerBoss.name	Monsters	Echo Necromancer	
+monster.NightmarePaladin.name	Monsters	Umbral Paladin	
+monster.NightmarePaladinBoss.name	Monsters	Echo Paladin	
+monster.NightmarePriest.name	Monsters	Umbral Priest	
+monster.NightmarePriestBoss.name	Monsters	Echo Priest	
+monster.NightmareRogue.name	Monsters	Umbral Rogue	
+monster.NightmareScout.name	Monsters	Umbral Scout	
+monster.NightmareShadow.name	Monsters	Curse Manifestation	
+monster.NightmareShinobi.name	Monsters	Umbral Shinobi	
+monster.NightmareShinobiBoss.name	Monsters	Echo Shinobi	
+monster.NightmareSummoner.name	Monsters	Umbral Summoner	
+monster.NightmareWarrior.name	Monsters	Umbral Warrior	
+monster.NightmareWizard.name	Monsters	Umbral Wizard	
+monster.NightmareWizardBoss.name	Monsters	Echo Wizard	
+monster.Nose Robot.name	Monsters	Nose Robot	
+monster.Nozzle Robot.name	Monsters	Nozzle Robot	
+monster.Octopus Baby Blue.name	Monsters	Azure Squid	
+monster.Octopus Baby Orange.name	Monsters	Amber Squid	
+monster.Octopus Baby Purple.name	Monsters	Plum Squid	
+monster.Octopus King Blue.name	Monsters	Azure Octopus	
+monster.Octopus King Orange.name	Monsters	Amber Octopus	
+monster.Octopus King Purple.name	Monsters	Violet Octopus	
+monster.Octopus Orange.name	Monsters	Amber Cuttlefish	
+monster.Octopus Purple.name	Monsters	Violet Cuttlefish	
+monster.Octopus White.name	Monsters	Pearl Cuttlefish	
+monster.Petal.name	Monsters	Nautilus	
+monster.Phantom.name	Monsters	Phantom	
+monster.Plant Chewer.name	Monsters	Man-Eater	
+monster.Plant Monster.name	Monsters	Snapvine	
+monster.Plant Shooter.name	Monsters	Spitter	
+monster.Plant Worm.name	Monsters	Vinecrawler	
+monster.Poison Bomb.name	Monsters	Miasma	
+monster.Pollen.name	Monsters	Pollen	
+monster.Posy.name	Monsters	Sea Blossom	
+monster.Practice Dummy.name	Monsters	Straw Dummy	
+monster.Queen Worm.name	Monsters	Broodmother	
+monster.Rabbit.name	Monsters	Rabbit	
+monster.Rat Dark.name	Monsters	Sewer Rat	
+monster.Rat Grey.name	Monsters	Plague Rat	
+monster.Rat White.name	Monsters	Albino Rat	
+monster.Razor Robot.name	Monsters	Razor Robot	
+monster.Scorpion King.name	Monsters	Scorpion King	
+monster.Scorpion.name	Monsters	Scorpion	
+monster.Scorpling.name	Monsters	Scorpling	
+monster.Seed.name	Monsters	Seedling	
+monster.Shade.name	Monsters	Shade	
+monster.Shadow.name	Monsters	Nightfiend	
+monster.Shark Baby.name	Monsters	Sharkling	
+monster.Shark Humanoid.name	Monsters	Shark Buccaneer	
+monster.Shark.name	Monsters	Bull Shark	
+monster.Shell Robot.name	Monsters	Shell Robot	
+monster.Shell.name	Monsters	Conch	
+monster.Skeleton Giant.name	Monsters	Skeleton Giant	
+monster.Skeleton Mage.name	Monsters	Skeleton Mage	
+monster.Skeleton.name	Monsters	Skeleton	
+monster.Slime Jelly.name	Monsters	Jellooze	
+monster.Slime Monster.name	Monsters	Oozelord	
+monster.Slime.name	Monsters	Slime	
+monster.Snake Naga.name	Monsters	Naga	
+monster.Snake.name	Monsters	Viper	
+monster.Snakelet.name	Monsters	Adder	
+monster.Snout Robot.name	Monsters	Snout Robot	
+monster.Snow Bomb.name	Monsters	Snowball	
+monster.Soldier Robot.name	Monsters	Soldier Robot	
+monster.Soul Mage.name	Monsters	Soul Mage	
+monster.Soul.name	Monsters	Soul	
+monster.Spider King.name	Monsters	Arachne	
+monster.Spider Queen Robot.name	Monsters	Suphara	
+monster.Spider Robot.name	Monsters	Spider Robot	
+monster.Spider Toxin.name	Monsters	Widow	
+monster.Spider.name	Monsters	Spider	
+monster.Spiderling Robot.name	Monsters	Spiderling Robot	
+monster.Spike Robot.name	Monsters	Spike Robot	
+monster.Spike.name	Monsters	Hermit	
+monster.Spook.name	Monsters	Spook	
+monster.Spore.name	Monsters	Spore	
+monster.Sprout.name	Monsters	Sprout	
+monster.Squid Baby.name	Monsters	Squidling	
+monster.Sting.name	Monsters	Vespa	
+monster.Stinger Robot.name	Monsters	Stormstinger	
+monster.Sun Blossom.name	Monsters	Nymph	
+monster.Sunflora Pixie.name	Monsters	Lady Fey	
+monster.Sunflower Fairy.name	Monsters	Sylvie	
+monster.Tanker Robot.name	Monsters	Tanker Robot	
+monster.Target Dummy.name	Monsters	Bullseye	
+monster.Tech Robot.name	Monsters	Tech Robot	
+monster.Tentacles Robot.name	Monsters	Stormcoil	
+monster.Titan Turtle Sci Blue.name	Monsters	Hydro Turtle	
+monster.Titan Turtle Sci Green.name	Monsters	Solar Turtle	
+monster.Titan Turtle Sci Pink.name	Monsters	Storm Turtle	
+monster.Toadstool.name	Monsters	Toadstool	
+monster.Training Dummy.name	Monsters	Sandbag	
+monster.Treant Forest Autumn.name	Monsters	Maple Ancient	
+monster.Treant Forest Evergreen.name	Monsters	Pine Ancient	
+monster.Treant Minion Autumn.name	Monsters	Maple Sapling	
+monster.Treant Minion Evergreen.name	Monsters	Pine Sapling	
+monster.Treant Tree Autumn.name	Monsters	Maple Treant	
+monster.Treant Tree Evergreen.name	Monsters	Pine Treant	
+monster.Trooper Robot.name	Monsters	Trooper Robot	
+monster.Turtle King.name	Monsters	Turtle Champion	
+monster.Turtle Monster Blue.name	Monsters	Azure Terrapin	
+monster.Turtle Monster Green.name	Monsters	Verdant Terrapin	
+monster.Turtle Monster Red.name	Monsters	Crimson Terrapin	
+monster.Turtle.name	Monsters	Turtle Baby	
+monster.Vampire Bat.name	Monsters	Nosferatu	
+monster.Werewolf.name	Monsters	Lycanthrope	
+monster.Whirlwind.name	Monsters	Breeze	
+monster.Wind Mage.name	Monsters	Wind Mage	
+monster.Wind.name	Monsters	Gale	
+monster.Wisp Blue.name	Monsters	Frost Wisp	
+monster.Wisp Purple.name	Monsters	Lightning Wisp	
+monster.Wisp Red.name	Monsters	Fire Wisp	
+monster.Wisp Yellow.name	Monsters	Earth Wisp	
+monster.Wolf Pup.name	Monsters	Wolf Cub	
+monster.Wolf.name	Monsters	Wolf	
+monster.Worm Creep.name	Monsters	Devourer	
+monster.Worm Rot.name	Monsters	Maggot	
+monster.Worm Stink.name	Monsters	Grub	
+monster.Worm.name	Monsters	Worm	
+monster.Wraith.name	Monsters	Wraith King	
+monster.Zombie Goblin Giant.name	Monsters	Zombie Orc	
+monster.Zombie Goblin King.name	Monsters	Zombie Orc Lord	
+monster.Zombie Goblin Minion.name	Monsters	Zombie Goblin	
+monster.Zombie Goblin Soldier.name	Monsters	Zombie Grunt	
+npc.Artificer.name	NPCs	Artificer	
+npc.Blacksmith.name	NPCs	Blacksmith	
+npc.BlacksmithVendor.name	NPCs	Material Vendor	
+npc.Craftsman.name	NPCs	Craftsman	
+npc.EtenalTower.name	NPCs	Dark Disciple	
+npc.Gemsmith.name	NPCs	Gemsmith	
+npc.Healer.name	NPCs	Healer	
+npc.Master.name	NPCs	Master	
+npc.Mira.name	NPCs	Mira the Storage Clerk	
+npc.Pvp.name	NPCs	Combat Master	
+npc.Signpost_Nevaris.name	NPCs	Adventurer's Board	
+npc.Stylist.name	NPCs	Stylist	
+npc.Timekeeper.name	NPCs	Timekeeper	
+npc.Vending.name	NPCs	Vending Stallmaster	
+npc.VikingIslandCaptain.name	NPCs	Ship Captain	
+npc.Waybinder.name	NPCs	Waybinder	
+npc.Weaver.name	NPCs	Weaver	
