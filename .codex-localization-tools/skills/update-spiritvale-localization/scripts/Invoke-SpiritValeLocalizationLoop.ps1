@@ -203,6 +203,7 @@ $Paths = @{
     Artifacts = Join-Path $ToolRoot 'artifacts'
     ArtifactDictionary = Join-Path $ToolRoot 'artifacts\translations.tsv'
     ConflictReport = Join-Path $ToolRoot 'artifacts\runtime-dictionary-conflicts.tsv'
+    QualityOverrides = Join-Path $ToolRoot 'mmo-quality-overrides.json'
     DeployedPlugin = Join-Path $GameRoot 'BepInEx\plugins\SpiritVale.RuntimeLocalization\SpiritVale.RuntimeLocalization.dll'
     DeployedDictionary = Join-Path $GameRoot 'BepInEx\plugins\SpiritVale.RuntimeLocalization\translations.tsv'
     DeployedBilingualCatalog = Join-Path $GameRoot 'BepInEx\plugins\SpiritVale.RuntimeLocalization\bilingual-entity-catalog.tsv'
@@ -261,7 +262,7 @@ $InteropReferences = @(
     'Unity.TextMeshPro.dll'
 ) | ForEach-Object { Join-Path $GameRoot "BepInEx\interop\$_" }
 
-foreach ($required in @($Paths.GameAssembly, $Paths.Metadata, $Paths.PluginProject, $Paths.TestsProject, $Paths.BilingualTestsProject, $Paths.Generator, $Paths.BilingualCatalogGenerator, $Paths.BilingualMapManifest, $Paths.RuntimeNameModule, $Paths.SourceAuditScript, $Paths.SkillAliasAuditScript, $Paths.RuntimeNameAuditScript, $Paths.InstallerService, $Paths.InstallerCompatibilityPolicy, $Paths.RepositoryVersion, $Paths.Changelog, $Paths.ReleaseMetadataValidator)) {
+foreach ($required in @($Paths.GameAssembly, $Paths.Metadata, $Paths.PluginProject, $Paths.TestsProject, $Paths.BilingualTestsProject, $Paths.Generator, $Paths.BilingualCatalogGenerator, $Paths.BilingualMapManifest, $Paths.RuntimeNameModule, $Paths.SourceAuditScript, $Paths.SkillAliasAuditScript, $Paths.RuntimeNameAuditScript, $Paths.InstallerService, $Paths.InstallerCompatibilityPolicy, $Paths.QualityOverrides, $Paths.RepositoryVersion, $Paths.Changelog, $Paths.ReleaseMetadataValidator)) {
     if (-not (Test-Path -LiteralPath $required -PathType Leaf)) { throw "Required file is missing: $required" }
 }
 
@@ -892,6 +893,7 @@ function Invoke-Validation([string]$DictionaryPath, [bool]$RunTests) {
             '--dictionary', $DictionaryPath,
             '--snapshot', $Paths.SourceSnapshot,
             '--skill-aliases', $Paths.SkillAliasReport,
+            '--quality-overrides', $Paths.QualityOverrides,
             '--corpus-report', $Paths.LocalizedCorpusReport,
             '--residual-report', $Paths.MixedDescriptionReport
         )

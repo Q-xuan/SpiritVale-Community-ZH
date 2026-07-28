@@ -45,7 +45,7 @@ jobs:
         shell: pwsh
         run: |
           dotnet run --project ./.codex-localization-tools/SpiritVale.BilingualDisplay.Tests/SpiritVale.BilingualDisplay.Tests.csproj -c Release
-          dotnet run --project ./.codex-localization-tools/SpiritVale.MarketSearch.Tests/SpiritVale.MarketSearch.Tests.csproj -c Release
-          dotnet run --project ./.codex-localization-tools/SpiritVale.RuntimeLocalization.Tests/SpiritVale.RuntimeLocalization.Tests.csproj -c Release -- --dictionary ./.codex-localization-tools/artifacts/translations.tsv --snapshot ./.codex-localization-tools/artifacts/source-snapshot.json --skill-aliases ./.codex-localization-tools/artifacts/runtime-skill-aliases.tsv --corpus-report $env:RUNNER_TEMP/localized-corpus.tsv --residual-report $env:RUNNER_TEMP/mixed-description-residuals.tsv
+          dotnet run --project ./.codex-localization-tools/SpiritVale.MarketSearch.Tests/SpiritVale.MarketSearch.Tests.csproj -c Release -- ./.codex-localization-tools/artifacts/translations.tsv
+          dotnet run --project ./.codex-localization-tools/SpiritVale.RuntimeLocalization.Tests/SpiritVale.RuntimeLocalization.Tests.csproj -c Release -- --dictionary ./.codex-localization-tools/artifacts/translations.tsv --snapshot ./.codex-localization-tools/artifacts/source-snapshot.json --skill-aliases ./.codex-localization-tools/artifacts/runtime-skill-aliases.tsv --quality-overrides ./.codex-localization-tools/mmo-quality-overrides.json --corpus-report $env:RUNNER_TEMP/localized-corpus.tsv --residual-report $env:RUNNER_TEMP/mixed-description-residuals.tsv
       - name: Run bilingual catalog tests
         run: python3 ./.codex-localization-tools/tests/test_bilingual_entity_catalog.py

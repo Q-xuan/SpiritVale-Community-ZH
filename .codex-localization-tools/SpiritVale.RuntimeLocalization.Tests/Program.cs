@@ -1572,11 +1572,12 @@ string RunCorpusChecks(string[] arguments)
     if (!values.TryGetValue("--dictionary", out var dictionaryPath) ||
         !values.TryGetValue("--snapshot", out var snapshotPath) ||
         !values.TryGetValue("--skill-aliases", out var skillAliasesPath) ||
+        !values.TryGetValue("--quality-overrides", out var qualityOverridesPath) ||
         !values.TryGetValue("--corpus-report", out var corpusReportPath))
     {
         failures++;
         Console.Error.WriteLine(
-            "corpus checks require --dictionary, --snapshot, --skill-aliases, and --corpus-report");
+            "corpus checks require --dictionary, --snapshot, --skill-aliases, --quality-overrides, and --corpus-report");
         return string.Empty;
     }
 
@@ -2655,37 +2656,32 @@ string RunCorpusChecks(string[] arguments)
     var forbiddenGameplayToken = new Regex(
         @"(?<![A-Za-z])(?:seconds?|mana|cooldown|damage|healing|armor|health|power|speed|chance|level|ATK|MATK|DEF|MDEF|PDEF|HP|MP|lv)(?![A-Za-z])",
         RegexOptions.CultureInvariant | RegexOptions.IgnoreCase);
-    var artifactDescriptionCandidatePath = Path.Combine(
-        Path.GetDirectoryName(Path.GetFullPath(snapshotPath)) ?? string.Empty,
-        "artifact-description-candidates.json");
-    if (!File.Exists(artifactDescriptionCandidatePath))
+    if (!File.Exists(qualityOverridesPath))
     {
         failures++;
-        Console.Error.WriteLine(
-            $"artifact description candidate file is missing: {artifactDescriptionCandidatePath}");
+        Console.Error.WriteLine($"reviewed quality override file is missing: {qualityOverridesPath}");
         return string.Empty;
     }
-    var artifactDescriptionCandidates = new Dictionary<string, string>(StringComparer.Ordinal);
-    var artifactDescriptionDuplicateSources = 0;
-    using (var candidateDocument = JsonDocument.Parse(File.ReadAllText(artifactDescriptionCandidatePath)))
+    var reviewedQualityOverrides = new Dictionary<string, string>(StringComparer.Ordinal);
+    var qualityOverrideDuplicateSources = 0;
+    using (var qualityDocument = JsonDocument.Parse(File.ReadAllText(qualityOverridesPath)))
     {
-        if (candidateDocument.RootElement.ValueKind != JsonValueKind.Object)
+        if (qualityDocument.RootElement.ValueKind != JsonValueKind.Object)
         {
             failures++;
-            Console.Error.WriteLine("artifact description candidate root must be a JSON object");
+            Console.Error.WriteLine("reviewed quality override root must be a JSON object");
             return string.Empty;
         }
-        foreach (var property in candidateDocument.RootElement.EnumerateObject())
+        foreach (var property in qualityDocument.RootElement.EnumerateObject())
         {
             var target = property.Value.GetString() ?? string.Empty;
-            if (!artifactDescriptionCandidates.TryAdd(property.Name, target))
+            if (!reviewedQualityOverrides.TryAdd(property.Name, target))
             {
-                artifactDescriptionDuplicateSources++;
+                qualityOverrideDuplicateSources++;
             }
         }
     }
-    CheckCondition("180 unique artifact narrative candidates", artifactDescriptionCandidates.Count == 180);
-    CheckCondition("no duplicate artifact narrative sources", artifactDescriptionDuplicateSources == 0);
+    var artifactDescriptionCandidates = new Dictionary<string, string>(StringComparer.Ordinal);
     var corpusReportRows = new List<string>
     {
         "key\tcategory\tsource\tbuilt-in-simplified\truntime-target",
@@ -2721,11 +2717,13 @@ string RunCorpusChecks(string[] arguments)
                 continue;
             }
             var expectedSource = matches[0].GetProperty("source").GetString() ?? string.Empty;
+            var hasReviewedTarget = reviewedQualityOverrides.TryGetValue(expectedSource, out var reviewedTarget);
             CheckCondition(
-                $"artifact narrative candidate covers: {expectedKey}",
-                artifactDescriptionCandidates.ContainsKey(expectedSource));
-            if (artifactDescriptionCandidates.ContainsKey(expectedSource))
+                $"artifact narrative quality override covers: {expectedKey}",
+                hasReviewedTarget);
+            if (hasReviewedTarget)
             {
+                artifactDescriptionCandidates[expectedSource] = reviewedTarget;
                 coveredSegments++;
             }
             CheckCondition(
@@ -2737,8 +2735,10 @@ string RunCorpusChecks(string[] arguments)
     }
     CheckCondition("45 artifact narrative sets", artifactDescriptionIds.Length == 45);
     CheckCondition("180 artifact narrative snapshot sources", expectedArtifactDescriptionSources.Count == 180);
+    CheckCondition("180 unique artifact narrative quality overrides", artifactDescriptionCandidates.Count == 180);
+    CheckCondition("no duplicate reviewed quality override sources", qualityOverrideDuplicateSources == 0);
     CheckCondition(
-        "artifact narrative candidate source set is exact",
+        "artifact narrative quality override source set is exact",
         expectedArtifactDescriptionSources.SetEquals(artifactDescriptionCandidates.Keys));
     var artifactCodexUmbra = 0;
     var artifactCodexVitae = 0;

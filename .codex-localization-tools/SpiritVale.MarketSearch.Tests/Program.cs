@@ -7,7 +7,7 @@ using SpiritVale.RuntimeLocalization;
 var dictionaryPath = args.Length == 0
     ? Path.GetFullPath(Path.Combine(
         AppContext.BaseDirectory,
-        "..", "..", "..", "..", "artifacts", "translations-market-index-candidate.tsv"))
+        "..", "..", "..", "..", "artifacts", "translations.tsv"))
     : Path.GetFullPath(args[0]);
 var rows = LoadCatalog(dictionaryPath);
 var bridge = new MarketSearchQueryBridge(rows);
