@@ -11,6 +11,7 @@ $ErrorActionPreference = 'Stop'
 $RepositoryRoot = (Resolve-Path -LiteralPath $RepositoryRoot).Path
 $publicTree = Join-Path $PSScriptRoot 'Test-PublicTree.ps1'
 $workflowPolicy = Join-Path $PSScriptRoot 'Test-WorkflowPolicy.ps1'
+$agentLoopSafety = Join-Path $RepositoryRoot '.github\tests\Test-AgentLoopSafety.ps1'
 $metadataValidator = Join-Path $RepositoryRoot '.codex-localization-tools\skills\update-spiritvale-localization\scripts\Test-SpiritValeReleaseMetadata.ps1'
 $localizationLoop = Join-Path $RepositoryRoot '.codex-localization-tools\skills\update-spiritvale-localization\scripts\Invoke-SpiritValeLocalizationLoop.ps1'
 
@@ -19,6 +20,7 @@ if ($IncludeUntracked) { $treeParameters['IncludeUntracked'] = $true }
 $tree = (& $publicTree @treeParameters) | ConvertFrom-Json
 $metadata = (& $metadataValidator -RepositoryRoot $RepositoryRoot -AsJson) | ConvertFrom-Json
 $null = & $workflowPolicy -RepositoryRoot $RepositoryRoot
+$null = & $agentLoopSafety -RepositoryRoot $RepositoryRoot
 
 $tokens = $null
 $parseErrors = $null

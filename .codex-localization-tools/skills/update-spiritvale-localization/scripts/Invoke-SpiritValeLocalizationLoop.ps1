@@ -242,13 +242,14 @@ function Assert-ReleaseMetadata {
 function Get-TargetGameProcess {
     $expectedPath = [System.IO.Path]::GetFullPath($Paths.GameExecutable)
     return @(Get-Process -Name 'SpiritVale' -ErrorAction SilentlyContinue | Where-Object {
+        $process = $_
         try {
             [string]::Equals(
-                [System.IO.Path]::GetFullPath($_.Path),
+                [System.IO.Path]::GetFullPath($process.Path),
                 $expectedPath,
                 [System.StringComparison]::OrdinalIgnoreCase)
         } catch {
-            $false
+            throw "Could not safely resolve the path for SpiritVale process Id $($process.Id)."
         }
     })
 }
