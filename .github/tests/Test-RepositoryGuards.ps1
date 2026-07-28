@@ -95,6 +95,7 @@ try {
     & git -c core.excludesFile= -C $secretContent add -f -- config.txt
     Assert-Fail 'secret signature' $secretContent 'Secret signature found in public file: config.txt'
 
+    $global:LASTEXITCODE = 0
     Write-Output "Repository guard tests passed: $passed"
 } finally {
     if (Test-Path -LiteralPath $fixtureRoot) { Remove-Item -LiteralPath $fixtureRoot -Recurse -Force }

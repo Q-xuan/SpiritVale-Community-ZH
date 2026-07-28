@@ -140,6 +140,7 @@ try {
     Assert-Fail 'mismatched tag' $valid "Tag 'v1.2.31' does not match VERSION v1.2.30" @('-Tag', 'v1.2.31')
     Assert-Fail 'stale live version' $valid 'Live verification version 1.2.29 does not match required runtime version 1.2.30' @('-RequireLiveVerification')
 
+    $global:LASTEXITCODE = 0
     Write-Output "Release metadata tests passed: $passed"
 } finally {
     if (Test-Path -LiteralPath $fixtureRoot) { Remove-Item -LiteralPath $fixtureRoot -Recurse -Force }
