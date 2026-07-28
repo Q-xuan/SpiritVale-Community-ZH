@@ -65,9 +65,9 @@ try {
     Assert-Pass 'safe tree' $safe
 
     $hiddenRequired = New-Fixture 'hidden-required'
-    $isWindows = [System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform(
+    $runningOnWindows = [System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform(
         [System.Runtime.InteropServices.OSPlatform]::Windows)
-    if ($isWindows) {
+    if ($runningOnWindows) {
         $hiddenPath = Join-Path $hiddenRequired '.gitattributes'
         $hiddenItem = Get-Item -LiteralPath $hiddenPath -Force
         $hiddenItem.Attributes = $hiddenItem.Attributes -bor [System.IO.FileAttributes]::Hidden
