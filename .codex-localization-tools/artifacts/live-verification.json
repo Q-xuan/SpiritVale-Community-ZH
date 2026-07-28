@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "recorded_at_utc":  "2026-07-23T09:59:09.0358510Z",
+    "recorded_at_utc":  "2026-07-28T16:00:30.5307350Z",
     "cold_starts":  2,
     "steam_build_id":  "24302330",
     "game_assembly_sha256":  "E96637D13174209BA27895DD89F688D29AC07B3EF1DB0F978EE1A45CA9386113",
@@ -11,14 +11,14 @@
     "sharedassets_sha256":  "DA34CD24CC5D55CD0017E44A9CAC10DB8C52282CA51DE534A8692C277C6C60DB",
     "skill_alias_audit_sha256":  "90D2B4F2B92B68889B2DA3BE00C265401A87E0F294DBCFC072E37B04621CAB57",
     "runtime_name_audit_sha256":  "1ECAF7EC00D8AF43956B4B230FF8E01A2FC9D196FD0A77EA58871598D6C3670D",
-    "patch_version":  "1.2.29",
-    "plugin_sha256":  "4526940A4DEE83F796CE35A06D96E19AB903547FE4DD7F996134390D72D31E41",
+    "patch_version":  "1.2.30",
+    "plugin_sha256":  "48EF073A7E0B28DBA9EFE379557EACFE566E5FB445536ED92AB1B2C570487892",
     "dictionary_sha256":  "0D54D57FAE1A1700D715388A561F352B2241DB7490ECF7733B4D2456F8D6288A",
     "bilingual_catalog_sha256":  "2C6567A63A6704B576CF1A5FFBD1CC1722CC70B74CCDD030C52DD3F7C52F9DC3",
     "bilingual_catalog_audit_sha256":  "C6FB30AB58B1F32BF56F118BDE38EB17E1F5C55FB6555CDA79B91C5C971A2912",
     "bilingual_catalog_rows":  3615,
     "translation_count":  5224,
-    "log_sha256":  "F14030EB6830ACA6ED126D8A19170F93B0D84A71239CEE548D5741B3C55E1BAB",
+    "log_sha256":  "6711655C7D6F834336C10DF85A4E8391E4718A1D5C205B76E1FED3495B8C1E34",
     "runtime_untranslated_log_sha256":  "9942ACA4395CAD510A6F468AAE37CEDAD8B83437A9008EAD27E2A1C96EDFA190",
     "verified_surfaces":  [
                               "server-list",
@@ -43,16 +43,16 @@
                          "sha256":  "1E4AE4503ABD2C4CDAE773C122BA5DFC0FB0BA30B1264E9D9549A8D1249852DD"
                      },
                      {
+                         "path":  "E:\\SteamLibrary\\steamapps\\common\\SpiritVale\\.codex-localization-tools\\artifacts\\1.2.26-cold1-world.png",
+                         "sha256":  "8FB1F1078550EBD58912AD484E2B76A68953F494CCAE230BA15D0D50E733BB1B"
+                     },
+                     {
                          "path":  "E:\\SteamLibrary\\steamapps\\common\\SpiritVale\\.codex-localization-tools\\artifacts\\1.2.26-cold1-inventory.png",
                          "sha256":  "32A928AE17DF86AD11FA4F85B0B5480A435710B84289FA403B8C659F25CE6BC6"
                      },
                      {
                          "path":  "E:\\SteamLibrary\\steamapps\\common\\SpiritVale\\.codex-localization-tools\\artifacts\\1.2.26-cold1-item-detail.png",
                          "sha256":  "9BF513CB097BD700A482310566F3B82DDD141CBFC4031CD23E1D5F0844670348"
-                     },
-                     {
-                         "path":  "E:\\SteamLibrary\\steamapps\\common\\SpiritVale\\.codex-localization-tools\\artifacts\\1.2.26-cold1-world.png",
-                         "sha256":  "8FB1F1078550EBD58912AD484E2B76A68953F494CCAE230BA15D0D50E733BB1B"
                      },
                      {
                          "path":  "E:\\SteamLibrary\\steamapps\\common\\SpiritVale\\.codex-localization-tools\\artifacts\\1.2.26-toggle-cold2-server.png",
