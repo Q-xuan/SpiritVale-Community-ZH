@@ -64,6 +64,13 @@ function Invoke-Validator([string]$Root, [string[]]$ExtraArguments = @()) {
     return [PSCustomObject]@{ ExitCode = $exitCode; Output = $output }
 }
 
+function ConvertTo-ComparableDiagnostic([string]$Text) {
+    $ansiPattern = ([string][char]27) + '\[[0-?]*[ -/]*[@-~]'
+    $plain = [regex]::Replace($Text, $ansiPattern, '')
+    $plain = [regex]::Replace($plain, '(?m)^\s*\|\s?', '')
+    return [regex]::Replace($plain, '\s+', ' ').Trim()
+}
+
 function Assert-Pass([string]$Name, [string]$Root, [string[]]$Arguments = @()) {
     $result = Invoke-Validator $Root $Arguments
     if ($result.ExitCode -ne 0) { throw "$Name expected success but failed: $($result.Output)" }
@@ -73,7 +80,9 @@ function Assert-Pass([string]$Name, [string]$Root, [string[]]$Arguments = @()) {
 function Assert-Fail([string]$Name, [string]$Root, [string]$Expected, [string[]]$Arguments = @()) {
     $result = Invoke-Validator $Root $Arguments
     if ($result.ExitCode -eq 0) { throw "$Name expected failure but succeeded." }
-    if ($result.Output -notmatch [regex]::Escape($Expected)) {
+    $actualDiagnostic = ConvertTo-ComparableDiagnostic $result.Output
+    $expectedDiagnostic = ConvertTo-ComparableDiagnostic $Expected
+    if ($actualDiagnostic -notmatch [regex]::Escape($expectedDiagnostic)) {
         throw "$Name failed for the wrong reason. Expected '$Expected'; output: $($result.Output)"
     }
     $script:passed++
@@ -81,6 +90,14 @@ function Assert-Fail([string]$Name, [string]$Root, [string]$Expected, [string[]]
 
 try {
     New-Item -ItemType Directory -Path $fixtureRoot -Force | Out-Null
+
+    $formattingExpected = 'Live verification version 1.2.29 does not match required runtime version 1.2.30'
+    $escape = [string][char]27
+    $formattingProbe = "Live verification version ${escape}[31;1m1.2.29${escape}[0m`n    | does not match required runtime version 1.2.30"
+    if ((ConvertTo-ComparableDiagnostic $formattingProbe) -ne $formattingExpected) {
+        throw 'PowerShell diagnostic formatting normalization failed.'
+    }
+    $passed++
 
     $valid = New-ValidFixture 'valid'
     Assert-Pass 'valid metadata' $valid
