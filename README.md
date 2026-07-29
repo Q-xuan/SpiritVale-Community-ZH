@@ -1,42 +1,77 @@
 # SpiritVale-Community-ZH
 
-SpiritVale 简体中文社区补丁。项目通过 BepInEx 6 IL2CPP 运行时插件替换受控的游戏界面文本，并提供可恢复原始文件的 Windows 安装器。
+SpiritVale 简体中文社区补丁
 
-本仓库只包含汉化源码、审核后的词典、测试、维护技能和安装器源码，不包含 SpiritVale 游戏本体、Unity 资源、BepInEx 运行时二进制或玩家数据。
+为 Steam 版 SpiritVale 提供简体中文运行时汉化和 Windows 离线安装器。补丁覆盖主要游戏界面、实体名称、技能、物品和说明文本，不包含游戏本体或玩家数据。
 
-## 获取补丁
+当前版本：[`v1.2.30`](https://github.com/Q-xuan/SpiritVale-Community-ZH/releases/tag/v1.2.30)  
+适配版本：Steam Build `24302330` / App ID `3767850`
 
-从 GitHub Releases 下载与版本对应的 `SpiritVale_Chinese_Patch_vX.Y.Z.exe`。兼容包仅用于单文件安装器无法启动的 Windows 环境，使用前应核对同一 Release 中的 SHA-256 文件。
+## 下载
 
-安装、更新、恢复原版前请完全退出 SpiritVale。补丁仅适用于 Steam App ID `3767850`。
+- [下载标准安装器 EXE](https://github.com/Q-xuan/SpiritVale-Community-ZH/releases/download/v1.2.30/SpiritVale_Chinese_Patch_v1.2.30.exe)
+- [下载 Windows x64 兼容版 ZIP](https://github.com/Q-xuan/SpiritVale-Community-ZH/releases/download/v1.2.30/SpiritVale_Chinese_Patch_v1.2.30_Compatibility_x64.zip)
+- [查看全部版本与校验文件](https://github.com/Q-xuan/SpiritVale-Community-ZH/releases)
 
-## 源码结构
+普通用户优先使用标准安装器。若 EXE 无法打开、被单文件解压环节阻止或没有生成安装器启动日志，请下载兼容版 ZIP，完整解压后运行其中的安装程序。
 
-- `.codex-localization-tools/SpiritVale.RuntimeLocalization`：运行时汉化插件。
-- `.codex-localization-tools/SpiritVale.*.Tests`：无需游戏进程即可运行的托管测试程序。
-- `.codex-localization-tools/installer`：离线安装器、兼容策略和第三方许可。
-- `.codex-localization-tools/skills`：汉化维护与打包 Agent Loop。
-- `.codex-localization-tools/artifacts`：当前审核通过的词典、实体目录和哈希绑定审计。
+## v1.2.30 更新内容
 
-## 本地验证
+- 安装后默认使用纯中文显示模式，实体名称和紧凑界面优先显示中文。
+- 如需中英文对照，可在配置中启用英文切换模式，再按 `Tab` 切换紧凑界面的中文/英文名称。
+- 包含 5,224 条运行时翻译和 3,615 条双语实体目录记录。
+- 适配 Steam Build `24302330`，已完成两次冷启动，并检查服务器列表、必需游戏界面和运行日志。
+- 同时提供标准安装器和 Windows x64 兼容版。
 
-以下测试只编译与游戏程序集无关的纯逻辑：
+## 安装方法
 
-```powershell
-dotnet run --project .\.codex-localization-tools\SpiritVale.BilingualDisplay.Tests\SpiritVale.BilingualDisplay.Tests.csproj -c Release
-dotnet run --project .\.codex-localization-tools\SpiritVale.MarketSearch.Tests\SpiritVale.MarketSearch.Tests.csproj -c Release
+1. 在 Steam 中安装 SpiritVale，并完全退出游戏。
+2. 运行下载的安装器。
+3. 让安装器自动查找游戏目录，或手动选择 `SpiritVale.exe`。
+4. 确认兼容状态后点击安装。
+5. 从 Steam 启动游戏。首次启动会离线生成当前版本所需的 IL2CPP 桥接文件，通常需要等待 1–3 分钟。
+
+安装、更新或恢复原版时都必须完全退出 SpiritVale。安装器离线运行，不下载代码、不收集遥测，也不包含广告。
+
+## 显示与英文对照
+
+- 默认显示中文实体名称和紧凑界面文本。
+- 配置文件位于 `BepInEx\config\local.spiritvale.runtime-localization.cfg`。
+- 默认值 `CompactSurfaceMode = Chinese` 始终显示中文。
+- 如需英文对照，将其改为 `CompactSurfaceMode = EnglishToggle`；之后每按一次 `Tab`，紧凑界面会在中文和英文名称之间切换。
+
+## 更新与恢复原版
+
+- 安装新版本前先退出游戏，再直接运行新版安装器。
+- 首次安装会保存原始文件备份，重复安装和跨版本更新不会覆盖首次备份。
+- 需要卸载补丁时，重新打开安装器并选择“恢复原版”。
+- 如果安装记录缺失或损坏，可在 Steam 中使用“验证游戏文件完整性”。
+
+## 常见问题
+
+### 安装器打不开
+
+优先尝试兼容版 ZIP，并确保完整解压后再运行。安装器启动日志位于：
+
+```text
+%LOCALAPPDATA%\auryx\SpiritValeChinesePatch\Logs\installer-startup.log
 ```
 
-完整的 `Status`、`Queue`、`Audit`、`Validate`、`Build`、`RecordLive` 和 `Package` 流程必须在合法安装的 SpiritVale 游戏目录中运行，并遵守 `.codex-localization-tools/skills/update-spiritvale-localization/SKILL.md` 的安全门禁。
+### 游戏更新后提示版本未验证
 
-## 版本与发布
+等待补丁适配更新。安装器可能允许对结构兼容但尚未实机验证的版本进行兼容尝试，此时汉化完整度无法保证。
 
-仓库版本以根目录 `VERSION` 为准，发布说明来自 `CHANGELOG.md` 中唯一、非空且日期有效的同版本章节。内容版本、安装器版本、最后实机验证版本是不同状态；只有全部发布门禁通过后才能创建 `vX.Y.Z` tag。
+### 安全软件拦截安装器
 
-Commit CI 在所有分支的 push 和面向 `master` 的 pull request 上运行。Release workflow 只接受严格的 `vX.Y.Z` tag，使用专用 Windows self-hosted runner 构建经实机验证的候选，再由 GitHub 托管 runner 校验哈希并发布 Release。运行器需要标签 `self-hosted`、`Windows`、`X64`、`spiritvale-release`，并设置 `SPIRITVALE_ROOT` 指向本机游戏目录。
+请从本仓库 Releases 下载，并使用同一 Release 中的 `.sha256.txt` 文件核对 SHA-256。不要从不明来源下载重新打包的版本。
 
-不要为测试 workflow 而创建 tag；tag 会触发真实发布流程。
+## 反馈
 
-## 第三方组件
+提交问题时请说明游戏 Build、补丁版本、复现步骤，并附上相关日志。安装器问题请提供上述 `installer-startup.log`；游戏内汉化问题请尽量附截图和原文位置。
 
-安装器中随附组件的许可与声明位于 `.codex-localization-tools/installer/licenses` 和 `THIRD_PARTY_NOTICES.txt`。SpiritVale 及其游戏资源归原权利人所有。
+作者：auryx  
+QQ群：882132807
+
+## 许可与声明
+
+本项目为个人汉化学习作品。安装器所含第三方组件的许可证与声明位于 `.codex-localization-tools/installer/licenses` 和 `.codex-localization-tools/installer/THIRD_PARTY_NOTICES.txt`。SpiritVale 及其游戏资源归原权利人所有。
