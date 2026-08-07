@@ -89,6 +89,26 @@ internal static class EntityDisplayComposer
                 : entry.Values.Chinese;
     }
 
+    internal static bool IsExpectedDisplayValue(
+        EntityDisplayValues values,
+        bool detailSurface,
+        CompactDisplayPolicy compactPolicy,
+        bool compactEnglishEnabled,
+        string currentValue)
+    {
+        if (values == null)
+        {
+            return false;
+        }
+
+        var expected = detailSurface
+            ? values.Bilingual
+            : compactEnglishEnabled && compactPolicy == CompactDisplayPolicy.EnglishOnHold
+                ? values.English
+                : values.Chinese;
+        return string.Equals(currentValue, expected, StringComparison.Ordinal);
+    }
+
     private static bool HasMatchingProtectedTokens(string source, string target)
     {
         return HaveSameTokens(source, target, RichTextTokenPattern) &&

@@ -222,7 +222,6 @@ internal static class BilingualDisplayProducerPatches
         string context,
         string hierarchyPath)
     {
-        BilingualDisplayRuntime.Unregister(text);
         if (!TryResolveTrustedLocationSource(
                 text,
                 source,
@@ -259,7 +258,6 @@ internal static class BilingualDisplayProducerPatches
         string context,
         string hierarchyPath)
     {
-        BilingualDisplayRuntime.Unregister(text);
         if (!TryResolveTrustedLocationSource(
                 text,
                 source,

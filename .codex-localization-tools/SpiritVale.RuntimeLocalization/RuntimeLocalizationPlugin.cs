@@ -393,12 +393,24 @@ public sealed class RuntimeLocalizationPlugin : BasePlugin
             return 0;
         }
 
-        var callbackType = typeof(Il2CppSystem.Action<
-            Il2CppSystem.Collections.Generic.List<VendingManager.ItemData>>);
-        var requestMethod = AccessTools.Method(
-            playerControllerType,
-            MarketSearchQueryBridge.SupportedPlayerRequestMethod,
-            new[] { typeof(string), callbackType });
+        MethodInfo requestMethod = null;
+        foreach (var candidate in AccessTools.GetDeclaredMethods(playerControllerType))
+        {
+            if (!string.Equals(
+                    candidate.Name,
+                    MarketSearchQueryBridge.SupportedPlayerRequestMethod,
+                    StringComparison.Ordinal))
+            {
+                continue;
+            }
+
+            var parameters = candidate.GetParameters();
+            if (parameters.Length == 2 && parameters[0].ParameterType == typeof(string))
+            {
+                requestMethod = candidate;
+                break;
+            }
+        }
         if (requestMethod == null)
         {
             Log.LogWarning((object)
@@ -1019,8 +1031,7 @@ internal static class TmpFontFallbacks
         new Dictionary<int, HashSet<char>>();
     private static ManualLogSource _log;
     private static TMP_FontAsset _cachedFallback;
-    private static UnityEngine.Font _systemFont;
-    private static TMP_FontAsset _systemFallback;
+    private static bool _cachedFallbackMayPopulate;
 
     internal static void Initialize(ManualLogSource log)
     {
@@ -1037,13 +1048,48 @@ internal static class TmpFontFallbacks
         try
         {
             var current = text.font;
-            if (current == null || Supports(current, value, false))
+            if (current == null)
             {
                 return;
             }
-            if (Supports(current, value, true))
+
+            var currentSupports = Supports(current, value, false);
+            if (TmpFontFallbackPolicy.Select(currentSupports) ==
+                MissingCjkFontStrategy.UseCurrentFont)
             {
                 return;
+            }
+
+            if (TmpFontFallbackPolicy.ShouldPromoteCurrentToShared(
+                    _cachedFallback != null))
+            {
+                var promotedFontSupports = Supports(
+                    current,
+                    value,
+                    TmpFontFallbackPolicy.MayPopulateDynamically(
+                        FontFallbackRole.SharedFallback));
+                if (promotedFontSupports)
+                {
+                    _cachedFallback = current;
+                    _cachedFallbackMayPopulate = true;
+                    _log.LogInfo((object)$"Promoted TMP font '{current.name}' as the shared dynamic CJK fallback.");
+                    return;
+                }
+            }
+
+            if (_cachedFallbackMayPopulate &&
+                _cachedFallback != null &&
+                _cachedFallback.GetInstanceID() == current.GetInstanceID())
+            {
+                var sharedFontSupports = Supports(
+                    current,
+                    value,
+                    TmpFontFallbackPolicy.MayPopulateDynamically(
+                        FontFallbackRole.SharedFallback));
+                if (sharedFontSupports)
+                {
+                    return;
+                }
             }
 
             var fallback = FindFallback(current, value);
@@ -1089,57 +1135,68 @@ internal static class TmpFontFallbacks
     {
         if (_cachedFallback != null &&
             _cachedFallback.GetInstanceID() != current.GetInstanceID() &&
-            Supports(_cachedFallback, value, true))
+            Supports(
+                _cachedFallback,
+                value,
+                TmpFontFallbackPolicy.MayPopulateDynamically(
+                    _cachedFallbackMayPopulate
+                        ? FontFallbackRole.SharedFallback
+                        : FontFallbackRole.GameAsset)))
         {
             return _cachedFallback;
         }
 
-        foreach (var candidate in UnityEngine.Resources.FindObjectsOfTypeAll<TMP_FontAsset>())
+        var candidates = UnityEngine.Resources.FindObjectsOfTypeAll<TMP_FontAsset>();
+        foreach (var candidate in candidates)
         {
-            if (candidate == null || candidate.GetInstanceID() == current.GetInstanceID())
+            if (!CanAttachFallback(current, candidate))
             {
                 continue;
             }
-            if (Supports(candidate, value, true))
+            if (Supports(
+                candidate,
+                value,
+                TmpFontFallbackPolicy.MayPopulateDynamically(FontFallbackRole.GameAsset)))
             {
                 _cachedFallback = candidate;
+                _cachedFallbackMayPopulate = false;
                 return candidate;
             }
         }
-        return CreateSystemFallback(value);
-    }
 
-    private static TMP_FontAsset CreateSystemFallback(string value)
-    {
-        if (_systemFallback != null && Supports(_systemFallback, value, true))
+        foreach (var candidate in candidates)
         {
-            return _systemFallback;
-        }
-
-        foreach (var family in new[] { "Microsoft YaHei UI", "Microsoft YaHei", "SimHei" })
-        {
-            var sourceFont = UnityEngine.Font.CreateDynamicFontFromOSFont(family, 32);
-            if (sourceFont == null)
-            {
-                continue;
-            }
-            var candidate = TMP_FontAsset.CreateFontAsset(sourceFont);
-            if (candidate == null || !Supports(candidate, value, true))
+            if (!CanAttachFallback(current, candidate))
             {
                 continue;
             }
 
-            candidate.name = "SpiritVale Chinese Runtime Fallback";
-            candidate.atlasPopulationMode = AtlasPopulationMode.Dynamic;
-            candidate.isMultiAtlasTexturesEnabled = true;
-            UnityEngine.Object.DontDestroyOnLoad(sourceFont);
-            UnityEngine.Object.DontDestroyOnLoad(candidate);
-            _systemFont = sourceFont;
-            _systemFallback = candidate;
-            _log.LogInfo((object)$"Created in-memory TMP CJK fallback from '{family}'.");
+            if (!Supports(
+                    candidate,
+                    value,
+                    TmpFontFallbackPolicy.MayPopulateDynamically(
+                        FontFallbackRole.SharedFallback)))
+            {
+                continue;
+            }
+
+            _cachedFallback = candidate;
+            _cachedFallbackMayPopulate = true;
+            _log.LogInfo((object)$"Selected shared dynamic TMP CJK fallback '{candidate.name}'.");
             return candidate;
         }
         return null;
+    }
+
+    private static bool CanAttachFallback(TMP_FontAsset current, TMP_FontAsset candidate)
+    {
+        if (candidate == null || candidate.GetInstanceID() == current.GetInstanceID())
+        {
+            return false;
+        }
+
+        var candidateFallbacks = candidate.fallbackFontAssetTable;
+        return candidateFallbacks == null || !candidateFallbacks.Contains(current);
     }
 
     private static bool Supports(TMP_FontAsset font, string value, bool tryAddCharacter)

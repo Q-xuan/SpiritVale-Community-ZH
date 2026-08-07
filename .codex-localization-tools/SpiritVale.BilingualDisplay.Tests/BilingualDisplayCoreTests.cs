@@ -13,6 +13,8 @@ internal static class BilingualDisplayCoreTests
     {
         TestStrictConfigurationParsing();
         TestForwardCatalogLookupAndComposition();
+        TestExpectedDisplayValueShortCircuit();
+        TestFontFallbackPolicy();
         TestFailClosedLoading();
         TestMalformedCatalogsAreRejected();
 
@@ -181,6 +183,83 @@ internal static class BilingualDisplayCoreTests
         Equal(0, catalog.Count, "missing catalog returns empty catalog");
         True(!string.IsNullOrEmpty(error), "missing catalog reports error");
         False(catalog.TryGet(EntityCategory.Item, "id", "source", out _), "empty catalog lookup");
+    }
+
+    private static void TestExpectedDisplayValueShortCircuit()
+    {
+        WithCatalog(
+            EntityDisplayCatalog.Header + "\n" +
+            "Skill\tFireball\tFireball\tFireball CN\tchinese-only\n" +
+            "Map\tSunnyMeadows2\tSunny Meadows 2\tSunny Meadows CN 2\tenglish-on-hold\n",
+            path =>
+            {
+                var catalog = EntityDisplayCatalog.Load(path);
+                True(catalog.TryGet(
+                    EntityCategory.Skill,
+                    "Fireball",
+                    "Fireball",
+                    out var skill), "detail short-circuit fixture");
+                True(catalog.TryGet(
+                    EntityCategory.Map,
+                    "SunnyMeadows2",
+                    "Sunny Meadows 2",
+                    out var map), "compact short-circuit fixture");
+
+                True(EntityDisplayComposer.IsExpectedDisplayValue(
+                    skill.Values,
+                    true,
+                    skill.CompactPolicy,
+                    false,
+                    skill.Values.Bilingual), "detail bilingual value short-circuits");
+                False(EntityDisplayComposer.IsExpectedDisplayValue(
+                    skill.Values,
+                    true,
+                    skill.CompactPolicy,
+                    false,
+                    skill.Values.English), "detail English source is not the expected value");
+                True(EntityDisplayComposer.IsExpectedDisplayValue(
+                    map.Values,
+                    false,
+                    map.CompactPolicy,
+                    false,
+                    map.Values.Chinese), "compact Chinese value short-circuits");
+                True(EntityDisplayComposer.IsExpectedDisplayValue(
+                    map.Values,
+                    false,
+                    map.CompactPolicy,
+                    true,
+                    map.Values.English), "compact English value short-circuits");
+                False(EntityDisplayComposer.IsExpectedDisplayValue(
+                    map.Values,
+                    false,
+                    map.CompactPolicy,
+                    true,
+                    map.Values.Chinese), "stale compact Chinese value re-enters the chain");
+            });
+    }
+
+    private static void TestFontFallbackPolicy()
+    {
+        Equal(
+            MissingCjkFontStrategy.UseCurrentFont,
+            TmpFontFallbackPolicy.Select(true),
+            "existing current-font coverage stays local");
+        Equal(
+            MissingCjkFontStrategy.UseSharedFallback,
+            TmpFontFallbackPolicy.Select(false),
+            "missing current-font coverage uses shared fallback");
+        False(
+            TmpFontFallbackPolicy.MayPopulateDynamically(FontFallbackRole.GameAsset),
+            "game font assets are never mutated while choosing a fallback");
+        True(
+            TmpFontFallbackPolicy.MayPopulateDynamically(FontFallbackRole.SharedFallback),
+            "selected shared fallback may populate missing glyphs");
+        True(
+            TmpFontFallbackPolicy.ShouldPromoteCurrentToShared(false),
+            "first current font becomes the shared fallback");
+        False(
+            TmpFontFallbackPolicy.ShouldPromoteCurrentToShared(true),
+            "existing shared fallback is retained");
     }
 
     private static void TestMalformedCatalogsAreRejected()

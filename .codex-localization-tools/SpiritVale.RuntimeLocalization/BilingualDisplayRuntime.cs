@@ -616,7 +616,12 @@ internal static class BilingualDisplayRuntime
             if (!RegisteredSurfaces.TryGetValue(instanceId, out var registration) ||
                 !TryGetLiveText(registration, out var liveText) ||
                 IsProtectedText(liveText) ||
-                !registration.Owns(liveText.text))
+                !EntityDisplayComposer.IsExpectedDisplayValue(
+                    registration.Values,
+                    registration.Kind == SurfaceKind.Detail,
+                    registration.CompactPolicy,
+                    _compactEnglishEnabled,
+                    liveText.text))
             {
                 RegisteredSurfaces.Remove(instanceId);
                 return false;

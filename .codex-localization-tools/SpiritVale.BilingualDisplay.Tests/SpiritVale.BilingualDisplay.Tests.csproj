@@ -10,5 +10,6 @@
     <Compile Include="..\SpiritVale.RuntimeLocalization\BilingualDisplayConfiguration.cs" Link="BilingualDisplayConfiguration.cs" />
     <Compile Include="..\SpiritVale.RuntimeLocalization\EntityDisplayCatalog.cs" Link="EntityDisplayCatalog.cs" />
     <Compile Include="..\SpiritVale.RuntimeLocalization\EntityDisplayComposer.cs" Link="EntityDisplayComposer.cs" />
+    <Compile Include="..\SpiritVale.RuntimeLocalization\TmpFontFallbackPolicy.cs" Link="TmpFontFallbackPolicy.cs" />
   </ItemGroup>
 </Project>
