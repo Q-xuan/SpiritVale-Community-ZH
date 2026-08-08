@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "recorded_at_utc":  "2026-08-08T07:20:14.7929545Z",
+    "recorded_at_utc":  "2026-08-08T13:22:14.2387305Z",
     "cold_starts":  2,
     "steam_build_id":  "24534566",
     "game_assembly_sha256":  "96E94DD0547EF1CCCCEFCC47B474C3D7D023EC4C61711BEFBEA29A8FB14BA19A",
@@ -18,7 +18,7 @@
     "bilingual_catalog_audit_sha256":  "69ADB1359E09B5959D0606B237D1F3C41EC89899A789EDE58048236C55B5F941",
     "bilingual_catalog_rows":  3615,
     "translation_count":  5224,
-    "log_sha256":  "008BF7A69BC8CBEB1DED940B43E4645BE0FCCEB9101E555700DA75FDF8F965CB",
+    "log_sha256":  "7C3AF0BCE33432CDB7656282A9E44C0598EFF8777BBB5E6D9D5A3E662F1F0B20",
     "runtime_untranslated_log_sha256":  "9942ACA4395CAD510A6F468AAE37CEDAD8B83437A9008EAD27E2A1C96EDFA190",
     "verified_surfaces":  [
                               "server-list",

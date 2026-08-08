@@ -10,7 +10,7 @@ namespace SpiritVale.ChinesePatch.Installer;
 
 internal static class PatchInfo
 {
-    public const string Version = "1.2.31";
+    public const string Version = "1.2.33";
     public const string ReleaseChannel = "tiered-compatibility";
     public const string ReleaseLabel = "分级兼容版";
     public const string AppId = "3767850";
@@ -38,7 +38,7 @@ internal sealed class PatchManifest
     public string PayloadDictionarySha256 { get; set; } = "";
     public string PayloadEntityCatalogSha256 { get; set; } = "";
     public string DefaultEntityNameMode { get; set; } = "Chinese";
-    public string DefaultCompactSurfaceMode { get; set; } = "Chinese";
+    public string DefaultCompactSurfaceMode { get; set; } = "EnglishToggle";
     public string DefaultTemporaryEnglishKey { get; set; } = "Tab";
     public string OriginalStateSha256 { get; set; } = "";
     public List<PatchFileRecord> Files { get; set; } = [];
@@ -1082,10 +1082,10 @@ internal sealed class PatchService
 
         var localizationConfig = ReadArchiveText(entries, "BepInEx\\config\\local.spiritvale.runtime-localization.cfg");
         if (!System.Text.RegularExpressions.Regex.IsMatch(localizationConfig,
-                @"(?im)^\s*CompactSurfaceMode\s*=\s*Chinese\s*$") ||
+                @"(?im)^\s*CompactSurfaceMode\s*=\s*EnglishToggle\s*$") ||
             !System.Text.RegularExpressions.Regex.IsMatch(localizationConfig,
                 @"(?im)^\s*TemporaryEnglishKey\s*=\s*Tab\s*$"))
-            throw new InvalidDataException("补丁未启用紧凑界面中文默认模式和 Tab 临时英文切换。 ");
+            throw new InvalidDataException("补丁未启用紧凑界面 Tab 中英文切换。 ");
     }
 
     private static string ReadArchiveText(IEnumerable<PayloadArchiveEntry> entries, string relativePath)
@@ -1931,7 +1931,7 @@ internal static class SelfTest
                     && IsManifestHash(activeManifest.PayloadDictionarySha256)
                     && IsManifestHash(activeManifest.PayloadEntityCatalogSha256)
                     && activeManifest.DefaultEntityNameMode == "Chinese"
-                    && activeManifest.DefaultCompactSurfaceMode == "Chinese"
+                    && activeManifest.DefaultCompactSurfaceMode == "EnglishToggle"
                     && activeManifest.DefaultTemporaryEnglishKey == "Tab",
                 "活动安装清单没有记录 Build、兼容级别与完整载荷哈希。");
             Require(!File.Exists(autoTranslator) && File.Exists(autoTranslator + PatchInfo.XUnityDisableSuffix), "AutoTranslator 没有被禁用。");

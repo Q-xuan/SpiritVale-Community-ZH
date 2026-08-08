@@ -4,22 +4,22 @@ SpiritVale 简体中文社区补丁
 
 为 Steam 版 SpiritVale 提供简体中文运行时汉化和 Windows 离线安装器。补丁覆盖主要游戏界面、实体名称、技能、物品和说明文本，不包含游戏本体或玩家数据。
 
-当前版本：[`v1.2.31`](https://github.com/Q-xuan/SpiritVale-Community-ZH/releases/tag/v1.2.31)  
+当前版本：[`v1.2.33`](https://github.com/Q-xuan/SpiritVale-Community-ZH/releases/tag/v1.2.33)  
 适配版本：Steam Build `24534566` / App ID `3767850`
 
 ## 下载
 
-- [下载标准安装器 EXE](https://github.com/Q-xuan/SpiritVale-Community-ZH/releases/download/v1.2.31/SpiritVale_Chinese_Patch_v1.2.31.exe)
-- [下载 Windows x64 兼容版 ZIP](https://github.com/Q-xuan/SpiritVale-Community-ZH/releases/download/v1.2.31/SpiritVale_Chinese_Patch_v1.2.31_Compatibility_x64.zip)
+- [下载标准安装器 EXE](https://github.com/Q-xuan/SpiritVale-Community-ZH/releases/download/v1.2.33/SpiritVale_Chinese_Patch_v1.2.33.exe)
+- [下载 Windows x64 兼容版 ZIP](https://github.com/Q-xuan/SpiritVale-Community-ZH/releases/download/v1.2.33/SpiritVale_Chinese_Patch_v1.2.33_Compatibility_x64.zip)
 - [查看全部版本与校验文件](https://github.com/Q-xuan/SpiritVale-Community-ZH/releases)
 
 普通用户优先使用标准安装器。若 EXE 无法打开、被单文件解压环节阻止或没有生成安装器启动日志，请下载兼容版 ZIP，完整解压后运行其中的安装程序。
 
-## v1.2.31 更新内容
+## v1.2.33 更新内容
 
-- 深度优化运行时字体回退和动态中文字形缓存，实机帧率提升 20 多帧。
-- 保留纯中文和中英文对照模式，`Tab` 可切换紧凑界面的中文/英文名称。
-- 修复最新版市场数据接口变化导致的兼容性问题。
+- 修复安装版默认配置未启用 `Tab` 中英文切换的问题。
+- 新安装和修复安装后，每按一次 `Tab` 即可切换紧凑界面的中文/英文名称。
+- 保留 `v1.2.31` 的深度性能优化，实机帧率提升 20 多帧。
 - 包含 5,224 条运行时翻译和 3,615 条双语实体目录记录。
 - 适配 Steam Build `24534566`，已完成两次冷启动，并检查服务器列表和运行日志。
 - 同时提供标准安装器和 Windows x64 兼容版。
@@ -36,10 +36,10 @@ SpiritVale 简体中文社区补丁
 
 ## 显示与英文对照
 
-- 默认显示中文实体名称和紧凑界面文本。
+- 默认显示中文实体名称；紧凑界面可直接按 `Tab` 在中文和英文名称之间切换。
 - 配置文件位于 `BepInEx\config\local.spiritvale.runtime-localization.cfg`。
-- 默认值 `CompactSurfaceMode = Chinese` 始终显示中文。
-- 如需英文对照，将其改为 `CompactSurfaceMode = EnglishToggle`；之后每按一次 `Tab`，紧凑界面会在中文和英文名称之间切换。
+- 默认值为 `CompactSurfaceMode = EnglishToggle` 和 `TemporaryEnglishKey = Tab`。
+- 每按一次 `Tab`，紧凑界面会在中文和英文名称之间切换；松开按键不会改变当前显示。
 
 ## 更新与恢复原版
 

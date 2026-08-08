@@ -139,7 +139,7 @@ $configLines = @($localizationDisplayConfig -split '\r?\n')
 $expectedConfigLines = @(
     '[Display]'
     'EntityNameMode = Chinese'
-    'CompactSurfaceMode = Chinese'
+    'CompactSurfaceMode = EnglishToggle'
     'TemporaryEnglishKey = Tab'
 )
 $configMatches = $configLines.Count -eq $expectedConfigLines.Count
@@ -152,7 +152,7 @@ if ($configMatches) {
     }
 }
 if (-not $configMatches) {
-    $failures.Add('Packaged localization display config does not exactly match the expected ordered lines.')
+    $failures.Add('Packaged localization display config must enable Tab bilingual switching by default.')
 }
 
 $utf8 = New-Object System.Text.UTF8Encoding($false, $true)
@@ -174,14 +174,14 @@ foreach ($contractName in $compactModePatterns.Keys) {
 }
 if ($compactModeContractMatches) {
     foreach ($compactModeValue in $compactModeValues) {
-        if ($compactModeValue -cne 'Chinese') {
+        if ($compactModeValue -cne 'EnglishToggle') {
             $compactModeContractMatches = $false
             break
         }
     }
 }
 if (-not $compactModeContractMatches) {
-    $failures.Add('Installer compact-surface manifest default, payload probe, and active-manifest check must all require Chinese.')
+    $failures.Add('Installer compact-surface manifest default, payload probe, and active-manifest check must all require EnglishToggle.')
 }
 
 $debugTypeOutput = & dotnet msbuild $pluginProjectPath -nologo -p:Configuration=Release -getProperty:DebugType 2>&1 | Out-String

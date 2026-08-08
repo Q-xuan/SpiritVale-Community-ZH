@@ -61,7 +61,7 @@ $offlineConfig = @(
 $localizationDisplayConfig = @(
     '[Display]'
     'EntityNameMode = Chinese'
-    'CompactSurfaceMode = Chinese'
+    'CompactSurfaceMode = EnglishToggle'
     'TemporaryEnglishKey = Tab'
 ) -join [Environment]::NewLine
 [System.IO.File]::WriteAllText(
