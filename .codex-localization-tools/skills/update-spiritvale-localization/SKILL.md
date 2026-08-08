@@ -67,6 +67,8 @@ The optional entity-display modes live in `BepInEx/config/local.spiritvale.runti
 
 `Audit`, `Validate`, and `Build` must all report complete runtime skill display coverage using the current extracted active-skill count. Managed tests exercise every covered runtime alias with ASCII, spaced, and full-width cast punctuation, plus standalone/rich-text punctuation nodes. Corpus tests must also cover every mixed-language gem and skill/passive description in the current source snapshot. A missing shared-assets object, untranslated display alias, unreviewed set addition/removal, or residual English gameplay term in those corpora blocks deployment and release work.
 
+`Validate` also treats the currently deployed dictionary as a fixed vocabulary baseline. Every deployed source key must remain present; translated targets may be improved and new keys may be added, but an equal-count replacement cannot hide a removed key. The successful deploy becomes the next baseline, so vocabulary is monotonic across agent-loop runs.
+
 `Validate` and `Build` write `artifacts/mixed-description-residuals.tsv`. Review it when polishing a release: gameplay terms are blockers, while intentional proper names, creator signatures, acronyms, and branded titles may remain when documented. This report is the handoff list for Luna; do not infer quality only from the aggregate localized count.
 
 Cold-start the game twice and complete [live-checklist.md](references/live-checklist.md). Inspect `BepInEx/LogOutput.log` after each run. A loading screen, server list, or main HUD check alone is not sufficient. Record the verified surfaces and screenshot evidence with the `RecordLive` stage; this binds the live result to the exact current hashes.

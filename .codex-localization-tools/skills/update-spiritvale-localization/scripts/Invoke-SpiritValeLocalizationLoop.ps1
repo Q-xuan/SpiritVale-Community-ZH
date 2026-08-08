@@ -15,7 +15,6 @@ param(
     [int]$ColdStarts = 0,
     [string[]]$VerifiedSurface = @(),
     [string[]]$Evidence = @(),
-    [switch]$AllowTranslationCountDrop,
     [switch]$SkipTests
 )
 
@@ -78,6 +77,26 @@ function Get-TranslationCount([string]$Path) {
     if (-not (Test-Path -LiteralPath $Path -PathType Leaf)) { return 0 }
     return @([System.IO.File]::ReadAllLines($Path, [System.Text.Encoding]::UTF8) |
         Where-Object { $_ -and -not $_.StartsWith('#') }).Count
+}
+
+function Get-TranslationSourceKeys([string]$Path) {
+    if (-not (Test-Path -LiteralPath $Path -PathType Leaf)) {
+        throw "Translation vocabulary baseline is missing: $Path"
+    }
+    $keys = [System.Collections.Generic.HashSet[string]]::new([System.StringComparer]::Ordinal)
+    $lineNumber = 0
+    foreach ($line in [System.IO.File]::ReadAllLines($Path, [System.Text.Encoding]::UTF8)) {
+        $lineNumber++
+        if (-not $line -or $line.StartsWith('#')) { continue }
+        $parts = $line.Split("`t")
+        if ($parts.Count -ne 2 -or -not $parts[0] -or -not $parts[1]) {
+            throw "Unsafe baseline TSV row at ${Path}:$lineNumber"
+        }
+        if (-not $keys.Add($parts[0])) {
+            throw "Duplicate baseline source '$($parts[0])' at ${Path}:$lineNumber"
+        }
+    }
+    return @($keys)
 }
 
 function Get-MaxWriteTime([string[]]$Paths) {
@@ -816,13 +835,15 @@ function Test-TranslationTable([string]$Path) {
         $map[$parts[0]] = $parts[1]
     }
     if ($map.Count -lt 100) { throw "Translation table is unexpectedly small: $($map.Count) entries." }
-    $deployedCount = Get-TranslationCount $Paths.DeployedDictionary
-    if (-not $AllowTranslationCountDrop -and
-        $Path -ne $Paths.DeployedDictionary -and
-        $deployedCount -gt 0 -and
-        $map.Count -lt $deployedCount) {
-        throw "Translation count dropped from $deployedCount to $($map.Count). Review the loss or pass -AllowTranslationCountDrop explicitly."
+
+    $baselineKeys = @(Get-TranslationSourceKeys $Paths.DeployedDictionary)
+    $missingBaselineKeys = @($baselineKeys | Where-Object { -not $map.ContainsKey($_) })
+    if ($missingBaselineKeys.Count -gt 0) {
+        $sample = @($missingBaselineKeys | Sort-Object | Select-Object -First 10) -join ', '
+        throw "Translation vocabulary dropped: $($missingBaselineKeys.Count) deployed source key(s) are missing from $Path. Missing sample: $sample"
     }
+    $additionCount = $map.Count - $baselineKeys.Count
+    Write-Output "Translation vocabulary check passed: baseline=$($baselineKeys.Count), current=$($map.Count), additions=$additionCount."
 
     $effectiveOverrides = [System.Collections.Generic.Dictionary[string, string]]::new([System.StringComparer]::Ordinal)
     $qualityOverrides = [System.Collections.Generic.Dictionary[string, string]]::new([System.StringComparer]::Ordinal)

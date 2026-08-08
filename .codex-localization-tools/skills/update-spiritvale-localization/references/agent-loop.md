@@ -115,13 +115,16 @@ Run `Validate`. Require:
 - source coverage `3579/3579` or the current complete count after a verified source update;
 - runtime skill aliases `278/278` or the current verified active-skill count;
 - runtime names `2730/2730` or the current verified extracted-name count;
+- translation vocabulary contains every source key from the currently deployed dictionary, while reporting any additions;
 - zero dictionary conflicts and zero unexplained missing entries;
 - bilingual entity catalog coverage complete for Item, Equip, Artifact, Gem, Skill, SkillPassive, Monster, and Map, with a fresh hash-bound audit;
 - every managed test passing;
 - `localized-corpus.tsv` regenerated successfully;
 - no unexplained English gameplay term in mixed-description residuals.
 
-Counts may increase after a game update. A decrease is a blocker unless Terra documents the source change and intentionally updates the baseline.
+Translation source keys are monotonic. `Validate` treats the currently deployed dictionary as the fixed baseline for that run: revised Chinese targets and new source keys are allowed, but removing any deployed source key is a blocker even when the total count stays equal or increases. There is no count-drop override. A successful deployment advances the baseline only after this check passes.
+
+Coverage counts may increase after a game update. A decrease in source, skill-alias, runtime-name, or entity-catalog coverage remains a migration blocker; keep obsolete exact translation keys as harmless compatibility aliases instead of shrinking the translation vocabulary.
 
 ### 5. Build And Deploy
 

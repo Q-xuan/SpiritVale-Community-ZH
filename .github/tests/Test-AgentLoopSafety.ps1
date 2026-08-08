@@ -61,6 +61,62 @@ if (-not $processLookupThrew) {
     $failures.Add("Get-TargetGameProcess returned $($result.Count) process(es) when process Id 4242 Path access failed; expected a throw.")
 }
 
+$translationFunctionNames = @(
+    'Get-RegexSignature',
+    'Assert-FormattingTokens',
+    'Get-TranslationSourceKeys',
+    'Test-TranslationTable'
+)
+$translationFunctionTexts = @($translationFunctionNames | ForEach-Object {
+    $functionName = $_
+    $functionAst = $loopAst.Find({
+        param($node)
+        $node -is [System.Management.Automation.Language.FunctionDefinitionAst] -and
+            $node.Name -eq $functionName
+    }, $true)
+    if ($null -eq $functionAst) { throw "$functionName was not found." }
+    $functionAst.Extent.Text
+})
+$translationGate = & {
+    param([string[]]$FunctionTexts)
+
+    foreach ($functionText in $FunctionTexts) { . ([scriptblock]::Create($functionText)) }
+    $tempRoot = Join-Path ([System.IO.Path]::GetTempPath()) ('spiritvale-agent-loop-' + [Guid]::NewGuid().ToString('N'))
+    $baselinePath = Join-Path $tempRoot 'deployed.tsv'
+    $candidatePath = Join-Path $tempRoot 'candidate.tsv'
+    $ToolRoot = Join-Path $tempRoot 'tools'
+    $Paths = @{ DeployedDictionary = $baselinePath }
+    New-Item -ItemType Directory -Path $ToolRoot -Force | Out-Null
+    try {
+        $baselineLines = @(0..99 | ForEach-Object { "Key$_`tBaseline$_" })
+        $growthLines = @(0..99 | ForEach-Object { "Key$_`tRevised$_" }) + "Key100`tAdded100"
+        [System.IO.File]::WriteAllLines($baselinePath, $baselineLines, [System.Text.UTF8Encoding]::new($false))
+        [System.IO.File]::WriteAllLines($candidatePath, $growthLines, [System.Text.UTF8Encoding]::new($false))
+        $growthOutput = Test-TranslationTable $candidatePath | Out-String
+
+        $replacementLines = @(0..98 | ForEach-Object { "Key$_`tRevised$_" }) + "Key100`tAdded100"
+        [System.IO.File]::WriteAllLines($candidatePath, $replacementLines, [System.Text.UTF8Encoding]::new($false))
+        $dropThrew = $false
+        try {
+            $null = Test-TranslationTable $candidatePath
+        } catch {
+            $dropThrew = $_.Exception.Message -like 'Translation vocabulary dropped:*Key99*'
+        }
+        [PSCustomObject]@{
+            GrowthPassed = $growthOutput -match 'baseline=100, current=101, additions=1'
+            ReplacementBlocked = $dropThrew
+        }
+    } finally {
+        if (Test-Path -LiteralPath $tempRoot) { Remove-Item -LiteralPath $tempRoot -Recurse -Force }
+    }
+} $translationFunctionTexts
+if (-not $translationGate.GrowthPassed) {
+    $failures.Add('Translation vocabulary gate did not allow retained keys plus an addition and revised targets.')
+}
+if (-not $translationGate.ReplacementBlocked) {
+    $failures.Add('Translation vocabulary gate did not block an equal-count replacement that removed a deployed key.')
+}
+
 $tokens = $null
 $parseErrors = $null
 $payloadAst = [System.Management.Automation.Language.Parser]::ParseFile(
@@ -144,4 +200,4 @@ if ($failures.Count -gt 0) {
     throw "Agent loop safety tests failed: $($failures.Count)"
 }
 
-Write-Output 'Agent loop safety tests passed: 4'
+Write-Output 'Agent loop safety tests passed: 6'
