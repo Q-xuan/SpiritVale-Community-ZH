@@ -8,6 +8,7 @@
     <RootNamespace>SpiritVale.RuntimeLocalization</RootNamespace>
     <SpiritValeGameRoot Condition="'$(SpiritValeGameRoot)' == ''">$(MSBuildProjectDirectory)\..\..</SpiritValeGameRoot>
     <DebugType Condition="'$(Configuration)' == 'Release'">none</DebugType>
+    <IncludeSourceRevisionInInformationalVersion Condition="'$(Configuration)' == 'Release'">false</IncludeSourceRevisionInInformationalVersion>
   </PropertyGroup>
 
   <ItemGroup>

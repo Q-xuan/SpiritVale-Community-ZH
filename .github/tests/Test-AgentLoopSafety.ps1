@@ -193,6 +193,15 @@ if ($debugType -cne 'none') {
     $failures.Add('Release plugin DebugType must be none so identical sources hash equally across runner workspaces.')
 }
 
+$sourceRevisionOutput = & dotnet msbuild $pluginProjectPath -nologo -p:Configuration=Release -getProperty:IncludeSourceRevisionInInformationalVersion 2>&1 | Out-String
+if ($LASTEXITCODE -ne 0) {
+    throw "Failed to evaluate release source revision metadata: $sourceRevisionOutput"
+}
+$includeSourceRevision = $sourceRevisionOutput.Trim()
+if ($includeSourceRevision -cne 'false') {
+    $failures.Add('Release plugin must not embed the Git commit SHA in AssemblyInformationalVersion.')
+}
+
 if ($failures.Count -gt 0) {
     foreach ($failure in $failures) {
         Write-Output "FAIL: $failure"
@@ -200,4 +209,4 @@ if ($failures.Count -gt 0) {
     throw "Agent loop safety tests failed: $($failures.Count)"
 }
 
-Write-Output 'Agent loop safety tests passed: 6'
+Write-Output 'Agent loop safety tests passed: 7'
