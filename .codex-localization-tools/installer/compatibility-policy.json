@@ -25,6 +25,12 @@
                                "gameAssemblySha256":  "E96637D13174209BA27895DD89F688D29AC07B3EF1DB0F978EE1A45CA9386113",
                                "metadataSha256":  "F93CD79F85A93FEA90562A95B95F97A6ECF82863ED80E234AC2000775FA5A851",
                                "verifiedAtUtc":  "2026-07-21T10:48:30.4943418Z"
+                           },
+                           {
+                               "steamBuildId":  "24534566",
+                               "gameAssemblySha256":  "96E94DD0547EF1CCCCEFCC47B474C3D7D023EC4C61711BEFBEA29A8FB14BA19A",
+                               "metadataSha256":  "36C657D58ED729F76E0948434F1F64C65EF7ED055217440959F748057C8E4060",
+                               "verifiedAtUtc":  "2026-08-08T07:21:02.2932862Z"
                            }
                        ],
     "deniedBuilds":  [

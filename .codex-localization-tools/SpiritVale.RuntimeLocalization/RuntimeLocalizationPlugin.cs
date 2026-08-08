@@ -21,7 +21,7 @@ public sealed class RuntimeLocalizationPlugin : BasePlugin
 {
     public const string PluginGuid = "local.spiritvale.runtime-localization";
     public const string PluginName = "SpiritVale Runtime Localization";
-    public const string PluginVersion = "1.2.30";
+    public const string PluginVersion = "1.2.31";
     private Harmony _harmony;
     private readonly HashSet<MethodInfo> _patchedMethods = new HashSet<MethodInfo>();
     private bool _marketSearchPatched;
