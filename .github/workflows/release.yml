@@ -16,6 +16,8 @@ jobs:
   package:
     runs-on: [self-hosted, Windows, X64, spiritvale-release]
     timeout-minutes: 120
+    env:
+      DOTNET_INSTALL_DIR: ${{ runner.temp }}\dotnet
     steps:
       - name: Check out release tag
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
@@ -27,8 +29,17 @@ jobs:
         uses: actions/setup-dotnet@67a3573c9a986a3f9c594539f4ab511d57bb3ce9 # v4
         with:
           dotnet-version: 9.0.x
+      - name: Set up Python 3.12
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: .codex-localization-tools/requirements-audit.txt
+      - name: Install source-audit dependencies
+        shell: powershell
+        run: python -m pip install --disable-pip-version-check -r ./.codex-localization-tools/requirements-audit.txt
       - name: Verify SpiritVale installation
-        shell: pwsh
+        shell: powershell
         run: |
           if ([string]::IsNullOrWhiteSpace($env:SPIRITVALE_ROOT)) {
               throw 'SPIRITVALE_ROOT is not configured on the release runner.'
@@ -37,21 +48,33 @@ jobs:
               throw "SPIRITVALE_ROOT does not exist: $env:SPIRITVALE_ROOT"
           }
       - name: Validate release metadata
-        shell: pwsh
+        shell: powershell
         run: |
           & ./.codex-localization-tools/skills/update-spiritvale-localization/scripts/Test-SpiritValeReleaseMetadata.ps1 `
               -RepositoryRoot . `
               -Tag $env:GITHUB_REF_NAME
-      - name: Package frozen release candidate
-        shell: pwsh
+      - name: Generate release source audit
+        shell: powershell
         run: |
           $toolRoot = Join-Path $env:GITHUB_WORKSPACE '.codex-localization-tools'
+          $python = (Get-Command python -CommandType Application).Source
+          & ./.codex-localization-tools/skills/update-spiritvale-localization/scripts/Invoke-SpiritValeLocalizationLoop.ps1 `
+              -Stage Audit `
+              -GameRoot $env:SPIRITVALE_ROOT `
+              -ToolRoot $toolRoot `
+              -PythonExecutable $python
+      - name: Package frozen release candidate
+        shell: powershell
+        run: |
+          $toolRoot = Join-Path $env:GITHUB_WORKSPACE '.codex-localization-tools'
+          $python = (Get-Command python -CommandType Application).Source
           & ./.codex-localization-tools/skills/update-spiritvale-localization/scripts/Invoke-SpiritValeLocalizationLoop.ps1 `
               -Stage Package `
               -GameRoot $env:SPIRITVALE_ROOT `
-              -ToolRoot $toolRoot
+              -ToolRoot $toolRoot `
+              -PythonExecutable $python
       - name: Verify packaged release candidate
-        shell: pwsh
+        shell: powershell
         run: |
           $artifactsDirectory = Join-Path $env:GITHUB_WORKSPACE '.codex-localization-tools/installer/dist'
           & ./.codex-localization-tools/skills/update-spiritvale-localization/scripts/Test-SpiritValeReleaseMetadata.ps1 `

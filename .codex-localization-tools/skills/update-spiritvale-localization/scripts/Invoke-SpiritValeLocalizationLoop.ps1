@@ -920,7 +920,7 @@ function Invoke-Validation([string]$DictionaryPath, [bool]$RunTests) {
             '--residual-report', $Paths.MixedDescriptionReport
         )
         Invoke-Native 'dotnet' @(
-            'run', '--project', $Paths.BilingualTestsProject, '-c', 'Release', '--no-restore'
+            'run', '--project', $Paths.BilingualTestsProject, '-c', 'Release'
         )
         Invoke-Python @(
             (Join-Path $ToolRoot 'tests\test_bilingual_entity_catalog.py')
@@ -1243,14 +1243,16 @@ function Invoke-Package([bool]$BuildFirst) {
     }
     $null = Get-ReleaseMetadata -RequireLiveVerification -ArtifactsDirectory $distRoot
 
-    $selfTestRoot = Join-Path $ToolRoot ('installer\self-test-' + [Guid]::NewGuid().ToString('N'))
+    $selfTestRoot = Join-Path ([System.IO.Path]::GetTempPath()) ('SpiritVale-self-test-' + [Guid]::NewGuid().ToString('N'))
     $selfTest = Start-Process -FilePath $Paths.InstallerExe `
-        -ArgumentList @('--self-test', ('"{0}"' -f $selfTestRoot)) -WindowStyle Hidden -Wait -PassThru
+        -ArgumentList @('--self-test', ('"{0}"' -f $selfTestRoot)) `
+        -WorkingDirectory (Split-Path -Parent $Paths.InstallerExe) `
+        -WindowStyle Hidden -Wait -PassThru
     if ($selfTest.ExitCode -ne 0) { throw "Installer self-test failed. Inspect $selfTestRoot\self-test.log" }
     Remove-Item -LiteralPath $selfTestRoot -Recurse -Force
 
-    $compatibilityExtractRoot = Join-Path $ToolRoot ('installer\compatibility-extract-' + [Guid]::NewGuid().ToString('N'))
-    $compatibilitySelfTestRoot = Join-Path $ToolRoot ('installer\self-test-compatibility-' + [Guid]::NewGuid().ToString('N'))
+    $compatibilityExtractRoot = Join-Path ([System.IO.Path]::GetTempPath()) ('SpiritVale-compatibility-extract-' + [Guid]::NewGuid().ToString('N'))
+    $compatibilitySelfTestRoot = Join-Path ([System.IO.Path]::GetTempPath()) ('SpiritVale-self-test-compatibility-' + [Guid]::NewGuid().ToString('N'))
     try {
         Expand-Archive -LiteralPath $Paths.InstallerCompatibilityZip -DestinationPath $compatibilityExtractRoot
         $compatibilityExecutables = @(Get-ChildItem -LiteralPath $compatibilityExtractRoot -Recurse -File |
@@ -1262,7 +1264,9 @@ function Invoke-Package([bool]$BuildFirst) {
             throw 'Compatibility ZIP does not contain the self-contained .NET runtime.'
         }
         $compatibilitySelfTest = Start-Process -FilePath $compatibilityExecutables[0].FullName `
-            -ArgumentList @('--self-test', ('"{0}"' -f $compatibilitySelfTestRoot)) -WindowStyle Hidden -Wait -PassThru
+            -ArgumentList @('--self-test', ('"{0}"' -f $compatibilitySelfTestRoot)) `
+            -WorkingDirectory (Split-Path -Parent $compatibilityExecutables[0].FullName) `
+            -WindowStyle Hidden -Wait -PassThru
         if ($compatibilitySelfTest.ExitCode -ne 0) {
             throw "Compatibility installer self-test failed. Inspect $compatibilitySelfTestRoot\self-test.log"
         }
