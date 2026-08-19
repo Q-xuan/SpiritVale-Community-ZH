@@ -2,6 +2,19 @@
 
 本文件记录 SpiritVale 简体中文社区补丁的公开版本。版本号遵循 `MAJOR.MINOR.PATCH`，发布日期使用 UTC 日期。
 
+## [1.2.35] - 2026-08-19
+
+### Fixed
+
+- 修复 Windows Release Workflow 在干净检出环境中缺少 Python 审计依赖、生成审计文件和 NuGet 还原的问题。
+- 修复安装器自检在 GitHub runner 深层工作目录下触发 Windows 路径长度限制的问题。
+- Release 现在由专用 Windows runner 生成冻结候选，再由 GitHub Actions 校验并发布资产。
+
+### Verified
+
+- 保持 `v1.2.34` 已实机验证的运行时插件、中文拍卖行搜索、`Tab` 中英文切换和帧率优化内容不变。
+- 在干净检出环境中完成源数据审计、Release 构建、标准安装器自检和兼容包自检。
+
 ## [1.2.34] - 2026-08-18
 
 ### Added
