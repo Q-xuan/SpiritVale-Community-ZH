@@ -2,6 +2,18 @@
 
 本文件记录 SpiritVale 简体中文社区补丁的公开版本。版本号遵循 `MAJOR.MINOR.PATCH`，发布日期使用 UTC 日期。
 
+## [1.2.36] - 2026-08-19
+
+### Fixed
+
+- 修复 Release Workflow 在 job 级引用 `runner.temp` 导致 GitHub 在进入任何 job 前拒绝执行的问题。
+- 将 .NET 安装目录配置移动到实际可用 `runner` context 的 `setup-dotnet` 步骤。
+
+### Verified
+
+- Release Workflow 已通过 `actionlint 1.7.12` 和仓库 Workflow 策略测试。
+- 保持 `v1.2.34` 已实机验证的运行时插件和玩家功能不变；本版仅修订安装器及自动发布链路。
+
 ## [1.2.35] - 2026-08-19
 
 ### Fixed
