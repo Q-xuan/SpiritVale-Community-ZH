@@ -9,7 +9,12 @@ $RepositoryRoot = (Resolve-Path -LiteralPath $RepositoryRoot).Path
 $loopPath = Join-Path $RepositoryRoot '.codex-localization-tools\skills\update-spiritvale-localization\scripts\Invoke-SpiritValeLocalizationLoop.ps1'
 $payloadPath = Join-Path $RepositoryRoot '.codex-localization-tools\installer\Build-Payload.ps1'
 $patchServicePath = Join-Path $RepositoryRoot '.codex-localization-tools\installer\PatchService.cs'
+$pluginSourcePath = Join-Path $RepositoryRoot '.codex-localization-tools\SpiritVale.RuntimeLocalization\RuntimeLocalizationPlugin.cs'
 $pluginProjectPath = Join-Path $RepositoryRoot '.codex-localization-tools\SpiritVale.RuntimeLocalization\SpiritVale.RuntimeLocalization.csproj'
+$marketFanOutRuntimePath = Join-Path $RepositoryRoot '.codex-localization-tools\SpiritVale.RuntimeLocalization\MarketSearchFanOutRuntime.cs'
+$substatRuntimePath = Join-Path $RepositoryRoot '.codex-localization-tools\SpiritVale.RuntimeLocalization\SubstatQualityRuntime.cs'
+$substatPatchesPath = Join-Path $RepositoryRoot '.codex-localization-tools\SpiritVale.RuntimeLocalization\SubstatQualityPatches.cs'
+$bilingualRuntimePath = Join-Path $RepositoryRoot '.codex-localization-tools\SpiritVale.RuntimeLocalization\BilingualDisplayRuntime.cs'
 $failures = New-Object 'System.Collections.Generic.List[string]'
 
 $tokens = $null
@@ -184,6 +189,35 @@ if (-not $compactModeContractMatches) {
     $failures.Add('Installer compact-surface manifest default, payload probe, and active-manifest check must all require EnglishToggle.')
 }
 
+$pluginSource = [System.IO.File]::ReadAllText($pluginSourcePath, $utf8)
+$marketSearchContractMatches =
+    $pluginSource -match 'BridgeVendorItemRequestObject\(\s*PlayerController __instance,\s*SpiritVale\.Vending\.Contracts\.SearchRequest __0,' -and
+    $pluginSource -match 'MarketSearchFanOutRuntime\.TryDispatch\('
+if (-not $marketSearchContractMatches) {
+    $failures.Add('Market search patch must support the current strongly typed SearchRequest fan-out contract.')
+}
+
+$marketFanOutRuntimeSource = [System.IO.File]::ReadAllText($marketFanOutRuntimePath, $utf8)
+if ($marketFanOutRuntimeSource -notmatch 'internal const int MaximumQueries = 4;' -or
+    $marketFanOutRuntimeSource -notmatch 'queries\.Count > MaximumQueries') {
+    $failures.Add('Market search fan-out must remain bounded to at most four server requests.')
+}
+
+$substatRuntimeSource = [System.IO.File]::ReadAllText($substatRuntimePath, $utf8)
+$substatPatchesSource = [System.IO.File]::ReadAllText($substatPatchesPath, $utf8)
+$bilingualRuntimeSource = [System.IO.File]::ReadAllText($bilingualRuntimePath, $utf8)
+if ($substatRuntimeSource -notmatch 'SpiritValeSubstatHUD' -or
+    $substatRuntimeSource -notmatch 'CacheCapacity = 4096') {
+    $failures.Add('Integrated substat HUD must yield to the standalone plugin and keep its evaluation cache bounded.')
+}
+if ($substatPatchesSource -match 'showingSubstatRange|UIItemPopup') {
+    $failures.Add('Integrated substat HUD must not force the game range-display state machine or its per-frame redraw path.')
+}
+if ($bilingualRuntimeSource -notmatch 'InventoryNameMarkerText\.PreserveMarker' -or
+    $bilingualRuntimeSource -notmatch 'InventoryNameMarkerText\.Strip') {
+    $failures.Add('Bilingual display ownership must preserve and recognize inventory quality markers.')
+}
+
 $debugTypeOutput = & dotnet msbuild $pluginProjectPath -nologo -p:Configuration=Release -getProperty:DebugType 2>&1 | Out-String
 if ($LASTEXITCODE -ne 0) {
     throw "Failed to evaluate the release plugin DebugType: $debugTypeOutput"
@@ -209,4 +243,4 @@ if ($failures.Count -gt 0) {
     throw "Agent loop safety tests failed: $($failures.Count)"
 }
 
-Write-Output 'Agent loop safety tests passed: 7'
+Write-Output 'Agent loop safety tests passed: 12'

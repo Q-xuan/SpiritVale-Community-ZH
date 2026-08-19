@@ -10,5 +10,6 @@
     <Compile Include="..\SpiritVale.RuntimeLocalization\RuntimeTextTranslator.cs" Link="RuntimeTextTranslator.cs" />
     <Compile Include="..\SpiritVale.RuntimeLocalization\TmpTextContextResolver.cs" Link="TmpTextContextResolver.cs" />
     <Compile Include="..\SpiritVale.RuntimeLocalization\MarketSearchQueryBridge.cs" Link="MarketSearchQueryBridge.cs" />
+    <Compile Include="..\SpiritVale.RuntimeLocalization\SubstatQualityCalculator.cs" Link="SubstatQualityCalculator.cs" />
   </ItemGroup>
 </Project>

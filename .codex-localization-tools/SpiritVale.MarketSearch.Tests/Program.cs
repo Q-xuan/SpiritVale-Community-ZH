@@ -16,6 +16,53 @@ var passed = 0;
 Check("catalog has 2558 canonical entries", rows.Count == 2558);
 Check("catalog has 1948 unique market source names", rows.Select(row => row.Source).Distinct(StringComparer.Ordinal).Count() == 1948);
 
+var partialPlanOutcome = bridge.TryCreateFanOutPlan(
+    MarketSearchQueryBridge.SupportedPlayerType,
+    MarketSearchQueryBridge.SupportedPlayerRequestMethod,
+    "亚",
+    4,
+    out var partialPlan);
+Check("ambiguous Chinese partial query produces a bounded exact-query plan",
+    partialPlanOutcome == MarketSearchFanOutOutcome.Ready &&
+    partialPlan.Select(entry => entry.Query).SequenceEqual(new[] { "Flax", "Tobiano Horse" }) &&
+    partialPlan.SelectMany(entry => entry.Identities).ToHashSet()
+        .SetEquals(new[] { Id("Junk", "Flax"), Id("Cosmetic", "Horse_Tobiano") }));
+
+var broadBridge = new MarketSearchQueryBridge(
+    Enumerable.Range(1, 5)
+        .Select(index => new MarketSearchCatalogEntry(
+            "Junk",
+            "Broad" + index,
+            "Broad " + index,
+            "矿物" + index,
+            Array.Empty<string>())));
+var broadPlanOutcome = broadBridge.TryCreateFanOutPlan(
+    MarketSearchQueryBridge.SupportedPlayerType,
+    MarketSearchQueryBridge.SupportedPlayerRequestMethod,
+    "矿",
+    4,
+    out var broadPlan);
+Check("Chinese partial query exceeding the fan-out limit is rejected",
+    broadPlanOutcome == MarketSearchFanOutOutcome.TooBroad && broadPlan.Count == 0);
+
+var englishPlanOutcome = bridge.TryCreateFanOutPlan(
+    MarketSearchQueryBridge.SupportedPlayerType,
+    MarketSearchQueryBridge.SupportedPlayerRequestMethod,
+    "Flax",
+    4,
+    out var englishPlan);
+Check("English query remains game-owned by the fan-out planner",
+    englishPlanOutcome == MarketSearchFanOutOutcome.Unchanged && englishPlan.Count == 0);
+
+var unknownPlanOutcome = bridge.TryCreateFanOutPlan(
+    MarketSearchQueryBridge.SupportedPlayerType,
+    MarketSearchQueryBridge.SupportedPlayerRequestMethod,
+    "绝对不存在的市场物品",
+    4,
+    out var unknownPlan);
+Check("unknown Chinese query produces no fan-out requests",
+    unknownPlanOutcome == MarketSearchFanOutOutcome.NoMatch && unknownPlan.Count == 0);
+
 var goldByChinese = Resolve("金");
 Check("single Chinese 金 includes Gold Ore", goldByChinese.Contains(Id("Junk", "Gold Ore")));
 var goldByAlias = Resolve("黄金");

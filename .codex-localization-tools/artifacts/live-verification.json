@@ -1,24 +1,24 @@
 {
     "schema_version":  1,
-    "recorded_at_utc":  "2026-08-08T13:22:14.2387305Z",
+    "recorded_at_utc":  "2026-08-18T08:16:29.1227330Z",
     "cold_starts":  2,
-    "steam_build_id":  "24534566",
-    "game_assembly_sha256":  "96E94DD0547EF1CCCCEFCC47B474C3D7D023EC4C61711BEFBEA29A8FB14BA19A",
-    "metadata_sha256":  "36C657D58ED729F76E0948434F1F64C65EF7ED055217440959F748057C8E4060",
-    "interop_hash":  "b5e6cf962fc9c1a03420f35e48f3ec52",
-    "source_bundle_sha256":  "C1B58C3D45D8FA529B7421432B7508CBA8CB5DB5EFE0A4A560AD0B7E276FCBB5",
+    "steam_build_id":  "24773178",
+    "game_assembly_sha256":  "AED8FEDEC6B96B1300325E7666B4738A92892F781799BF800230184D92D9D701",
+    "metadata_sha256":  "EAD8491EC99DB33FE12D85EB81A1A5E5B078DDFB061F33BCABA82F7DB5B829E4",
+    "interop_hash":  "8517ea73e8d4a22f7554b52e5038f1b6",
+    "source_bundle_sha256":  "4065DB32E7974812B2A95AB08123BAB1FA443C10EDB2FC6887B9E0040823D466",
     "source_raw_sha256":  "20B30D0C2E8AEC9229FA20276B220B297BF5DF71DBF3A3C4CFC4EE392962E3B0",
-    "sharedassets_sha256":  "FE31D935F9F7874DD1567F4EB555457F865A9105F9F43CDDA693325B4391BC43",
-    "skill_alias_audit_sha256":  "D72E9609053CD4BFB8690B458E21B88AE5C21BB6964ED3879E959B72C9F60934",
-    "runtime_name_audit_sha256":  "AD27B314C815BE91F7CB6A93295065DF6E2D9F6AD57539623793E74116640FD1",
-    "patch_version":  "1.2.31",
-    "plugin_sha256":  "1228DCD92692FFAFE96FDB16567EE63EC3C629B56EE58DB54915B6E1C57BF852",
-    "dictionary_sha256":  "0D54D57FAE1A1700D715388A561F352B2241DB7490ECF7733B4D2456F8D6288A",
-    "bilingual_catalog_sha256":  "2C6567A63A6704B576CF1A5FFBD1CC1722CC70B74CCDD030C52DD3F7C52F9DC3",
-    "bilingual_catalog_audit_sha256":  "69ADB1359E09B5959D0606B237D1F3C41EC89899A789EDE58048236C55B5F941",
-    "bilingual_catalog_rows":  3615,
-    "translation_count":  5224,
-    "log_sha256":  "7C3AF0BCE33432CDB7656282A9E44C0598EFF8777BBB5E6D9D5A3E662F1F0B20",
+    "sharedassets_sha256":  "A81F795DF91DF98D90524DE0424E30A981F6AEC2AB0207550A6CA1FF52A1A92D",
+    "skill_alias_audit_sha256":  "7639E05BB9D60525B767557A4DD8179125675C08AAB4FEE16D426DF7C13E648F",
+    "runtime_name_audit_sha256":  "E4E37089C780C388E30EF9C87BA66163D797B2F52901E1E0770E1C4AC9333EDE",
+    "patch_version":  "1.2.34",
+    "plugin_sha256":  "339CA1E687852126DC2348070D2C094D9CBA5ED52C4C6A061053E6A35E02B8F9",
+    "dictionary_sha256":  "BAFBCD4BF3EB1E4C49D5EA2C1AB513FDEFBD7E1FF0C2375EFC03D612F2041CE3",
+    "bilingual_catalog_sha256":  "590231BEF2F1082E6F245EF1A96A5184CC0B16BF6233CE07D1019692DAD567CE",
+    "bilingual_catalog_audit_sha256":  "97B05787FC58226E2A8113443E44BEE730BC4FC9157E29744B32D9A3D4AB3906",
+    "bilingual_catalog_rows":  3624,
+    "translation_count":  5229,
+    "log_sha256":  "449BEBAC2AA64E329D79298C9DF038F94939BEB0E4935A034CAD8918FCA63C2D",
     "runtime_untranslated_log_sha256":  "9942ACA4395CAD510A6F468AAE37CEDAD8B83437A9008EAD27E2A1C96EDFA190",
     "verified_surfaces":  [
                               "server-list",
@@ -35,8 +35,40 @@
                           ],
     "evidence":  [
                      {
-                         "path":  "E:\\SteamLibrary\\steamapps\\common\\SpiritVale\\.codex-localization-tools\\artifacts\\1.2.31-cold1-server.png",
-                         "sha256":  "5E331C58C5BD8E1594E637C0E5EAC53E9E1ED2A1E0CC4DF24C5E573CF6A788D5"
+                         "path":  "E:\\SteamLibrary\\steamapps\\common\\SpiritVale\\.codex-localization-tools\\artifacts\\1.2.34-cold1-server.jpg",
+                         "sha256":  "EC70E61AC25C1CFA386FE0A6540309C2743AD2300D38B3236BCDC141B3225E24"
+                     },
+                     {
+                         "path":  "E:\\SteamLibrary\\steamapps\\common\\SpiritVale\\.codex-localization-tools\\artifacts\\1.2.34-cold1-character.jpg",
+                         "sha256":  "93DFC6F86D5A0F30DE295374C317DA797E1C34FE6F194CEC9BCACAD10C648056"
+                     },
+                     {
+                         "path":  "E:\\SteamLibrary\\steamapps\\common\\SpiritVale\\.codex-localization-tools\\artifacts\\1.2.34-cold1-inventory-english-toggle.jpg",
+                         "sha256":  "E57969AF9ACA9D71481DE6194A776EE0D5AE950AAA6B04C4EA2F1D9E128BD786"
+                     },
+                     {
+                         "path":  "E:\\SteamLibrary\\steamapps\\common\\SpiritVale\\.codex-localization-tools\\artifacts\\1.2.34-cold1-bilingual-details.jpg",
+                         "sha256":  "444BB858AA0187C8AB12C92C9756401B4FB2303C0029EFF6CB4FFE094F2CF8E2"
+                     },
+                     {
+                         "path":  "E:\\SteamLibrary\\steamapps\\common\\SpiritVale\\.codex-localization-tools\\artifacts\\1.2.34-cold2-hud.jpg",
+                         "sha256":  "3B9BDCB9C3F4D0181A4619B87F3B8537FFA7915D696D89A668A344CD05DBCC2D"
+                     },
+                     {
+                         "path":  "E:\\SteamLibrary\\steamapps\\common\\SpiritVale\\.codex-localization-tools\\artifacts\\1.2.34-cold2-skills.jpg",
+                         "sha256":  "AFCCAF8E285AE12B464E61103BBE511C3E2931EAAA68F5A7ABD4D28FAC39474F"
+                     },
+                     {
+                         "path":  "E:\\SteamLibrary\\steamapps\\common\\SpiritVale\\.codex-localization-tools\\artifacts\\1.2.34-release-market-cn-search.jpg",
+                         "sha256":  "CDEE167F04B1F09C987BE4EEB7DDD1B80B2B38F267ED0EF3404EE162F427E99F"
+                     },
+                     {
+                         "path":  "E:\\SteamLibrary\\steamapps\\common\\SpiritVale\\.codex-localization-tools\\artifacts\\1.2.34-release-map.jpg",
+                         "sha256":  "69180FA15D1343D77EE72096A5634AA15B264DED13FDE867B9A5EC6C0D4F9E27"
+                     },
+                     {
+                         "path":  "E:\\SteamLibrary\\steamapps\\common\\SpiritVale\\.codex-localization-tools\\artifacts\\1.2.34-release-settings.jpg",
+                         "sha256":  "E77AB8D9A2C0B506ED9219375B55384B1690706F724526AFEC800111F6E5E282"
                      }
                  ]
 }

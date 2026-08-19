@@ -17,6 +17,12 @@ HarmonyX
 Source: https://github.com/BepInEx/HarmonyX
 License: MIT
 
+SpiritVale Substat HUD design reference
+Source: https://github.com/sky919247us/SpiritVale-SubstatHUD
+License: MIT
+The patch reimplements its item-quality display concepts inside the shared
+localization runtime; the standalone plugin is not redistributed.
+
 IL2CPP interop components, Cpp2IL, AsmResolver, MonoMod and other dependencies
 are distributed as part of the official BepInEx build. Their source and
 license information are available from the BepInEx repository and release

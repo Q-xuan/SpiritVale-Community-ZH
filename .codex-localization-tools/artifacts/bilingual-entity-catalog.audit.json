@@ -1,27 +1,27 @@
 {
   "schema_version": 1,
-  "steam_build_id": "24534566",
-  "game_assembly_sha256": "96E94DD0547EF1CCCCEFCC47B474C3D7D023EC4C61711BEFBEA29A8FB14BA19A",
-  "metadata_sha256": "36C657D58ED729F76E0948434F1F64C65EF7ED055217440959F748057C8E4060",
-  "source_bundle_sha256": "C1B58C3D45D8FA529B7421432B7508CBA8CB5DB5EFE0A4A560AD0B7E276FCBB5",
-  "sharedassets_sha256": "FE31D935F9F7874DD1567F4EB555457F865A9105F9F43CDDA693325B4391BC43",
+  "steam_build_id": "24773178",
+  "game_assembly_sha256": "AED8FEDEC6B96B1300325E7666B4738A92892F781799BF800230184D92D9D701",
+  "metadata_sha256": "EAD8491EC99DB33FE12D85EB81A1A5E5B078DDFB061F33BCABA82F7DB5B829E4",
+  "source_bundle_sha256": "4065DB32E7974812B2A95AB08123BAB1FA443C10EDB2FC6887B9E0040823D466",
+  "sharedassets_sha256": "A81F795DF91DF98D90524DE0424E30A981F6AEC2AB0207550A6CA1FF52A1A92D",
   "source_snapshot_name": "source-snapshot.json",
-  "source_snapshot_sha256": "028C37BB6F0D1568E73D15DA7EBDB63477FD28A632EDBA4465610AD0B6B20AB3",
+  "source_snapshot_sha256": "0171308C358B5D745D0D973FC5DC9F38EB34420009612A1DF0CFCF369B526D8D",
   "runtime_names_name": "runtime-name-aliases.tsv",
-  "runtime_names_sha256": "810D862679D75C248A2862985BECA377CA30A4A2922EE5D5E97FF200AA5B481A",
+  "runtime_names_sha256": "8DF0EA3AC50C35E4B2729E17FEDCC408DD158E192481756DA0774DB508D92B5D",
   "runtime_names_summary_name": "runtime-name-aliases.json",
-  "runtime_names_summary_sha256": "AD27B314C815BE91F7CB6A93295065DF6E2D9F6AD57539623793E74116640FD1",
+  "runtime_names_summary_sha256": "E4E37089C780C388E30EF9C87BA66163D797B2F52901E1E0770E1C4AC9333EDE",
   "skill_aliases_name": "runtime-skill-aliases.tsv",
   "skill_aliases_sha256": "ECE6994711036540B9CCA77C34522E6F02E8DD8938968940A3EB193D51E4ECE9",
   "skill_aliases_summary_name": "runtime-skill-aliases.json",
-  "skill_aliases_summary_sha256": "D72E9609053CD4BFB8690B458E21B88AE5C21BB6964ED3879E959B72C9F60934",
+  "skill_aliases_summary_sha256": "7639E05BB9D60525B767557A4DD8179125675C08AAB4FEE16D426DF7C13E648F",
   "dictionary_name": "translations.tsv",
-  "dictionary_sha256": "0D54D57FAE1A1700D715388A561F352B2241DB7490ECF7733B4D2456F8D6288A",
+  "dictionary_sha256": "BAFBCD4BF3EB1E4C49D5EA2C1AB513FDEFBD7E1FF0C2375EFC03D612F2041CE3",
   "map_manifest_name": "bilingual-map-entities.json",
   "map_manifest_sha256": "82CCD8323CD41DFE89C7F2B9EBEE5966800E93D05DB24242247412AC0E9424E6",
   "catalog_name": "bilingual-entity-catalog.tsv",
-  "catalog_sha256": "2C6567A63A6704B576CF1A5FFBD1CC1722CC70B74CCDD030C52DD3F7C52F9DC3",
-  "catalog_rows": 3615,
+  "catalog_sha256": "590231BEF2F1082E6F245EF1A96A5184CC0B16BF6233CE07D1019692DAD567CE",
+  "catalog_rows": 3624,
   "category_coverage": {
     "Item": {
       "expected": 683,
@@ -29,13 +29,13 @@
       "missing": 0
     },
     "Equip": {
-      "expected": 1482,
-      "covered": 1482,
+      "expected": 1486,
+      "covered": 1486,
       "missing": 0
     },
     "Artifact": {
-      "expected": 65,
-      "covered": 65,
+      "expected": 66,
+      "covered": 66,
       "missing": 0
     },
     "Gem": {
@@ -49,8 +49,8 @@
       "missing": 0
     },
     "SkillPassive": {
-      "expected": 119,
-      "covered": 119,
+      "expected": 123,
+      "covered": 123,
       "missing": 0
     },
     "Monster": {
@@ -75,9 +75,9 @@
     "source-snapshot": 2952
   },
   "compact_policy_counts": {
-    "english-on-hold": 3615
+    "english-on-hold": 3624
   },
-  "cross_category_source_groups": 561,
+  "cross_category_source_groups": 565,
   "cross_category_source_samples": [
     {
       "source": "Abomination Card",
@@ -453,6 +453,13 @@
       ]
     },
     {
+      "source": "Blitz Release",
+      "categories": [
+        "Equip",
+        "SkillPassive"
+      ]
+    },
+    {
       "source": "Bloodfury",
       "categories": [
         "Equip",
@@ -744,6 +751,13 @@
       ]
     },
     {
+      "source": "Chain Step",
+      "categories": [
+        "Equip",
+        "SkillPassive"
+      ]
+    },
+    {
       "source": "Chest Mimic Card",
       "categories": [
         "Item",
@@ -783,21 +797,6 @@
     {
       "source": "Chick",
       "categories": [
-        "Equip",
-        "Monster"
-      ]
-    },
-    {
-      "source": "Chompbloom Card",
-      "categories": [
-        "Item",
-        "Monster"
-      ]
-    },
-    {
-      "source": "Chompcap Card",
-      "categories": [
-        "Item",
         "Equip",
         "Monster"
       ]
@@ -1508,7 +1507,7 @@
       ]
     }
   ],
-  "identity_source_variant_groups": 647,
+  "identity_source_variant_groups": 654,
   "identity_source_variant_samples": [
     {
       "category": "Artifact",
@@ -1532,6 +1531,14 @@
       "sources": [
         "Arcanum Verge",
         "Evercast"
+      ]
+    },
+    {
+      "category": "Artifact",
+      "identity": "Gunslinger_1",
+      "sources": [
+        "Deadeye",
+        "Loadout Rhythm"
       ]
     },
     {
@@ -1596,7 +1603,7 @@
       "category": "Artifact",
       "identity": "Shinobi_1",
       "sources": [
-        "Silent Execution",
+        "Mirror Image",
         "Umbral Veil"
       ]
     },
@@ -2340,16 +2347,6 @@
         "Frost Wyvern Card",
         "Frost Wyvern Mount",
         "Snowwyrm Mount"
-      ]
-    },
-    {
-      "category": "Equip",
-      "identity": "Dragon Darkness",
-      "sources": [
-        "Noctwyrm Mount",
-        "Shadow Wyvern",
-        "Shadow Wyvern Card",
-        "Shadow Wyvern Mount"
       ]
     }
   ],

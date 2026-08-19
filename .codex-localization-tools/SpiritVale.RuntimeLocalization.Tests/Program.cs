@@ -1381,6 +1381,52 @@ foreach (var protectedSurface in new[]
         protectedSurface.Item2);
 }
 
+var completeQualityCreated = SubstatQualityCalculator.TryCreate(
+    SubstatQualityCalculator.NormalizeRoll(100f) +
+    SubstatQualityCalculator.NormalizeRoll(50f) +
+    SubstatQualityCalculator.NormalizeRoll(0f),
+    3,
+    2,
+    3,
+    out var completeQuality);
+CheckCondition(
+    "substat quality uses complete displayed maximum data",
+    completeQualityCreated &&
+    completeQuality.DisplayedMaximumValid &&
+    Math.Abs(completeQuality.RollAverage - 0.5f) < 0.0001f &&
+    Math.Abs(completeQuality.GetScore(true) - (2f / 3f)) < 0.0001f);
+CheckCondition(
+    "substat quality falls back to roll when displayed data is incomplete",
+    SubstatQualityCalculator.TryCreate(1.5f, 3, 2, 2, out var partialQuality) &&
+    !partialQuality.DisplayedMaximumValid &&
+    Math.Abs(partialQuality.GetScore(true) - 0.5f) < 0.0001f);
+CheckCondition(
+    "substat maximum supports reversed debuff ranges",
+    SubstatQualityCalculator.IsDisplayedMaximum(-10f, -7f, -10f) &&
+    !SubstatQualityCalculator.IsDisplayedMaximum(-9f, -7f, -10f));
+CheckCondition(
+    "substat roll normalization clamps runtime percentiles",
+    SubstatQualityCalculator.NormalizeRoll(-20f) == 0f &&
+    SubstatQualityCalculator.NormalizeRoll(50f) == 0.5f &&
+    SubstatQualityCalculator.NormalizeRoll(140f) == 1f);
+CheckCondition(
+    "substat quality thresholds produce stable tiers",
+    SubstatQualityCalculator.Classify(0.49f, 0.5f, 0.75f, 1f) == SubstatQualityTier.None &&
+    SubstatQualityCalculator.Classify(0.5f, 0.5f, 0.75f, 1f) == SubstatQualityTier.OneStar &&
+    SubstatQualityCalculator.Classify(0.75f, 0.5f, 0.75f, 1f) == SubstatQualityTier.TwoStars &&
+    SubstatQualityCalculator.Classify(1f, 0.5f, 0.75f, 1f) == SubstatQualityTier.ThreeStars);
+CheckCondition(
+    "inventory quality marker survives compact English toggles",
+    InventoryNameMarkerText.PreserveMarker("★★ 优质长剑", "Excellent Longsword") ==
+        "★★ Excellent Longsword" &&
+    InventoryNameMarkerText.PreserveMarker("★★ Excellent Longsword", "优质长剑") ==
+        "★★ 优质长剑");
+CheckCondition(
+    "inventory quality marker is replaced instead of stacked",
+    InventoryNameMarkerText.Strip("★★★ ★ 优质长剑") == "★ 优质长剑" &&
+    InventoryNameMarkerText.PreserveMarker("★ 优质长剑", "★★★ Excellent Longsword") ==
+        "★ Excellent Longsword");
+
 CheckIdempotent("恐狼 胸甲");
 CheckIdempotent("<color=Chest>胸甲</color> 胸甲");
 CheckIdempotent("[5小时前] 已将 死灵法师卡片 售予 Deadly Snake，售价 45");

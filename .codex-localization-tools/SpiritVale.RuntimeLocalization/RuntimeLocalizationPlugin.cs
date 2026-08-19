@@ -21,7 +21,7 @@ public sealed class RuntimeLocalizationPlugin : BasePlugin
 {
     public const string PluginGuid = "local.spiritvale.runtime-localization";
     public const string PluginName = "SpiritVale Runtime Localization";
-    public const string PluginVersion = "1.2.31";
+    public const string PluginVersion = "1.2.34";
     private Harmony _harmony;
     private readonly HashSet<MethodInfo> _patchedMethods = new HashSet<MethodInfo>();
     private bool _marketSearchPatched;
@@ -95,6 +95,7 @@ public sealed class RuntimeLocalizationPlugin : BasePlugin
             compactSurfaceMode,
             englishToggleKey,
             warning => Log.LogWarning((object)warning));
+        SubstatQualityHud.Initialize(Config, Log);
         RuntimeDiagnostics.Initialize(Log, diagnosticsEnabled);
         _harmony = new Harmony(PluginGuid);
 
@@ -127,8 +128,22 @@ public sealed class RuntimeLocalizationPlugin : BasePlugin
 
         patched += TryPatchFeature("Loc dyn.scaling_per_stat formatter", TryPatchDynamicScalingFormat);
         patched += TryPatchFeature("Extensions equip description producer", TryPatchEquipDescriptionProducer);
+        if (SubstatQualityHud.TooltipSummaryEnabled)
+        {
+            patched += TryPatchFeature(
+                "Extensions artifact quality summary producer",
+                TryPatchArtifactDescriptionProducer);
+        }
         patched += TryPatchFeature("UIUnitStatus monster nameplate producer", TryPatchMonsterNameplateProducer);
         patched += TryPatchFeature("PlayerController market request bridge", TryPatchMarketSearch);
+        if (SubstatQualityHud.InventoryMarkersEnabled ||
+            entityNameMode == DisplayMode.Bilingual ||
+            compactSurfaceMode == CompactSurfaceMode.EnglishToggle)
+        {
+            patched += TryPatchFeature(
+                "shared inventory display producer",
+                TryPatchInventoryDisplayProducer);
+        }
         if (entityNameMode == DisplayMode.Bilingual ||
             compactSurfaceMode == CompactSurfaceMode.EnglishToggle)
         {
@@ -262,8 +277,27 @@ public sealed class RuntimeLocalizationPlugin : BasePlugin
                 typeof(Extensions),
                 "ToDescription",
                 new[] { typeof(EquipData), typeof(EquipConfig), typeof(bool), typeof(bool) }),
-            typeof(TextTranslationPatches),
-            nameof(TextTranslationPatches.CanonicalizeEquipDescription));
+            typeof(EquipDescriptionPatches),
+            nameof(EquipDescriptionPatches.CanonicalizeAndAppendSummary));
+    }
+
+    private int TryPatchArtifactDescriptionProducer()
+    {
+        var method = AccessTools.GetDeclaredMethods(typeof(Extensions))
+            .FirstOrDefault(candidate =>
+            {
+                if (!string.Equals(candidate.Name, "ToDescription", StringComparison.Ordinal) ||
+                    candidate.ReturnType != typeof(string))
+                {
+                    return false;
+                }
+                var parameters = candidate.GetParameters();
+                return parameters.Length > 0 && parameters[0].ParameterType == typeof(ArtifactData);
+            });
+        return PatchPostfix(
+            method,
+            typeof(SubstatQualityPatches),
+            nameof(SubstatQualityPatches.AppendArtifactSummary));
     }
 
     private int TryPatchMonsterNameplateProducer()
@@ -277,13 +311,6 @@ public sealed class RuntimeLocalizationPlugin : BasePlugin
     private int TryPatchBilingualEntityProducers()
     {
         var patched = 0;
-        patched += PatchPostfix(
-            AccessTools.Method(
-                typeof(UIInventoryItem),
-                "Draw",
-                new[] { typeof(IInfoDrawable), typeof(bool) }),
-            typeof(BilingualDisplayProducerPatches),
-            nameof(BilingualDisplayProducerPatches.RegisterInventoryDrawable));
         patched += PatchPostfix(
             AccessTools.Method(
                 typeof(UIInventoryItem),
@@ -334,6 +361,17 @@ public sealed class RuntimeLocalizationPlugin : BasePlugin
         return patched;
     }
 
+    private int TryPatchInventoryDisplayProducer()
+    {
+        return PatchPostfix(
+            AccessTools.Method(
+                typeof(UIInventoryItem),
+                "Draw",
+                new[] { typeof(IInfoDrawable), typeof(bool) }),
+            typeof(InventoryDisplayPatches),
+            nameof(InventoryDisplayPatches.RegisterInventoryDrawable));
+    }
+
     private int TryPatchBilingualKeyPoll()
     {
         return PatchPostfix(
@@ -352,6 +390,21 @@ public sealed class RuntimeLocalizationPlugin : BasePlugin
         var prefix = AccessTools.Method(
             typeof(MarketSearchPatches),
             nameof(MarketSearchPatches.BridgeVendorItemRequest));
+        _harmony.Patch(method, prefix: new HarmonyMethod(prefix));
+        _patchedMethods.Add(method);
+        return 1;
+    }
+
+    private int PatchMarketSearchRequest(MethodInfo method)
+    {
+        if (method == null || _patchedMethods.Contains(method))
+        {
+            return 0;
+        }
+
+        var prefix = AccessTools.Method(
+            typeof(MarketSearchPatches),
+            nameof(MarketSearchPatches.BridgeVendorItemRequestObject));
         _harmony.Patch(method, prefix: new HarmonyMethod(prefix));
         _patchedMethods.Add(method);
         return 1;
@@ -394,6 +447,7 @@ public sealed class RuntimeLocalizationPlugin : BasePlugin
         }
 
         MethodInfo requestMethod = null;
+        var requestUsesSearchRequest = false;
         foreach (var candidate in AccessTools.GetDeclaredMethods(playerControllerType))
         {
             if (!string.Equals(
@@ -405,11 +459,40 @@ public sealed class RuntimeLocalizationPlugin : BasePlugin
             }
 
             var parameters = candidate.GetParameters();
-            if (parameters.Length == 2 && parameters[0].ParameterType == typeof(string))
+            if (parameters.Length != 2)
+            {
+                continue;
+            }
+
+            if (parameters[0].ParameterType == typeof(string))
             {
                 requestMethod = candidate;
+                requestUsesSearchRequest = false;
                 break;
             }
+
+            if (!string.Equals(
+                    parameters[0].ParameterType.FullName,
+                    "SpiritVale.Vending.Contracts.SearchRequest",
+                    StringComparison.Ordinal))
+            {
+                continue;
+            }
+
+            var queryProperty = parameters[0].ParameterType.GetProperty(
+                "Query",
+                BindingFlags.Public | BindingFlags.Instance);
+            if (queryProperty == null ||
+                queryProperty.PropertyType != typeof(string) ||
+                !queryProperty.CanRead ||
+                !queryProperty.CanWrite)
+            {
+                continue;
+            }
+
+            requestMethod = candidate;
+            requestUsesSearchRequest = true;
+            break;
         }
         if (requestMethod == null)
         {
@@ -425,12 +508,16 @@ public sealed class RuntimeLocalizationPlugin : BasePlugin
             return 0;
         }
 
-        var patched = PatchMarketSearch(requestMethod);
+        var patched = requestUsesSearchRequest
+            ? PatchMarketSearchRequest(requestMethod)
+            : PatchMarketSearch(requestMethod);
         _marketSearchPatched = _patchedMethods.Contains(requestMethod);
         if (_marketSearchPatched)
         {
             Log.LogInfo((object)
-                "Chinese market request bridge patched only the PlayerController wire filter; callbacks remain game-owned.");
+                (requestUsesSearchRequest
+                    ? "Chinese market request bridge patched SearchRequest.Query at the PlayerController wire boundary; callbacks remain game-owned."
+                    : "Chinese market request bridge patched only the PlayerController wire filter; callbacks remain game-owned."));
         }
         return patched;
     }
@@ -507,10 +594,24 @@ public sealed class RuntimeLocalizationPlugin : BasePlugin
         var vendingType = gameAssembly.GetType("UIVendingSearch", throwOnError: false);
         if (vendingType != null)
         {
-            patched += PatchDiagnostic(
-                AccessTools.Method(vendingType, "Search", new[] { typeof(string), typeof(bool) }),
-                nameof(RuntimeDiagnostics.ObserveSearch),
-                "UIVendingSearch.Search");
+            var legacySearch = AccessTools.Method(
+                vendingType,
+                "Search",
+                new[] { typeof(string), typeof(bool) });
+            if (legacySearch != null)
+            {
+                patched += PatchDiagnostic(
+                    legacySearch,
+                    nameof(RuntimeDiagnostics.ObserveSearch),
+                    "UIVendingSearch.Search");
+            }
+            else
+            {
+                patched += PatchDiagnostic(
+                    AccessTools.Method(vendingType, "Search", new[] { typeof(bool) }),
+                    nameof(RuntimeDiagnostics.ObserveSearchCurrent),
+                    "UIVendingSearch.Search");
+            }
             patched += PatchDiagnostic(
                 AccessTools.Method(vendingType, "LateUpdate"),
                 nameof(RuntimeDiagnostics.ObserveSearchLateUpdate),
@@ -611,9 +712,11 @@ public sealed class RuntimeLocalizationPlugin : BasePlugin
 internal static class MarketSearchPatches
 {
     private static MarketSearchQueryBridge _bridge;
+    private static MarketSearchQueryBridge _catalogBridge;
     private static ManualLogSource _log;
     private static bool _translatedReported;
     private static bool _ambiguousReported;
+    private static bool _fanOutReported;
     private static bool _failureReported;
 
     internal static bool IsConfigured => _bridge != null;
@@ -623,10 +726,12 @@ internal static class MarketSearchPatches
         _log = log;
         _translatedReported = false;
         _ambiguousReported = false;
+        _fanOutReported = false;
         _failureReported = false;
         if (catalog.MarketSearchTranslations.Count == 0)
         {
             _bridge = null;
+            _catalogBridge = null;
             _log.LogWarning((object)
                 "Chinese market request bridge is unavailable; market queries will use the original game filter.");
             return;
@@ -636,13 +741,88 @@ internal static class MarketSearchPatches
             catalog.ItemBaseTranslations,
             catalog.MarketSearchTranslations,
             catalog.MarketSearchKeywordTranslations);
+        _catalogBridge = new MarketSearchQueryBridge(catalog.MarketSearchEntries);
     }
 
     public static void BridgeVendorItemRequest(ref string __0)
     {
-        if (_bridge == null || string.IsNullOrEmpty(__0) || !CjkText.ContainsCjk(__0))
+        var outcome = TryTranslateVendorQuery(__0, out var bridged);
+        if (outcome == MarketSearchBridgeOutcome.Translated)
         {
-            return;
+            __0 = bridged;
+        }
+        else if (outcome == MarketSearchBridgeOutcome.Ambiguous)
+        {
+            ReportAmbiguous(MarketSearchFanOutOutcome.Unchanged);
+        }
+    }
+
+    public static bool BridgeVendorItemRequestObject(
+        PlayerController __instance,
+        SpiritVale.Vending.Contracts.SearchRequest __0,
+        ref Il2CppSystem.Action<VendingManager.VendingSearchPage> __1)
+    {
+        if (_bridge == null || __0 == null)
+        {
+            return true;
+        }
+
+        try
+        {
+            var query = __0.Query;
+            var outcome = TryTranslateVendorQuery(query, out var bridged);
+            if (outcome == MarketSearchBridgeOutcome.Translated)
+            {
+                __0.Query = bridged;
+                return true;
+            }
+
+            if (outcome != MarketSearchBridgeOutcome.Ambiguous || _catalogBridge == null)
+            {
+                return true;
+            }
+
+            var planOutcome = _catalogBridge.TryCreateFanOutPlan(
+                MarketSearchQueryBridge.SupportedPlayerType,
+                MarketSearchQueryBridge.SupportedPlayerRequestMethod,
+                query,
+                MarketSearchFanOutRuntime.MaximumQueries,
+                out var queries);
+            if (planOutcome == MarketSearchFanOutOutcome.Ready &&
+                MarketSearchFanOutRuntime.TryDispatch(
+                    __instance,
+                    __0,
+                    __1,
+                    queries,
+                    _log))
+            {
+                if (!_fanOutReported)
+                {
+                    _fanOutReported = true;
+                    _log.LogInfo((object)(
+                        "Chinese market request expanded a bounded ambiguous filter into " +
+                        queries.Count + " exact server queries."));
+                }
+                return false;
+            }
+
+            ReportAmbiguous(planOutcome);
+        }
+        catch (Exception exception)
+        {
+            FailOpen(exception.GetType().Name + ": " + exception.Message);
+        }
+        return true;
+    }
+
+    private static MarketSearchBridgeOutcome TryTranslateVendorQuery(
+        string query,
+        out string bridged)
+    {
+        bridged = query ?? string.Empty;
+        if (_bridge == null || string.IsNullOrEmpty(query) || !CjkText.ContainsCjk(query))
+        {
+            return MarketSearchBridgeOutcome.Unchanged;
         }
 
         try
@@ -650,30 +830,36 @@ internal static class MarketSearchPatches
             var outcome = _bridge.TryBridge(
                 MarketSearchQueryBridge.SupportedPlayerType,
                 MarketSearchQueryBridge.SupportedPlayerRequestMethod,
-                __0,
-                out var bridged);
-            if (outcome == MarketSearchBridgeOutcome.Translated)
+                query,
+                out bridged);
+            if (outcome == MarketSearchBridgeOutcome.Translated && !_translatedReported)
             {
-                __0 = bridged;
-                if (!_translatedReported)
-                {
-                    _translatedReported = true;
-                    _log.LogInfo((object)
-                        "Chinese market request bridge translated a CJK filter at the PlayerController wire boundary.");
-                }
-                return;
+                _translatedReported = true;
+                _log.LogInfo((object)
+                    "Chinese market request bridge translated a CJK filter at the PlayerController wire boundary.");
             }
-            if (outcome == MarketSearchBridgeOutcome.Ambiguous && !_ambiguousReported)
-            {
-                _ambiguousReported = true;
-                _log.LogWarning((object)
-                    "Chinese market request was ambiguous and stayed on the original game filter.");
-            }
+            return outcome;
         }
         catch (Exception exception)
         {
             FailOpen(exception.GetType().Name + ": " + exception.Message);
+            return MarketSearchBridgeOutcome.Unchanged;
         }
+    }
+
+    private static void ReportAmbiguous(MarketSearchFanOutOutcome planOutcome)
+    {
+        if (_ambiguousReported)
+        {
+            return;
+        }
+        _ambiguousReported = true;
+        var reason = planOutcome == MarketSearchFanOutOutcome.TooBroad
+            ? " because it exceeded the bounded candidate limit"
+            : string.Empty;
+        _log?.LogWarning((object)(
+            "Chinese market request was ambiguous" + reason +
+            " and stayed on the original game filter."));
     }
 
     private static void FailOpen(string reason)

@@ -65,8 +65,31 @@ internal static class RuntimeDiagnostics
                 " | ",
                 "arg=" + Summarize(__0),
                 "force=" + __1,
-                "current=" + Summarize(__instance.CurrentSearch),
-                "timer=" + __instance.SearchTimer.ToString("0.###", CultureInfo.InvariantCulture),
+                DescribeInput(field));
+            ReportChanged(LastSearchStates, __instance.GetInstanceID(), "P1 Search", state);
+        }
+        catch (Exception exception)
+        {
+            ReportException("P1 Search probe", exception);
+        }
+    }
+
+    internal static void ObserveSearchCurrent(
+        UIVendingSearch __instance,
+        bool __0)
+    {
+        if (__instance == null)
+        {
+            return;
+        }
+
+        try
+        {
+            var field = __instance.SearchField;
+            RegisterMarketField(field);
+            var state = string.Join(
+                " | ",
+                "force=" + __0,
                 DescribeInput(field));
             ReportChanged(LastSearchStates, __instance.GetInstanceID(), "P1 Search", state);
         }
@@ -87,10 +110,7 @@ internal static class RuntimeDiagnostics
         {
             var field = __instance.SearchField;
             RegisterMarketField(field);
-            var state = string.Join(
-                " | ",
-                "current=" + Summarize(__instance.CurrentSearch),
-                DescribeInput(field));
+            var state = DescribeInput(field);
             ReportChanged(LastSearchLateStates, __instance.GetInstanceID(), "P1 UIVendingSearch.LateUpdate", state);
         }
         catch (Exception exception)

@@ -46,9 +46,10 @@ internal static class BilingualDisplayRuntime
 
         internal bool Owns(string value)
         {
-            return string.Equals(value, Values.Chinese, StringComparison.Ordinal) ||
-                string.Equals(value, Values.Bilingual, StringComparison.Ordinal) ||
-                string.Equals(value, Values.English, StringComparison.Ordinal);
+            var comparable = InventoryNameMarkerText.Strip(value);
+            return string.Equals(comparable, Values.Chinese, StringComparison.Ordinal) ||
+                string.Equals(comparable, Values.Bilingual, StringComparison.Ordinal) ||
+                string.Equals(comparable, Values.English, StringComparison.Ordinal);
         }
     }
 
@@ -621,7 +622,7 @@ internal static class BilingualDisplayRuntime
                     registration.Kind == SurfaceKind.Detail,
                     registration.CompactPolicy,
                     _compactEnglishEnabled,
-                    liveText.text))
+                    InventoryNameMarkerText.Strip(liveText.text)))
             {
                 RegisteredSurfaces.Remove(instanceId);
                 return false;
@@ -659,9 +660,11 @@ internal static class BilingualDisplayRuntime
         _mainThreadId = 0;
     }
 
-    private static bool IsEnabled =>
+    internal static bool Enabled =>
         _detailMode == DisplayMode.Bilingual ||
         _compactMode == CompactSurfaceMode.EnglishToggle;
+
+    private static bool IsEnabled => Enabled;
 
     private static bool IsControllerWrite =>
         _registrationDepth != 0 ||
@@ -914,11 +917,22 @@ internal static class BilingualDisplayRuntime
                 : registration.Values.Chinese;
     }
 
-    private static bool TryWrite(TMP_Text text, string desired)
+    internal static bool TryWriteOwnedText(TMP_Text text, string desired)
+    {
+        return TryWrite(text, desired, false);
+    }
+
+    private static bool TryWrite(
+        TMP_Text text,
+        string desired,
+        bool preserveInventoryMarker = true)
     {
         try
         {
-            if (string.Equals(text.text, desired, StringComparison.Ordinal))
+            var target = preserveInventoryMarker
+                ? InventoryNameMarkerText.PreserveMarker(text.text, desired)
+                : desired;
+            if (string.Equals(text.text, target, StringComparison.Ordinal))
             {
                 return true;
             }
@@ -928,9 +942,9 @@ internal static class BilingualDisplayRuntime
             var added = _internalWriteIds.Add(instanceId);
             try
             {
-                TmpFontFallbacks.Ensure(text, desired);
-                text.text = desired;
-                return string.Equals(text.text, desired, StringComparison.Ordinal);
+                TmpFontFallbacks.Ensure(text, target);
+                text.text = target;
+                return string.Equals(text.text, target, StringComparison.Ordinal);
             }
             finally
             {

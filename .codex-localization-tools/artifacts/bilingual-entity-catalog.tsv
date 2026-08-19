@@ -1914,10 +1914,14 @@ Equip	Shell	Conch	海螺	english-on-hold
 Equip	Shell	Conch Card	海螺卡片	english-on-hold
 Equip	Shell	Conch Pet	谢尔伯特宠物	english-on-hold
 Equip	Shell	Shelbert Pet	谢尔伯特宠物	english-on-hold
+Equip	Shinobi_1	Mirror Image	镜像	english-on-hold
 Equip	Shinobi_1	Silent Execution	无声处决	english-on-hold
 Equip	Shinobi_1	Umbral Veil	幽影帷幕	english-on-hold
 Equip	Shinobi_2	Sealed Fate	封印命运	english-on-hold
+Equip	Shinobi_2	Tools of the Trade	专业工具	english-on-hold
+Equip	Shinobi_3	Chain Step	连锁步	english-on-hold
 Equip	Shinobi_3	Honed Technique	磨砺技法	english-on-hold
+Equip	Shinobi_4	Blitz Release	闪击释放	english-on-hold
 Equip	Shinobi_4	Phantom Manuscript	幻影手稿	english-on-hold
 Equip	Shotgun	Shotgun	霰弹枪	english-on-hold
 Equip	Shuriken	Fuma Shuriken	风魔手里剑	english-on-hold
@@ -2180,6 +2184,7 @@ Artifact	Def	Titanplate	泰坦战甲	english-on-hold
 Artifact	Eternis	Eternis	埃特尼斯	english-on-hold
 Artifact	Flee	Shadebound	暗影缚契	english-on-hold
 Artifact	Gunslinger_1	Deadeye	神射手	english-on-hold
+Artifact	Gunslinger_1	Loadout Rhythm	装填节奏	english-on-hold
 Artifact	Healing	Lifebloom	生命绽放	english-on-hold
 Artifact	Hexbrand	Hexbrand	咒术烙印	english-on-hold
 Artifact	Hit	Hawkeye	鹰眼	english-on-hold
@@ -2212,7 +2217,7 @@ Artifact	Rogue	Rogue	盗贼	english-on-hold
 Artifact	Rogue	Silent Death	无声死神	english-on-hold
 Artifact	Scout	Far Sight	远见	english-on-hold
 Artifact	Scout	Scout	斥候	english-on-hold
-Artifact	Shinobi_1	Silent Execution	无声处决	english-on-hold
+Artifact	Shinobi_1	Mirror Image	镜像	english-on-hold
 Artifact	Shinobi_1	Umbral Veil	幽影帷幕	english-on-hold
 Artifact	Summoner	Spirit Pact	灵魂契约	english-on-hold
 Artifact	Summoner	Summoner	召唤师	english-on-hold
@@ -2760,10 +2765,14 @@ SkillPassive	Scout_5	Eagle Eye	雄鹰之眼	english-on-hold
 SkillPassive	ScytheMastery	Scythe Mastery	镰刀精通	english-on-hold
 SkillPassive	ShadowMastery	Shadow Mastery	暗影精通	english-on-hold
 SkillPassive	ShieldMastery	Shield Mastery	盾精通	english-on-hold
+SkillPassive	Shinobi_1	Mirror Image	镜像	english-on-hold
 SkillPassive	Shinobi_1	Silent Execution	无声处决	english-on-hold
 SkillPassive	Shinobi_1	Umbral Veil	幽影帷幕	english-on-hold
 SkillPassive	Shinobi_2	Sealed Fate	封印命运	english-on-hold
+SkillPassive	Shinobi_2	Tools of the Trade	专业工具	english-on-hold
+SkillPassive	Shinobi_3	Chain Step	连锁步	english-on-hold
 SkillPassive	Shinobi_3	Honed Technique	磨砺技法	english-on-hold
+SkillPassive	Shinobi_4	Blitz Release	闪击释放	english-on-hold
 SkillPassive	Shinobi_4	Phantom Manuscript	幻影手稿	english-on-hold
 SkillPassive	SkeletonMastery	Skeleton Mastery	骷髅精通	english-on-hold
 SkillPassive	SpearMastery	Spear Mastery	长矛精通	english-on-hold

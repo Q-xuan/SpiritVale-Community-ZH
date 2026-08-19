@@ -30,6 +30,28 @@ internal enum MarketSearchMergeOutcome
     Merged,
 }
 
+internal enum MarketSearchFanOutOutcome
+{
+    Unchanged,
+    NoMatch,
+    TooBroad,
+    Ready,
+}
+
+internal sealed class MarketSearchFanOutQuery
+{
+    internal MarketSearchFanOutQuery(
+        string query,
+        IReadOnlyCollection<MarketSearchIdentity> identities)
+    {
+        Query = query ?? string.Empty;
+        Identities = identities ?? Array.Empty<MarketSearchIdentity>();
+    }
+
+    internal string Query { get; }
+    internal IReadOnlyCollection<MarketSearchIdentity> Identities { get; }
+}
+
 internal sealed class MarketSearchIdentity : IEquatable<MarketSearchIdentity>
 {
     internal MarketSearchIdentity(string itemType, string itemId)
@@ -224,6 +246,53 @@ internal sealed class MarketSearchQueryBridge
             : MarketSearchIndexOutcome.Matched;
     }
 
+    internal MarketSearchFanOutOutcome TryCreateFanOutPlan(
+        string declaringType,
+        string method,
+        string query,
+        int maximumQueries,
+        out IReadOnlyList<MarketSearchFanOutQuery> queries)
+    {
+        queries = Array.Empty<MarketSearchFanOutQuery>();
+        if (!string.Equals(declaringType, SupportedPlayerType, StringComparison.Ordinal) ||
+            !string.Equals(method, SupportedPlayerRequestMethod, StringComparison.Ordinal) ||
+            maximumQueries <= 0 ||
+            string.IsNullOrEmpty(query) ||
+            !CjkText.ContainsCjk(query))
+        {
+            return MarketSearchFanOutOutcome.Unchanged;
+        }
+
+        var normalizedQuery = NormalizeMarketText(query);
+        if (string.IsNullOrEmpty(normalizedQuery))
+        {
+            return MarketSearchFanOutOutcome.NoMatch;
+        }
+
+        var matches = _catalogIndex
+            .Where(entry => entry.SearchFields.Any(field =>
+                field.IndexOf(normalizedQuery, StringComparison.Ordinal) >= 0))
+            .GroupBy(entry => entry.Source, StringComparer.Ordinal)
+            .OrderBy(group => group.Key, StringComparer.Ordinal)
+            .Take(maximumQueries + 1)
+            .ToArray();
+        if (matches.Length == 0)
+        {
+            return MarketSearchFanOutOutcome.NoMatch;
+        }
+        if (matches.Length > maximumQueries)
+        {
+            return MarketSearchFanOutOutcome.TooBroad;
+        }
+
+        queries = matches
+            .Select(group => new MarketSearchFanOutQuery(
+                group.Key,
+                group.Select(entry => entry.Identity).Distinct().ToArray()))
+            .ToArray();
+        return MarketSearchFanOutOutcome.Ready;
+    }
+
     internal static string NormalizeMarketText(string value)
     {
         var visible = RichTextTagPattern.Replace(value ?? string.Empty, string.Empty)
@@ -365,6 +434,7 @@ internal sealed class MarketSearchQueryBridge
             if (entry == null ||
                 string.IsNullOrWhiteSpace(entry.Identity.ItemType) ||
                 string.IsNullOrWhiteSpace(entry.Identity.ItemId) ||
+                string.IsNullOrWhiteSpace(entry.Source) ||
                 string.IsNullOrWhiteSpace(entry.Target))
             {
                 continue;
@@ -377,7 +447,7 @@ internal sealed class MarketSearchQueryBridge
                 .ToArray();
             if (fields.Length != 0)
             {
-                entries.Add(new IndexEntry(entry.Identity, fields));
+                entries.Add(new IndexEntry(entry.Identity, entry.Source, fields));
             }
         }
         return entries;
@@ -812,13 +882,16 @@ internal sealed class MarketSearchQueryBridge
     {
         internal IndexEntry(
             MarketSearchIdentity identity,
+            string source,
             IReadOnlyCollection<string> searchFields)
         {
             Identity = identity;
+            Source = source;
             SearchFields = searchFields;
         }
 
         internal MarketSearchIdentity Identity { get; }
+        internal string Source { get; }
         internal IReadOnlyCollection<string> SearchFields { get; }
     }
 
