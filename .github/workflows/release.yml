@@ -23,6 +23,18 @@ jobs:
           ref: ${{ github.ref }}
           fetch-depth: 0
           persist-credentials: false
+      - name: Initialize Windows PowerShell modules
+        shell: powershell
+        run: |
+          $moduleRoot = Join-Path $env:SystemRoot 'System32\WindowsPowerShell\v1.0\Modules'
+          if (-not (Test-Path -LiteralPath $moduleRoot -PathType Container)) {
+              throw "Windows PowerShell module root does not exist: $moduleRoot"
+          }
+          $modulePath = "$moduleRoot;$env:PSModulePath"
+          $env:PSModulePath = $modulePath
+          Add-Content -LiteralPath $env:GITHUB_ENV -Value "PSModulePath=$modulePath" -Encoding UTF8
+          Import-Module Microsoft.PowerShell.Utility -ErrorAction Stop
+          $null = Get-Command Get-FileHash -CommandType Function -ErrorAction Stop
       - name: Set up .NET 9
         uses: actions/setup-dotnet@67a3573c9a986a3f9c594539f4ab511d57bb3ce9 # v4
         env:
