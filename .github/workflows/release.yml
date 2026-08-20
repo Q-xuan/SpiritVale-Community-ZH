@@ -38,8 +38,8 @@ jobs:
           if (-not (Test-Path -LiteralPath $env:SPIRITVALE_PYTHON -PathType Leaf)) {
               throw "SPIRITVALE_PYTHON does not exist: $env:SPIRITVALE_PYTHON"
           }
-          $version = & $env:SPIRITVALE_PYTHON -c 'import sys; print(f"{sys.version_info.major}.{sys.version_info.minor}")'
-          if ($LASTEXITCODE -ne 0 -or $version -ne '3.12') {
+          $version = & $env:SPIRITVALE_PYTHON --version 2>&1
+          if ($LASTEXITCODE -ne 0 -or $version -notmatch '^Python 3\.12\.\d+$') {
               throw "Release runner requires Python 3.12, found: $version"
           }
       - name: Install source-audit dependencies
