@@ -2,6 +2,18 @@
 
 本文件记录 SpiritVale 简体中文社区补丁的公开版本。版本号遵循 `MAJOR.MINOR.PATCH`，发布日期使用 UTC 日期。
 
+## [1.2.39] - 2026-08-20
+
+### Fixed
+
+- 修复 self-hosted runner 从 PowerShell 7 环境启动后，Windows PowerShell 5.1 缺少系统模块路径而无法调用 `Get-FileHash` 的问题。
+- Release Workflow 现在初始化并验证 Windows PowerShell 系统模块，再执行源数据审计与打包。
+
+### Verified
+
+- 在 runner 的干净 tag checkout 中完成完整 Audit：3579 条简中覆盖、278 个技能别名、2730 个运行时显示串和 3624 条双语实体目录均通过。
+- 保持 `v1.2.34` 已实机验证的运行时插件和玩家功能不变；本版仅修订安装器及自动发布链路。
+
 ## [1.2.38] - 2026-08-20
 
 ### Fixed
