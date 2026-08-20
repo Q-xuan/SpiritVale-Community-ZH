@@ -4,18 +4,18 @@ SpiritVale 简体中文社区补丁
 
 为 Steam 版 SpiritVale 提供简体中文运行时汉化和 Windows 离线安装器。补丁覆盖主要游戏界面、实体名称、技能、物品和说明文本，不包含游戏本体或玩家数据。
 
-当前版本：[`v1.2.37`](https://github.com/Q-xuan/SpiritVale-Community-ZH/releases/tag/v1.2.37)  
+当前版本：[`v1.2.38`](https://github.com/Q-xuan/SpiritVale-Community-ZH/releases/tag/v1.2.38)  
 适配版本：Steam Build `24773178` / App ID `3767850`
 
 ## 下载
 
-- [下载标准安装器 EXE](https://github.com/Q-xuan/SpiritVale-Community-ZH/releases/download/v1.2.37/SpiritVale_Chinese_Patch_v1.2.37.exe)
-- [下载 Windows x64 兼容版 ZIP](https://github.com/Q-xuan/SpiritVale-Community-ZH/releases/download/v1.2.37/SpiritVale_Chinese_Patch_v1.2.37_Compatibility_x64.zip)
+- [下载标准安装器 EXE](https://github.com/Q-xuan/SpiritVale-Community-ZH/releases/download/v1.2.38/SpiritVale_Chinese_Patch_v1.2.38.exe)
+- [下载 Windows x64 兼容版 ZIP](https://github.com/Q-xuan/SpiritVale-Community-ZH/releases/download/v1.2.38/SpiritVale_Chinese_Patch_v1.2.38_Compatibility_x64.zip)
 - [查看全部版本与校验文件](https://github.com/Q-xuan/SpiritVale-Community-ZH/releases)
 
 普通用户优先使用标准安装器。若 EXE 无法打开、被单文件解压环节阻止或没有生成安装器启动日志，请下载兼容版 ZIP，完整解压后运行其中的安装程序。
 
-## v1.2.37 更新内容
+## v1.2.38 更新内容
 
 - 修复 GitHub Actions 的 Windows 打包链路，发布资产改由 Workflow 在干净检出环境中生成、校验并上传。
 - 集成词条品质评分 HUD，装备和神器详情显示稳定的品质星级，且与 `Tab` 中英文切换兼容。

@@ -2,6 +2,18 @@
 
 本文件记录 SpiritVale 简体中文社区补丁的公开版本。版本号遵循 `MAJOR.MINOR.PATCH`，发布日期使用 UTC 日期。
 
+## [1.2.38] - 2026-08-20
+
+### Fixed
+
+- 修复 Windows PowerShell 5.1 向 Python `-c` 传参时剥离引号，导致 runner 的 Python 版本验证语法错误的问题。
+- Python 3.12 验证改为解析解释器原生 `--version` 输出，避免 shell 引号差异。
+
+### Verified
+
+- 新版本检查已在 Windows PowerShell 5.1 和 runner 私有 Python `3.12.10` 上实测通过。
+- 保持 `v1.2.34` 已实机验证的运行时插件和玩家功能不变；本版仅修订安装器及自动发布链路。
+
 ## [1.2.37] - 2026-08-19
 
 ### Fixed
