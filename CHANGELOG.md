@@ -2,6 +2,18 @@
 
 本文件记录 SpiritVale 简体中文社区补丁的公开版本。版本号遵循 `MAJOR.MINOR.PATCH`，发布日期使用 UTC 日期。
 
+## [1.2.37] - 2026-08-19
+
+### Fixed
+
+- 修复 `setup-python` 在非管理员 self-hosted Windows runner 上尝试全局安装并挂起至超时的问题。
+- Release Workflow 现在验证并使用 runner 私有的 Python 3.12，审计依赖、源数据审计和打包使用同一解释器。
+
+### Verified
+
+- runner 私有 Python `3.12.10` 与锁定的 UnityPy `1.25.3` 已完成安装和导入验证。
+- 保持 `v1.2.34` 已实机验证的运行时插件和玩家功能不变；本版继续修订安装器及自动发布链路。
+
 ## [1.2.36] - 2026-08-19
 
 ### Fixed

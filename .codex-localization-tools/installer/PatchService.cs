@@ -10,7 +10,7 @@ namespace SpiritVale.ChinesePatch.Installer;
 
 internal static class PatchInfo
 {
-    public const string Version = "1.2.36";
+    public const string Version = "1.2.37";
     public const string ReleaseChannel = "tiered-compatibility";
     public const string ReleaseLabel = "分级兼容版";
     public const string AppId = "3767850";

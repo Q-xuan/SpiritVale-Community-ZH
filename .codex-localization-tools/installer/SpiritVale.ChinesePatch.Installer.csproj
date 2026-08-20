@@ -9,10 +9,10 @@
     <AssemblyName>SpiritVale_Chinese_Patch</AssemblyName>
     <RootNamespace>SpiritVale.ChinesePatch.Installer</RootNamespace>
     <ApplicationManifest>app.manifest</ApplicationManifest>
-    <Version>1.2.36</Version>
-    <FileVersion>1.2.36.0</FileVersion>
-    <Product>SpiritVale 简体中文补丁 v1.2.36 分级兼容版</Product>
-    <AssemblyTitle>SpiritVale 简体中文补丁 v1.2.36 分级兼容版</AssemblyTitle>
+    <Version>1.2.37</Version>
+    <FileVersion>1.2.37.0</FileVersion>
+    <Product>SpiritVale 简体中文补丁 v1.2.37 分级兼容版</Product>
+    <AssemblyTitle>SpiritVale 简体中文补丁 v1.2.37 分级兼容版</AssemblyTitle>
     <Authors>auryx</Authors>
     <Company>auryx</Company>
     <Description>离线分级兼容安装器；作者：auryx；QQ群：882132807；个人汉化学习作品，侵删。</Description>
